@@ -1,538 +1,490 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>STARLIGHT GUARDIANS • 260422</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: #0f0f0f;
-            color: #ddd;
-            overflow-x: hidden;
-            overflow-anchor: none;
+        :root {
+            --bg: #030508;
+            --accent: #10b981;
+            --accent-glow: rgba(16, 185, 129, 0.4);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --glass-bg: rgba(15, 23, 42, 0.65);
+            --glass-border: rgba(255, 255, 255, 0.1);
         }
 
-        /* ── TOPBAR ── */
-        .topbar {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 12px 16px;
-            background: rgba(15, 15, 15, 0.92);
-            border-bottom: 1px solid rgba(255,255,255,0.08);
-            position: sticky;
-            top: 0;
-            z-index: 200;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 38px;
-            height: 38px;
-            min-width: 38px;
-            border-radius: 8px;
-            background: transparent;
-            border: 1px solid rgba(255,255,255,0.08);
-            color: #e6eef8;
-            text-decoration: none;
-            flex-shrink: 0;
-            transition: background .15s ease, transform .12s ease;
-        }
-        .back-link:hover {
-            background: rgba(255,255,255,0.06);
-            transform: translateY(-1px);
-        }
-        .back-icon {
-            width: 18px;
-            height: 18px;
-            display: block;
-            stroke: currentColor;
-            fill: none;
-            stroke-width: 1.5;
-        }
-
-        .topbar-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: #fff;
-            white-space: nowrap;
+        body, html {
+            margin: 0; padding: 0;
+            width: 100%; height: 100%;
+            background: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
             overflow: hidden;
-            text-overflow: ellipsis;
-            flex: 1;
-            min-width: 0;
+            overscroll-behavior: none;
         }
 
-        .status-label {
-            font-size: 12px;
-            color: #666;
-            font-family: monospace;
-            flex-shrink: 0;
-            white-space: nowrap;
+        /* ── MEDIA LAYER ── */
+        #viewport {
+            position: absolute;
+            inset: 0;
+            perspective: 1000px;
+            background: #000;
         }
 
-        /* ── MAIN COLUMN ── */
-        .frames-column {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px 12px 120px;
-        }
-
-        /* ── FRAME CARD ── */
-        .frame {
-            display: block;
-            position: relative;
-            background: #111;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.45);
-            margin-bottom: 28px;
-            min-height: 220px;
-            overflow: hidden;
+        .media-plane {
+            position: absolute;
+            inset: -2%;
+            width: 104%; height: 104%;
+            object-fit: cover;
+            opacity: 0;
             will-change: transform, opacity;
+            pointer-events: none;
         }
 
-        .frame .placeholder {
+        .vignette {
             position: absolute;
             inset: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(180deg, #161616 0%, #1a1a1a 100%);
-            z-index: 1;
+            background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.85) 100%);
+            z-index: 5;
+            pointer-events: none;
         }
 
-        .spinner {
-            width: 28px;
-            height: 28px;
-            border: 2.5px solid rgba(255,255,255,0.08);
-            border-top-color: #666;
-            border-radius: 50%;
-            animation: spin 0.75s linear infinite;
-            margin-bottom: 8px;
-        }
-
-        .frame-info {
-            color: #444;
-            font-size: 11px;
-            font-family: monospace;
-        }
-
-        .frame img {
-            width: 100%;
-            height: auto;
-            display: block;
-            opacity: 0;
-            transition: opacity 0.35s ease;
-            position: relative;
-            z-index: 2;
-            border-radius: 10px;
-        }
-
-        .frame.loaded img { opacity: 1; }
-        .frame.loaded .placeholder { display: none; }
-
-        /* ── CAPTION BELOW IMAGE ── */
-        .frame-caption {
-            padding: 10px 14px 12px;
-            font-size: 13px;
-            color: #888;
-            font-family: monospace;
-            line-height: 1.4;
-            position: relative;
-            z-index: 2;
-            display: none;
-        }
-        .frame-caption.has-caption { display: block; }
-
-        /* ── POST CONTENT ── */
-        .post-content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 12px 40px;
-            font-size: 14px;
-            color: #aaa;
-            line-height: 1.7;
-            white-space: pre-line;
-        }
-
-        /* ── ScrollMagic REVEAL STATE ── */
-        .frame.sm-before {
-            opacity: 0;
-            transform: translateY(36px) scale(0.985);
-        }
-        .frame.sm-visible {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-            transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-                        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        /* ── LIGHTBOX OVERLAY ── */
-        .lbox-overlay {
-            display: none;
-            position: fixed;
+        /* ── UI LAYER ── */
+        #ui-layer {
+            position: absolute;
             inset: 0;
-            background: rgba(0,0,0,0.94);
-            z-index: 9000;
-            align-items: center;
-            justify-content: center;
+            z-index: 10;
+            display: flex;
             flex-direction: column;
-        }
-        .lbox-overlay.active { display: flex; }
-
-        .lbox-img {
-            max-width: 95vw;
-            max-height: 88vh;
-            object-fit: contain;
-            border-radius: 6px;
-            display: block;
-            user-select: none;
+            justify-content: space-between;
+            padding: 40px 24px 30px 24px;
+            pointer-events: none;
         }
 
-        .lbox-nav {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.08);
-            border: 1px solid rgba(255,255,255,0.12);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            z-index: 9010;
-            transition: background 0.15s;
+        /* Progress */
+        .progress-container { display: flex; gap: 4px; width: 100%; }
+        .progress-segment { flex: 1; height: 3px; background: rgba(255,255,255,0.2); border-radius: 2px; overflow: hidden; }
+        .progress-fill { height: 100%; width: 0%; background: var(--text-main); border-radius: 2px; transform-origin: left; }
+
+        /* Header */
+        .header-meta { margin-top: 15px; display: flex; justify-content: space-between; align-items: flex-start; }
+        .header-meta-left { display: flex; flex-direction: column; gap: 10px; }
+
+        .seq-title {
+            font-size: 0.75rem; text-transform: uppercase;
+            letter-spacing: 0.2em; font-weight: 700; color: var(--accent); margin: 0;
         }
-        .lbox-nav:hover { background: rgba(255,255,255,0.18); }
-        .lbox-nav svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 2; }
-        .lbox-prev { left: 12px; }
-        .lbox-next { right: 12px; }
+        .frame-counter { font-family: monospace; font-size: 0.85rem; color: rgba(255,255,255,0.5); }
 
-        .lbox-close {
-            position: absolute;
-            top: 14px;
-            right: 14px;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.08);
-            border: 1px solid rgba(255,255,255,0.12);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            z-index: 9010;
-            transition: background 0.15s;
+        .header-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; pointer-events: auto; }
+
+        .btn-back {
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-muted); padding: 4px 10px; border-radius: 20px;
+            font-size: 0.7rem; font-weight: 600; cursor: pointer;
+            display: flex; align-items: center; gap: 4px; text-decoration: none;
+            transition: all 0.2s ease; backdrop-filter: blur(4px); white-space: nowrap;
         }
-        .lbox-close:hover { background: rgba(255,255,255,0.18); }
-        .lbox-close svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+        .btn-back:hover { background: rgba(255,255,255,0.12); color: #fff; }
+        .btn-back svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2; }
 
-        .lbox-counter {
-            position: absolute;
-            bottom: 14px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 12px;
-            font-family: monospace;
-            color: #666;
-            background: rgba(0,0,0,0.5);
-            padding: 3px 10px;
-            border-radius: 20px;
+        /* ── TEXT STAGE ── */
+        .text-stage { margin-bottom: 20px; }
+
+        .sketch-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 6vw, 3.5rem); margin: 0 0 10px 0; line-height: 1.1;
+            display: flex; flex-wrap: wrap; text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+        .sketch-title .word { display: inline-block; white-space: pre; overflow: hidden; }
+        .sketch-title .letter { display: inline-block; transform: translateY(100%); opacity: 0; }
+
+        .sketch-desc {
+            font-size: 0.95rem; line-height: 1.6; color: var(--text-main);
+            max-width: 600px; margin: 0; opacity: 0; transform: translateY(20px);
+            text-shadow: 0 2px 10px rgba(0,0,0,0.9); pointer-events: auto;
+            max-height: 30vh; overflow-y: auto;
+            -ms-overflow-style: none; scrollbar-width: none;
+        }
+        .sketch-desc::-webkit-scrollbar { display: none; }
+
+        .desc-hidden { display: none; opacity: 0; }
+        .read-more-toggle {
+            color: var(--accent); cursor: pointer;
+            font-weight: 600; font-size: 0.9rem;
+            margin-left: 6px; transition: color 0.2s; white-space: nowrap;
+        }
+        .read-more-toggle:hover { color: #fff; }
+
+        /* ── CONTROLS ── */
+        .controls-row { display: flex; justify-content: space-between; align-items: center; pointer-events: auto; }
+
+        .btn-nav {
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            color: white; width: 48px; height: 48px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+            cursor: pointer; backdrop-filter: blur(8px); transition: all 0.3s;
+        }
+        .btn-nav:hover { background: rgba(255,255,255,0.15); transform: scale(1.05); }
+
+        .btn-analysis {
+            background: var(--glass-bg); border: 1px solid var(--accent); color: var(--accent);
+            padding: 12px 24px; border-radius: 30px; font-size: 0.85rem; font-weight: 700;
+            letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+            backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0,0,0,0.5); transition: all 0.3s;
+        }
+        .btn-analysis:hover { background: var(--accent); color: #000; box-shadow: 0 0 20px var(--accent-glow); }
+
+        /* Swipe zones */
+        .swipe-zone {
+            position: absolute; top: 100px; bottom: 150px;
+            width: 40%; z-index: 5; pointer-events: auto;
+        }
+        .swipe-left { left: 0; }
+        .swipe-right { right: 0; }
+
+        /* ── ANALYSIS PANEL ── */
+        #analysis-panel {
+            position: absolute; z-index: 20; background: var(--glass-bg);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border); padding: 30px; overflow-y: auto; pointer-events: auto;
+            transform: translateY(100%); opacity: 0; display: flex; flex-direction: column; gap: 25px;
         }
 
-        @keyframes spin { to { transform: rotate(360deg); } }
+        @media (max-width: 768px) {
+            #analysis-panel {
+                bottom: 0; left: 0; right: 0; height: 75vh;
+                border-top-left-radius: 24px; border-top-right-radius: 24px; border-bottom: none;
+            }
+        }
+        @media (min-width: 769px) {
+            #analysis-panel {
+                top: 0; bottom: 0; right: 0; width: 450px;
+                transform: translateX(100%); border-left: 1px solid var(--glass-border);
+            }
+        }
 
-        @media (max-width: 600px) {
-            .frames-column { padding: 12px 8px 80px; }
-            .frame { border-radius: 6px; margin-bottom: 18px; }
+        .panel-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px; }
+        .panel-title { margin: 0; font-size: 1.2rem; font-weight: 900; letter-spacing: 0.05em; display: flex; align-items: center; gap: 10px; }
+        .score-badge { background: var(--accent); color: #000; padding: 4px 10px; border-radius: 12px; font-weight: 900; font-size: 0.9rem; }
+        .btn-close { background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; opacity: 0.6; transition: opacity 0.2s; }
+        .btn-close:hover { opacity: 1; }
+
+        .stat-group { opacity: 0; transform: translateY(15px); }
+        .stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 8px; }
+
+        .pill-container { display: flex; flex-wrap: wrap; gap: 8px; }
+        .pill {
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; color: #e2e8f0;
+            white-space: normal; word-break: break-word; max-width: 100%; line-height: 1.4; display: inline-block;
+        }
+        .pill.hl { border-color: rgba(16, 185, 129, 0.4); color: #34d399; background: rgba(16, 185, 129, 0.05); }
+        .pill.char { border-color: rgba(245, 159, 11, 0.3); color: #fbbf24; }
+
+        .recs-box {
+            background: rgba(0,0,0,0.3); border-left: 3px solid #8b5cf6; padding: 12px 15px;
+            font-size: 0.85rem; line-height: 1.5; color: #cbd5e1; border-radius: 0 8px 8px 0;
         }
     </style>
 </head>
 <body>
 
-<!-- ── TOPBAR ── -->
-<div class="topbar">
-    <a class="back-link" href="../index.html" title="Back to gallery" aria-label="Back to gallery">
-        <svg class="back-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="3" y="3" width="7" height="7" rx="1.2"/>
-            <rect x="14" y="3" width="7" height="7" rx="1.2"/>
-            <rect x="3" y="14" width="7" height="7" rx="1.2"/>
-            <rect x="14" y="14" width="7" height="7" rx="1.2"/>
-        </svg>
-    </a>
-    <div class="topbar-title">STARLIGHT GUARDIANS • 260422</div>
-    <div class="status-label" id="status">—</div>
-</div>
+    <!-- Media Viewport -->
+    <div id="viewport">
+        <img id="img-a" class="media-plane" src="" alt="">
+        <img id="img-b" class="media-plane" src="" alt="">
+        <div class="vignette"></div>
+    </div>
 
-<!-- ── FRAMES ── -->
-<div class="frames-column" id="frames"></div>
+    <!-- Swipe zones -->
+    <div class="swipe-zone swipe-left"  onclick="prevFrame()"></div>
+    <div class="swipe-zone swipe-right" onclick="nextFrame()"></div>
 
-<!-- ── POST CONTENT ── -->
-<div class="post-content" id="post-content"></div>
+    <!-- UI Layer -->
+    <div id="ui-layer">
+        <div>
+            <div class="progress-container" id="progress-container"></div>
+            <div class="header-meta">
+                <div class="header-meta-left">
+                    <h1 class="seq-title" id="ui-seq-name">STARLIGHT GUARDIANS • 260422</h1>
+                    <div class="header-actions">
+                        <a class="btn-back" href="../index.html">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.2"/><rect x="14" y="3" width="7" height="7" rx="1.2"/><rect x="3" y="14" width="7" height="7" rx="1.2"/><rect x="14" y="14" width="7" height="7" rx="1.2"/></svg>
+                            Gallery
+                        </a>
+                    </div>
+                </div>
+                <div class="frame-counter"><span id="curr-count">1</span> / <span id="tot-count">0</span></div>
+            </div>
+        </div>
 
-<!-- ── LIGHTBOX ── -->
-<div class="lbox-overlay" id="lbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
-    <button class="lbox-close" id="lboxClose" aria-label="Close">
-        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-    </button>
-    <button class="lbox-nav lbox-prev" id="lboxPrev" aria-label="Previous image">
-        <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
-    </button>
-    <img class="lbox-img" id="lboxImg" src="" alt="">
-    <button class="lbox-nav lbox-next" id="lboxNext" aria-label="Next image">
-        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
-    </button>
-    <div class="lbox-counter" id="lboxCounter"></div>
-</div>
+        <div>
+            <div class="text-stage">
+                <h2 class="sketch-title" id="ui-title"></h2>
+                <div class="sketch-desc" id="ui-desc"></div>
+            </div>
+            <div class="controls-row">
+                <div style="display:flex; gap:10px;">
+                    <button class="btn-nav" onclick="prevFrame()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <button class="btn-nav" onclick="nextFrame()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+                <button class="btn-analysis" id="btn-analysis" style="display:none;" onclick="toggleAnalysis()">
+                    <svg style="vertical-align:middle; margin-right:6px;" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    Analysis
+                </button>
+            </div>
+        </div>
+    </div>
 
-<script>
-(function () {
-    // ── DATA injected by ContentHubManager ──────────────────────────────
-    const IMAGES = [{"src":"post9/frame0010508.jpg","alt":"frame0038769","id":"32281","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010508.jpg"},{"src":"post9/frame0010491.jpg","alt":"frame0056195","id":"41410","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010491.jpg"},{"src":"post9/frame0010492.jpg","alt":"frame0056229","id":"41444","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010492.jpg"},{"src":"post9/frame0010494.jpg","alt":"frame0056267","id":"41481","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010494.jpg"},{"src":"post9/frame0010497.jpg","alt":"frame0056289","id":"41503","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010497.jpg"},{"src":"post9/frame0010496.jpg","alt":"frame0056278","id":"41492","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010496.jpg"},{"src":"post9/frame0010503.jpg","alt":"frame0052105","id":"38401","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010503.jpg"},{"src":"post9/frame0010495.jpg","alt":"frame0056269","id":"41483","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010495.jpg"},{"src":"post9/frame0010499.jpg","alt":"frame0056293","id":"41507","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010499.jpg"},{"src":"post9/frame0010500.jpg","alt":"frame0055828","id":"41058","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010500.jpg"},{"src":"post9/frame0010501.jpg","alt":"frame0055376","id":"40608","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010501.jpg"},{"src":"post9/frame0010502.jpg","alt":"frame0052103","id":"38399","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010502.jpg"},{"src":"post9/frame0010504.jpg","alt":"frame0052106","id":"38402","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010504.jpg"},{"src":"post9/frame0010498.jpg","alt":"frame0056291","id":"41505","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010498.jpg"},{"src":"post9/frame0010505.jpg","alt":"frame0052070","id":"38367","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010505.jpg"},{"src":"post9/frame0010493.jpg","alt":"frame0056231","id":"41446","thumb":"../../","original_src":"/storyboards/storyboard04390/frame0010493.jpg"}];
+    <!-- Analysis Panel -->
+    <div id="analysis-panel">
+        <div class="panel-header">
+            <h3 class="panel-title">Frame Intel <span class="score-badge" id="pan-score">0.0</span></h3>
+            <button class="btn-close" onclick="toggleAnalysis()">&times;</button>
+        </div>
+        <div class="stat-group" id="grp-class">
+            <div class="stat-label">Classification</div>
+            <div class="pill-container" id="pan-class"></div>
+        </div>
+        <div class="stat-group" id="grp-themes">
+            <div class="stat-label">Themes Present</div>
+            <div class="pill-container" id="pan-themes"></div>
+        </div>
+        <div class="stat-group" id="grp-entities">
+            <div class="stat-label">Entities In Frame</div>
+            <div class="pill-container" id="pan-entities"></div>
+        </div>
+        <div class="stat-group" id="grp-recs">
+            <div class="stat-label">Director's Notes (AI)</div>
+            <div class="recs-box" id="pan-recs"></div>
+        </div>
+    </div>
 
-    // ── CONFIG ─────────────────────────────────────────────────────────
-    const BATCH   = 30;   // frames rendered per batch
-    const PRELOAD = 5;    // radius around current viewport to keep loaded
+    <!-- Data: either injected inline (live/preview) or loaded from sidecar JS (static export) -->
+    <script src="post9/data_9.js"></script>
 
-    // ── STATE ──────────────────────────────────────────────────────────
-    const state = {
-        loadedCount: 0,
-        isRendering: false,
-        observer: null,    // IntersectionObserver for lazy-load + memory
-        smObserver: null,  // IntersectionObserver for ScrollMagic reveal
-        lboxIndex: 0
-    };
+    <script>
+    (function () {
+        // storyboardData is set by either the inline injection or the sidecar .js file
+        var frames = (typeof storyboardData !== 'undefined' && storyboardData.frames) ? storyboardData.frames : [];
 
-    // ── DOM REFS ───────────────────────────────────────────────────────
-    const elFrames  = document.getElementById('frames');
-    const elStatus  = document.getElementById('status');
-    const elLbox    = document.getElementById('lbox');
-    const elLboxImg = document.getElementById('lboxImg');
-    const elCounter = document.getElementById('lboxCounter');
+        var currentIndex  = -1;
+        var isAnimating   = false;
+        var isAnalysisOpen = false;
+        var activePlane   = 'img-a';
+        var isMobile      = window.innerWidth <= 768;
 
-    // ── HEIGHT-LOCK (jump-free scroll) ─────────────────────────────────
-    function lockHeight(div, img) {
-        if (!div.style.minHeight || div.style.minHeight === '220px') {
-            const h = img.getBoundingClientRect().height;
-            if (h > 40) {
-                div.style.minHeight = h + 'px';
+        var elImgA    = document.getElementById('img-a');
+        var elImgB    = document.getElementById('img-b');
+        var elTitle   = document.getElementById('ui-title');
+        var elDesc    = document.getElementById('ui-desc');
+        var elCurr    = document.getElementById('curr-count');
+        var elTot     = document.getElementById('tot-count');
+        var elProgBox = document.getElementById('progress-container');
+        var panel     = document.getElementById('analysis-panel');
+        var btnAnalysis = document.getElementById('btn-analysis');
+
+        function init() {
+            if (!frames.length) return;
+            if (typeof storyboardData !== 'undefined' && storyboardData.name) {
+                document.getElementById('ui-seq-name').innerText = storyboardData.name;
             }
+            elTot.innerText = frames.length;
+
+            for (var i = 0; i < frames.length; i++) {
+                var seg = document.createElement('div');
+                seg.className = 'progress-segment';
+                seg.innerHTML = '<div class="progress-fill" id="prog-' + i + '"></div>';
+                elProgBox.appendChild(seg);
+            }
+
+            goToFrame(0, 1);
         }
-    }
 
-    // ── IMAGE LOAD / UNLOAD ─────────────────────────────────────────────
-    function loadImage(div) {
-        const img = div.querySelector('img');
-        if (!img || div.classList.contains('loaded') || img.src) return;
-        img.onload = () => {
-            requestAnimationFrame(() => {
-                lockHeight(div, img);
-                div.classList.add('loaded');
-                elStatus.textContent = (parseInt(div.dataset.idx) + 1) + ' / ' + IMAGES.length;
-            });
-        };
-        img.onerror = () => {
-            const info = div.querySelector('.frame-info');
-            if (info) info.textContent = 'Load failed';
-        };
-        img.src = img.dataset.src;
-    }
-
-    function unloadImage(div) {
-        if (!div.style.minHeight) return;
-        const img = div.querySelector('img');
-        if (img && img.src) {
-            img.removeAttribute('src');
-            div.classList.remove('loaded');
+        function splitText(text) {
+            return text.split(' ').map(function (word) {
+                var letters = word.split('').map(function (l) { return '<span class="letter">' + l + '</span>'; }).join('');
+                return '<span class="word">' + letters + '</span>';
+            }).join(' ');
         }
-    }
 
-    // ── SCROLLMAGIC REVEAL OBSERVER ─────────────────────────────────────
-    function initRevealObserver() {
-        state.smObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.remove('sm-before');
-                    entry.target.classList.add('sm-visible');
-                    state.smObserver.unobserve(entry.target);
-                }
-            });
-        }, { rootMargin: '-40px 0px -40px 0px', threshold: 0.05 });
-    }
+        function goToFrame(index, direction) {
+            if (direction === undefined) direction = 1;
+            if (isAnimating || index < 0 || index >= frames.length || index === currentIndex) return;
+            isAnimating = true;
 
-    // ── MEMORY / LAZY OBSERVER ──────────────────────────────────────────
-    function initMemoryObserver() {
-        state.observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (!entry.isIntersecting) return;
-                const idx = parseInt(entry.target.dataset.idx);
-                manageMemory(idx);
-            });
-        }, { rootMargin: '800px 0px 800px 0px' });
-    }
+            var frame    = frames[index];
+            var oldIndex = currentIndex;
+            currentIndex = index;
 
-    function manageMemory(centerIdx) {
-        const min = centerIdx - PRELOAD;
-        const max = centerIdx + PRELOAD;
-        const children = elFrames.children;
+            elCurr.innerText = index + 1;
+            updateProgress(oldIndex, index);
 
-        for (let i = 0; i < children.length; i++) {
-            const div = children[i];
-            const idx = parseInt(div.dataset.idx);
-            if (Math.abs(idx - centerIdx) > 80) continue;
-            if (idx >= min && idx <= max) {
-                loadImage(div);
+            var oldPlane = activePlane === 'img-a' ? elImgA : elImgB;
+            var newPlane = activePlane === 'img-a' ? elImgB : elImgA;
+            activePlane  = newPlane.id;
+
+            newPlane.src        = frame.thumb;
+            newPlane.style.zIndex = 2;
+            oldPlane.style.zIndex = 1;
+
+            elTitle.innerHTML = splitText(frame.name || 'Untitled');
+
+            var descText = (frame.desc || '').trim();
+            var words    = descText.split(/\s+/);
+            if (words.length > 25) {
+                var visible = words.slice(0, 25).join(' ');
+                var hidden  = words.slice(25).join(' ');
+                elDesc.innerHTML =
+                    '<span class="desc-visible">' + visible + '</span>' +
+                    '<span class="desc-ellipsis">...</span>' +
+                    '<span class="desc-hidden" style="display:none;opacity:0;"> ' + hidden + '</span>' +
+                    '<span class="read-more-toggle" onclick="toggleDesc(event)">Read more</span>';
             } else {
-                unloadImage(div);
+                elDesc.innerHTML = descText;
+            }
+
+            var hasCuration = frame.curation && Object.keys(frame.curation).length > 0;
+            if (hasCuration) {
+                btnAnalysis.style.display = 'flex';
+                updateAnalysisData(frame);
+            } else {
+                btnAnalysis.style.display = 'none';
+                if (isAnalysisOpen) toggleAnalysis();
+            }
+
+            var tl = anime.timeline({ easing: 'easeOutExpo', complete: function () { isAnimating = false; } });
+
+            tl.add({ targets: newPlane, opacity: [0, 1], scale: [1.05, 1], duration: 1200 }, 0);
+            if (oldIndex !== -1) {
+                tl.add({ targets: oldPlane, opacity: [1, 0], scale: [1, 1.02], duration: 1200 }, 0);
+            }
+            anime({ targets: newPlane, scale: [1, 1.02], duration: 10000, easing: 'linear' });
+
+            tl.add({
+                targets: '#ui-title .letter', translateY: ['100%', '0%'], opacity: [0, 1],
+                duration: 800, easing: 'easeOutQuint', delay: anime.stagger(15)
+            }, 200);
+            tl.add({ targets: elDesc, translateY: [20, 0], opacity: [0, 1], duration: 800, easing: 'easeOutQuad' }, 400);
+
+            if (isAnalysisOpen && hasCuration) {
+                anime({ targets: '.stat-group', opacity: [0, 1], translateY: [10, 0], duration: 400, delay: anime.stagger(100), easing: 'easeOutQuad' });
             }
         }
 
-        // Trigger next batch when near the end
-        if (centerIdx >= state.loadedCount - 8 && state.loadedCount < IMAGES.length) {
-            renderBatch();
-        }
-    }
+        window.toggleDesc = function (e) {
+            e.stopPropagation();
+            var hidden   = elDesc.querySelector('.desc-hidden');
+            var ellipsis = elDesc.querySelector('.desc-ellipsis');
+            var btn      = elDesc.querySelector('.read-more-toggle');
+            if (!hidden) return;
+            if (hidden.style.display === 'none' || hidden.style.display === '') {
+                hidden.style.display = 'inline';
+                ellipsis.style.display = 'none';
+                btn.innerText = ' Show less';
+                anime({ targets: hidden, opacity: [0, 1], duration: 400, easing: 'easeOutQuad' });
+            } else {
+                hidden.style.display = 'none';
+                ellipsis.style.display = 'inline';
+                btn.innerText = ' Read more';
+                hidden.style.opacity = 0;
+            }
+        };
 
-    // ── RENDER ──────────────────────────────────────────────────────────
-    function renderBatch() {
-        if (state.isRendering) return;
-        state.isRendering = true;
-
-        const start = state.loadedCount;
-        const end   = Math.min(start + BATCH, IMAGES.length);
-
-        if (start >= IMAGES.length) {
-            state.isRendering = false;
-            return;
-        }
-
-        const frag = document.createDocumentFragment();
-
-        for (let i = start; i < end; i++) {
-            const item = IMAGES[i];
-            // Support both { src } (frames) and { url } (videos used as images)
-            const src     = item.src || item.url || '';
-            const caption = item.alt || item.title || item.name || '';
-
-            const div = document.createElement('div');
-            div.className = 'frame sm-before';
-            div.dataset.idx = i;
-
-            div.innerHTML =
-                '<div class="placeholder">' +
-                    '<div class="spinner"></div>' +
-                    '<div class="frame-info">#' + (i + 1) + '</div>' +
-                '</div>' +
-                '<img data-src="' + escAttr(src) + '" loading="lazy" alt="' + escAttr(caption) + '">' +
-                '<div class="frame-caption' + (caption ? ' has-caption' : '') + '">' + escHtml(caption) + '</div>';
-
-            // Click → lightbox
-            div.addEventListener('click', () => openLbox(i));
-
-            state.observer.observe(div);
-            state.smObserver.observe(div);
-            frag.appendChild(div);
+        function updateProgress(oldIdx, newIdx) {
+            for (var i = 0; i < frames.length; i++) {
+                var fill = document.getElementById('prog-' + i);
+                if (!fill) continue;
+                if (i < newIdx)      fill.style.width = '100%';
+                else if (i > newIdx) fill.style.width = '0%';
+            }
+            anime({ targets: '#prog-' + newIdx, width: ['0%', '100%'], duration: 800, easing: 'easeOutQuad' });
         }
 
-        elFrames.appendChild(frag);
-        state.loadedCount = end;
-        state.isRendering = false;
-
-        // Preload very first frames immediately
-        if (start === 0) {
-            const first = elFrames.querySelectorAll('.frame');
-            for (let k = 0; k < Math.min(first.length, 6); k++) loadImage(first[k]);
+        function nextFrame() {
+            if (currentIndex < frames.length - 1) goToFrame(currentIndex + 1, 1);
+            else anime({ targets: '#viewport', translateX: [0, -10, 10, -5, 5, 0], duration: 400 });
         }
 
-        elStatus.textContent = IMAGES.length + ' images';
-    }
-
-    // ── LIGHTBOX ────────────────────────────────────────────────────────
-    function openLbox(idx) {
-        state.lboxIndex = Math.max(0, Math.min(idx, IMAGES.length - 1));
-        updateLbox();
-        elLbox.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeLbox() {
-        elLbox.classList.remove('active');
-        document.body.style.overflow = '';
-        elLboxImg.src = '';
-    }
-
-    function updateLbox() {
-        const item = IMAGES[state.lboxIndex];
-        const src  = item.src || item.url || '';
-        elLboxImg.src = src;
-        elLboxImg.alt = item.alt || item.title || '';
-        elCounter.textContent = (state.lboxIndex + 1) + ' / ' + IMAGES.length;
-    }
-
-    document.getElementById('lboxClose').addEventListener('click', closeLbox);
-    document.getElementById('lboxPrev').addEventListener('click', () => {
-        state.lboxIndex = (state.lboxIndex - 1 + IMAGES.length) % IMAGES.length;
-        updateLbox();
-    });
-    document.getElementById('lboxNext').addEventListener('click', () => {
-        state.lboxIndex = (state.lboxIndex + 1) % IMAGES.length;
-        updateLbox();
-    });
-
-    // Click outside image closes lightbox
-    elLbox.addEventListener('click', (e) => {
-        if (e.target === elLbox) closeLbox();
-    });
-
-    // Keyboard nav
-    document.addEventListener('keydown', (e) => {
-        if (!elLbox.classList.contains('active')) return;
-        if (e.key === 'Escape') closeLbox();
-        if (e.key === 'ArrowLeft') {
-            state.lboxIndex = (state.lboxIndex - 1 + IMAGES.length) % IMAGES.length;
-            updateLbox();
-        }
-        if (e.key === 'ArrowRight') {
-            state.lboxIndex = (state.lboxIndex + 1) % IMAGES.length;
-            updateLbox();
-        }
-    });
-
-    // ── UTILS ────────────────────────────────────────────────────────────
-    function escAttr(s) {
-        return String(s || '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    }
-    function escHtml(s) {
-        return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    }
-
-    // ── BOOT ─────────────────────────────────────────────────────────────
-    function init() {
-        if (!IMAGES || IMAGES.length === 0) {
-            elStatus.textContent = 'No images';
-            elFrames.innerHTML = '<div style="text-align:center;padding:60px 20px;color:#555;font-size:14px;">No images attached to this post.</div>';
-            return;
+        function prevFrame() {
+            if (currentIndex > 0) goToFrame(currentIndex - 1, -1);
+            else anime({ targets: '#viewport', translateX: [0, 10, -10, 5, -5, 0], duration: 400 });
         }
 
-        elStatus.textContent = IMAGES.length + ' images';
-        initRevealObserver();
-        initMemoryObserver();
-        renderBatch();
-    }
+        // expose for onclick attributes
+        window.nextFrame = nextFrame;
+        window.prevFrame = prevFrame;
 
-    init();
-})();
-</script>
+        window.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowRight') nextFrame();
+            if (e.key === 'ArrowLeft')  prevFrame();
+        });
+
+        function updateAnalysisData(frame) {
+            var cur = frame.curation || {};
+            document.getElementById('pan-score').innerText = ((cur.score || 0)).toFixed(1);
+
+            var cls    = cur.class  || {};
+            var clsHtml = '';
+            if (cls.narrative_function) clsHtml += '<span class="pill hl">' + cls.narrative_function + '</span>';
+            if (cls.emotional_tone)     clsHtml += '<span class="pill">' + cls.emotional_tone + '</span>';
+            document.getElementById('pan-class').innerHTML = clsHtml || '-';
+            document.getElementById('grp-class').style.display = clsHtml ? 'block' : 'none';
+
+            var thm    = cur.themes || {};
+            var thmHtml = '';
+            if (thm.primary_themes && Array.isArray(thm.primary_themes)) {
+                thm.primary_themes.forEach(function (t) { thmHtml += '<span class="pill">' + t + '</span>'; });
+            }
+            document.getElementById('pan-themes').innerHTML = thmHtml || '-';
+            document.getElementById('grp-themes').style.display = thmHtml ? 'block' : 'none';
+
+            var ent    = cur.entities || {};
+            var entHtml = '';
+            if (ent.characters && Array.isArray(ent.characters)) {
+                ent.characters.forEach(function (c) { entHtml += '<span class="pill char">\uD83D\uDC64 ' + c + '</span>'; });
+            }
+            if (ent.locations && Array.isArray(ent.locations)) {
+                ent.locations.forEach(function (l) { entHtml += '<span class="pill">\uD83D\uDCCD ' + l + '</span>'; });
+            }
+            document.getElementById('pan-entities').innerHTML = entHtml || '-';
+            document.getElementById('grp-entities').style.display = entHtml ? 'block' : 'none';
+
+            var recs = cur.recs || {};
+            document.getElementById('pan-recs').innerText = recs.potential_use || '-';
+            document.getElementById('grp-recs').style.display = recs.potential_use ? 'block' : 'none';
+        }
+
+        window.toggleAnalysis = function () {
+            isAnalysisOpen = !isAnalysisOpen;
+            var timeline   = anime.timeline({ easing: 'easeInOutExpo' });
+            if (isAnalysisOpen) {
+                timeline.add({ targets: '#viewport', scale: 0.92, opacity: 0.6, duration: 600 }, 0);
+                var slideProp = isMobile ? { translateY: ['100%', '0%'] } : { translateX: ['100%', '0%'] };
+                timeline.add(Object.assign({ targets: panel, opacity: [0, 1], duration: 600 }, slideProp), 0);
+                timeline.add({ targets: '.stat-group', opacity: [0, 1], translateY: [20, 0], delay: anime.stagger(100), duration: 600, easing: 'easeOutCubic' }, 300);
+            } else {
+                var slideOut = isMobile ? { translateY: '100%' } : { translateX: '100%' };
+                timeline.add(Object.assign({ targets: panel, opacity: 0, duration: 500 }, slideOut), 0);
+                timeline.add({ targets: '#viewport', scale: 1, opacity: 1, duration: 600 }, 0);
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', init);
+    })();
+    </script>
 </body>
 </html>
