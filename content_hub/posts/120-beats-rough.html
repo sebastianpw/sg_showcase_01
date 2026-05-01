@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>120 beats rough</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0f0f0f;
+            color: #ddd;
+            overflow-x: hidden;
+            overflow-anchor: none;
+        }
+
+        /* ── TOPBAR ── */
+        .topbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: rgba(15, 15, 15, 0.92);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            min-width: 38px;
+            border-radius: 8px;
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.08);
+            color: #e6eef8;
+            text-decoration: none;
+            flex-shrink: 0;
+            transition: background .15s ease, transform .12s ease;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-1px);
+        }
+        .back-icon {
+            width: 18px;
+            height: 18px;
+            display: block;
+            stroke: currentColor;
+            fill: none;
+            stroke-width: 1.5;
+        }
+
+        .topbar-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #fff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .status-label {
+            font-size: 12px;
+            color: #666;
+            font-family: monospace;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+
+        /* ── MAIN COLUMN ── */
+        .frames-column {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 12px 120px;
+        }
+
+        /* ── FRAME CARD ── */
+        .frame {
+            display: block;
+            position: relative;
+            background: #111;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.45);
+            margin-bottom: 28px;
+            min-height: 220px;
+            overflow: hidden;
+            will-change: transform, opacity;
+        }
+
+        .frame .placeholder {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #161616 0%, #1a1a1a 100%);
+            z-index: 1;
+        }
+
+        .spinner {
+            width: 28px;
+            height: 28px;
+            border: 2.5px solid rgba(255,255,255,0.08);
+            border-top-color: #666;
+            border-radius: 50%;
+            animation: spin 0.75s linear infinite;
+            margin-bottom: 8px;
+        }
+
+        .frame-info {
+            color: #444;
+            font-size: 11px;
+            font-family: monospace;
+        }
+
+        .frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+            opacity: 0;
+            transition: opacity 0.35s ease;
+            position: relative;
+            z-index: 2;
+            border-radius: 10px;
+        }
+
+        .frame.loaded img { opacity: 1; }
+        .frame.loaded .placeholder { display: none; }
+
+        /* ── CAPTION BELOW IMAGE ── */
+        .frame-caption {
+            padding: 10px 14px 12px;
+            font-size: 13px;
+            color: #888;
+            font-family: monospace;
+            line-height: 1.4;
+            position: relative;
+            z-index: 2;
+            display: none;
+        }
+        .frame-caption.has-caption { display: block; }
+
+        /* ── POST CONTENT ── */
+        .post-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 12px 40px;
+            font-size: 14px;
+            color: #aaa;
+            line-height: 1.7;
+            white-space: pre-line;
+        }
+
+        /* ── ScrollMagic REVEAL STATE ── */
+        .frame.sm-before {
+            opacity: 0;
+            transform: translateY(36px) scale(0.985);
+        }
+        .frame.sm-visible {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+                        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        /* ── LIGHTBOX OVERLAY ── */
+        .lbox-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.94);
+            z-index: 9000;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .lbox-overlay.active { display: flex; }
+
+        .lbox-img {
+            max-width: 95vw;
+            max-height: 88vh;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            user-select: none;
+        }
+
+        .lbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 9010;
+            transition: background 0.15s;
+        }
+        .lbox-nav:hover { background: rgba(255,255,255,0.18); }
+        .lbox-nav svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 2; }
+        .lbox-prev { left: 12px; }
+        .lbox-next { right: 12px; }
+
+        .lbox-close {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 9010;
+            transition: background 0.15s;
+        }
+        .lbox-close:hover { background: rgba(255,255,255,0.18); }
+        .lbox-close svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+        .lbox-counter {
+            position: absolute;
+            bottom: 14px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            font-family: monospace;
+            color: #666;
+            background: rgba(0,0,0,0.5);
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        @media (max-width: 600px) {
+            .frames-column { padding: 12px 8px 80px; }
+            .frame { border-radius: 6px; margin-bottom: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ── TOPBAR ── -->
+<div class="topbar">
+    <a class="back-link" href="../index.html" title="Back to gallery" aria-label="Back to gallery">
+        <svg class="back-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7" rx="1.2"/>
+            <rect x="14" y="3" width="7" height="7" rx="1.2"/>
+            <rect x="3" y="14" width="7" height="7" rx="1.2"/>
+            <rect x="14" y="14" width="7" height="7" rx="1.2"/>
+        </svg>
+    </a>
+    <div class="topbar-title">120 beats rough</div>
+    <div class="status-label" id="status">—</div>
+</div>
+
+<!-- ── FRAMES ── -->
+<div class="frames-column" id="frames"></div>
+
+<!-- ── POST CONTENT ── -->
+<div class="post-content" id="post-content"></div>
+
+<!-- ── LIGHTBOX ── -->
+<div class="lbox-overlay" id="lbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <button class="lbox-close" id="lboxClose" aria-label="Close">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lbox-nav lbox-prev" id="lboxPrev" aria-label="Previous image">
+        <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <img class="lbox-img" id="lboxImg" src="" alt="">
+    <button class="lbox-nav lbox-next" id="lboxNext" aria-label="Next image">
+        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+    <div class="lbox-counter" id="lboxCounter"></div>
+</div>
+
+<script>
+(function () {
+    // ── DATA injected by ContentHubManager ──────────────────────────────
+    const IMAGES = [{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057787.jpg","alt":"frame0057787","id":"42892","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057787.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057788.jpg","alt":"frame0057788","id":"42893","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057788.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057789.jpg","alt":"frame0057789","id":"42894","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057789.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057790.jpg","alt":"frame0057790","id":"42895","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057790.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057791.jpg","alt":"frame0057791","id":"42896","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057791.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057792.jpg","alt":"frame0057792","id":"42897","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057792.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057793.jpg","alt":"frame0057793","id":"42898","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057793.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057794.jpg","alt":"frame0057794","id":"42899","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057794.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057795.jpg","alt":"frame0057795","id":"42900","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057795.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057796.jpg","alt":"frame0057796","id":"42901","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057796.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057797.jpg","alt":"frame0057797","id":"42902","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057797.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057798.jpg","alt":"frame0057798","id":"42903","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057798.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057799.jpg","alt":"frame0057799","id":"42904","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057799.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057800.jpg","alt":"frame0057800","id":"42905","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057800.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057801.jpg","alt":"frame0057801","id":"42906","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057801.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057802.jpg","alt":"frame0057802","id":"42907","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057802.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057803.jpg","alt":"frame0057803","id":"42908","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057803.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057804.jpg","alt":"frame0057804","id":"42909","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057804.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057805.jpg","alt":"frame0057805","id":"42910","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057805.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057806.jpg","alt":"frame0057806","id":"42911","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057806.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057807.jpg","alt":"frame0057807","id":"42912","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057807.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057808.jpg","alt":"frame0057808","id":"42913","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057808.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057809.jpg","alt":"frame0057809","id":"42914","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057809.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057810.jpg","alt":"frame0057810","id":"42915","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057810.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057811.jpg","alt":"frame0057811","id":"42916","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057811.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057812.jpg","alt":"frame0057812","id":"42917","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057812.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057813.jpg","alt":"frame0057813","id":"42918","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057813.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057814.jpg","alt":"frame0057814","id":"42919","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057814.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057815.jpg","alt":"frame0057815","id":"42920","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057815.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057816.jpg","alt":"frame0057816","id":"42921","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057816.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057817.jpg","alt":"frame0057817","id":"42922","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057817.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057818.jpg","alt":"frame0057818","id":"42923","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057818.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057819.jpg","alt":"frame0057819","id":"42924","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057819.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057820.jpg","alt":"frame0057820","id":"42925","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057820.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057821.jpg","alt":"frame0057821","id":"42926","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057821.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057822.jpg","alt":"frame0057822","id":"42927","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057822.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057823.jpg","alt":"frame0057823","id":"42928","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057823.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057824.jpg","alt":"frame0057824","id":"42929","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057824.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057825.jpg","alt":"frame0057825","id":"42930","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057825.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057826.jpg","alt":"frame0057826","id":"42931","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057826.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057827.jpg","alt":"frame0057827","id":"42932","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057827.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057828.jpg","alt":"frame0057828","id":"42933","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057828.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057829.jpg","alt":"frame0057829","id":"42934","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057829.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057830.jpg","alt":"frame0057830","id":"42935","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057830.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057831.jpg","alt":"frame0057831","id":"42936","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057831.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057832.jpg","alt":"frame0057832","id":"42937","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057832.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057833.jpg","alt":"frame0057833","id":"42938","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057833.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057834.jpg","alt":"frame0057834","id":"42939","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057834.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057835.jpg","alt":"frame0057835","id":"42940","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057835.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057836.jpg","alt":"frame0057836","id":"42941","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057836.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057837.jpg","alt":"frame0057837","id":"42942","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057837.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057838.jpg","alt":"frame0057838","id":"42943","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057838.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057839.jpg","alt":"frame0057839","id":"42944","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057839.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057840.jpg","alt":"frame0057840","id":"42945","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057840.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057841.jpg","alt":"frame0057841","id":"42946","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057841.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057842.jpg","alt":"frame0057842","id":"42947","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057842.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057843.jpg","alt":"frame0057843","id":"42948","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057843.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057844.jpg","alt":"frame0057844","id":"42949","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057844.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057845.jpg","alt":"frame0057845","id":"42950","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057845.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057846.jpg","alt":"frame0057846","id":"42951","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057846.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057847.jpg","alt":"frame0057847","id":"42952","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057847.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057848.jpg","alt":"frame0057848","id":"42953","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057848.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057849.jpg","alt":"frame0057849","id":"42954","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057849.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057850.jpg","alt":"frame0057850","id":"42955","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057850.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057851.jpg","alt":"frame0057851","id":"42956","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057851.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057852.jpg","alt":"frame0057852","id":"42957","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057852.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057853.jpg","alt":"frame0057853","id":"42958","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057853.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057854.jpg","alt":"frame0057854","id":"42959","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057854.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057855.jpg","alt":"frame0057855","id":"42960","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057855.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057856.jpg","alt":"frame0057856","id":"42961","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057856.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057857.jpg","alt":"frame0057857","id":"42962","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057857.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057858.jpg","alt":"frame0057858","id":"42963","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057858.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057859.jpg","alt":"frame0057859","id":"42964","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057859.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057860.jpg","alt":"frame0057860","id":"42965","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057860.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057861.jpg","alt":"frame0057861","id":"42966","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057861.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057862.jpg","alt":"frame0057862","id":"42967","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057862.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057863.jpg","alt":"frame0057863","id":"42968","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057863.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057864.jpg","alt":"frame0057864","id":"42969","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057864.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057865.jpg","alt":"frame0057865","id":"42970","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057865.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057866.jpg","alt":"frame0057866","id":"42971","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057866.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057867.jpg","alt":"frame0057867","id":"42972","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057867.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057868.jpg","alt":"frame0057868","id":"42973","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057868.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057869.jpg","alt":"frame0057869","id":"42974","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057869.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057870.jpg","alt":"frame0057870","id":"42975","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057870.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057871.jpg","alt":"frame0057871","id":"42976","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057871.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057872.jpg","alt":"frame0057872","id":"42977","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057872.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057873.jpg","alt":"frame0057873","id":"42978","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057873.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057874.jpg","alt":"frame0057874","id":"42979","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057874.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057875.jpg","alt":"frame0057875","id":"42980","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057875.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057876.jpg","alt":"frame0057876","id":"42981","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057876.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057877.jpg","alt":"frame0057877","id":"42982","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057877.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057878.jpg","alt":"frame0057878","id":"42983","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057878.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057879.jpg","alt":"frame0057879","id":"42984","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057879.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057880.jpg","alt":"frame0057880","id":"42985","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057880.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057881.jpg","alt":"frame0057881","id":"42986","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057881.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057882.jpg","alt":"frame0057882","id":"42987","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057882.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057883.jpg","alt":"frame0057883","id":"42988","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057883.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057884.jpg","alt":"frame0057884","id":"42989","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057884.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057885.jpg","alt":"frame0057885","id":"42990","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057885.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057886.jpg","alt":"frame0057886","id":"42991","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057886.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057887.jpg","alt":"frame0057887","id":"42992","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057887.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057888.jpg","alt":"frame0057888","id":"42993","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057888.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057889.jpg","alt":"frame0057889","id":"42994","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057889.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057890.jpg","alt":"frame0057890","id":"42995","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057890.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057891.jpg","alt":"frame0057891","id":"42996","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057891.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057892.jpg","alt":"frame0057892","id":"42997","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057892.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057893.jpg","alt":"frame0057893","id":"42998","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057893.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057894.jpg","alt":"frame0057894","id":"42999","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057894.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057895.jpg","alt":"frame0057895","id":"43000","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057895.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057896.jpg","alt":"frame0057896","id":"43001","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057896.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057897.jpg","alt":"frame0057897","id":"43002","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057897.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057898.jpg","alt":"frame0057898","id":"43003","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057898.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057899.jpg","alt":"frame0057899","id":"43004","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057899.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057900.jpg","alt":"frame0057900","id":"43005","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057900.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057901.jpg","alt":"frame0057901","id":"43006","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057901.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057902.jpg","alt":"frame0057902","id":"43007","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057902.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057903.jpg","alt":"frame0057903","id":"43008","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057903.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post14/frame0057904.jpg","alt":"frame0057904","id":"43009","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0057904.jpg"}];
+
+    // ── CONFIG ─────────────────────────────────────────────────────────
+    const BATCH   = 30;   // frames rendered per batch
+    const PRELOAD = 5;    // radius around current viewport to keep loaded
+
+    // ── STATE ──────────────────────────────────────────────────────────
+    const state = {
+        loadedCount: 0,
+        isRendering: false,
+        observer: null,    // IntersectionObserver for lazy-load + memory
+        smObserver: null,  // IntersectionObserver for ScrollMagic reveal
+        lboxIndex: 0
+    };
+
+    // ── DOM REFS ───────────────────────────────────────────────────────
+    const elFrames  = document.getElementById('frames');
+    const elStatus  = document.getElementById('status');
+    const elLbox    = document.getElementById('lbox');
+    const elLboxImg = document.getElementById('lboxImg');
+    const elCounter = document.getElementById('lboxCounter');
+
+    // ── HEIGHT-LOCK (jump-free scroll) ─────────────────────────────────
+    function lockHeight(div, img) {
+        if (!div.style.minHeight || div.style.minHeight === '220px') {
+            const h = img.getBoundingClientRect().height;
+            if (h > 40) {
+                div.style.minHeight = h + 'px';
+            }
+        }
+    }
+
+    // ── IMAGE LOAD / UNLOAD ─────────────────────────────────────────────
+    function loadImage(div) {
+        const img = div.querySelector('img');
+        if (!img || div.classList.contains('loaded') || img.src) return;
+        img.onload = () => {
+            requestAnimationFrame(() => {
+                lockHeight(div, img);
+                div.classList.add('loaded');
+                elStatus.textContent = (parseInt(div.dataset.idx) + 1) + ' / ' + IMAGES.length;
+            });
+        };
+        img.onerror = () => {
+            const info = div.querySelector('.frame-info');
+            if (info) info.textContent = 'Load failed';
+        };
+        img.src = img.dataset.src;
+    }
+
+    function unloadImage(div) {
+        if (!div.style.minHeight) return;
+        const img = div.querySelector('img');
+        if (img && img.src) {
+            img.removeAttribute('src');
+            div.classList.remove('loaded');
+        }
+    }
+
+    // ── SCROLLMAGIC REVEAL OBSERVER ─────────────────────────────────────
+    function initRevealObserver() {
+        state.smObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('sm-before');
+                    entry.target.classList.add('sm-visible');
+                    state.smObserver.unobserve(entry.target);
+                }
+            });
+        }, { rootMargin: '-40px 0px -40px 0px', threshold: 0.05 });
+    }
+
+    // ── MEMORY / LAZY OBSERVER ──────────────────────────────────────────
+    function initMemoryObserver() {
+        state.observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                const idx = parseInt(entry.target.dataset.idx);
+                manageMemory(idx);
+            });
+        }, { rootMargin: '800px 0px 800px 0px' });
+    }
+
+    function manageMemory(centerIdx) {
+        const min = centerIdx - PRELOAD;
+        const max = centerIdx + PRELOAD;
+        const children = elFrames.children;
+
+        for (let i = 0; i < children.length; i++) {
+            const div = children[i];
+            const idx = parseInt(div.dataset.idx);
+            if (Math.abs(idx - centerIdx) > 80) continue;
+            if (idx >= min && idx <= max) {
+                loadImage(div);
+            } else {
+                unloadImage(div);
+            }
+        }
+
+        // Trigger next batch when near the end
+        if (centerIdx >= state.loadedCount - 8 && state.loadedCount < IMAGES.length) {
+            renderBatch();
+        }
+    }
+
+    // ── RENDER ──────────────────────────────────────────────────────────
+    function renderBatch() {
+        if (state.isRendering) return;
+        state.isRendering = true;
+
+        const start = state.loadedCount;
+        const end   = Math.min(start + BATCH, IMAGES.length);
+
+        if (start >= IMAGES.length) {
+            state.isRendering = false;
+            return;
+        }
+
+        const frag = document.createDocumentFragment();
+
+        for (let i = start; i < end; i++) {
+            const item = IMAGES[i];
+            // Support both { src } (frames) and { url } (videos used as images)
+            const src     = item.src || item.url || '';
+            const caption = item.alt || item.title || item.name || '';
+
+            const div = document.createElement('div');
+            div.className = 'frame sm-before';
+            div.dataset.idx = i;
+
+            div.innerHTML =
+                '<div class="placeholder">' +
+                    '<div class="spinner"></div>' +
+                    '<div class="frame-info">#' + (i + 1) + '</div>' +
+                '</div>' +
+                '<img data-src="' + escAttr(src) + '" loading="lazy" alt="' + escAttr(caption) + '">' +
+                '<div class="frame-caption' + (caption ? ' has-caption' : '') + '">' + escHtml(caption) + '</div>';
+
+            // Click → lightbox
+            div.addEventListener('click', () => openLbox(i));
+
+            state.observer.observe(div);
+            state.smObserver.observe(div);
+            frag.appendChild(div);
+        }
+
+        elFrames.appendChild(frag);
+        state.loadedCount = end;
+        state.isRendering = false;
+
+        // Preload very first frames immediately
+        if (start === 0) {
+            const first = elFrames.querySelectorAll('.frame');
+            for (let k = 0; k < Math.min(first.length, 6); k++) loadImage(first[k]);
+        }
+
+        elStatus.textContent = IMAGES.length + ' images';
+    }
+
+    // ── LIGHTBOX ────────────────────────────────────────────────────────
+    function openLbox(idx) {
+        state.lboxIndex = Math.max(0, Math.min(idx, IMAGES.length - 1));
+        updateLbox();
+        elLbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLbox() {
+        elLbox.classList.remove('active');
+        document.body.style.overflow = '';
+        elLboxImg.src = '';
+    }
+
+    function updateLbox() {
+        const item = IMAGES[state.lboxIndex];
+        const src  = item.src || item.url || '';
+        elLboxImg.src = src;
+        elLboxImg.alt = item.alt || item.title || '';
+        elCounter.textContent = (state.lboxIndex + 1) + ' / ' + IMAGES.length;
+    }
+
+    document.getElementById('lboxClose').addEventListener('click', closeLbox);
+    document.getElementById('lboxPrev').addEventListener('click', () => {
+        state.lboxIndex = (state.lboxIndex - 1 + IMAGES.length) % IMAGES.length;
+        updateLbox();
+    });
+    document.getElementById('lboxNext').addEventListener('click', () => {
+        state.lboxIndex = (state.lboxIndex + 1) % IMAGES.length;
+        updateLbox();
+    });
+
+    // Click outside image closes lightbox
+    elLbox.addEventListener('click', (e) => {
+        if (e.target === elLbox) closeLbox();
+    });
+
+    // Keyboard nav
+    document.addEventListener('keydown', (e) => {
+        if (!elLbox.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLbox();
+        if (e.key === 'ArrowLeft') {
+            state.lboxIndex = (state.lboxIndex - 1 + IMAGES.length) % IMAGES.length;
+            updateLbox();
+        }
+        if (e.key === 'ArrowRight') {
+            state.lboxIndex = (state.lboxIndex + 1) % IMAGES.length;
+            updateLbox();
+        }
+    });
+
+    // ── UTILS ────────────────────────────────────────────────────────────
+    function escAttr(s) {
+        return String(s || '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+    function escHtml(s) {
+        return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    // ── BOOT ─────────────────────────────────────────────────────────────
+    function init() {
+        if (!IMAGES || IMAGES.length === 0) {
+            elStatus.textContent = 'No images';
+            elFrames.innerHTML = '<div style="text-align:center;padding:60px 20px;color:#555;font-size:14px;">No images attached to this post.</div>';
+            return;
+        }
+
+        elStatus.textContent = IMAGES.length + ' images';
+        initRevealObserver();
+        initMemoryObserver();
+        renderBatch();
+    }
+
+    init();
+})();
+</script>
+</body>
+</html>
