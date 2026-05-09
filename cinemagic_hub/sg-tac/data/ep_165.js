@@ -47,7 +47,7 @@ const episodeData = {
     "frames": [
         {
             "id": 9672,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058052.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058052.jpg",
             "overlay_texts": [
                 "Vortex Station. The Algae Cathedral&#039;s singing priests fall silent. Not in sequence. Not through choice. In half-second increments, each tank dimming a precise interval before the next—a daemoniacal rhythm that mirrors nothing in nature and everything in engineering.",
@@ -59,7 +59,7 @@ const episodeData = {
         },
         {
             "id": 9674,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058289.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058289.jpg",
             "overlay_texts": [
                 "The fungi-light casts everything in sickly violet. The light of ledger-keeping—a frequency that reveals obligation, that strips the pretense of social grace and leaves only account balances.",
@@ -71,7 +71,7 @@ const episodeData = {
         },
         {
             "id": 9675,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058055.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058055.jpg",
             "overlay_texts": [
                 "The Hall of Ancestors opens before them—four thousand calcified statues in genealogical groupings. The root-lattice ceiling filters tenebrous green light down through its braided geometry.",
@@ -83,7 +83,7 @@ const episodeData = {
         },
         {
             "id": 9676,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058056.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058056.jpg",
             "overlay_texts": [
                 "Mira&#039;s boots announce her. Each step broadcasts certainty through the Momentum-laced air of the meeting chamber. She enters the bare room like she&#039;s already negotiated its terms with the desert outside.",
@@ -95,7 +95,7 @@ const episodeData = {
         },
         {
             "id": 9677,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058290.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058290.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058290.jpg",
             "overlay_texts": [
                 "Rain-Maker Station. The morning&#039;s yield glows on the transparent gauges: 89%. Down from yesterday&#039;s 94%. The descent follows a mathematical pattern Elara recognizes as deliberate.",
@@ -107,7 +107,7 @@ const episodeData = {
         },
         {
             "id": 9678,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058058.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058058.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058058.jpg",
             "overlay_texts": [
                 "Vortex Station. Safety orange and cold blue and stark vacuum black. Dr. Chen hands Kaori a data-dense pendant.",
@@ -119,7 +119,7 @@ const episodeData = {
         },
         {
             "id": 9679,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058059.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058059.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058059.jpg",
             "overlay_texts": [
                 "Vortex Station. The First Wave sits at equidistant positions around a metal table. Their respiratory rhythms are synchronized, the ghost-bond rendering individual function as collective choreography.",
@@ -131,7 +131,7 @@ const episodeData = {
         },
         {
             "id": 9680,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058060.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058060.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058060.jpg",
             "overlay_texts": [
                 "Nova Terra&#039;s Stargazers&#039; Den. Bioluminescent spores drift through vascular architecture. The Glare-Sick gather here, their eyes wrapped in ceremonial linen, shielded from the city&#039;s Aura-Net.",
@@ -143,7 +143,7 @@ const episodeData = {
         },
         {
             "id": 9681,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058061.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058061.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058061.jpg",
             "overlay_texts": [
                 "Crater City. Arterial Bone. Kaelen is fused to a throne of dark carbon. Chrono energy veins pulse through synthetic flesh. The chamber walls crack into a hexagonal lattice of temporal stress.",
@@ -155,7 +155,7 @@ const episodeData = {
         },
         {
             "id": 9682,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058062.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058062.jpg",
             "overlay_texts": [
                 "Rain-Maker Station. The ceremony is over. Elara&#039;s fingers submerge to the wrist in the morning&#039;s yield. The water should sing. Instead: It yelps.",
@@ -167,7 +167,7 @@ const episodeData = {
         },
         {
             "id": 9683,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058063.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058063.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058063.jpg",
             "overlay_texts": [
                 "Crater City Canal-Bistro. The obsidian walls sweat mineral water. Melori sits at the head of a table of compressed reed-fiber. Each fingertip glows with soft purple luminescence.",
@@ -179,7 +179,7 @@ const episodeData = {
         },
         {
             "id": 9684,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058064.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058064.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058064.jpg",
             "overlay_texts": [
                 "Kai&#039;s salvage hauler cuts through the black. Exposed ribs of welded titanium. A vessel whose biography is its structure—every repair a timestamp, every scar a survival.",
@@ -191,7 +191,7 @@ const episodeData = {
         },
         {
             "id": 9685,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058065.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058065.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058065.jpg",
             "overlay_texts": [
                 "Crater City Deep Levels. The Tunneler Elder presses her palm against the Remembering Wall. Her crystalline forearms synchronize with the wall&#039;s geometric patterns.",
@@ -203,7 +203,7 @@ const episodeData = {
         },
         {
             "id": 9686,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058066.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058066.jpg",
             "overlay_texts": [
                 "The Scab Junction exhales moss-perfume and the ghost-scent of root-decay. Bioluminescent spores drift like inverted snow. Eve sits cross-legged on a nest of woven root-fibers.",

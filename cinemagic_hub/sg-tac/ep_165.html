@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
     document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
-    const nav = document.getElementById('ep-nav');
+    const nav    = document.getElementById('ep-nav');
     const toggle = document.getElementById('ep-nav-toggle');
     if (toggle && nav) {
         toggle.addEventListener('click', () => {

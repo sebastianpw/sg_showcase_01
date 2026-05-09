@@ -47,7 +47,7 @@ const episodeData = {
     "frames": [
         {
             "id": 9747,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058306.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058306.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058306.jpg",
             "overlay_texts": [
                 "The city breathes before the city knows it is breathing.",
@@ -59,7 +59,7 @@ const episodeData = {
         },
         {
             "id": 9748,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058128.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058128.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058128.jpg",
             "overlay_texts": [
                 "Dawn arrives sideways across Nova Terra. The Solar Sails that ring the city&#039;s outer tiers are not blooming. They are beginning to combust.",
@@ -70,7 +70,7 @@ const episodeData = {
         },
         {
             "id": 9749,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058307.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058307.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058307.jpg",
             "overlay_texts": [
                 "Kael Ironroot stands on the Spire&#039;s highest external platform. Vine-tattoos blaze emerald across her forearms—living conduits for the terrene&#039;s nervous system.",
@@ -81,7 +81,7 @@ const episodeData = {
         },
         {
             "id": 9750,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058308.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058308.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058308.jpg",
             "overlay_texts": [
                 "The Shadow-Scab&#039;s regenerated jungle: glass-vines convulse upward with sinuous urgency. The Ark&#039;s lower foundations: impossibly ancient root-threads begin their fatal climb.",
@@ -93,7 +93,7 @@ const episodeData = {
         },
         {
             "id": 9751,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058131.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058131.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058131.jpg",
             "overlay_texts": [
                 "The Ark—Nova Terra&#039;s crystallized heart—shudders. Three Vitalis adepts are thrown to their knees by the lurch.",
@@ -104,7 +104,7 @@ const episodeData = {
         },
         {
             "id": 9752,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058132.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058132.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058132.jpg",
             "overlay_texts": [
                 "Colorless City. Octarion&#039;s Sanctum. Bare torso glistening with condensed starlight. He feels the Ark&#039;s distress through the planetary field.",
@@ -116,7 +116,7 @@ const episodeData = {
         },
         {
             "id": 9753,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058309.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058309.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058309.jpg",
             "overlay_texts": [
                 "Beneath the Shadow Scab. The chamber is dense, every surface threaded with bioluminescent root-networks pulsing in slow, tidal rhythm.",
@@ -127,7 +127,7 @@ const episodeData = {
         },
         {
             "id": 9754,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058310.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058310.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058310.jpg",
             "overlay_texts": [
                 "Ruin unfolds his arms. Deep geological impressions worn by decades of pressing his palms to the Scab&#039;s underside.",
@@ -138,7 +138,7 @@ const episodeData = {
         },
         {
             "id": 9755,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058135.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058135.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058135.jpg",
             "overlay_texts": [
                 "Vex and Ruin place their palms flat on the map. The phosphorescent architecture responds—tracing the contamination&#039;s architecture in both directions simultaneously.",
@@ -150,7 +150,7 @@ const episodeData = {
         },
         {
             "id": 9756,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058136.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058136.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058136.jpg",
             "overlay_texts": [
                 "Colorless City Secured Chamber. Kaori sits on the floor, eyes flared silver-white. Her cyan strips are at 15% capacity. Burning reserves she does not have.",
@@ -162,7 +162,7 @@ const episodeData = {
         },
         {
             "id": 9757,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058311.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058311.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058311.jpg",
             "overlay_texts": [
                 "Kaori&#039;s Internal Perception: The Griffin. A bond entered into genuinely, with full knowledge. A bond that cannot be dissolved by external architecture because it was never externally created.",
@@ -173,7 +173,7 @@ const episodeData = {
         },
         {
             "id": 9758,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058138.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058138.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058138.jpg",
             "overlay_texts": [
                 "Nova Terra Celestia Spire. The moment Kaori&#039;s True-Sight locates Atairukh, Noctura feels a physiological response: her jagged vein-scars flare brilliant and sudden.",
@@ -185,7 +185,7 @@ const episodeData = {
         },
         {
             "id": 9759,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058139.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058139.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058139.jpg",
             "overlay_texts": [
                 "NOCTURA (Internal): &quot;She chose. That is the fact that cannot be overwritten. Genuine choosing leaves permanent architecture in whatever consciousness undertook it.&quot;",
@@ -197,7 +197,7 @@ const episodeData = {
         },
         {
             "id": 9760,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058312.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058312.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058312.jpg",
             "overlay_texts": [
                 "Crater City Upper Council Chamber. Obsidian walls absorb light. Taro stands at the threshold. His red leather jacket bright against the obsidian geometry.",
@@ -209,7 +209,7 @@ const episodeData = {
         },
         {
             "id": 9761,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058141.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058141.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058141.jpg",
             "overlay_texts": [
                 "Taro takes one step forward. Then stops. Eleven meters. He plants himself at the furthest edge where reaching remains possible.",
@@ -221,7 +221,7 @@ const episodeData = {
         },
         {
             "id": 9762,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058142.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058142.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058142.jpg",
             "overlay_texts": [
                 "Noctura&#039;s violet eyes don&#039;t leave Taro&#039;s face. She is being seen. Not as a problem to be solved. Not as a mistake to be corrected.",
@@ -233,7 +233,7 @@ const episodeData = {
         },
         {
             "id": 9763,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058313.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058313.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058313.jpg",
             "overlay_texts": [
                 "Tidalcross Coastal Threshold. The ocean knows something is approaching. The pressure in the tidal zones has been building since before dawn.",
@@ -245,7 +245,7 @@ const episodeData = {
         },
         {
             "id": 9764,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058314.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058314.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058314.jpg",
             "overlay_texts": [
                 "The Trench Singer materializes. A Fluidica Avatar of world-altering scale, its body a delicately shifting confluence of pressurized currents and liquid geometry.",
@@ -257,7 +257,7 @@ const episodeData = {
         },
         {
             "id": 9765,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058145.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058145.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058145.jpg",
             "overlay_texts": [
                 "Hollow Resistance Operations Chamber. Rin stands before the war council, her platinum cornrows catching the violet glow. The blueprint for Operation Moon&#039;s Fall is on the table.",
@@ -269,7 +269,7 @@ const episodeData = {
         },
         {
             "id": 9766,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058146.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058146.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058146.jpg",
             "overlay_texts": [
                 "Chrono Sanctum. Kaelen&#039;s throne exhales a long breath of Chrono-fire as he processes new variables his forty-year framework cannot accommodate.",
@@ -281,7 +281,7 @@ const episodeData = {
         },
         {
             "id": 9767,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058147.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058147.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058147.jpg",
             "overlay_texts": [
                 "Crater City. A communications officer sets a broadcast order aside. A sector administrator opens a locked junction. A data analyst saves a classified file to an unclassified archive.",
@@ -293,7 +293,7 @@ const episodeData = {
         },
         {
             "id": 9768,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058148.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058148.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058148.jpg",
             "overlay_texts": [
                 "Nova Terra. The Ark exhales. The emerald vascular systems carry the exhalation outward. Glass-vines bloom with species that have not existed in three hundred and twelve years.",
@@ -305,7 +305,7 @@ const episodeData = {
         },
         {
             "id": 9769,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058149.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058149.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058149.jpg",
             "overlay_texts": [
                 "Void Spire Apex. Noctura stands 3,000 meters above the crater floor. She is watching her empire fail. She is not reaching to stop it.",

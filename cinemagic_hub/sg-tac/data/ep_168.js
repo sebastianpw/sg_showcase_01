@@ -47,7 +47,7 @@ const episodeData = {
     "frames": [
         {
             "id": 9726,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058106.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058106.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058106.jpg",
             "overlay_texts": [
                 "Aetherion. An ancient ice courtyard at non-terrestrial dawn. The ice is translucent, veined with mineral amber, like a glacier whose blood is nearly gone.",
@@ -59,7 +59,7 @@ const episodeData = {
         },
         {
             "id": 9727,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058107.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058107.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058107.jpg",
             "overlay_texts": [
                 "Noctura stands at the courtyard&#039;s furthest edge, where the ice thins to near-translucence. She flickers—a silhouette drawn in negative space. Her violet eyes contracted to pinpoints of impossible focus.",
@@ -71,7 +71,7 @@ const episodeData = {
         },
         {
             "id": 9728,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058108.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058108.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058108.jpg",
             "overlay_texts": [
                 "The Penumbra Zone. A landscape of crisscross shadow-lattice—surveillance infrastructure disguised as geography. The ensemble cuts through at a sprint.",
@@ -83,7 +83,7 @@ const episodeData = {
         },
         {
             "id": 9729,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058109.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058109.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058109.jpg",
             "overlay_texts": [
                 "The Colorless City does not announce itself. It simply becomes present. No chrome, no grandeur. Only resolution. Octarion stands at the invisible outermost boundary.",
@@ -95,7 +95,7 @@ const episodeData = {
         },
         {
             "id": 9730,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058110.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058110.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058110.jpg",
             "overlay_texts": [
                 "The Void. Octarion&#039;s sanctum. Absolute darkness—the active management of light. Kaori stands at the center, her cyan strips glowing like a heartbeat made visible.",
@@ -107,7 +107,7 @@ const episodeData = {
         },
         {
             "id": 9731,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058111.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058111.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058111.jpg",
             "overlay_texts": [
                 "The Rotunda. A space of profound, managed luminescence. The city&#039;s life-support architecture creates a perceptible rhythm. Inhale. Exhale. The rotunda breathes.",
@@ -119,7 +119,7 @@ const episodeData = {
         },
         {
             "id": 9732,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058112.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058112.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058112.jpg",
             "overlay_texts": [
                 "The Northeastward Chamber. Octarion stands alone. The gold chain harness catches aurora-filtered light. Kaori&#039;s evidence rests in his palm: a travel-worn pamphlet describing the Sleeper Collective.",
@@ -131,7 +131,7 @@ const episodeData = {
         },
         {
             "id": 9733,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058113.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058113.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058113.jpg",
             "overlay_texts": [
                 "Vortex Station. Cryo-Bay 4. Four thousand pods suspended in amber stasis. Faces from Year Zero. Kaori stands before the primary interface.",
@@ -143,7 +143,7 @@ const episodeData = {
         },
         {
             "id": 9734,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058114.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058114.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058114.jpg",
             "overlay_texts": [
                 "Last Light Station. -10,000 meters. The walls rattle. The seismic array screams in patterned, deliberate wave sequences. A language older than human writing.",
@@ -155,7 +155,7 @@ const episodeData = {
         },
         {
             "id": 9735,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058301.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058301.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058301.jpg",
             "overlay_texts": [
                 "Volcanic Tufa Tableland. The Dragon Guide hovers beside Mira, broadcasting translation into her brainstem. Meaning arriving pre-translated.",
@@ -167,7 +167,7 @@ const episodeData = {
         },
         {
             "id": 9736,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058116.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058116.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058116.jpg",
             "overlay_texts": [
                 "Crater City. Chrono Sanctum. Throne Level. Kaelen sits in the throne, fused residue of forty years of Anti-Anima bondage. Taro stands in the threshold.",
@@ -179,7 +179,7 @@ const episodeData = {
         },
         {
             "id": 9737,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058302.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058302.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058302.jpg",
             "overlay_texts": [
                 "Chrono Sanctum. Taro has withdrawn. Sparklefly enters without announcement. Moving in vectors that refuse Euclidean logic. She has chosen freedom as her governing principle.",
@@ -191,7 +191,7 @@ const episodeData = {
         },
         {
             "id": 9738,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058303.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058303.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058303.jpg",
             "overlay_texts": [
                 "Crater City Maintenance Infrastructure. Rin sits cross-legged on cold tile. Petra sits across from her, spreading aged thermal blueprints. Operation Moon&#039;s Fall.",
@@ -203,7 +203,7 @@ const episodeData = {
         },
         {
             "id": 9739,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058119.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058119.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058119.jpg",
             "overlay_texts": [
                 "Crater City Chrome Amphitheater. The Directorate. Kaelen is not here. For forty years, his mediation structured every deliberation. His absence functions as gravity.",
@@ -215,7 +215,7 @@ const episodeData = {
         },
         {
             "id": 9740,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058120.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058120.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058120.jpg",
             "overlay_texts": [
                 "Shadow-Scab. Hall of Ancestors. The walls weep mineral discharge, precipitating the hall&#039;s geological memory because what has happened requires witness.",
@@ -227,7 +227,7 @@ const episodeData = {
         },
         {
             "id": 9741,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058121.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058121.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058121.jpg",
             "overlay_texts": [
                 "Nova Terra. Luminara Gardens. The Root Rot has been consuming the infrastructure for eleven years. The Vitalis practitioners have failed through command.",
@@ -239,7 +239,7 @@ const episodeData = {
         },
         {
             "id": 9742,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058122.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058122.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058122.jpg",
             "overlay_texts": [
                 "Storm Riders&#039; Encampment. Drift. A Cloud-Weaver checks the morning&#039;s dew yield. 98%. Not the declining 79% they&#039;ve been recording for months.",
@@ -249,7 +249,7 @@ const episodeData = {
         },
         {
             "id": 9743,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058123.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058123.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058123.jpg",
             "overlay_texts": [
                 "Colorless City. Northwestern Chamber. Obsidian walls with dormant UV-reactive white hieroglyphics. Kaori stands at the center, her cyan headphones breathing in slow rhythm.",
@@ -261,7 +261,7 @@ const episodeData = {
         },
         {
             "id": 9744,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058124.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058124.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058124.jpg",
             "overlay_texts": [
                 "The admission lands like rupture in absolute architecture. The obsidian beneath their feet develops hairline fractures.",
@@ -273,7 +273,7 @@ const episodeData = {
         },
         {
             "id": 9745,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058304.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058304.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058304.jpg",
             "overlay_texts": [
                 "Nova Terra. Luminara Gardens Approach. A Storm Rider stands at the perimeter, receiving the Aura-Net&#039;s broadcast: the emotional signature of reconciliation rather than victory.",
@@ -284,7 +284,7 @@ const episodeData = {
         },
         {
             "id": 9746,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/frames_starlightguardians_nu/frame0058305.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058305.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058305.jpg",
             "overlay_texts": [
                 "The final sound: silence.",
