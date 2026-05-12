@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Emily — Chapter V: The Desert &amp; The Libraries — Emily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .lang-picker { position: fixed; top: 20px; right: 20px; z-index: 999; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">Emily&nbsp;·&nbsp; 5 / 7</div>
+        <h1 class="seq-title">Emily — Chapter V: The Desert &amp; The Libraries</h1>
+        <p class="seq-desc">In the merciless, magnificent void of the deep sands, the universe strips away the noise to reveal ancient, echoing truths hidden beneath a canopy of a million stars.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000098.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Emily joins a massive trade caravan from Portcaldia, stepping into the bleached, merciless void of the Red Plateau. Enduring brutal noon heat and freezing nights, she meets Hafsa, who begins to train her in the rigorous art of desert sensory perception.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000087.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">The caravan master nods Emily toward the supply tent, where Hafsa stands facing the open desert. Without turning, the wind-reader accepts her new apprentice, beginning the harsh, silent integration that will teach Emily to survive the crossing.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000272.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Standing on a high dune, Emily feels a subtle, sudden shift in the air pressure before the rest of the caravan notices. Hafsa recognizes her student&#039;s extraordinary potential and elevates Emily to walk by her side, marking the beginning of her environmental mastery.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000280.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Hafsa senses an approaching, violent storm simply by reading the microscopic tremors of the sand. When the rain arrives exactly from the predicted direction, Emily realizes that true mastery means inhabiting the world so completely that the body becomes its primary instrument.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000190.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">The caravan stumbles upon a camp utterly destroyed by the storm&#039;s flash flood. Emily observes the ruined carts and scattered grain with a heavy heart, realizing the desert moves on with a cold, terrifying indifference to human intention.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000165.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Amidst the wreckage of the lost camp, Emily silently begins gathering heavy stones to build a cairn for the victims. She learns the harsh law of the desert: grief cannot be an indulgence; it must be met with immediate, unsentimental, physical action.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000227.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">In the obliterating, wavering heat of desert noon, Emily discovers a survivor named Rashid. She unhesitatingly shares her own limited water supply, realizing that the landscape&#039;s total indifference acts as a silent permission for her to forge her own unyielding ethics.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000136.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">The caravan halts on the vast salt flats, a blinding white mineral plain where the stars appear with shocking density. Lying on the crust, Emily realizes the universe&#039;s indifference is not a threat, but a gift that reframes her smallness as a precise, beautiful truth.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000231.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Suspended between the crystalline salt bed and the overwhelming density of the Milky Way, Emily can almost feel the earth&#039;s rotation. She realizes her presence is entirely optional to the cosmos, finding a profound, generous freedom in simply being unimportant.</div></div></div><div class="panel" id="panel-9"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000134.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 10"><div class="text-blocks"><div class="story-text observe-me">The caravan finally reaches the shocking green rupture of the Ain Suleima oasis. Emily bids a respectful, final farewell to Hafsa and the caravan masters. She chooses to stay at the great library, transitioning her journey from the physical desert to the landscape of the mind.</div></div></div><div class="panel" id="panel-10"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000091.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 11"><div class="text-blocks"><div class="story-text observe-me">Emily explores the infinite, vaulted corridors of the Library of Knowing, the air rich with the scent of aged paper. She weeps as she realizes her specific, painful life is just one single note in a grander music that has been playing throughout all of human time.</div></div></div><div class="panel" id="panel-11"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000088.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 12"><div class="text-blocks"><div class="story-text observe-me">By the fire, Nasreddin al-Hammari tells a 500-year-old story of a woman whose village walls learned her shape—a perfect mirror of Emily&#039;s life. The ancient text validates her pain, proving to her that she belongs to an eternal human pattern and was never truly alone.</div></div></div><div class="panel" id="panel-12"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000153.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 13"><div class="text-blocks"><div class="story-text observe-me">As the rawi speaks, Emily experiences a profound physical vertigo, recognizing her own soul in an ancient tale. Nasreddin teaches her that while the stories remain static, the listeners are transformed, offering her a deep kinship that spans across centuries of desert nights.</div></div></div><div class="panel" id="panel-13"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000274.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 14"><div class="text-blocks"><div class="story-text observe-me">Emily steps into the archival chambers and is instantly staggered by the immense verticality of the stacked knowledge. She cries tears of relief as she recognizes her own smallness compared to the infinite archive, finding the sheer scale of human thought to be breathtakingly beautiful.</div></div></div><div class="panel" id="panel-14"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000229.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15"><div class="text-blocks"><div class="story-text observe-me">Emily spends weeks in deep immersion, studying ancient maps and philosophical texts. Discovering this treasure trove of accumulated human attention becomes a life-changing experience, fundamentally reshaping her understanding of the world and her place within it.</div></div></div><div class="panel" id="panel-15"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000178.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 16"><div class="text-blocks"><div class="story-text observe-me">Leaving the scrolls, Emily steps into the oasis courtyard where the stars press down like a physical weight. She understands that the vastness of the universe, unbothered by her existence, is the only honest response to her quest to become truly visible to herself.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_14.html">&#9664; Emily — Chapter IV: Portcaldia Festival &amp; Affairs</a> <a class="ep-pn-btn" href="ep_16.html">Emily — Chapter VI: The Monastery &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_11.html">Emily — Chapter I: The Village &amp; Departure</a><a class="ep-pill" href="ep_12.html">Emily — Chapter II: The Road &amp; First Lessons</a><a class="ep-pill" href="ep_13.html">Emily — Chapter III: Coast, Dinner &amp; New Lands</a><a class="ep-pill" href="ep_14.html">Emily — Chapter IV: Portcaldia Festival &amp; Affairs</a><a class="ep-pill active" href="ep_15.html" aria-current="page">Emily — Chapter V: The Desert &amp; The Libraries</a><a class="ep-pill" href="ep_16.html">Emily — Chapter VI: The Monastery</a><a class="ep-pill" href="ep_17.html">Emily — Chapter VII: The Return</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
