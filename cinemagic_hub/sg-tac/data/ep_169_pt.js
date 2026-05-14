@@ -44,7 +44,7 @@ const episodeData = {
             "url": "ep_169_pt.html"
         }
     ],
-    "pdf_url": null,
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq169_pt.pdf",
     "frames": [
         {
             "id": 9747,
