@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 14,
-    "name": "Chapter IV: Portcaldia Festival & Affairs",
-    "description": "Amidst competing philosophies and the intoxicating rhythm of a masked coastal festival, the act of truly seeing another soul proves to be the most dangerous uncharted territory of all.",
+    "name": "Capítulo IV: O Festival de Portcaldia & Casos",
+    "description": "Entre filosofias rivais e o ritmo inebriante de um festival costeiro de máscaras, o ato de ver verdadeiramente outra alma revela-se o território inexplorado mais perigoso de todos.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq14_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq14_pt.pdf",
     "frames": [
         {
             "id": 113,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000139.jpg",
             "filename": "frames_starlightguardians_bday/frame0000139.jpg",
             "overlay_texts": [
-                "Standing at the intersection of the Merchant, Sailor, and Scholar districts, Emily has a sudden epiphany. She realizes these differing worldviews are not contradictions, but different instruments used to measure the same world. It is her first synthetic understanding of the city&#039;s complex machinery."
+                "De pé na interseção dos quarteirões do Mercador, do Marinheiro e do Erudito, Emily tem uma epifania súbita. Ela percebe que estas visões do mundo diferentes não são contradições, mas instrumentos distintos usados para medir o mesmo mundo. É o seu primeiro entendimento sintético da complexa maquinaria da cidade."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000225.jpg",
             "filename": "frames_starlightguardians_bday/frame0000225.jpg",
             "overlay_texts": [
-                "Deep in an ancient library carved into the cliff face, Emily examines maps where her home village has been entirely erased or misdrawn. The librarian teaches her a vital lesson: maps that claim to show everything are often the most deceptive. Truth is also found in what is missing."
+                "Nas profundezas de uma antiga biblioteca escavada na face do penhasco, Emily examina mapas onde a sua aldeia natal foi totalmente apagada ou desenhada incorretamente. O bibliotecário ensina-lhe uma lição vital: mapas que afirmam mostrar tudo são muitas vezes os mais enganosos. A verdade também se encontra no que está a faltar."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000096.jpg",
             "filename": "frames_starlightguardians_bday/frame0000096.jpg",
             "overlay_texts": [
-                "In the sunlit cartographer&#039;s workshop, Emily contributes her own precise observations of the mountain roads to a collaborative map. Being treated as a reliable source of data shifts her internal perspective; she is no longer just a wanderer, but an intellectual contributor."
+                "Na iluminada oficina dos cartógrafos, Emily contribui com as suas próprias observações precisas sobre as estradas da montanha para um mapa colaborativo. Ser tratada como uma fonte fiável de dados muda a sua perspetiva interna; ela já não é apenas uma andarilha, mas uma contribuidora intelectual."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000223.jpg",
             "filename": "frames_starlightguardians_bday/frame0000223.jpg",
             "overlay_texts": [
-                "Emily walks confidently through the bustling city streets, transitioning smoothly from the cartographers to the upper-city cafeteria. She absorbs the dense urban life without fear, proving her growing familiarity and ease within Portcaldia&#039;s overwhelming environment."
+                "Emily caminha com confiança pelas ruas movimentadas da cidade, transitando suavemente dos cartógrafos para a cafetaria da cidade alta. Ela absorve a densa vida urbana sem medo, provando a sua crescente familiaridade e conforto dentro do ambiente avassalador de Portcaldia."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000196.jpg",
             "filename": "frames_starlightguardians_bday/frame0000196.jpg",
             "overlay_texts": [
-                "During a heated scholarly debate in an upper-city coffee house, Emily respectfully interjects with her unique, lived insight on Alcaverde’s acequia system. Her practical contribution silences the room, earning her the immediate respect of the intellectuals and validating her journey."
+                "Durante um acalorado debate académico num café da cidade alta, Emily interrompe respeitosamente com a sua perceção única e vivida sobre o sistema de acequias de Alcaverde. A sua contribuição prática silencia a sala, conquistando o respeito imediato dos intelectuais e validando a sua jornada."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000111.jpg",
             "filename": "frames_starlightguardians_bday/frame0000111.jpg",
             "overlay_texts": [
-                "Sitting in the corner of the cafeteria, Emily notices a young cartographer named Theo secretly drawing her. When she confronts him, he doesn&#039;t apologize, but simply turns the page around. The sketch captures a hidden, fierce capability in her face that she had never fully recognized."
+                "Sentada no canto da cafetaria, Emily nota que um jovem cartógrafo chamado Theo a está a desenhar em segredo. Quando ela o confronta, ele não se desculpa, simplesmente vira a folha. O esboço capta uma capacidade oculta e feroz no seu rosto que ela nunca tinha reconhecido plenamente."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000258.jpg",
             "filename": "frames_starlightguardians_bday/frame0000258.jpg",
             "overlay_texts": [
-                "Theo reveals the detailed charcoal sketch, highlighting her ink-stained hands and the sheer intensity of her attention. The act of truly seeing and being seen strips away their defenses, leaving them both suspended in a fragile, profoundly silent intimacy."
+                "Theo revela o esboço detalhado a carvão, destacando as mãos dela manchadas de tinta e a pura intensidade da sua atenção. O ato de ver verdadeiramente e ser vista remove as suas defesas, deixando ambos suspensos numa intimidade frágil e profundamente silenciosa."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000113.jpg",
             "filename": "frames_starlightguardians_bday/frame0000113.jpg",
             "overlay_texts": [
-                "Caught off guard by the sudden vulnerability of their connection, Emily and Theo part ways in a clumsy, hesitant exchange. Fueled by youthful insecurity, both retreat to process the encounter in solitude, wondering what just shifted between them."
+                "Apanhados de surpresa pela súbita vulnerabilidade da sua ligação, Emily e Theo separam-se numa troca de palavras desajeitada e hesitante. Impulsionados por inseguranças da juventude, ambos recuam para processar o encontro em solidão, perguntando-se o que acabou de mudar entre eles."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000240.jpg",
             "filename": "frames_starlightguardians_bday/frame0000240.jpg",
             "overlay_texts": [
-                "Navigating the Thursday market, Emily witnesses a notoriously stubborn mule being coaxed into motion by a wife&#039;s secret, whispered command. The sheer ridiculousness of the moment causes Emily to burst into a suppressed laugh, feeling truly alive and present for the first time in months."
+                "A navegar pelo mercado de quinta-feira, Emily testemunha uma mula notoriamente teimosa a ser persuadida a mover-se por um comando secreto e sussurrado pela mulher do dono. A pura ridicularidade do momento faz Emily desatar num riso reprimido, sentindo-se verdadeiramente viva e presente pela primeira vez em meses."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000193.jpg",
             "filename": "frames_starlightguardians_bday/frame0000193.jpg",
             "overlay_texts": [
-                "Moving through the labyrinthine fabric stalls, Emily realizes she is no longer lost, but actively reading the city&#039;s social currents like a text. She understands that her anonymity here is not a failure, but a form of absolute permission to observe and survive."
+                "Movendo-se através dos labirínticos postos de tecidos, Emily percebe que já não está perdida, mas a ler ativamente as correntes sociais da cidade como se fossem um texto. Ela entende que o seu anonimato aqui não é um fracasso, mas uma forma de permissão absoluta para observar e sobreviver."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000206.jpg",
             "filename": "frames_starlightguardians_bday/frame0000206.jpg",
             "overlay_texts": [
-                "At the Festival of the Reversed Face, Emily dons an indigo geometric mask that completely erases her identity. Paradoxically, losing her face allows her to feel powerfully present. She spots Theo in the crowd by his movements alone, desiring him without the burden of being witnessed."
+                "No Festival do Rosto Invertido, Emily usa uma máscara geométrica índigo que apaga completamente a sua identidade. Paradoxalmente, perder o rosto permite-lhe sentir-se poderosamente presente. Ela descobre Theo na multidão apenas pelos seus movimentos, desejando-o sem o fardo de ser observada."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000254.jpg",
             "filename": "frames_starlightguardians_bday/frame0000254.jpg",
             "overlay_texts": [
-                "Emily and Theo find each other in the chaotic, pulsing festival crowd, communicating entirely through the kinetic language of their dance. The physical closeness serves as an undeniable acknowledgment of their bond, pulling them toward a terrace to finally face the vulnerability of speech."
+                "Emily e Theo encontram-se na multidão caótica e pulsante do festival, comunicando inteiramente através da linguagem cinética da sua dança. A proximidade física serve como um inegável reconhecimento da sua ligação, atraindo-os para um terraço para finalmente enfrentarem a vulnerabilidade da fala."
             ]
         },
         {
@@ -192,7 +192,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000074.jpg",
             "filename": "frames_starlightguardians_bday/frame0000074.jpg",
             "overlay_texts": [
-                "The masked festival transforms Isla Cendral into a playground of deliberate strangers, where bodies speak louder than words. As the music slowly fades, Emily and Theo stand together under the stars, preparing to articulate the truths their movements have already confessed."
+                "O festival de máscaras transforma Isla Cendral num recreio de estranhos intencionais, onde os corpos falam mais alto do que as palavras. À medida que a música se desvanece lentamente, Emily e Theo estão juntos sob as estrelas, preparando-se para articular as verdades que os seus movimentos já confessaram."
             ]
         },
         {
@@ -203,7 +203,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000201.jpg",
             "filename": "frames_starlightguardians_bday/frame0000201.jpg",
             "overlay_texts": [
-                "As the masks finally come off, Emily and Theo face each other in the sudden, sobering clarity of the night air. They grapple with the bittersweet joy of their reunion, heavily shadowed by the painful reality that Emily is leaving Portcaldia on the morning tide."
+                "Quando as máscaras finalmente caem, Emily e Theo encaram-se na claridade súbita e sóbria do ar noturno. Eles lutam com a alegria agridoce do seu reencontro, fortemente ensombrada pela dolorosa realidade de que Emily partirá de Portcaldia na maré da manhã."
             ]
         },
         {
@@ -214,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000277.jpg",
             "filename": "frames_starlightguardians_bday/frame0000277.jpg",
             "overlay_texts": [
-                "Emily confronts Theo with the unyielding truth of her departure. She firmly ties her mother&#039;s red scarf around her wrist, turning her back on an incomplete love to walk toward the harbor at dawn. She chooses the cold, necessary clarity of her quest."
+                "Emily confronta Theo com a verdade inabalável da sua partida. Ela amarra firmemente o lenço vermelho da sua mãe ao pulso, virando as costas a um amor incompleto para caminhar em direção ao porto ao amanhecer. Ela escolhe a clareza fria e necessária da sua missão."
             ]
         },
         {
@@ -225,7 +225,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000255.jpg",
             "filename": "frames_starlightguardians_bday/frame0000255.jpg",
             "overlay_texts": [
-                "On the moonlit terrace, Emily asks Theo a piercing question about the unspoken guilt he carries, which he refuses to answer. His kind but hollow deflection solidifies an emotional distance between them that feels as vast and uncrossable as the dark harbor below."
+                "No terraço banhado pelo luar, Emily faz a Theo uma pergunta penetrante sobre a culpa não dita que ele carrega, a qual ele recusa responder. A sua evasiva gentil, mas oca, solidifica uma distância emocional entre eles que parece tão vasta e intransponível como o porto escuro lá em baixo."
             ]
         },
         {
@@ -236,7 +236,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000256.jpg",
             "filename": "frames_starlightguardians_bday/frame0000256.jpg",
             "overlay_texts": [
-                "Emily and Theo part ways, moving into completely separate landscapes, yet the weight of the other remains a constant, heavy pressure. Their separation is not an absence, but a lingering presence that shapes their individual solitudes like water moving around stone."
+                "Emily e Theo separam-se, movendo-se para paisagens completamente distintas, mas o peso do outro permanece como uma pressão constante e pesada. A sua separação não é uma ausência, mas uma presença prolongada que molda as suas solidões individuais, como a água que flui em redor de uma pedra."
             ]
         }
     ],
@@ -245,5 +245,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };

@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 16,
-    "name": "Chapter VI: The Monastery",
-    "description": "High within a vertical world of cloud and stone, a sanctuary of absolute silence demands a grueling, wordless excavation of the heart.",
+    "name": "Capítulo VI: O Mosteiro",
+    "description": "No alto de um mundo vertical de nuvens e pedra, um santuário de silêncio absoluto exige uma escavação extenuante e sem palavras do próprio coração.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq16_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq16_pt.pdf",
     "frames": [
         {
             "id": 129,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000308.jpg",
             "filename": "frames_starlightguardians_bday/frame0000308.jpg",
             "overlay_texts": [
-                "Following the shepherd Mikel, Emily climbs a terrifyingly narrow mountain ledge where the clouds swallow the world below. She experiences a profound philosophical vertigo, learning that the mountain&#039;s brutal indifference forces a new, razor-sharp clarity of sight."
+                "Seguindo o pastor Mikel, Emily sobe por uma cornija de montanha assustadoramente estreita, onde as nuvens engolem o mundo lá em baixo. Ela experiencia uma profunda vertigem filosófica, aprendendo que a indiferença brutal da montanha força a uma nova clareza de visão, afiada como uma navalha."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000197.jpg",
             "filename": "frames_starlightguardians_bday/frame0000197.jpg",
             "overlay_texts": [
-                "As the mist suddenly peels back, Emily witnesses the staggering, ancient scale of the Mountain Spine. She finds a strange, clean relief in her own insignificance, realizing that a world not organized around her grants her the ultimate freedom to exist."
+                "Quando a névoa repentinamente se dissipa, Emily testemunha a escala antiga e avassaladora da Cordilheira. Ela encontra um alívio estranho e puro na sua própria insignificância, percebendo que um mundo que não se organiza em seu redor lhe concede a suprema liberdade de existir."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000071.jpg",
             "filename": "frames_starlightguardians_bday/frame0000071.jpg",
             "overlay_texts": [
-                "The Mountain Spine rises in successive ridges, a vertical world where stone and cloud blur into one. Here, the landscape is an unmovable, towering fact that requires travelers to become as still and fiercely attentive as the rock itself to survive."
+                "A Cordilheira ergue-se em sucessivos picos, um mundo vertical onde a pedra e a nuvem se fundem num só. Aqui, a paisagem é um facto inamovível e imponente, que exige aos viajantes que se tornem tão quietos e ferozmente atentos quanto a própria rocha para sobreviver."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000198.jpg",
             "filename": "frames_starlightguardians_bday/frame0000198.jpg",
             "overlay_texts": [
-                "Emily reaches the massive, iron-strapped monastery gates at the break of dawn. A silent monk acknowledges her hard-fought arrival, stepping aside as the heavy gate swings inward to reveal a quiet stone courtyard catching the first pale light."
+                "Emily alcança as maciças portas do mosteiro com faixas de ferro ao nascer do dia. Um monge silencioso reconhece a sua chegada, conseguida a muito custo, afastando-se à medida que o portão pesado balança para dentro para revelar um pátio de pedra tranquilo que capta a primeira luz pálida."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000084.jpg",
             "filename": "frames_starlightguardians_bday/frame0000084.jpg",
             "overlay_texts": [
-                "Emily emerges from the stone corridor into the courtyard, the sharp altitude light adjusting to her eyes. Brother Lentio meets her without fanfare, offering a simple cup of cold spring water—a profound gesture of welcome to the Monastery of the Stilled Breath."
+                "Emily emerge do corredor de pedra para o pátio, a luz afiada da altitude a ajustar-se aos seus olhos. O Irmão Lentio vai ao seu encontro sem cerimónias, oferecendo-lhe um simples copo de água fresca da nascente — um profundo gesto de boas-vindas ao Mosteiro do Respiração Serena."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000080.jpg",
             "filename": "frames_starlightguardians_bday/frame0000080.jpg",
             "overlay_texts": [
-                "In the stone alcove of the washroom, Emily scrubs the accumulated dust of the grueling climb from her forearms. Brother Lentio’s silent, non-judgmental presence creates a profound sanctuary where she can finally release the tension she has carried since Alcaverde."
+                "Na alcova de pedra da casa de banho, Emily esfrega dos seus antebraços o pó acumulado da extenuante subida. A presença silenciosa e livre de julgamentos do Irmão Lentio cria um santuário profundo, onde ela pode finalmente libertar a tensão que carrega desde Alcaverde."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000205.jpg",
             "filename": "frames_starlightguardians_bday/frame0000205.jpg",
             "overlay_texts": [
-                "Brother Lentio leads Emily through corridors carved directly into the cliff face, the thick stone absorbing all sound. She learns the rigorous discipline of radical attention, discovering that when the world&#039;s noise stops, her own consciousness becomes a precise instrument of measurement."
+                "O Irmão Lentio conduz Emily por corredores esculpidos diretamente na face do penhasco, a pedra espessa absorvendo todo o som. Ela aprende a disciplina rigorosa da atenção radical, descobrindo que, quando o ruído do mundo para, a sua própria consciência se torna um instrumento preciso de medição."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000082.jpg",
             "filename": "frames_starlightguardians_bday/frame0000082.jpg",
             "overlay_texts": [
-                "Watching Brother Lentio prepare mint tea with absolute, unhurried focus, Emily realizes that true care is the refusal of haste. The silent ritual teaches her that love is found not in grand gestures, but in showing up entirely for the task at hand."
+                "Ao observar o Irmão Lentio a preparar chá de menta com foco absoluto e sem pressa, Emily percebe que o verdadeiro cuidado reside na recusa da pressa. O ritual silencioso ensina-a que o amor se encontra não em grandes gestos, mas em estar totalmente presente na tarefa em mãos."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000309.jpg",
             "filename": "frames_starlightguardians_bday/frame0000309.jpg",
             "overlay_texts": [
-                "Sitting alone in the north gallery, Emily observes the slow migration of dust motes in a single shaft of light. She realizes her rigorous interior audit is not about achieving mystical enlightenment, but a difficult, honest excavation of her own reasons for running."
+                "Sentada sozinha na galeria norte, Emily observa a lenta migração das partículas de pó num único feixe de luz. Ela percebe que o seu rigoroso exame interior não tem a ver com alcançar a iluminação mística, mas sim com uma escavação difícil e honesta das suas próprias razões para fugir."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000130.jpg",
             "filename": "frames_starlightguardians_bday/frame0000130.jpg",
             "overlay_texts": [
-                "Emily spots Theo climbing the steep mountain path, moving with the economy of a seasoned traveler. Their reunion in the courtyard is not born of desperate need, but the meeting of two whole people who have finally done the work to recognize each other&#039;s growth."
+                "Emily avista Theo a subir o caminho íngreme da montanha, movendo-se com a economia de um viajante experiente. O seu reencontro no pátio não nasce de uma necessidade desesperada, mas é o encontro de duas pessoas inteiras que finalmente fizeram o trabalho para reconhecer o crescimento uma da outra."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000106.jpg",
             "filename": "frames_starlightguardians_bday/frame0000106.jpg",
             "overlay_texts": [
-                "Standing at the ancient gate, Theo opens his satchel and reveals the careful drawings he made of Emily during their long separation. His unnamed guilt finally resolved, they exchange their most precious tokens, solidifying their path forward as a shared, honest journey."
+                "De pé junto ao antigo portão, Theo abre o seu alforge e revela os cuidadosos desenhos que fez de Emily durante a sua longa separação. Com a sua culpa não dita finalmente resolvida, eles trocam os seus símbolos mais preciosos, cimentando o seu caminho em frente como uma jornada partilhada e honesta."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000251.jpg",
             "filename": "frames_starlightguardians_bday/frame0000251.jpg",
             "overlay_texts": [
-                "In the fading dusk light of the courtyard, Emily drapes the red scarf over Theo&#039;s wrist and places the broken brass compass in his palm. This wordless ceremony marks the moment they consciously choose to be bound by truth rather than expectation."
+                "Na luz minguante do anoitecer no pátio, Emily pousa o lenço vermelho no pulso de Theo e coloca a bússola de latão partida na palma da mão dele. Esta cerimónia sem palavras marca o momento em que escolhem conscientemente unir-se pela verdade em vez da expetativa."
             ]
         }
     ],
@@ -190,5 +190,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };

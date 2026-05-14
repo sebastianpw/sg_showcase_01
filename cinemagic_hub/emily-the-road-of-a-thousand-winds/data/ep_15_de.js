@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 15,
-    "name": "Chapter V: The Desert & The Libraries",
-    "description": "In the merciless, magnificent void of the deep sands, the universe strips away the noise to reveal ancient, echoing truths hidden beneath a canopy of a million stars.",
+    "name": "Kapitel V: Die Wüste & die Bibliotheken",
+    "description": "In der unbarmherzigen, majestätischen Leere des tiefen Sandes streift das Universum allen Lärm ab, um uralte Wahrheiten zu enthüllen, die unter einem Baldachin aus Millionen von Sternen widerhallen.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Kapitel I: Das Dorf & der Aufbruch",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_de.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Kapitel II: Die Straße & die ersten Lektionen",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_de.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Kapitel III: Küste, Abendessen & neues Land",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_de.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Kapitel IV: Das Portcaldia-Fest & Begegnungen",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_de.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Kapitel V: Die Wüste & die Bibliotheken",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_de.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Kapitel VI: Das Kloster",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_de.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Kapitel VII: Die Rückkehr",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_de.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq15_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq15_de.pdf",
     "frames": [
         {
             "id": 72,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000098.jpg",
             "filename": "frames_starlightguardians_bday/frame0000098.jpg",
             "overlay_texts": [
-                "Emily joins a massive trade caravan from Portcaldia, stepping into the bleached, merciless void of the Red Plateau. Enduring brutal noon heat and freezing nights, she meets Hafsa, who begins to train her in the rigorous art of desert sensory perception."
+                "Emily schließt sich einer massiven Handelskarawane aus Portcaldia an und tritt in die gebleichte, unbarmherzige Leere des Roten Plateaus ein. Während sie brutale Mittagshitze und eiskalte Nächte erträgt, lernt sie Hafsa kennen, die beginnt, sie in der rigorosen Kunst der Wüstenwahrnehmung zu unterrichten."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000087.jpg",
             "filename": "frames_starlightguardians_bday/frame0000087.jpg",
             "overlay_texts": [
-                "The caravan master nods Emily toward the supply tent, where Hafsa stands facing the open desert. Without turning, the wind-reader accepts her new apprentice, beginning the harsh, silent integration that will teach Emily to survive the crossing."
+                "Der Karawanenmeister nickt Emily in Richtung des Versorgungszeltes zu, wo Hafsa mit dem Gesicht zur offenen Wüste steht. Ohne sich umzudrehen, akzeptiert die Windleserin ihren neuen Lehrling und beginnt mit der harten, stillen Integration, die Emily lehren wird, die Durchquerung zu überleben."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000272.jpg",
             "filename": "frames_starlightguardians_bday/frame0000272.jpg",
             "overlay_texts": [
-                "Standing on a high dune, Emily feels a subtle, sudden shift in the air pressure before the rest of the caravan notices. Hafsa recognizes her student&#039;s extraordinary potential and elevates Emily to walk by her side, marking the beginning of her environmental mastery."
+                "Auf einer hohen Düne stehend, spürt Emily eine subtile, plötzliche Veränderung des Luftdrucks, noch bevor der Rest der Karawane etwas bemerkt. Hafsa erkennt das außergewöhnliche Potenzial ihrer Schülerin, erhebt Emily an ihre Seite und markiert so den Beginn ihrer Meisterschaft über die Umgebung."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000280.jpg",
             "filename": "frames_starlightguardians_bday/frame0000280.jpg",
             "overlay_texts": [
-                "Hafsa senses an approaching, violent storm simply by reading the microscopic tremors of the sand. When the rain arrives exactly from the predicted direction, Emily realizes that true mastery means inhabiting the world so completely that the body becomes its primary instrument."
+                "Hafsa spürt einen nahenden, gewaltigen Sturm, indem sie einfach die mikroskopischen Erschütterungen des Sandes liest. Als der Regen exakt aus der vorhergesagten Richtung einsetzt, erkennt Emily, dass wahre Meisterschaft bedeutet, die Welt so vollständig zu bewohnen, dass der Körper zu ihrem primären Instrument wird."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000190.jpg",
             "filename": "frames_starlightguardians_bday/frame0000190.jpg",
             "overlay_texts": [
-                "The caravan stumbles upon a camp utterly destroyed by the storm&#039;s flash flood. Emily observes the ruined carts and scattered grain with a heavy heart, realizing the desert moves on with a cold, terrifying indifference to human intention."
+                "Die Karawane stößt auf ein Lager, das von der Sturzflut des Unwetters völlig zerstört wurde. Mit schwerem Herzen betrachtet Emily die zerstörten Karren und das verstreute Getreide und begreift, dass die Wüste mit kalter, furchterregender Gleichgültigkeit gegenüber menschlichen Absichten weiterzieht."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000165.jpg",
             "filename": "frames_starlightguardians_bday/frame0000165.jpg",
             "overlay_texts": [
-                "Amidst the wreckage of the lost camp, Emily silently begins gathering heavy stones to build a cairn for the victims. She learns the harsh law of the desert: grief cannot be an indulgence; it must be met with immediate, unsentimental, physical action."
+                "Inmitten der Trümmer des verlorenen Lagers beginnt Emily still, schwere Steine zu sammeln, um einen Steinhaufen für die Opfer zu errichten. Sie lernt das harte Gesetz der Wüste: Trauer darf kein Luxus sein; sie muss mit sofortiger, unsentimentaler, körperlicher Tatkraft beantwortet werden."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000227.jpg",
             "filename": "frames_starlightguardians_bday/frame0000227.jpg",
             "overlay_texts": [
-                "In the obliterating, wavering heat of desert noon, Emily discovers a survivor named Rashid. She unhesitatingly shares her own limited water supply, realizing that the landscape&#039;s total indifference acts as a silent permission for her to forge her own unyielding ethics."
+                "In der vernichtenden, flirrenden Hitze der Wüstenmittagssonne entdeckt Emily einen Überlebenden namens Rashid. Ohne zu zögern teilt sie ihren eigenen knappen Wasservorrat und erkennt, dass die absolute Gleichgültigkeit der Landschaft wie eine stumme Erlaubnis für sie wirkt, ihre ganz eigene, unbeugsame Ethik zu schmieden."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000136.jpg",
             "filename": "frames_starlightguardians_bday/frame0000136.jpg",
             "overlay_texts": [
-                "The caravan halts on the vast salt flats, a blinding white mineral plain where the stars appear with shocking density. Lying on the crust, Emily realizes the universe&#039;s indifference is not a threat, but a gift that reframes her smallness as a precise, beautiful truth."
+                "Die Karawane macht Halt auf den riesigen Salzebenen, einer blendend weißen Mineralebene, in der die Sterne mit schockierender Dichte erscheinen. Auf der Kruste liegend, erkennt Emily, dass die Gleichgültigkeit des Universums keine Bedrohung ist, sondern ein Geschenk, das ihre eigene Bedeutungslosigkeit als präzise, wunderschöne Wahrheit neu auslegt."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000231.jpg",
             "filename": "frames_starlightguardians_bday/frame0000231.jpg",
             "overlay_texts": [
-                "Suspended between the crystalline salt bed and the overwhelming density of the Milky Way, Emily can almost feel the earth&#039;s rotation. She realizes her presence is entirely optional to the cosmos, finding a profound, generous freedom in simply being unimportant."
+                "Schwebend zwischen dem kristallinen Salzbett und der überwältigenden Dichte der Milchstraße, kann Emily beinahe die Erdrotation spüren. Sie erkennt, dass ihre bloße Anwesenheit für den Kosmos völlig optional ist, und findet eine tiefe, großzügige Freiheit in dem einfachen Zustand, unbedeutend zu sein."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000134.jpg",
             "filename": "frames_starlightguardians_bday/frame0000134.jpg",
             "overlay_texts": [
-                "The caravan finally reaches the shocking green rupture of the Ain Suleima oasis. Emily bids a respectful, final farewell to Hafsa and the caravan masters. She chooses to stay at the great library, transitioning her journey from the physical desert to the landscape of the mind."
+                "Die Karawane erreicht schließlich den schockierenden grünen Bruch der Oase Ain Suleima. Emily verabschiedet sich respektvoll ein letztes Mal von Hafsa und den Karawanenmeistern. Sie entscheidet sich, in der großen Bibliothek zu bleiben, und verlagert ihre Reise von der physischen Wüste in die Landschaft des Geistes."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000091.jpg",
             "filename": "frames_starlightguardians_bday/frame0000091.jpg",
             "overlay_texts": [
-                "Emily explores the infinite, vaulted corridors of the Library of Knowing, the air rich with the scent of aged paper. She weeps as she realizes her specific, painful life is just one single note in a grander music that has been playing throughout all of human time."
+                "Emily erkundet die endlosen, gewölbten Korridore der Bibliothek des Wissens, die Luft ist geschwängert vom Duft gealterten Papiers. Sie weint, als ihr klar wird, dass ihr spezifisches, schmerzhaftes Leben nur eine einzige Note in einer gewaltigeren Melodie ist, die schon die gesamte Menschheitsgeschichte hindurch spielt."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000088.jpg",
             "filename": "frames_starlightguardians_bday/frame0000088.jpg",
             "overlay_texts": [
-                "By the fire, Nasreddin al-Hammari tells a 500-year-old story of a woman whose village walls learned her shape—a perfect mirror of Emily&#039;s life. The ancient text validates her pain, proving to her that she belongs to an eternal human pattern and was never truly alone."
+                "Am Feuer erzählt Nasreddin al-Hammari eine 500 Jahre alte Geschichte über eine Frau, deren Dorfmauern ihre Form annahmen – ein perfekter Spiegel von Emilys Leben. Der alte Text validiert ihren Schmerz und beweist ihr, dass sie Teil eines ewigen menschlichen Musters ist und niemals wirklich allein war."
             ]
         },
         {
@@ -192,7 +192,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000153.jpg",
             "filename": "frames_starlightguardians_bday/frame0000153.jpg",
             "overlay_texts": [
-                "As the rawi speaks, Emily experiences a profound physical vertigo, recognizing her own soul in an ancient tale. Nasreddin teaches her that while the stories remain static, the listeners are transformed, offering her a deep kinship that spans across centuries of desert nights."
+                "Während der Rawi spricht, erlebt Emily einen tiefen physischen Schwindel und erkennt ihre eigene Seele in einer uralten Geschichte wieder. Nasreddin lehrt sie, dass zwar die Geschichten statisch bleiben, die Zuhörer jedoch transformiert werden, was ihr eine tiefe Verbundenheit schenkt, die Jahrhunderte von Wüstennächten überspannt."
             ]
         },
         {
@@ -203,7 +203,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000274.jpg",
             "filename": "frames_starlightguardians_bday/frame0000274.jpg",
             "overlay_texts": [
-                "Emily steps into the archival chambers and is instantly staggered by the immense verticality of the stacked knowledge. She cries tears of relief as she recognizes her own smallness compared to the infinite archive, finding the sheer scale of human thought to be breathtakingly beautiful."
+                "Emily tritt in die Archivgewölbe und ist sofort überwältigt von der immensen Vertikalität des gestapelten Wissens. Sie weint Tränen der Erleichterung, als sie ihre eigene Kleinheit im Vergleich zum unendlichen Archiv erkennt und die schiere Größe menschlichen Denkens als atemberaubend schön empfindet."
             ]
         },
         {
@@ -214,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000229.jpg",
             "filename": "frames_starlightguardians_bday/frame0000229.jpg",
             "overlay_texts": [
-                "Emily spends weeks in deep immersion, studying ancient maps and philosophical texts. Discovering this treasure trove of accumulated human attention becomes a life-changing experience, fundamentally reshaping her understanding of the world and her place within it."
+                "Emily verbringt Wochen in tiefer Versenkung, studiert alte Karten und philosophische Texte. Die Entdeckung dieser Schatztruhe angesammelter menschlicher Aufmerksamkeit wird zu einer lebensverändernden Erfahrung, die ihr Verständnis der Welt und ihres Platzes darin grundlegend neu formt."
             ]
         },
         {
@@ -225,7 +225,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000178.jpg",
             "filename": "frames_starlightguardians_bday/frame0000178.jpg",
             "overlay_texts": [
-                "Leaving the scrolls, Emily steps into the oasis courtyard where the stars press down like a physical weight. She understands that the vastness of the universe, unbothered by her existence, is the only honest response to her quest to become truly visible to herself."
+                "Als Emily die Schriftrollen hinter sich lässt und in den Innenhof der Oase tritt, lasten die Sterne wie ein physisches Gewicht auf ihr. Sie begreift, dass die Unermesslichkeit des Universums, das sich von ihrer Existenz nicht stören lässt, die einzige ehrliche Antwort auf ihre Suche nach wirklicher Sichtbarkeit ihrer selbst ist."
             ]
         }
     ],
@@ -234,5 +234,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "de"
 };

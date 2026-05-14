@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 13,
-    "name": "Chapter III: Coast, Dinner & New Lands",
-    "description": "Thrown into the overwhelming sensory collision of a towering harbor city, a stranger discovers the unexpected, healing grace of being truly welcomed.",
+    "name": "Capítulo III: Costa, Jantar & Novas Terras",
+    "description": "Lançada na avassaladora colisão sensorial de uma imponente cidade portuária, uma forasteira descobre a inesperada e curativa graça de ser verdadeiramente acolhida.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq13_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq13_pt.pdf",
     "frames": [
         {
             "id": 68,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000094.jpg",
             "filename": "frames_starlightguardians_bday/frame0000094.jpg",
             "overlay_texts": [
-                "Emily rounds the final coastal ridge and Portcaldia descends before her—a massive, layered city of stone, sea, and chaos. She experiences a profound realization: in this crowded, ancient place, her absolute insignificance is a beautiful form of permission to start anew."
+                "Emily contorna o cume costeiro final e Portcaldia desce perante ela — uma enorme e estratificada cidade de pedra, mar e caos. Ela tem uma constatação profunda: neste lugar antigo e lotado, a sua absoluta insignificância é uma bela forma de permissão para recomeçar."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000120.jpg",
             "filename": "frames_starlightguardians_bday/frame0000120.jpg",
             "overlay_texts": [
-                "The chaotic architecture and crushing crowds of the lower city hit Emily like a physical blow. The sensory onslaught teaches her immediately that the city&#039;s honest, bustling indifference is the exact opposite of the suffocating, watchful eyes of her home village."
+                "A arquitetura caótica e as multidões esmagadoras da cidade baixa atingem Emily como um golpe físico. O ataque sensorial ensina-a imediatamente que a indiferença honesta e agitada da cidade é o oposto exato dos olhares sufocantes e vigilantes da sua aldeia natal."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000310.jpg",
             "filename": "frames_starlightguardians_bday/frame0000310.jpg",
             "overlay_texts": [
-                "Gazing out past the harbor, she takes in the Archipelago scattered across the Middle Sea. It is a world where navigation is a confident negotiation with the deep blue water, and where the volcanic islands rise like dark, ancient teeth against a horizon that refuses to end."
+                "Olhando além do porto, ela absorve o Arquipélago espalhado pelo Mar Médio. É um mundo onde a navegação é uma negociação confiante com a água azul profunda, e onde as ilhas vulcânicas se erguem como dentes escuros e antigos contra um horizonte que se recusa a acabar."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000222.jpg",
             "filename": "frames_starlightguardians_bday/frame0000222.jpg",
             "overlay_texts": [
-                "Emily steps onto the dockside stones into a thick, breathable atmosphere of pitched rope, rotting kelp, and exotic spice. Walking unremarked among thousands of laborers and merchants, she discovers that being invisible in a crowd feels unexpectedly like pure freedom."
+                "Emily pisa as pedras do cais numa atmosfera espessa e respirável de cordas alcatroadas, algas a apodrecer e especiarias exóticas. Caminhando despercebida entre milhares de trabalhadores e comerciantes, ela descobre que ser invisível na multidão se sente, inesperadamente, como pura liberdade."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000268.jpg",
             "filename": "frames_starlightguardians_bday/frame0000268.jpg",
             "overlay_texts": [
-                "Standing at the stone breakwater, Emily practices her powers of observation, deconstructing the harbor&#039;s chaos into specific layers. She separates the crash of waves from the creak of wood and the shouts of sailors, learning to read the overwhelming environment with her entire body."
+                "De pé no quebra-mar de pedra, Emily pratica as suas capacidades de observação, desconstruindo o caos do porto em camadas específicas. Ela separa o choque das ondas do ranger da madeira e dos gritos dos marinheiros, aprendendo a ler o ambiente avassalador com todo o seu corpo."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000270.jpg",
             "filename": "frames_starlightguardians_bday/frame0000270.jpg",
             "overlay_texts": [
-                "Finding a quiet corner inside a salt-stained warehouse, Emily practices the discipline of sustained attention. Her jaw tightens with concentration as she learns to perceive the hidden, comprehensible order beneath the harbor&#039;s roaring, overlapping noise."
+                "Encontrando um canto sossegado dentro de um armazém manchado de sal, Emily pratica a disciplina da atenção contínua. O seu maxilar aperta-se de concentração à medida que ela aprende a aperceber-se da ordem oculta e compreensível debaixo do barulho ensurdecedor e sobreposto do porto."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000137.jpg",
             "filename": "frames_starlightguardians_bday/frame0000137.jpg",
             "overlay_texts": [
-                "Refusing to be intimidated by the urban maze, Emily makes a definitive, conscious choice to move deeper into Portcaldia. She walks with a new certainty, choosing to embrace the city&#039;s uncertainty rather than retreat to the safety of the known."
+                "Recusando ser intimidada pelo labirinto urbano, Emily faz uma escolha definitiva e consciente de entrar mais fundo em Portcaldia. Ela caminha com uma nova certeza, optando por abraçar a incerteza da cidade em vez de recuar para a segurança do conhecido."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000159.jpg",
             "filename": "frames_starlightguardians_bday/frame0000159.jpg",
             "overlay_texts": [
-                "In the bustling fish market, Emily crosses paths with an older woman whose forearms are thick with muscle from years of labor. Recognizing the weary look of a new traveler, the woman offers Emily a nod of solidarity and a crucial introduction to the local dockside community."
+                "No movimentado mercado de peixe, Emily cruza-se com uma mulher mais velha cujos antebraços são espessos de músculos de anos de trabalho. Reconhecendo o olhar cansado de uma nova viajante, a mulher oferece a Emily um aceno de solidariedade e uma introdução crucial à comunidade local do cais."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000163.jpg",
             "filename": "frames_starlightguardians_bday/frame0000163.jpg",
             "overlay_texts": [
-                "Guided by her new ally, Emily is given temporary refuge in a weathered stone warehouse. Surrounded by the quiet scent of dried herbs and old timber, she is granted a rare moment of reflection and a safe harbor to finally catch her breath."
+                "Guiada pela sua nova aliada, é dada a Emily refúgio temporário num armazém de pedra desgastado. Rodeada pelo cheiro suave de ervas secas e madeira velha, é-lhe concedido um momento raro de reflexão e um porto seguro para finalmente recuperar o fôlego."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000283.jpg",
             "filename": "frames_starlightguardians_bday/frame0000283.jpg",
             "overlay_texts": [
-                "Following her time at the warehouse, Emily is warmly greeted at a village gate by Senyora Ferrer, the family matriarch. She is invited into a wide, whitewashed courtyard filled with the overwhelming, chaotic warmth of a loud, multi-generational family."
+                "Após o seu tempo no armazém, Emily é calorosamente recebida no portão da vila pela Senhora Ferrer, a matriarca da família. Ela é convidada a entrar num pátio amplo e caiado, cheio do calor caótico e avassalador de uma família barulhenta e multigeracional."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000284.jpg",
             "filename": "frames_starlightguardians_bday/frame0000284.jpg",
             "overlay_texts": [
-                "Emily immediately pitches in, assisting in the communal ritual of setting a massive, improvised outdoor table. Guided by a smiling small girl, Emily begins to seamlessly find her place within the family&#039;s complex, beautiful social choreography."
+                "Emily junta-se imediatamente à ação, ajudando no ritual comunitário de preparar uma enorme mesa improvisada ao ar livre. Guiada por uma rapariga sorridente, Emily começa a encontrar o seu lugar sem esforço dentro da coreografia social bela e complexa da família."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000285.jpg",
             "filename": "frames_starlightguardians_bday/frame0000285.jpg",
             "overlay_texts": [
-                "Two strong sons carry the family’s ancient clay pot, the olla ferrerana, to the center of the table. The grandmother ceremoniously ladles the first steaming bowl of stew for Emily, a profound gesture of hospitality that formally welcomes her into their circle."
+                "Dois filhos fortes carregam a antiga panela de barro da família, a olla ferrerana, para o centro da mesa. A avó serve cerimoniosamente a primeira tigela fumegante de estufado para Emily, um gesto profundo de hospitalidade que a acolhe formalmente no seu círculo."
             ]
         },
         {
@@ -192,7 +192,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000286.jpg",
             "filename": "frames_starlightguardians_bday/frame0000286.jpg",
             "overlay_texts": [
-                "Emily is initiated into the local ritual of tearing the thick-crusted pa de pages and dipping it into vibrant, family-grown olive oil. The simple act provides an intense sensory connection to the land, grounding her in the deep traditions of the coast."
+                "Emily é iniciada no ritual local de rasgar o pa de pages de crosta grossa e mergulhá-lo no vibrante azeite cultivado pela família. O simples ato proporciona uma ligação sensorial intensa à terra, enraizando-a nas tradições profundas da costa."
             ]
         },
         {
@@ -203,7 +203,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000287.jpg",
             "filename": "frames_starlightguardians_bday/frame0000287.jpg",
             "overlay_texts": [
-                "The father stands to lead a boisterous toast, pouring a dark, tannic local wine that tastes of iron-clay soil. Emily raises her ceramic cup with the others, swept up in a joyous wave of inclusion that ripples down the length of the long table."
+                "O pai levanta-se para liderar um brinde ruidoso, servindo um vinho local escuro e tânico que sabe ao solo argiloso e férreo. Emily ergue o seu copo de cerâmica com os outros, envolvida numa onda de inclusão alegre que se espalha ao longo da comprida mesa."
             ]
         },
         {
@@ -214,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000288.jpg",
             "filename": "frames_starlightguardians_bday/frame0000288.jpg",
             "overlay_texts": [
-                "Emily tastes the escalivada—smoky roasted vegetables charred directly in the hearth embers. As the sweet, complex flavors hit her palate, she recognizes the region&#039;s history distilled into a single dish, feeling the silent, proud observation of her generous hosts."
+                "Emily prova a escalivada — vegetais com sabor a fumo, tostados diretamente nas brasas da lareira. À medida que os sabores doces e complexos atingem o seu paladar, ela reconhece a história da região destilada num único prato, sentindo a observação orgulhosa e silenciosa dos seus generosos anfitriões."
             ]
         },
         {
@@ -225,7 +225,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000289.jpg",
             "filename": "frames_starlightguardians_bday/frame0000289.jpg",
             "overlay_texts": [
-                "Moving to the children&#039;s end of the table, Emily listens to the oral history of the ancestral cooking pot. A five-year-old leans against her shoulder in a display of effortless, unearned trust, filling Emily with a profound, quiet warmth."
+                "Deslocando-se para o extremo da mesa onde estão as crianças, Emily ouve a história oral da panela ancestral. Um rapaz de cinco anos encosta-se ao seu ombro numa demonstração de confiança fácil e imerecida, enchendo Emily de um calor silencioso e profundo."
             ]
         },
         {
@@ -236,7 +236,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000290.jpg",
             "filename": "frames_starlightguardians_bday/frame0000290.jpg",
             "overlay_texts": [
-                "The father carves a garlic-rubbed grilled lamb using a bone-handled knife passed down through generations. Mid-argument over an ancient fence dispute, he hands the very first cut to Emily—a subtle, undeniable sign of ultimate respect for the traveler."
+                "O pai corta um cordeiro grelhado esfregado em alho, usando uma faca com cabo de osso passada de geração em geração. No meio de uma discussão sobre uma antiga disputa de cercas, ele entrega o primeiro pedaço a Emily — um sinal subtil e inegável do máximo respeito pela viajante."
             ]
         },
         {
@@ -247,7 +247,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000291.jpg",
             "filename": "frames_starlightguardians_bday/frame0000291.jpg",
             "overlay_texts": [
-                "As the wine flows, the grandmother tells a hushed story of a stranger who was fed during a bitter drought before she could ever give back. Emily listens intently, realizing with sudden clarity that she is currently the stranger being sustained by this community&#039;s grace."
+                "Enquanto o vinho flui, a avó conta em tom baixo a história de um estranho que foi alimentado durante uma seca rigorosa antes de poder retribuir. Emily ouve atentamente, apercebendo-se com clareza súbita de que ela é atualmente a estranha a ser sustentada pela graça daquela comunidade."
             ]
         },
         {
@@ -258,7 +258,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000292.jpg",
             "filename": "frames_starlightguardians_bday/frame0000292.jpg",
             "overlay_texts": [
-                "The heavy feast concludes with mel i mato—simple fresh white cheese drizzled with golden honey. The floral, sweet reset produces a reverent silence across the table, providing a moment of cool, delicious surrender to end the night."
+                "O banquete pesado conclui com mel i mato — um queijo branco simples e fresco regado com mel dourado. A sobremesa floral e doce produz um silêncio reverente à mesa, proporcionando um momento de rendição fresca e deliciosa para terminar a noite."
             ]
         },
         {
@@ -269,7 +269,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000293.jpg",
             "filename": "frames_starlightguardians_bday/frame0000293.jpg",
             "overlay_texts": [
-                "As the meal lingers deep into the blue night, Emily sits quietly with a cup of lemon verbena. She witnesses a thriving family ecosystem in perfect balance, one that offers her a seat at the table and asks absolutely nothing in return."
+                "À medida que a refeição se prolonga pela noite azul adentro, Emily senta-se tranquilamente com uma chávena de lúcia-lima. Ela testemunha um ecossistema familiar próspero em perfeito equilíbrio, um que lhe oferece um lugar à mesa e não pede absolutamente nada em troca."
             ]
         },
         {
@@ -280,7 +280,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000304.jpg",
             "filename": "frames_starlightguardians_bday/frame0000304.jpg",
             "overlay_texts": [
-                "The table cleared, a flour-dusted daughter-in-law of the house offers Emily a room and fresh water for the night. The offer is delivered as a practical, unceremonious statement of care, gifting Emily with a rare, desperately needed sanctuary."
+                "Com a mesa limpa, uma nora da casa, suja de farinha, oferece a Emily um quarto e água fresca para a noite. A oferta é feita como uma declaração de cuidado prática e sem cerimónias, presenteando Emily com um santuário raro e desesperadamente necessário."
             ]
         },
         {
@@ -291,7 +291,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000305.jpg",
             "filename": "frames_starlightguardians_bday/frame0000305.jpg",
             "overlay_texts": [
-                "Standing in the small, whitewashed guest room, Emily washes the day&#039;s dust from her face with water from a ceramic pitcher. She absorbs the unique, comforting silence of a sleeping house, a domestic warmth she hasn&#039;t felt since leaving Alcaverde."
+                "De pé no pequeno quarto de hóspedes caiado de branco, Emily lava o pó do dia do seu rosto com água de um jarro de cerâmica. Ela absorve o silêncio único e reconfortante de uma casa a dormir, um calor doméstico que não sentia desde que deixara Alcaverde."
             ]
         },
         {
@@ -302,7 +302,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000306.jpg",
             "filename": "frames_starlightguardians_bday/frame0000306.jpg",
             "overlay_texts": [
-                "Emily climbs into a proper, narrow bed, pulling the rust-colored blanket to her chest. She lets her hair loose against the pillow, setting down her heavy physical and emotional burdens for one night of complete, temporary safety and restful sleep."
+                "Emily deita-se numa cama a sério, embora estreita, puxando a manta cor de ferrugem até ao peito. Solta o cabelo no travesseiro, largando os seus fardos físicos e emocionais pesados para uma noite de completa segurança temporária e sono repousante."
             ]
         }
     ],
@@ -311,5 +311,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };

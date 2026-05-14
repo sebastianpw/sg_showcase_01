@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 17,
-    "name": "Chapter VII: The Return",
-    "description": "Having proven she can carry the vastness of the world within her, a traveler discovers that the ultimate act of freedom is the conscious choice to come home.",
+    "name": "Kapitel VII: Die Rückkehr",
+    "description": "Nachdem sie bewiesen hat, dass sie die Weite der Welt in sich tragen kann, entdeckt eine Reisende, dass der ultimative Akt der Freiheit in der bewussten Entscheidung liegt, nach Hause zurückzukehren.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Kapitel I: Das Dorf & der Aufbruch",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_de.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Kapitel II: Die Straße & die ersten Lektionen",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_de.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Kapitel III: Küste, Abendessen & neues Land",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_de.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Kapitel IV: Das Portcaldia-Fest & Begegnungen",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_de.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Kapitel V: Die Wüste & die Bibliotheken",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_de.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Kapitel VI: Das Kloster",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_de.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Kapitel VII: Die Rückkehr",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_de.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq17_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq17_de.pdf",
     "frames": [
         {
             "id": 125,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000151.jpg",
             "filename": "frames_starlightguardians_bday/frame0000151.jpg",
             "overlay_texts": [
-                "Emily crests the ridge above Alcaverde in the late afternoon, the whitewashed houses glowing like old bone. She returns with a profound new sense of presence, realizing that coming home by choice is the ultimate act of freedom."
+                "Am späten Nachmittag überquert Emily den Kamm oberhalb von Alcaverde, die weiß getünchten Häuser leuchten wie alte Knochen. Sie kehrt mit einem tiefen neuen Gefühl von Präsenz zurück und erkennt, dass die bewusste Entscheidung, nach Hause zu kommen, der ultimative Akt der Freiheit ist."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000107.jpg",
             "filename": "frames_starlightguardians_bday/frame0000107.jpg",
             "overlay_texts": [
-                "Reconnecting with her father in the quiet workshop, Emily sees his silent, methodical labor as a deep form of love she previously lacked the language to understand. She realizes that one can carry the vastness of the world while still belonging entirely to a single hill."
+                "Als sie in der ruhigen Werkstatt wieder zu ihrem Vater findet, sieht Emily seine stille, methodische Arbeit als eine tiefe Form der Liebe, für die ihr zuvor die Sprache fehlte. Ihr wird klar, dass man die Weite der Welt in sich tragen kann, während man dennoch ganz zu einem einzigen Hügel gehört."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000261.jpg",
             "filename": "frames_starlightguardians_bday/frame0000261.jpg",
             "overlay_texts": [
-                "Sitting at the familiar family table, bathed in the specific ochre light of the Caldera, Emily writes with the confident hand of a navigator. She has become the chronicler of her own life, proving that a broken compass can still point a traveler toward their true destination."
+                "Am vertrauten Familientisch sitzend, gebadet im spezifischen ockerfarbenen Licht der Caldera, schreibt Emily mit der sicheren Hand eines Navigators. Sie ist zur Chronistin ihres eigenen Lebens geworden und beweist, dass auch ein kaputter Kompass einem Reisenden noch immer den Weg zu seinem wahren Ziel weisen kann."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000145.jpg",
             "filename": "frames_starlightguardians_bday/frame0000145.jpg",
             "overlay_texts": [
-                "Back in the quiet safety of her childhood room, Emily lays out the small treasures gathered during her fourteen-month journey. Each artifact represents a threshold crossed and a vast piece of the world she now permanently carries within her soul."
+                "Zurück in der ruhigen Sicherheit ihres Kinderzimmers, breitet Emily die kleinen Schätze aus, die sie auf ihrer langen Reise gesammelt hat. Jedes Artefakt repräsentiert eine überschrittene Schwelle und ein riesiges Stück der Welt, das sie nun für immer in ihrer Seele trägt."
             ]
         }
     ],
@@ -102,5 +102,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "de"
 };

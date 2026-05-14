@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 17,
-    "name": "Chapter VII: The Return",
-    "description": "Having proven she can carry the vastness of the world within her, a traveler discovers that the ultimate act of freedom is the conscious choice to come home.",
+    "name": "Capítulo VII: O Regresso",
+    "description": "Tendo provado que consegue carregar a vastidão do mundo dentro de si, uma viajante descobre que o derradeiro ato de liberdade é a escolha consciente de voltar a casa.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq17_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq17_pt.pdf",
     "frames": [
         {
             "id": 125,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000151.jpg",
             "filename": "frames_starlightguardians_bday/frame0000151.jpg",
             "overlay_texts": [
-                "Emily crests the ridge above Alcaverde in the late afternoon, the whitewashed houses glowing like old bone. She returns with a profound new sense of presence, realizing that coming home by choice is the ultimate act of freedom."
+                "Emily chega ao topo da crista acima de Alcaverde a meio da tarde, as casas caiadas brilhando como velhos ossos. Ela regressa com um profundo e novo sentido de presença, apercebendo-se de que voltar a casa por escolha própria é o derradeiro ato de liberdade."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000107.jpg",
             "filename": "frames_starlightguardians_bday/frame0000107.jpg",
             "overlay_texts": [
-                "Reconnecting with her father in the quiet workshop, Emily sees his silent, methodical labor as a deep form of love she previously lacked the language to understand. She realizes that one can carry the vastness of the world while still belonging entirely to a single hill."
+                "Reconectando-se com o pai na oficina silenciosa, Emily vê o trabalho metódico e silencioso dele como uma forma profunda de amor para a qual antes não tinha linguagem. Ela percebe que se pode carregar a vastidão do mundo mantendo, ao mesmo tempo, a pertença total a uma única colina."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000261.jpg",
             "filename": "frames_starlightguardians_bday/frame0000261.jpg",
             "overlay_texts": [
-                "Sitting at the familiar family table, bathed in the specific ochre light of the Caldera, Emily writes with the confident hand of a navigator. She has become the chronicler of her own life, proving that a broken compass can still point a traveler toward their true destination."
+                "Sentada à familiar mesa de família, banhada na luz ocre específica da Caldeira, Emily escreve com a mão firme de uma navegadora. Ela tornou-se na cronista da sua própria vida, provando que uma bússola partida ainda pode guiar uma viajante em direção ao seu verdadeiro destino."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000145.jpg",
             "filename": "frames_starlightguardians_bday/frame0000145.jpg",
             "overlay_texts": [
-                "Back in the quiet safety of her childhood room, Emily lays out the small treasures gathered during her fourteen-month journey. Each artifact represents a threshold crossed and a vast piece of the world she now permanently carries within her soul."
+                "De volta à segurança silenciosa do seu quarto de infância, Emily dispõe os pequenos tesouros que recolheu durante a sua jornada de catorze meses. Cada artefacto representa uma passagem atravessada e um pedaço vasto do mundo que ela agora carrega permanentemente dentro da sua alma."
             ]
         }
     ],
@@ -102,5 +102,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };

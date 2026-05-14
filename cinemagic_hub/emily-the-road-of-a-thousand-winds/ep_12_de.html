@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Kapitel II: Die Straße &amp; die ersten Lektionen — Emily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq12_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">DE</span>
+    </button>
+    <div class="lang-menu"><a href="ep_12.html">EN</a><a href="ep_12_de.html">DE</a><a href="ep_12_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">Emily&nbsp;·&nbsp; 2 / 7</div>
+        <h1 class="seq-title">Kapitel II: Die Straße &amp; die ersten Lektionen</h1>
+        <p class="seq-desc">Vom unerbittlichen Staub der Landstraße all ihrer Illusionen beraubt, muss eine junge Reisende rasch die raue, gleichgültige Poesie des Überlebens erlernen.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000044.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Mit einem letzten Blick auf die silbernen Olivenblätter und die rostrote Erde der Caldera-Lande tritt Emily hinaus auf die offene Straße. Sie lässt die wunderschöne, erstickende Geschichte von tausend Generationen hinter sich. Die Landschaft breitet sich vor ihr aus, furchterregend und auf wunderbare Weise gleichgültig.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000186.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Die Hügel rund um Alcaverde sind in einer heftigen, kurzlebigen Frühlingsblüte wilder Mohnblumen explodiert. Als Emily das kurze Aufleuchten der Farben betrachtet, wird ihr bewusst, dass Schönheit gerade deshalb kostbar ist, weil sie nicht von Dauer sein kann. Die blühende Erde spiegelt die unerbittliche Dringlichkeit wider, die ihren eigenen Aufbruch antreibt.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000072.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Emilys Stiefel schlagen auf die staubbedeckte Straße, als sie auf ihren ersten Mitreisenden, einen müden Maultiertreiber, trifft. Schnell lernt sie ihre erste Lektion über die Außenwelt: Hier ist alles eine Transaktion. Die Landschaft fühlt sich augenblicklich sehr viel größer und weitaus unbarmherziger an, als die Karten ihres Dorfes es je erahnen ließen.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000171.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Das Unheil schlägt schnell zu: Emily wird brutal ihrer Münzen und Vorräte beraubt und bleibt erstarrt in einer Welle aus Scham und Verwundbarkeit zurück. In ihrem dunkelsten Moment wird sie von Dora von der Langen Meile gefunden. Die erfahrene, vom Wetter gezeichnete Reisende bietet kein Mitleid, sondern stattdessen die unschätzbaren Lehren, wie man auf der Straße überlebt.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000219.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Von einem hoch gelegenen Kalksteinfelsen aus bringt Dora Emily bei, wie man die subtile Körpersprache von Fremden unter ihnen liest. Emily lernt, dass Überleben bedeutet, die eigenen Hoffnungen abzulegen und dem, was tatsächlich da ist, radikale Aufmerksamkeit zu schenken. Die Welt spricht klar, aber nur zu denen, die wirklich zuhören.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000026.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Dora und Emily betreten das rauchige Innere einer Posada. Doras vernarbte Hände und ihr wettergegerbtes Gesicht zeugen von drei Jahrzehnten kompromisslosen Überlebens. Sie ist nicht warmherzig oder mütterlich, aber ihre absolute, ungeschminkte Ehrlichkeit gibt Emily in einer chaotischen Welt einen neuen, dringend benötigten Anker.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000187.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Emily lässt Dora sich ausruhen und bleibt im Schankraum der Posada, um am uralten Ritual der Reisewelt teilzunehmen. Sie schmeckt das grobe Salz und die Verkohlung von angebranntem Brot, dem Grundnahrungsmittel der Straße. Mit jedem Bissen wird ihr bewusster, dass sie einen unsichtbaren Punkt ohne Wiederkehr überschritten hat.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000164.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Umgeben von Durchreisenden und Maultiertreibern sitzt Emily in einer Ecke und schreibt in La Rosalías Buch. Sie ist nun nur noch eine namenlose Kundin, ihrer dörflichen Identität beraubt. Sie ringt mit der Erkenntnis, dass diese neue, totale Anonymität gleichzeitig erschreckend und ungeheuer befreiend ist.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000221.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Bevor sich ihre Wege trennen, sitzt Emily auf den Kalksteinstufen der Posada und verarbeitet die harten Lektionen, die sie in sich aufgenommen hat. Sie erkennt, dass die Straße nicht grausam, sondern einfach tiefgreifend gleichgültig ist – was ihr einen klärenden Frieden bringt. Sie dankt Dora, die ihr ein kleines Erspartes in die Hand drückt, um das Gestohlene zu ersetzen.</div></div></div><div class="panel" id="panel-9"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000243.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 10"><div class="text-blocks"><div class="story-text observe-me">Methodisch sammelt Emily ihre verbliebenen Besitztümer zusammen und passt das Gewicht ihres Rucksacks mit neuer Effizienz an. Sie ist nicht länger nur ein verängstigtes Mädchen, das von zu Hause weggelaufen ist; sie ist eine Reisende, die sich entschieden hat, nicht zurückzukehren. Wieder allein, tritt sie ihren Weg an, nun von der Straße weitaus besser geschult.</div></div></div><div class="panel" id="panel-10"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000294.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 11"><div class="text-blocks"><div class="story-text observe-me">Auf ihrer Reise tief in die flirrende Hitze der andalusischen Ebenen entdeckt Emily etwas Unmögliches: einen dichten, weitläufigen Wald aus uralten Feigenbäumen. Das schwere, berauschende Parfüm von gärendem Zucker und warmem Staub markiert ihren Eintritt in dieses wilde, verborgene Heiligtum.</div></div></div><div class="panel" id="panel-11"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000295.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 12"><div class="text-blocks"><div class="story-text observe-me">Als sie die smaragdgrüne Kathedrale betritt, fällt die Temperatur im gesprenkelten grünen Zwielicht augenblicklich ab. Emily entdeckt eine alte maurische Acequia, deren Steinruinen mittlerweile vollständig von massiven, silbernen Baumwurzeln vereinnahmt sind. Es ist ein Ort der stillen Mystik, der ein Echo der Wassersysteme ihrer eigenen Heimat in sich trägt.</div></div></div><div class="panel" id="panel-12"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000296.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 13"><div class="text-blocks"><div class="story-text observe-me">Emily greift nach oben und probiert die wilden Cuello de Dama Feigen, wobei sie eine komplexe, geröstete Süße entdeckt, mit der kultiviertes Obst niemals mithalten könnte. Diese intensive Geschmacksexplosion verbindet sie tief mit der mineralreichen Erde und den Geistern eines verschwundenen Reiches.</div></div></div><div class="panel" id="panel-13"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000297.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 14"><div class="text-blocks"><div class="story-text observe-me">Überwältigt von der aufgestauten Erschöpfung der Straße, gibt sich Emily dem Schlaf hin in einer natürlichen Wiege aus riesigen, ineinander verschlungenen Wurzeln. Unter dem durchscheinenden grünen Blätterdach findet sie einen Zufluchtsort absoluter Sicherheit und ruht zum ersten Mal seit Beginn ihrer Reise tief und fest.</div></div></div><div class="panel" id="panel-14"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/frame0000298.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15"><div class="text-blocks"><div class="story-text observe-me">Bevor sie den kühlen Hain in Richtung der rauen Ebenen verlässt, verpackt Emily sorgfältig einen kleinen Vorrat an wilden Feigen in Leinen. Sie legt ihre Hand auf die uralten Stämme und spürt eine tiefe Verbundenheit mit den Jahrhunderten widerstandsfähiger Wärme, die tief im Holz gespeichert ist.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_11_de.html">&#9664; Kapitel I: Das Dorf &amp; der Aufbruch</a> <a class="ep-pn-btn" href="ep_13_de.html">Kapitel III: Küste, Abendessen &amp; neues Land &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_11_de.html">Kapitel I: Das Dorf &amp; der Aufbruch</a><a class="ep-pill active" href="ep_12_de.html" aria-current="page">Kapitel II: Die Straße &amp; die ersten Lektionen</a><a class="ep-pill" href="ep_13_de.html">Kapitel III: Küste, Abendessen &amp; neues Land</a><a class="ep-pill" href="ep_14_de.html">Kapitel IV: Das Portcaldia-Fest &amp; Begegnungen</a><a class="ep-pill" href="ep_15_de.html">Kapitel V: Die Wüste &amp; die Bibliotheken</a><a class="ep-pill" href="ep_16_de.html">Kapitel VI: Das Kloster</a><a class="ep-pill" href="ep_17_de.html">Kapitel VII: Die Rückkehr</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>

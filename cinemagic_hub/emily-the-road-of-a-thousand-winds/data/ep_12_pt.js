@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 12,
-    "name": "Chapter II: The Road & First Lessons",
-    "description": "Stripped of her illusions by the unforgiving dust of the open road, a new traveler must quickly learn the harsh, indifferent poetry of survival.",
+    "name": "Capítulo II: A Estrada & as Primeiras Lições",
+    "description": "Despojada das suas ilusões pelo pó implacável da estrada aberta, uma nova viajante tem de aprender rapidamente a poesia dura e indiferente da sobrevivência.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq12_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq12_pt.pdf",
     "frames": [
         {
             "id": 42,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000044.jpg",
             "filename": "frames_starlightguardians_bday/frame0000044.jpg",
             "overlay_texts": [
-                "With one final look at the silver olive leaves and rust-red soil of the Caldera Lands, Emily steps out onto the open road. She is leaving behind the beautiful, suffocating history of a thousand generations. The landscape expands before her, terrifying and wonderfully indifferent."
+                "Com um último olhar para as folhas prateadas das oliveiras e a terra cor de ferrugem das Terras da Caldeira, Emily pisa a estrada aberta. Ela está a deixar para trás a bela e sufocante história de mil gerações. A paisagem expande-se diante dela, aterradora e maravilhosamente indiferente."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000186.jpg",
             "filename": "frames_starlightguardians_bday/frame0000186.jpg",
             "overlay_texts": [
-                "The hills around Alcaverde have exploded into a violent, short-lived spring bloom of wild poppies. Observing the brief flash of color, Emily realizes that beauty is precious precisely because it cannot be sustained. The blooming earth mirrors the fierce urgency driving her own departure."
+                "As colinas em redor de Alcaverde explodiram numa floração primaveril de papoilas selvagens, violenta e efémera. Ao observar o breve clarão de cor, Emily percebe que a beleza é preciosa precisamente por não poder ser sustentada. A terra em flor espelha a urgência feroz que impulsiona a sua própria partida."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000072.jpg",
             "filename": "frames_starlightguardians_bday/frame0000072.jpg",
             "overlay_texts": [
-                "Emily’s boots strike the dust-covered road as she encounters her first fellow traveler, a weary muleteer. She quickly learns her first lesson of the outside world: everything here is a transaction. The landscape instantly feels significantly larger and far less forgiving than her village maps had ever suggested."
+                "As botas de Emily atingem a estrada coberta de pó ao encontrar o seu primeiro companheiro de viagem, um almocreve cansado. Ela aprende rapidamente a sua primeira lição do mundo exterior: aqui, tudo é uma transação. A paisagem sente-se instantaneamente muito maior e menos tolerante do que os mapas da sua aldeia alguma vez sugeriram."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000171.jpg",
             "filename": "frames_starlightguardians_bday/frame0000171.jpg",
             "overlay_texts": [
-                "Disaster strikes quickly: Emily is violently robbed of her coins and supplies, leaving her frozen in a wave of shame and vulnerability. In her darkest moment, she is found by Dora of the Long Mile. The seasoned, weathered traveler doesn&#039;t offer pity, but instead offers the invaluable teachings of how to survive the road."
+                "O desastre ataca rapidamente: Emily é violentamente roubada das suas moedas e mantimentos, ficando paralisada numa onda de vergonha e vulnerabilidade. No seu momento mais sombrio, ela é encontrada por Dora da Longa Milha. A viajante experiente e curtida não oferece pena, mas sim os inestimáveis ensinamentos de como sobreviver na estrada."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000219.jpg",
             "filename": "frames_starlightguardians_bday/frame0000219.jpg",
             "overlay_texts": [
-                "From a high limestone vantage point, Dora teaches Emily how to read the subtle body language of strangers below. Emily learns that survival requires stripping away her own hopes and paying radical attention to what is actually there. The world speaks clearly, but only to those who truly listen."
+                "De um ponto de vantagem alto em calcário, Dora ensina a Emily como ler a linguagem corporal subtil dos estranhos lá em baixo. Emily aprende que a sobrevivência requer despojar-se das suas próprias esperanças e prestar atenção radical ao que realmente lá está. O mundo fala claramente, mas apenas para aqueles que verdadeiramente ouvem."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000026.jpg",
             "filename": "frames_starlightguardians_bday/frame0000026.jpg",
             "overlay_texts": [
-                "Dora and Emily enter the smoky interior of a posada. Dora’s scarred hands and weathered face reveal three decades of survival without compromise. She is not warm or motherly, but her absolute, unvarnished honesty provides Emily with a new, desperately needed anchor in a chaotic world."
+                "Dora e Emily entram no interior fumarento de uma pousada. As mãos com cicatrizes de Dora e o seu rosto desgastado revelam três décadas de sobrevivência sem concessões. Ela não é calorosa ou maternal, mas a sua honestidade absoluta e sem verniz fornece a Emily uma âncora nova e desesperadamente necessária num mundo caótico."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000187.jpg",
             "filename": "frames_starlightguardians_bday/frame0000187.jpg",
             "overlay_texts": [
-                "Leaving Dora to rest, Emily remains in the posada’s common room, participating in the ancient ritual of the traveling world. She tastes the rough salt and char of burned bread, the staple of the road. With every bite, she realizes she has crossed an invisible point of no return."
+                "Deixando Dora a descansar, Emily permanece na sala comum da pousada, participando no ritual ancestral do mundo das viagens. Ela saboreia o sal áspero e a crosta carbonizada do pão queimado, o alimento básico da estrada. A cada dentada, ela percebe que cruzou um ponto invisível sem retorno."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000164.jpg",
             "filename": "frames_starlightguardians_bday/frame0000164.jpg",
             "overlay_texts": [
-                "Surrounded by transients and muleteers, Emily sits in the corner and writes in La Rosalía&#039;s book. She is now just a nameless customer, stripped of her village identity. She grapples with the realization that this new, total anonymity is simultaneously terrifying and immensely liberating."
+                "Rodeada por transeuntes e almocreves, Emily senta-se num canto e escreve no livro de La Rosalía. Ela é agora apenas uma cliente sem nome, despida da sua identidade da aldeia. Ela debate-se com a constatação de que esta nova e total anonimidade é, simultaneamente, aterradora e imensamente libertadora."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000221.jpg",
             "filename": "frames_starlightguardians_bday/frame0000221.jpg",
             "overlay_texts": [
-                "Before parting ways, Emily sits on the limestone steps of the posada, processing the harsh lessons she has absorbed. She realizes the road isn&#039;t cruel; it is simply, profoundly indifferent, which brings a clarifying peace. She thanks Dora, who presses a small amount of savings into her hand to replace what was stolen."
+                "Antes de seguirem caminhos separados, Emily senta-se nos degraus de calcário da pousada, processando as duras lições que absorveu. Ela percebe que a estrada não é cruel; é simplesmente e profundamente indiferente, o que lhe traz uma paz clarificadora. Ela agradece a Dora, que lhe põe na mão umas pequenas poupanças para substituir o que foi roubado."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000243.jpg",
             "filename": "frames_starlightguardians_bday/frame0000243.jpg",
             "overlay_texts": [
-                "Emily methodically gathers her remaining possessions, adjusting the weight of her pack with newfound efficiency. She is no longer just a frightened girl who ran from home; she is a traveler who has decisively chosen to stay gone. Alone again, she steps forward, far better educated by the road."
+                "Emily reúne metodicamente os seus pertences restantes, ajustando o peso da sua mochila com uma nova eficiência. Ela já não é apenas uma rapariga assustada que fugiu de casa; é uma viajante que decidiu de forma decisiva não voltar. Novamente sozinha, ela segue em frente, muito mais educada pela estrada."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000294.jpg",
             "filename": "frames_starlightguardians_bday/frame0000294.jpg",
             "overlay_texts": [
-                "Journeying deep into the shimmering heat of the Andalusian plains, Emily discovers something impossible: a dense, sprawling forest of ancient fig trees. The heavy, intoxicating perfume of fermenting sugar and warm dust marks her entry into this feral, hidden sanctuary."
+                "Viajando profundamente no calor cintilante das planícies andaluzas, Emily descobre algo impossível: uma floresta densa e vasta de antigas figueiras. O perfume pesado e inebriante do açúcar a fermentar e do pó quente marca a sua entrada neste santuário feral e escondido."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000295.jpg",
             "filename": "frames_starlightguardians_bday/frame0000295.jpg",
             "overlay_texts": [
-                "Stepping into the emerald cathedral, the temperature drops instantly in the dappled green twilight. Emily discovers an ancient Moorish acequia, its stone ruins now completely claimed by massive, silver tree roots. It is a place of silent mystery, echoing the water systems of her own home."
+                "Ao entrar na catedral de esmeralda, a temperatura cai instantaneamente naquele crepúsculo verde e mosqueado. Emily descobre uma antiga acequia mourisca, cujas ruínas de pedra estão agora completamente tomadas pelas enormes raízes prateadas das árvores. É um lugar de mistério silencioso, ecoando os sistemas de água do seu próprio lar."
             ]
         },
         {
@@ -192,7 +192,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000296.jpg",
             "filename": "frames_starlightguardians_bday/frame0000296.jpg",
             "overlay_texts": [
-                "Reaching up, Emily tastes the wild Cuello de Dama figs, discovering a complex, roasted sweetness that cultivated fruit could never match. This intense sensory explosion connects her deeply to the mineral-rich earth and the ghosts of a vanished empire."
+                "Estendendo o braço, Emily prova os figos bravos Cuello de Dama, descobrindo uma doçura complexa e tostada que os frutos cultivados nunca poderiam igualar. Esta intensa explosão sensorial liga-a profundamente à terra rica em minerais e aos fantasmas de um império desaparecido."
             ]
         },
         {
@@ -203,7 +203,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000297.jpg",
             "filename": "frames_starlightguardians_bday/frame0000297.jpg",
             "overlay_texts": [
-                "Overcome by the accumulated exhaustion of the road, Emily surrenders to sleep within a natural cradle formed by giant, twisting roots. Beneath the translucent green canopy, she finds a sanctuary of absolute safety, resting deeply for the first time since her journey began."
+                "Dominada pela exaustão acumulada da estrada, Emily rende-se ao sono num berço natural formado por raízes gigantes e retorcidas. Sob o dossel verde translúcido, ela encontra um santuário de absoluta segurança, descansando profundamente pela primeira vez desde que a sua viagem começou."
             ]
         },
         {
@@ -214,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000298.jpg",
             "filename": "frames_starlightguardians_bday/frame0000298.jpg",
             "overlay_texts": [
-                "Before leaving the cool grove for the harsh plains, Emily carefully packs a small linen provision of wild figs. She presses her hand against the ancient trunks, feeling a profound connection to the centuries of resilient warmth stored deep within the wood."
+                "Antes de deixar o bosque fresco rumo às planícies agrestes, Emily embala cuidadosamente numa pequena provisão de linho alguns figos selvagens. Ela pressiona a mão contra os troncos antigos, sentindo uma profunda ligação com os séculos de calor resiliente armazenados nas profundezas da madeira."
             ]
         }
     ],
@@ -223,5 +223,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };

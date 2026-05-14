@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 11,
-    "name": "Chapter I: The Village & Departure",
-    "description": "Beneath the suffocatingly beautiful weight of a thousand generations, a watchful girl prepares to trade the safety of the known for the terrifying promise of the horizon.",
+    "name": "Capítulo I: A Aldeia & a Partida",
+    "description": "Sob o peso asfixiantemente belo de mil gerações, uma rapariga atenta prepara-se para trocar a segurança do conhecido pela terrível promessa do horizonte.",
     "cinemagic": {
         "id": 2,
         "name": "Emily"
@@ -9,48 +9,48 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 11,
-            "name": "Chapter I: The Village & Departure",
+            "name": "Capítulo I: A Aldeia & a Partida",
             "chapter_label": null,
-            "url": "ep_11.html"
+            "url": "ep_11_pt.html"
         },
         {
             "id": 12,
-            "name": "Chapter II: The Road & First Lessons",
+            "name": "Capítulo II: A Estrada & as Primeiras Lições",
             "chapter_label": null,
-            "url": "ep_12.html"
+            "url": "ep_12_pt.html"
         },
         {
             "id": 13,
-            "name": "Chapter III: Coast, Dinner & New Lands",
+            "name": "Capítulo III: Costa, Jantar & Novas Terras",
             "chapter_label": null,
-            "url": "ep_13.html"
+            "url": "ep_13_pt.html"
         },
         {
             "id": 14,
-            "name": "Chapter IV: Portcaldia Festival & Affairs",
+            "name": "Capítulo IV: O Festival de Portcaldia & Casos",
             "chapter_label": null,
-            "url": "ep_14.html"
+            "url": "ep_14_pt.html"
         },
         {
             "id": 15,
-            "name": "Chapter V: The Desert & The Libraries",
+            "name": "Capítulo V: O Deserto & as Bibliotecas",
             "chapter_label": null,
-            "url": "ep_15.html"
+            "url": "ep_15_pt.html"
         },
         {
             "id": 16,
-            "name": "Chapter VI: The Monastery",
+            "name": "Capítulo VI: O Mosteiro",
             "chapter_label": null,
-            "url": "ep_16.html"
+            "url": "ep_16_pt.html"
         },
         {
             "id": 17,
-            "name": "Chapter VII: The Return",
+            "name": "Capítulo VII: O Regresso",
             "chapter_label": null,
-            "url": "ep_17.html"
+            "url": "ep_17_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq11_en.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily-the-road-of-a-thousand-winds/assets/magazine_seq11_pt.pdf",
     "frames": [
         {
             "id": 40,
@@ -60,7 +60,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000042.jpg",
             "filename": "frames_starlightguardians_bday/frame0000042.jpg",
             "overlay_texts": [
-                "Alcaverde clings to the limestone hills like an ancient, whitewashed memory. It is a place of breathtaking beauty, where water rights are more sacred than church law, and where a thousand generations have left their indelible mark. Yet, for all its warmth, its completeness feels like a beautifully constructed cage."
+                "Alcaverde agarra-se às colinas de calcário como uma antiga memória caiada de branco. É um lugar de beleza arrebatadora, onde os direitos à água são mais sagrados do que a lei da igreja, e onde mil gerações deixaram a sua marca indelével. Contudo, apesar de todo o seu calor, esta plenitude parece uma gaiola belamente construída."
             ]
         },
         {
@@ -71,7 +71,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000169.jpg",
             "filename": "frames_starlightguardians_bday/frame0000169.jpg",
             "overlay_texts": [
-                "Standing on the high ridge, Emily looks down at the valley of her youth. Every path and olive grove is intimately known, but she realizes she is entirely visible to the village below. Here, community is a suffocating embrace, a landscape where every eye acts as a silent sentry."
+                "De pé no alto do cume, Emily olha para o vale da sua juventude. Cada caminho e cada olival são intimamente conhecidos, mas ela apercebe-se de que está totalmente visível para a aldeia lá em baixo. Aqui, a comunidade é um abraço sufocante, uma paisagem onde cada olhar age como uma sentinela silenciosa."
             ]
         },
         {
@@ -82,7 +82,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000209.jpg",
             "filename": "frames_starlightguardians_bday/frame0000209.jpg",
             "overlay_texts": [
-                "In the pre-dawn quiet of the kitchen, Emily and Catalina share the wordless language of baking bread. Catalina&#039;s hands move with absolute precision, kneading love and sorrow into the dough."
+                "Na quietude da cozinha antes do amanhecer, Emily e Catalina partilham a linguagem sem palavras de fazer pão. As mãos de Catalina movem-se com absoluta precisão, amassando amor e tristeza na massa. É aqui que a sua mãe coloca um lenço de lã vermelha nas mãos de Emily — uma permissão silenciosa e radical para partir."
             ]
         },
         {
@@ -93,7 +93,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000238.jpg",
             "filename": "frames_starlightguardians_bday/frame0000238.jpg",
             "overlay_texts": [
-                "Through the doorway of the workshop, Emily watches her father, Tomás, his hands stained with the oil of a hundred repairs. He tests the joint of a broken tool with trembling fingers, unable to speak the depth of his affection. His meticulous craftsmanship is his only vocabulary for a love that fears her departure."
+                "Pela porta da oficina, Emily observa o seu pai, Tomás, com as mãos manchadas pelo óleo de cem reparações. Ele testa a junção de uma ferramenta partida com os dedos trémulos, incapaz de expressar a profundidade do seu afeto. O seu trabalho meticuloso é o seu único vocabulário para um amor que teme a partida dela."
             ]
         },
         {
@@ -104,7 +104,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000211.jpg",
             "filename": "frames_starlightguardians_bday/frame0000211.jpg",
             "overlay_texts": [
-                "Resting on the worn stone bench, Emily finally speaks the truth that has haunted her quiet moments. She confesses her hunger for the vast world beyond the Caldera Lands, a desire too massive to be contained within the valley&#039;s steep walls. It is a declaration of independence, terrifying and profoundly necessary."
+                "Descansando no banco de pedra gasto, Emily finalmente diz a verdade que tem assombrado os seus momentos de silêncio. Ela confessa a sua fome pelo vasto mundo além das Terras da Caldeira, um desejo demasiado maciço para ser contido dentro das paredes íngremes do vale. É uma declaração de independência, assustadora e profundamente necessária."
             ]
         },
         {
@@ -115,7 +115,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000182.jpg",
             "filename": "frames_starlightguardians_bday/frame0000182.jpg",
             "overlay_texts": [
-                "The harsh Mediterranean noon flattens the village, bleaching the shadows from the Plaza de la Tinaja. Emily stands motionless in the oppressive light, her mind entirely consumed by the sprawling, unmapped world waiting just over the horizon. The glare illuminates her singular, unyielding resolve to go."
+                "O rigoroso meio-dia mediterrânico alisa a aldeia, desbotando as sombras da Plaza de la Tinaja. Emily permanece imóvel sob a luz opressiva, a sua mente totalmente consumida pelo mundo vasto e não mapeado que espera logo além do horizonte. O clarão ilumina a sua determinação singular e inabalável de partir."
             ]
         },
         {
@@ -126,7 +126,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000257.jpg",
             "filename": "frames_starlightguardians_bday/frame0000257.jpg",
             "overlay_texts": [
-                "La Rosalía&#039;s weathered fingers trace Emily&#039;s face, reading the wanderlust etched in her granddaughter&#039;s bones. &quot;You are too large for this place,&quot; she says, pressing a broken brass compass into Emily&#039;s palm. It will not point true north, but it will forever remind her to trust the unwavering compass of her own heart."
+                "Os dedos envelhecidos de La Rosalía traçam o rosto de Emily, lendo o desejo de viajar gravado nos ossos da neta. &quot;Tu és grande demais para este lugar&quot;, diz ela, pressionando uma bússola de latão partida na palma da mão de Emily. Não apontará para o norte verdadeiro, mas lembrá-la-á para sempre de confiar na bússola inabalável do seu próprio coração."
             ]
         },
         {
@@ -137,7 +137,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000215.jpg",
             "filename": "frames_starlightguardians_bday/frame0000215.jpg",
             "overlay_texts": [
-                "In the quiet dimness of her room, Emily gathers her relics, meticulously organizing the maps, tools, and heavy wools she will need. Every item placed into her pack carries the physical weight of her impending departure. The preparation is a quiet ritual of severing ties, making the abstract dream an undeniable reality."
+                "Na penumbra silenciosa do seu quarto, Emily reúne as suas relíquias, organizando meticulosamente os mapas, ferramentas e as lãs pesadas de que precisará. Cada item colocado na sua mochila carrega o peso físico da sua partida iminente. A preparação é um ritual silencioso de corte de laços, tornando o sonho abstrato numa realidade inegável."
             ]
         },
         {
@@ -148,7 +148,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000210.jpg",
             "filename": "frames_starlightguardians_bday/frame0000210.jpg",
             "overlay_texts": [
-                "In the calm before the storm of her departure, Emily walks the village paths with new eyes. She looks at the familiar stones, the ancient fig tree, and the worn faces of her neighbors not as permanent fixtures of a cage, but as memories she is already beginning to mourn."
+                "Na calma antes da tempestade da sua partida, Emily caminha pelos caminhos da aldeia com novos olhos. Ela olha para as pedras familiares, a antiga figueira e os rostos marcados dos seus vizinhos não como elementos permanentes de uma gaiola, mas como memórias pelas quais já começa a fazer o luto."
             ]
         },
         {
@@ -159,7 +159,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000237.jpg",
             "filename": "frames_starlightguardians_bday/frame0000237.jpg",
             "overlay_texts": [
-                "Sitting by the ancient fountain, she listens to the familiar, murmuring rhythm of the spring. A sudden ache catches in her throat as she realizes how deeply she loves this place. Her departure is not born of hatred for her home, but of a necessity to outgrow its complete, suffocating perfection."
+                "Sentada junto à fonte antiga, ela ouve o ritmo familiar e murmurante da nascente. Uma dor repentina aperta-lhe a garganta ao perceber o quão profundamente ama este lugar. A sua partida não nasce do ódio pelo seu lar, mas da necessidade de crescer além da sua perfeição completa e sufocante."
             ]
         },
         {
@@ -170,7 +170,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000202.jpg",
             "filename": "frames_starlightguardians_bday/frame0000202.jpg",
             "overlay_texts": [
-                "Nearby, the village elders sit in the shade, their voices carrying fragments of old travel stories and youthful adventures beyond the ridges. It is as if the village senses her plans, offering up these ancient echoes of a larger, wilder world just when she needs the courage to step into it."
+                "Perto dali, os anciãos da aldeia sentam-se à sombra, as suas vozes carregando fragmentos de velhas histórias de viagens e aventuras de juventude além das montanhas. É como se a aldeia sentisse os planos dela, oferecendo estes ecos antigos de um mundo maior e mais selvagem exatamente quando ela precisa de coragem para o enfrentar."
             ]
         },
         {
@@ -181,7 +181,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000183.jpg",
             "filename": "frames_starlightguardians_bday/frame0000183.jpg",
             "overlay_texts": [
-                "The day evaporates with startling speed, the whitewashed walls transfigured into a luminous, pulsing pink by the setting sun. As dusk settles over the Caldera, Emily stands alone with her racing thoughts. The waiting is over; tomorrow, the vast world finally begins."
+                "O dia evapora-se com uma rapidez surpreendente, as paredes caiadas transfiguradas num rosa luminoso e pulsante pelo sol poente. À medida que o anoitecer se instala sobre a Caldeira, Emily fica sozinha com os seus pensamentos acelerados. A espera acabou; amanhã, o vasto mundo finalmente começa."
             ]
         },
         {
@@ -192,7 +192,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000073.jpg",
             "filename": "frames_starlightguardians_bday/frame0000073.jpg",
             "overlay_texts": [
-                "It is the night of El Ruedo, the annual midsummer festival, and the air is thick with anticipation and woodsmoke. It serves as a fiery, chaotic backdrop to Emily&#039;s final night in Alcaverde—a celebration that feels entirely meant for her."
+                "É a noite de El Ruedo, o festival anual do solstício de verão, e o ar é espesso com antecipação e fumo de lenha. Serve como um cenário ardente e caótico para a última noite de Emily em Alcaverde — uma celebração que parece inteiramente destinada a ela."
             ]
         },
         {
@@ -203,7 +203,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000170.jpg",
             "filename": "frames_starlightguardians_bday/frame0000170.jpg",
             "overlay_texts": [
-                "Watching the preparations, Emily becomes lost in the memories of past festivals. She measures the frightened girl she used to be against the traveler she must become by morning. The burning wheel represents the irreversible passage of time, a cycle she is finally ready to break."
+                "Observando as preparações, Emily perde-se nas memórias de festivais passados. Ela compara a rapariga assustada que costumava ser com a viajante em que se deve transformar pela manhã. A roda em chamas representa a passagem irreversível do tempo, um ciclo que ela está finalmente pronta para quebrar."
             ]
         },
         {
@@ -214,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000208.jpg",
             "filename": "frames_starlightguardians_bday/frame0000208.jpg",
             "overlay_texts": [
-                "A vivid memory washes over her: she is seven years old, feeling the blistering heat of the burning wheel for the very first time. Standing safe in Catalina&#039;s protective shadow, the young Emily refuses to look away from the flames. The spark of her departure was born in that single, unflinching gaze."
+                "Uma memória vívida invade-a: ela tem sete anos, sentindo o calor abrasador da roda em chamas pela primeira vez. Parada e a salvo na sombra protetora de Catalina, a jovem Emily recusa-se a desviar o olhar das chamas. A faísca da sua partida nasceu naquele olhar único e inabalável."
             ]
         },
         {
@@ -225,7 +225,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000176.jpg",
             "filename": "frames_starlightguardians_bday/frame0000176.jpg",
             "overlay_texts": [
-                "As the massive wooden wheel catches fire and rolls down the slope in a roar of sparks, the crowd cheers into the dark. Emily realizes the chaotic noise and brilliant light provide the perfect cover for her exit. It is her own private, unspoken farewell celebration."
+                "À medida que a enorme roda de madeira se incendeia e rola encosta abaixo num rugido de faíscas, a multidão aplaude para a escuridão. Emily percebe que o ruído caótico e a luz brilhante fornecem o disfarce perfeito para a sua saída. É a sua própria celebração de despedida, privada e não dita."
             ]
         },
         {
@@ -236,7 +236,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000177.jpg",
             "filename": "frames_starlightguardians_bday/frame0000177.jpg",
             "overlay_texts": [
-                "After a short, restless sleep, Emily stands in the pre-dawn grey, her pack heavy on her shoulders. Catalina emerges from the shadows to say a final goodbye, once again affirming the gift of the red scarf. In the quiet morning, her mother&#039;s blessing is the ultimate act of release."
+                "Após um sono curto e agitado, Emily levanta-se na penumbra antes do amanhecer, a mochila pesada nos ombros. Catalina emerge das sombras para um último adeus, mais uma vez afirmando a dádiva do lenço vermelho. Na manhã silenciosa, a bênção da sua mãe é o derradeiro ato de libertação."
             ]
         },
         {
@@ -247,7 +247,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000101.jpg",
             "filename": "frames_starlightguardians_bday/frame0000101.jpg",
             "overlay_texts": [
-                "Catalina leans in and presses a gentle kiss to Emily&#039;s forehead. &quot;I love you,&quot; she whispers into the cold air. &quot;Take good care.&quot; It is an act of profound maternal love—the strength to let a child walk away toward the horizon without holding her back."
+                "Catalina inclina-se e beija suavemente a testa de Emily. &quot;Amo-te&quot;, sussurra ela no ar frio. &quot;Toma bem conta de ti.&quot; É um ato de profundo amor materno — a força para deixar uma filha caminhar em direção ao horizonte sem a prender."
             ]
         },
         {
@@ -258,7 +258,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000027.jpg",
             "filename": "frames_starlightguardians_bday/frame0000027.jpg",
             "overlay_texts": [
-                "Seventeen years old and standing at the threshold of the known world, Emily takes a deep breath of the vast, open air. The village still sleeps behind her, nestled in its protective valley. She turns her face toward the unknown, entirely ready for the road."
+                "Com dezassete anos e de pé no limiar do mundo conhecido, Emily respira fundo o vasto ar aberto. A aldeia ainda dorme atrás de si, aninhada no seu vale protetor. Ela vira o rosto para o desconhecido, inteiramente pronta para a estrada."
             ]
         },
         {
@@ -269,7 +269,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_bday/frame0000044.jpg",
             "filename": "frames_starlightguardians_bday/frame0000044.jpg",
             "overlay_texts": [
-                "With one final look at the silver olive leaves and rust-red soil of the Caldera Lands, Emily steps out onto the open road. She is leaving behind the beautiful, suffocating history of a thousand generations. The landscape expands before her, terrifying and wonderfully indifferent."
+                "Com um último olhar para as folhas prateadas das oliveiras e a terra cor de ferrugem das Terras da Caldeira, Emily pisa a estrada aberta. Ela está a deixar para trás a bela e sufocante história de mil gerações. A paisagem expande-se diante dela, aterradora e maravilhosamente indiferente."
             ]
         }
     ],
@@ -278,5 +278,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };
