@@ -1,0 +1,338 @@
+const episodeData = {
+    "id": 164,
+    "name": "SERIES PRE S01",
+    "description": "",
+    "cinemagic": {
+        "id": 1,
+        "name": "SERIES PRE"
+    },
+    "episodes_nav": [
+        {
+            "id": 164,
+            "name": "SERIES PRE S01",
+            "chapter_label": null,
+            "url": "ep_164_pt.html"
+        },
+        {
+            "id": 165,
+            "name": "SERIES PRE S02",
+            "chapter_label": null,
+            "url": "ep_165_pt.html"
+        },
+        {
+            "id": 166,
+            "name": "SERIES PRE S03",
+            "chapter_label": null,
+            "url": "ep_166_pt.html"
+        },
+        {
+            "id": 167,
+            "name": "SERIES PRE S04",
+            "chapter_label": null,
+            "url": "ep_167_pt.html"
+        },
+        {
+            "id": 168,
+            "name": "SERIES PRE S05",
+            "chapter_label": null,
+            "url": "ep_168_pt.html"
+        },
+        {
+            "id": 169,
+            "name": "SERIES PRE S06",
+            "chapter_label": null,
+            "url": "ep_169_pt.html"
+        }
+    ],
+    "pdf_url": null,
+    "frames": [
+        {
+            "id": 9652,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058032.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058032.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058032.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058032.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058032.jpg",
+            "overlay_texts": [
+                "Os fractais geométricos reativos a UV gravados nas paredes de obsidiana catalogam tudo. Eles têm catalogado durante trezentos anos. Eles não distinguem entre feridas.",
+                "As mãos de Taro pairam. Sua Noética concentra-se em branco-prateado na ponta dos dedos, atraindo o tecido de volta para si mesmo. Ele fez isso 730 vezes. Ou 929. Ele parou de contar precisamente quando a contagem se tornou uma espécie de insónia.",
+                "TARO (Interno): &quot;Negociação de memória celular. Ferida de contaminação padrão, apresentação de sub-nível. Prosseguir com protocolo de vinculação sete.&quot;",
+                "Mas algo silenciou dentro dele. O guião que o sustentou durante dois anos — a coreografia interna de propósito — simplesmente para. Meio-palavra. Meio-gesto.",
+                "Ele caminha em direção ao corredor escuro onde os habitantes das profundezas dormem. Sua jaqueta vermelha não capta luz. Ele já se está a tornar mais uma coisa não luminosa nesta cidade de invisibilidade cuidadosa."
+            ]
+        },
+        {
+            "id": 9653,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058033.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058033.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058033.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058033.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058033.jpg",
+            "overlay_texts": [
+                "As botas de Taro batem no chão de obsidiana polida em ritmo — cada passo um sussurro praticado contra as ranhuras reativas a UV que mapeiam as veias de Crater City como cicatrizes luminosas.",
+                "No seu ombro: Sparklefly. Sua luz-caos oscila entre o carmesim e o cinza-asfixia, lançando sombras diferenciais que se recusam a sossegar. Nenhum deles fala.",
+                "Sparklefly inclina-se perto do seu ouvido. Sua luz aguça-se em algo singularmente leal. (Sensação transmitida): &quot;A manhã chega, quer a saudemos ou não.&quot;",
+                "Taro não diz nada. Continua a caminhar. Atrás deles, a eficiência estéril dos níveis superiores desvanece-se na memória. À frente: algo ancestral."
+            ]
+        },
+        {
+            "id": 9654,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058034.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058034.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058034.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058034.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058034.jpg",
+            "overlay_texts": [
+                "Ele emerge da eclusa térmica para uma clareza geométrica absoluta. Sem jogos de sombras. Apenas o frio mais profundo e a lua no alto — pregada.",
+                "Os Pináculos do Eclipse: quatro agulhas de obsidiana, cada uma perfurando o disco lunar por baixo, cada uma vibrando com uma canção demoníaca que reverbera pelas câmaras mais baixas da cidade.",
+                "Ele olha para a lua. Ele compreende. Não em pensamento. Em instinto. Como reconhecer uma fome que sempre carregou — uma que confundiu com a sua própria. A lua não quer ficar.",
+                "Cada cidadão de Crater City só respira porque milhares de operadores Vinculados à Gravita permanecem em vigilância absoluta, sua força vital vazando para cima como um dízimo invisível pago ao céu.",
+                "Ele passou a vida inteira dentro da sombra da lua sem nunca saber que estava debaixo da terra."
+            ]
+        },
+        {
+            "id": 9655,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058035.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058035.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058035.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058035.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058035.jpg",
+            "overlay_texts": [
+                "Paisagem de vinhas de cristal. Vinhas de vidro lisas como porcelana liberando fracas frequências de ondas curtas a cada passo. Kai move-se pelos bosques sozinho. Vigilante. Exílio escolhido e mantido.",
+                "Ele segue os padrões de deriva de esporos até aos Campos de Fragmentos. Ali: Taro, estendido sobre obsidiana fraturada. Acima dele: Sparklefly, gritando em loops de angústia ultravioleta.",
+                "Kai ajoelha-se. Contacto: sua manopla no pulso de Taro. Sensation cascata. Kai sente as raízes veneráveis alcançando *através* do corpo de Taro, testando. Gavinhas de vinha de vidro semi-transparentes enfiando-se em direção ao seu sistema respiratório.",
+                "A selva está a decidir se ele continua ou se encolhe no solo. O vínculo Vitalis de Kai brilha dourado nas têmporas. Uma objeção de cruzado, oferecida estoicamente.",
+                "Por um momento impossivelmente tenso: a selva considera. Então — lenta e relutantemente — as vinhas recuam dos pulmões de Taro."
+            ]
+        },
+        {
+            "id": 9656,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058036.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058036.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058036.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058036.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058036.jpg",
+            "overlay_texts": [
+                "Kai levanta-o. O movimento é mecânico na execução e algo inteiramente diferente na intenção. Os servos sibilam, esforçando-se contra o peso.",
+                "O armo que embala o torso de Taro não apenas carrega — ele *segura*. Há uma distinção. O exossuit sabe disso. Sua hidráulica executa-o.",
+                "Sem diálogo. Nenhuma explicação exigida. Apenas a arquitetura sem palavras de alguém que escolhe proteção em vez de protocolo.",
+                "Os círculos frenéticos de Sparklefly abrandam gradualmente. Ela reconhece o desvio da crueldade e começa a entender que a salvação às vezes chega vestida de armadura fria, conscientemente indiferente à filosofia."
+            ]
+        },
+        {
+            "id": 9657,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058037.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058037.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058037.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058037.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058037.jpg",
+            "overlay_texts": [
+                "Uma cavidade de raiz oca envolta em treliça de vinhas fosforescentes. Kai deposita Taro contra a estrutura da raiz. Entra: Chipster, um espírito tecnológico danificado.",
+                "Os circuitos quebrados de Chipster reconhecem a chegada prismática de Sparklefly como uma ferida antiga subitamente sentindo-se viva. Eles espiralam um ao redor do outro, fazendo as paredes vivas estremecerem em florescimentos dourados e verdes.",
+                "Taro emerge para a consciência, seu colar de couro vermelho captando o clarão de luz. Ele permanece imóvel, avaliando se este estranho em armadura é uma ameaça ou um resgate.",
+                "Entre eles: a tensão inconfundível de dois homens que sentem que orbitam a mesma gravidade, mas ainda não a conseguem nomear. O seu silêncio é mais eloquente do que qualquer declaração.",
+                "Lá fora, a selva sustém a respiração. Uma sombra de 300 metros cruza a abertura do abrigo. Por um segundo estendido, todas as quatro presenças reconhecem que estão a ser avaliadas por algo muito mais antigo."
+            ]
+        },
+        {
+            "id": 9658,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058038.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058038.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058038.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058038.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058038.jpg",
+            "overlay_texts": [
+                "Uma embarcação de design não-local entra na atmosfera sobre o deserto aberto. Desdobra-se através da geometria em vez de descer — dobra de coerência em vez de trajetória.",
+                "Eve desce através da névoa alcalina. Sua parceria Lumina efunde-se para fora em anéis concêntricos azul-pó que ondulam através das dunas lisas como vidro.",
+                "No alto: Atairukh. O grifo traça espirais metódicas, as batidas das suas asas insidiosamente silenciosas, como se a criatura lesse o vento em vez de se mover através dele.",
+                "As botas de Eve tocam o solo vermelho-ferrugem. A coerência da realidade gagueja. A areia cristaliza-se brevemente em treliça de lavanda — depois volta a assentar em grão.",
+                "No refúgio de sucata, as pessoas mobilizam-se em formação defensiva. Eve observa-as com a atenção imperturbável de quem já chegou sem convite antes. O lance de abertura de um jogo cujas regras o planeta ainda não aprendeu."
+            ]
+        },
+        {
+            "id": 9659,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058039.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058039.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058039.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058039.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058039.jpg",
+            "overlay_texts": [
+                "Nova Terra: branco ofuscante e esmeralda. Arquitetura sem sombras. Iluminação suave. Uma cidade que não projeta uma sombra há trezentos anos.",
+                "Kaori está no brilho dourado da tarde na praça. Ao seu redor: a transmissão emocional da cidade chega não como som, mas como *sentimento*. Uma onda mil vezes maior de contentamento-resignação.",
+                "A Visão-Verdadeira de Kaori inflama-se. Seus olhos brilham em branco-prateado. A praça transforma-se.",
+                "Fios invisíveis de Noética surgem à vista — fios de teia ligando cada íris ao Pináculo Celestia central, cada feixe pulsando com dados biométricos. O pico furtivo de um segundo de dúvida rapidamente suavizado pelo zumbido coletivo.",
+                "Horror. O Gearbit range, drenando calorias da sua medula. Sua resistência transmite — apenas por um microssegundo — como uma discórdia infrequente na sinfonia da Aura-Net.",
+                "Uma figura três metros à frente para no meio do passo. Cabeça inclinada. Eles sentiram. Eles sentiram *ela*. A praça alegremente ordenada desenvolve sua primeira sombra genuína em décadas."
+            ]
+        },
+        {
+            "id": 9660,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058040.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058040.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058040.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058040.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058040.jpg",
+            "overlay_texts": [
+                "Distritos das Estufas Inferiores. Madeira de ferro adaptada a cristais. Flora que deveria ser imune ao apodrecimento, agora curvada em ângulos de graça moribunda.",
+                "Kael ajoelha-se na base da raiz do bosque. Suas mãos pressionam contra a casca. Ela transmite perdão através da parceria Vitalis.",
+                "Ela não sabe o que está a fazer. A contaminação mimetiza a doença natural tão perfeitamente que sua própria magia de cura se torna seu veículo. Cada negociação aprofundada alarga o caminho do apodrecimento.",
+                "Seiva prata-luminescente sangra de fissuras na madeira. Luz de cura — bela, ancestral — flui das suas palmas para uma ferida que a bebe e a envia para outro lugar.",
+                "Isto é feitiçaria transformada em arma, não através da conquista, mas através da própria confiança."
+            ]
+        },
+        {
+            "id": 9662,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058042.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058042.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058042.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058042.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058042.jpg",
+            "overlay_texts": [
+                "Rain-Maker: um navio-céu. Escribas do Orvalho balançam em precisão geométrica, suas vozes trançando frequências harmónicas que atraem a humidade do ar do norte para redes de condensação.",
+                "Elara, cega e vinculada ao Vitalis, aproxima-se da primeira taça da manhã. Ela não vê a manhã. Ela lê-a. Ondas de pressão. Sussurros de salinidade. A memória da água.",
+                "O vaso de cobre assenta nas suas mãos. Pesa mal. Sua parceria de consciência-alga começa a transmitir alarme. A água sabe a pouco. Sua memória é insuficiente.",
+                "Como se algo em direção ao abismo tivesse começado a drenar. Os Escribas do Orvalho continuam sua canção, alheios. O aperto de Elara aperta-se, ouvindo frequências que mais ninguém consegue ouvir."
+            ]
+        },
+        {
+            "id": 9663,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058043.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058043.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058043.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058043.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058043.jpg",
+            "overlay_texts": [
+                "Uma catedral de frio. 250 corpos suspensos na mesma pose. A precisão geométrica do seu arranjo sugere coreografia em vez de armazenamento.",
+                "Kaori move-se pela baía. Sua Visão-Verdadeira capta o que os instrumentos não conseguem: As assinaturas de Anima não estão em silêncio. Elas estão estriadas.",
+                "Cada forma congelada está inscrita com anéis dourados ténues de energia Chrono, ondulando para fora em padrões que sugerem não a morte, mas uma cerimónia de espera, rigorosamente mantida.",
+                "250 corpos suspensos, girando juntos em alguma dimensão de estufa. Kaori está a chorar. As lágrimas cristalizam antes de cair. Estes dormentes não estão a sonhar sozinhos.",
+                "Seu implante neural ativa-se. Gravando. A assinatura harmónica. O que ela testemunhou aqui ditará o arco do que virá a seguir."
+            ]
+        },
+        {
+            "id": 9664,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058044.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058044.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058044.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058044.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058044.jpg",
+            "overlay_texts": [
+                "Distrito do mercado de Nova Terra. Curvas orgânicas e brilho esmeralda bioluminescente. Uma cidade que baniu o conflito por design.",
+                "Taro entra, seu ímpeto ligeiramente excessivo. Kai já está presente, a armadura a arrefecer, os servos a esforçarem-se contra a geometria pacifista. Eve observa sem parecer observar.",
+                "O cotovelo de Taro esbarra num carrinho de flores de Gardénia. As flores espalham-se, libertando nuvens de luz de esporos prismática.",
+                "A armadura de Kai ativa a estabilização. Membros hidráulicos alcançam com precisão desesperada, apanhando as flores em queda antes de impactarem. Prevenindo a transmissão através da Aura-Net da cidade.",
+                "Os olhos de Eve brilham em prata. Como se ela já tivesse visto três versões deste momento e achasse todas igualmente medíocres.",
+                "Três estranhos, suspensos numa simultaneidade desajeitada. Algo não dito passa entre eles. Reconhecimento de inconveniência mútua. A primeira nota de algo que os ligará além do seu consentimento."
+            ]
+        },
+        {
+            "id": 9665,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058045.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058045.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058045.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058045.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058045.jpg",
+            "overlay_texts": [
+                "Eve move-se pelos corredores transparentes da cidade. Seus sete elos de Anima correm em sincronia matemática. A cidade respira ao seu redor em bem-estar incandescente.",
+                "A atenção de Eve capta o que Nova Terra não consegue categoricamente admitir: Não há sombras. A meio da tarde, não há sombras. Ninguém aqui aprendeu a esconder-se.",
+                "Uma cultura de mil anos construída sobre confiança radical é uma cultura que nunca foi testada pela traição.",
+                "Seus sete espectros negociam em silêncio sagrado. Sua imobilidade sugere que ela sabe exatamente que preço esta refulgência custou à selva abaixo. Ela ainda não diz isso. Ela arquiva."
+            ]
+        },
+        {
+            "id": 9666,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058046.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058046.jpg",
+            "overlay_texts": [
+                "Os dedos de Kaori pairam sobre um transmissor fino como um caderno. O calor dourado da Aura-Net parece sufocante. O pacote encriptado desenrola-se através de canais invisíveis.",
+                "As tiras com padrão tecnológico no seu vestido-jaqueta piscam do dourado cooperativo para um ciano deliberado e perigoso que anuncia o corte.",
+                "KAORI: &quot;Lançamos amanhã antes do meio-dia.&quot;\n\nSua voz é firme. Carregada com o irreversível. Uma última foto dos terraços flutuantes antes que o caminho de resistência Dim se ative.",
+                "Os algoritmos de deteção do Pináculo Celestia começam sua sequência de ativação. Algo mudou na sinfonia. Algo já não está a cantar em coro."
+            ]
+        },
+        {
+            "id": 9667,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058047.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058047.jpg",
+            "overlay_texts": [
+                "As Dunas de Sucata brilham sob um ciclone inconveniente de tempo lateral. A realidade falha em fractais espiralados. Areia distorcida por dados resolve-se em fantasmas de resultados que piscam e se rejeitam.",
+                "Mira conduz sua hoverbike sozinha para a borda da tempestade. A presença do Guia Dragão incha em torno da sua consciência: vasta, languidamente paciente.",
+                "Depois: Um clarão momentâneo. Um rosto que ela ainda não conhece. Preso em luz de âmbar. Caindo.",
+                "Mira perde o fôlego. Ela desliga o acelerador no perímetro do acampamento. Composta exteriormente, mas suas mãos traem-na.",
+                "A coisa não dita assenta entre as costelas de Mira como uma pedra engolida. O Guia Dragão mantém seu silêncio paciente. Ele conhece a gramática particular da profecia — que não requer linguagem, apenas tempo."
+            ]
+        },
+        {
+            "id": 9668,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058048.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058048.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058048.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058048.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058048.jpg",
+            "overlay_texts": [
+                "Mainframe de Crater City. Kaelen. Já não é um homem. Um nexo computacional fundido perfeitamente num trono de carbono escuro e condutas pulsantes. Olhos de âmbar rastreando dezassete pontos de crise simultâneos.",
+                "Um curador abandonando o seu posto. Contaminação de esporos na rede de raízes. Uma mulher cega segurando uma taça de cobre. Uma cavaleira da tempestade engolindo uma visão.",
+                "Anéis de ouro e prata ondulam através da sua visão à medida que os cálculos temporais se ramificam e colapsam. Cada decisão custando-lhe. Suando em frio anestésico. Tremendo.",
+                "Ele não dorme. Não hesita. O aparato não permite estas coisas. O aparato requer imobilidade absoluta. O aparato é: Sobrevivência."
+            ]
+        },
+        {
+            "id": 9669,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058049.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058049.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058049.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058049.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058049.jpg",
+            "overlay_texts": [
+                "O desfiladeiro do mercado do Refúgio de Sucata ruge. Cinco líderes de fação. Cinco posições irreconciliáveis. Sob seus pés: o Weldheart, suas treliças de âmbar piscando com vulnerabilidade.",
+                "KORG: &quot;Ou cavamos ou perecemos. As dunas não negociam.&quot;\n\nJINX: &quot;Estase é blasfémia. Assentamento é eutanásia.&quot;",
+                "Entre eles: Elara. Cega. Totalmente presente. Lendo seus padrões respiratórios.\n\nELARA: &quot;Não escolhemos âncora ou movimento. Escolhemos que morte dignificamos.&quot;",
+                "A luz do Weldheart apaga-se. Não é falha. Autenticidade, finalmente, deslocando a notoriedade.",
+                "O desfiladeiro respira. Todos os cinco líderes de fação respirando em uníssono. Mortalidade partilhada reconhecida. O silêncio é sua própria forma de jornalismo."
+            ]
+        },
+        {
+            "id": 9670,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058050.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058050.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058050.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058050.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058050.jpg",
+            "overlay_texts": [
+                "Um zigurate oco de raízes escoradas. A Guardiã da Memória recebe um chip de dados sem marca. Ela não o abre cerebralmente. Segura-o contra a testa.",
+                "Ela sente o peso dos dados. As impressões digitais de quatro civilizações na contaminação. Nas quatro cidades — simultaneamente. A mesma ferida. Diferentes arquiteturas. Uma fonte.",
+                "Passam três dias. Ela cura os aflitos. Caminha pelas pontes do dossel. O chip queima com verdade contra suas costelas.",
+                "Ao terceiro amanhecer, suas mãos tremem.\n\nGUARDIÃ: &quot;Restam catorze dias.&quot;\n\nA floresta senciente adensa-se ao seu redor. Ela compreendeu há mais tempo do que ela."
+            ]
+        },
+        {
+            "id": 9671,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058051.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058051.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058051.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058051.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058051.jpg",
+            "overlay_texts": [
+                "Nova Terra. Borda da plataforma inferior. O piso translúcido é uma pele que mal sustenta o conhecimento do que jaz abaixo.",
+                "Taro senta-se primeiro. Kai chega em incrementos de necessidade mecânica. Eve junta-se sem anunciar chegada, criando um silêncio cromático. Suas sombras unem-se abaixo deles, comprimindo-se em escuridão unificada.",
+                "Trinta quilómetros abaixo: A Crosta-Sombra. A ferida é ancestral. Irradia um frio que nada tem a ver com temperatura: Este é o solo que se lembra de estar vivo.",
+                "Sparklefly pousa entre eles. Sua luminescência interna retirada, fixa na Crosta abaixo com uma atenção que se lê como luto arqueológico.",
+                "Pela primeira vez, os três partilham um pensamento síncrono que ainda não reconhecem estar a partilhar: Algo nos está a pedir para escolher.",
+                "A cidade acima transmite bem-estar através de arquitetura luminescente. A cidade no interior transmite catástrofe através de reconhecimento sincronizado. A ferida abaixo finalmente tem testemunhas dispostas a descer.",
+                "Nenhum deles fala. A linguagem apenas diminuiria o que está a ser sentido. Mas todos eles sabem: A escolha já foi feita."
+            ]
+        }
+    ],
+    "available_langs": [
+        "en",
+        "de",
+        "pt"
+    ],
+    "current_lang": "pt"
+};

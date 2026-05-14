@@ -44,11 +44,15 @@ const episodeData = {
             "url": "ep_169.html"
         }
     ],
+    "pdf_url": null,
     "frames": [
         {
             "id": 9710,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058090.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058090.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058090.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058090.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058090.jpg",
             "overlay_texts": [
                 "The living-wood chamber breathes. Bioluminescent fungi pulse in their eternal blue-green tide. The light does not comfort. It reveals.",
                 "Five people sit in the geometry of halved purpose. The sixth position is empty. The air tastes of metallic residue from a Tether burned too hot—not from healing. From witness.",
@@ -60,7 +64,10 @@ const episodeData = {
         {
             "id": 9711,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058091.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058091.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058091.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058091.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058091.jpg",
             "overlay_texts": [
                 "Crater City. Upper Council Chamber. Noctura stands at the table&#039;s center and places one skeletal hand palm-down. A thin sapphire frost spreads in spiraling fractals.",
                 "NOCTURA: &quot;I have come to offer you a framework: continue as you are, managing the cascade interval by interval—or permit me to show you what happens when optimization becomes a foundational architecture.&quot;",
@@ -72,7 +79,10 @@ const episodeData = {
         {
             "id": 9712,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058092.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058092.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058092.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058092.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058092.jpg",
             "overlay_texts": [
                 "The Remembering Wall Chamber. Stone tablets carved with the Slag&#039;s suppressed history. The Tunneler Elder sits before the inscriptions. Noctura settles beside him without ceremony.",
                 "TUNNELER ELDER: &quot;You came without an agenda.&quot;\n\nNOCTURA: &quot;I came to receive.&quot;",
@@ -84,7 +94,10 @@ const episodeData = {
         {
             "id": 9713,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058093.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058093.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058093.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058093.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058093.jpg",
             "overlay_texts": [
                 "Vortex Station. Secure Observation Chamber. Kaori sits cross-legged on the floor. Her True-Sight ignites, expanding into the full bandwidth of the body.",
                 "She extends past Noctura&#039;s personality architecture. Past the Harmony Field&#039;s ongoing broadcast. Down. Into bedrock. Where genuine bonds leave permanent geometry.",
@@ -96,7 +109,10 @@ const episodeData = {
         {
             "id": 9714,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058297.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058297.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058297.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058297.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058297.jpg",
             "overlay_texts": [
                 "Kaelen&#039;s Throne Chamber. The hexagonal fractures in the walls record forty years of temporal calculus pressing against causality.",
                 "Noctura materializes. Kaelen&#039;s probability matrices begin to cascade-fail. The nearest contingency collapses, the holographic equations scattering like startled birds.",
@@ -108,7 +124,10 @@ const episodeData = {
         {
             "id": 9715,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058298.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058298.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058298.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058298.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058298.jpg",
             "overlay_texts": [
                 "Hollow Resistance Headquarters. Ancient Stone. Forty-three survivors of the Slag in a circle. Noctura stands at the threshold.",
                 "KORVIN: &quot;She is not a key. She is a lock, waiting to turn us. Every time a power from Above has offered its strength to liberation Below, the offering has been the mechanism of a new cage.&quot;",
@@ -120,7 +139,10 @@ const episodeData = {
         {
             "id": 9716,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058096.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058096.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058096.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058096.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058096.jpg",
             "overlay_texts": [
                 "The Dragon Guide&#039;s Cavern. The Guide&#039;s scales refract gold-and-silver Chrono rings. Mira stands in the presence of three centuries of accumulated planetary witness.",
                 "The vision arrives as architectonic knowing: the glaciated dissolution of Aetherion&#039;s citizens into pure Lumina. Citizens who have become the planet&#039;s nervous system. Who cannot stop perceiving.",
@@ -132,7 +154,10 @@ const episodeData = {
         {
             "id": 9717,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058299.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058299.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058299.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058299.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058299.jpg",
             "overlay_texts": [
                 "Scrap Haven. The Weldheart Atrium. The amber lattices pulse with the specific frequency of a prayer-forge under stress. Crater City&#039;s holographic counter-offer hangs in the air.",
                 "Grand Admiral Jinx stands at the baluster, her Momentum aura broadcasting raw authority through the charged atmosphere.",
@@ -144,7 +169,10 @@ const episodeData = {
         {
             "id": 9718,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058098.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058098.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058098.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058098.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058098.jpg",
             "overlay_texts": [
                 "The Scab Understory. Rin stands motionless at the interior edge. Three Obsidian Guards descend through the root labyrinth. Shadownip tightens.",
                 "Rin&#039;s targeting system activates. The tactical advantage is significant. She has three seconds. She raises her hands. Palms outward.",
@@ -156,7 +184,10 @@ const episodeData = {
         {
             "id": 9719,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058099.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058099.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058099.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058099.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058099.jpg",
             "overlay_texts": [
                 "Crater City. Apex Chamber. Directorate Plenary Session. The contamination vectors cascade from Noctura&#039;s crystalline data-forms like light through a prism.",
                 "The chamber&#039;s consensus geometry shatters. Half the chamber: ambition recognizing opportunity. Half the chamber: fear of looking at something they shouldn&#039;t have been shown.",
@@ -168,7 +199,10 @@ const episodeData = {
         {
             "id": 9720,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058100.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058100.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058100.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058100.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058100.jpg",
             "overlay_texts": [
                 "Crater City Throne Chamber. Noctura descends. She is at the throne&#039;s underlie—the foundational harness. Her fingers move through it with the intimate precision of an architect.",
                 "Her Noetica bleeds silver mist into Kaelen&#039;s Chrono-saturated veins. The fusion ignites. Not fire. Recognition.",
@@ -180,7 +214,10 @@ const episodeData = {
         {
             "id": 9721,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058300.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058300.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058300.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058300.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058300.jpg",
             "overlay_texts": [
                 "Kaelen moves through Crater City in physical form for the first time in decades. The geometric fractal etchings in the obsidian walls flare phantom-white as he passes.",
                 "The Slag in the walls—the compressed consciousness of the city&#039;s foundation—stirs. Broadcasting: You are here. You are real. This is not theoretical anymore.",
@@ -192,7 +229,10 @@ const episodeData = {
         {
             "id": 9722,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058102.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058102.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058102.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058102.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058102.jpg",
             "overlay_texts": [
                 "Scab Undercity. Fungal Ward. Taro kneels beside an eleven-year-old girl. He completes the Vitalis negotiation. Her breathing eases.",
                 "Taro sits back. The ambient contamination load in the ward has not decreased by a single unit. He is running backward as fast as he can and losing ground.",
@@ -204,7 +244,10 @@ const episodeData = {
         {
             "id": 9723,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058103.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058103.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058103.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058103.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058103.jpg",
             "overlay_texts": [
                 "Slag-Carved Burrow. The walls are the compressed residue of three centuries of metabolized labor. The Tunneler Elder is waiting.",
                 "Taro&#039;s Vitalis partnership flares emerald at his fingertips, reading stone the way it reads soil, finding the mineral substrate&#039;s own memory.",
@@ -216,7 +259,10 @@ const episodeData = {
         {
             "id": 9724,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058104.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058104.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058104.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058104.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058104.jpg",
             "overlay_texts": [
                 "Aetherion Ice Fields. The aurora fractures into impossible geometries. The ensemble stands at the far edge of a civilization&#039;s dissolution.",
                 "The Aetherion Emissary leans toward them, its form a delusion of amber lattices and silver mist.\n\nEMISSARY: &quot;The window is not unlimited. Choose. After choosing: the path reveals itself.&quot;",
@@ -227,7 +273,10 @@ const episodeData = {
         {
             "id": 9725,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058105.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058105.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058105.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058105.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058105.jpg",
             "overlay_texts": [
                 "Crater City. Directorate Colloquy Chamber. Kaelen&#039;s throne-form dominates the obsidian peristyle. Silver time-echoes ripple outward.",
                 "Holographic interfaces begin to flicker systematically, revealing ghost-outcomes of infrastructural cascades. Multiple simultaneous apocalypses.",
@@ -236,5 +285,11 @@ const episodeData = {
                 "The crack continues. Millimeter by millimeter. Into the foundational architecture of perfect inevitability. Which may contain the seed of its own dissolution. Or not."
             ]
         }
-    ]
+    ],
+    "available_langs": [
+        "en",
+        "de",
+        "pt"
+    ],
+    "current_lang": "en"
 };

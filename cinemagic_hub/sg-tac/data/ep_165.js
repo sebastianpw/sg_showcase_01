@@ -44,11 +44,15 @@ const episodeData = {
             "url": "ep_169.html"
         }
     ],
+    "pdf_url": null,
     "frames": [
         {
             "id": 9672,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058052.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058052.jpg",
             "overlay_texts": [
                 "Vortex Station. The Algae Cathedral&#039;s singing priests fall silent. Not in sequence. Not through choice. In half-second increments, each tank dimming a precise interval before the next—a daemoniacal rhythm that mirrors nothing in nature and everything in engineering.",
                 "Admiral Kess stands at the cold magnetic bulkhead. Bone-thin. Void-born. Her wrist implant cascades with data she has been looking at for three hours without permitting herself to name what she is seeing.",
@@ -60,7 +64,10 @@ const episodeData = {
         {
             "id": 9674,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058289.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058289.jpg",
             "overlay_texts": [
                 "The fungi-light casts everything in sickly violet. The light of ledger-keeping—a frequency that reveals obligation, that strips the pretense of social grace and leaves only account balances.",
                 "Melori stands on the causeway. Her matte black obsidian skin absorbs the violet light. Her pure white slicked-back hair catches it cleanly. Her crystalline forearms refract it downward.",
@@ -72,7 +79,10 @@ const episodeData = {
         {
             "id": 9675,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058055.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058055.jpg",
             "overlay_texts": [
                 "The Hall of Ancestors opens before them—four thousand calcified statues in genealogical groupings. The root-lattice ceiling filters tenebrous green light down through its braided geometry.",
                 "Melori stops at one statue among four thousand. It is the most worn, its features eroded nearly to abstraction. Touched. Weekly. Over decades.",
@@ -84,7 +94,10 @@ const episodeData = {
         {
             "id": 9676,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058056.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058056.jpg",
             "overlay_texts": [
                 "Mira&#039;s boots announce her. Each step broadcasts certainty through the Momentum-laced air of the meeting chamber. She enters the bare room like she&#039;s already negotiated its terms with the desert outside.",
                 "The ensemble is present: Kai, Taro, Eve, Kaori. Mira greets them by species, by essence, by covenant.",
@@ -96,7 +109,10 @@ const episodeData = {
         {
             "id": 9677,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058290.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058290.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058290.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058290.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058290.jpg",
             "overlay_texts": [
                 "Rain-Maker Station. The morning&#039;s yield glows on the transparent gauges: 89%. Down from yesterday&#039;s 94%. The descent follows a mathematical pattern Elara recognizes as deliberate.",
                 "The news arrives through Ghost-Walker channels: Trade-Prince Zev&#039;s Nova Terran financing discussions are no longer private. The Settler coalition has fractured as cleanly as rime splits stone.",
@@ -108,7 +124,10 @@ const episodeData = {
         {
             "id": 9678,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058058.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058058.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058058.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058058.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058058.jpg",
             "overlay_texts": [
                 "Vortex Station. Safety orange and cold blue and stark vacuum black. Dr. Chen hands Kaori a data-dense pendant.",
                 "Kaori takes it. Her True-Sight engages—involuntary. The invisible becomes grotesquely, horrifically visible. A shape woven through Anima space itself.",
@@ -120,7 +139,10 @@ const episodeData = {
         {
             "id": 9679,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058059.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058059.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058059.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058059.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058059.jpg",
             "overlay_texts": [
                 "Vortex Station. The First Wave sits at equidistant positions around a metal table. Their respiratory rhythms are synchronized, the ghost-bond rendering individual function as collective choreography.",
                 "Above their temples: Energia fractals arcing silently. Neural-interface emergency releases trigger longing-calls, reaching backward across three centuries to something that no longer exists.",
@@ -132,7 +154,10 @@ const episodeData = {
         {
             "id": 9680,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058060.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058060.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058060.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058060.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058060.jpg",
             "overlay_texts": [
                 "Nova Terra&#039;s Stargazers&#039; Den. Bioluminescent spores drift through vascular architecture. The Glare-Sick gather here, their eyes wrapped in ceremonial linen, shielded from the city&#039;s Aura-Net.",
                 "A Stargazer Matriarch leans forward. The phosphorescent scars along her forearms constitute a language that the Aura-Net cannot broadcast.\n\nMATRIARCH: &quot;Crown. Crater City. Apex.&quot;",
@@ -144,7 +169,10 @@ const episodeData = {
         {
             "id": 9681,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058061.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058061.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058061.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058061.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058061.jpg",
             "overlay_texts": [
                 "Crater City. Arterial Bone. Kaelen is fused to a throne of dark carbon. Chrono energy veins pulse through synthetic flesh. The chamber walls crack into a hexagonal lattice of temporal stress.",
                 "His gloved hand trembles. The physical burn of the Tether. Forty years of negotiation has left the tremor, the skeletal economy, the hollow behind his amber eyes.",
@@ -156,7 +184,10 @@ const episodeData = {
         {
             "id": 9682,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058062.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058062.jpg",
             "overlay_texts": [
                 "Rain-Maker Station. The ceremony is over. Elara&#039;s fingers submerge to the wrist in the morning&#039;s yield. The water should sing. Instead: It yelps.",
                 "The sensation reverberates through her nerve endings—something foreign, dense, purposeful moving through the liquid like a reverse current.",
@@ -168,7 +199,10 @@ const episodeData = {
         {
             "id": 9683,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058063.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058063.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058063.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058063.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058063.jpg",
             "overlay_texts": [
                 "Crater City Canal-Bistro. The obsidian walls sweat mineral water. Melori sits at the head of a table of compressed reed-fiber. Each fingertip glows with soft purple luminescence.",
                 "She apportions facts to three contacts. Never naming the contamination as a pattern. Never connecting the three symptoms into a single diagnosis.",
@@ -180,7 +214,10 @@ const episodeData = {
         {
             "id": 9684,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058064.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058064.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058064.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058064.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058064.jpg",
             "overlay_texts": [
                 "Kai&#039;s salvage hauler cuts through the black. Exposed ribs of welded titanium. A vessel whose biography is its structure—every repair a timestamp, every scar a survival.",
                 "Chipster, a synthetic mind between a bird and a prayer, chirps coordinates. Calculating the approach vector near Jupiter&#039;s orbit.",
@@ -192,7 +229,10 @@ const episodeData = {
         {
             "id": 9685,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058065.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058065.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058065.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058065.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058065.jpg",
             "overlay_texts": [
                 "Crater City Deep Levels. The Tunneler Elder presses her palm against the Remembering Wall. Her crystalline forearms synchronize with the wall&#039;s geometric patterns.",
                 "For three centuries, the wall has preserved. Now: geometric patterns cycle inward. As if a consciousness that has been silent for three hundred years has developed urgency. The wall is no longer a library. It is a warning.",
@@ -204,7 +244,10 @@ const episodeData = {
         {
             "id": 9686,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg",
             "original_filename": "frames_starlightguardians_nu/frame0058066.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058066.jpg",
             "overlay_texts": [
                 "The Scab Junction exhales moss-perfume and the ghost-scent of root-decay. Bioluminescent spores drift like inverted snow. Eve sits cross-legged on a nest of woven root-fibers.",
                 "She has been thinking about the Crown. The knowledge sits in her chest like a stone dropped into still water. Ripples spreading outward. Not yet touching her other six bonds.",
@@ -215,5 +258,11 @@ const episodeData = {
                 "Eve closes her eyes. The jungle above breathes in its sleep. The spores drift. The amber feathers hold."
             ]
         }
-    ]
+    ],
+    "available_langs": [
+        "en",
+        "de",
+        "pt"
+    ],
+    "current_lang": "en"
 };

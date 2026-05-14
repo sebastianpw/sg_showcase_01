@@ -11,37 +11,37 @@ const episodeData = {
             "id": 164,
             "name": "SERIES PRE S01",
             "chapter_label": null,
-            "url": "ep_164.html"
+            "url": "ep_164_pt.html"
         },
         {
             "id": 165,
             "name": "SERIES PRE S02",
             "chapter_label": null,
-            "url": "ep_165.html"
+            "url": "ep_165_pt.html"
         },
         {
             "id": 166,
             "name": "SERIES PRE S03",
             "chapter_label": null,
-            "url": "ep_166.html"
+            "url": "ep_166_pt.html"
         },
         {
             "id": 167,
             "name": "SERIES PRE S04",
             "chapter_label": null,
-            "url": "ep_167.html"
+            "url": "ep_167_pt.html"
         },
         {
             "id": 168,
             "name": "SERIES PRE S05",
             "chapter_label": null,
-            "url": "ep_168.html"
+            "url": "ep_168_pt.html"
         },
         {
             "id": 169,
             "name": "SERIES PRE S06",
             "chapter_label": null,
-            "url": "ep_169.html"
+            "url": "ep_169_pt.html"
         }
     ],
     "pdf_url": null,
@@ -54,9 +54,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058106.jpg",
             "filename": "frames_starlightguardians_nu/frame0058106.jpg",
             "overlay_texts": [
-                "Aetherion. An ancient ice courtyard at non-terrestrial dawn. The Aurora Shield casts diaphanous light across translucent surfaces. The near-dissolved citizens drift past like sentient weather.",
-                "One figure—more luminous absence than presence—intersects their formation. Speaking without words: &quot;The defiance at Octarion gathers. You have weeks. The shield terminates synthesis.&quot;",
-                "The courtyard&#039;s serenity suffocates them with the implicit understanding: staying means dissolving into formlessness. Leaving means accepting the maniacal momentum of the Convergence."
+                "Aetherion. Um antigo pátio de gelo ao amanhecer não-terrestre. O Escudo Aurora projeta luz diáfana sobre superfícies translúcidas. Os cidadãos quase dissolvidos passam flutuando como clima senciente.",
+                "Uma figura — mais ausência luminosa do que presença — cruza sua formação. Falando sem palavras: &quot;A resistência em Octarion reúne-se. Vocês têm semanas. O escudo termina a síntese.&quot;",
+                "A serenidade do pátio sufoca-os com a compreensão implícita: ficar significa dissolver-se na falta de forma. Sair significa aceitar o ímpeto maníaco da Convergência."
             ]
         },
         {
@@ -67,9 +67,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058107.jpg",
             "filename": "frames_starlightguardians_nu/frame0058107.jpg",
             "overlay_texts": [
-                "Noctura stands at the courtyard&#039;s furthest edge, a silhouette drawn in negative space. The most-dissolved Aetherion citizen approaches, offering an Anima-to-Anima contact that requires no translation.",
-                "Somewhere in the white noise of Eve&#039;s fragmentation, Atairukh&#039;s bond-signature resounds: a brief, acrobatic shimmer. A faint gilt thread catching light it should not yet perceive.",
-                "Noctura&#039;s horns catch the bioluminescent flare and hold it steady. The informant silence between them speaks: You are still in there, and I see you."
+                "Noctura permanece na borda mais distante do pátio, uma silhueta desenhada em espaço negativo. O cidadão mais dissolvido de Aetherion aproxima-se, oferecendo um contacto Anima-a-Anima que não requer tradução.",
+                "Algures no ruído branco da fragmentação de Eve, a assinatura de elo de Atairukh ressoa: um breve brilho acrobático. Um ténue fio dourado captando luz que ainda não deveria perceber.",
+                "Os chifres de Noctura captam o clarão bioluminescente e mantêm-no firme. O silêncio informativo entre eles fala: Tu ainda estás aí dentro, e eu vejo-te."
             ]
         },
         {
@@ -80,9 +80,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058108.jpg",
             "filename": "frames_starlightguardians_nu/frame0058108.jpg",
             "overlay_texts": [
-                "The Penumbra Zone. A landscape of crisscross shadow-lattice. Mira sprints, her red dreadlocks whipping like harpoon lines. Rin moves ahead with eurythmic precision, evading pressure plates.",
-                "Sparklefly and Chipster work in delirious symphony, scattering false heat signatures across the zone like soup spilled across a transcript. Confusing the surveillance nexus.",
-                "The ensemble writes its story in evasion. Slipping beneath an overturned hull, their manifesto written in the scorched breadcrumbs they leave behind."
+                "A Zona de Penumbra. Uma paisagem de treliça de sombras cruzadas. Mira corre, seus dreadlocks vermelhos chicoteando como cordas de harpão. Rin move-se à frente com precisão eurítmica, evitando placas de pressão.",
+                "Sparklefly e Chipster trabalham em sinfonia delirante, espalhando falsas assinaturas de calor pela zona como sopa derramada sobre um manuscrito. Confundindo o nexo de vigilância.",
+                "O conjunto escreve sua história na evasão. Deslizando sob um casco capotado, seu manifesto escrito nas migalhas de pão queimadas que deixam para trás."
             ]
         },
         {
@@ -93,9 +93,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058109.jpg",
             "filename": "frames_starlightguardians_nu/frame0058109.jpg",
             "overlay_texts": [
-                "The Colorless City does not announce itself. It simply becomes present. 500 albino people, a civilization that has integrated logic and feeling into a single faculty.",
-                "Octarion stands motionless at the invisible outermost boundary, his red eyes tracking the ensemble&#039;s approach. His gold chain harness catching no light.",
-                "Taro walks forward, his red leather catching the grey afternoon like an affront. The moment stretches—equidistant from welcome and denial—as Octarion decides to lower the shield."
+                "A Cidade Sem Cor não se anuncia. Simplesmente torna-se presente. 500 albinos, uma civilização que integrou a lógica e o sentimento numa única faculdade.",
+                "Octarion permanece imóvel na fronteira externa invisível, seus olhos vermelhos rastreando a aproximação do conjunto. Seu arnês de corrente dourada não capta luz.",
+                "Taro caminha para a frente, seu couro vermelho captando a tarde cinzenta como uma afronta. O momento estende-se — equidistante do acolhimento e da negação — enquanto Octarion decide baixar o escudo."
             ]
         },
         {
@@ -106,9 +106,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058110.jpg",
             "filename": "frames_starlightguardians_nu/frame0058110.jpg",
             "overlay_texts": [
-                "The Void. Octarion&#039;s sanctum of absolute darkness. Kaori&#039;s silver-to-lavender afro catches phantom light, her cyan strips gleaming like a heartbeat made visible.",
-                "She asks—not demands, not explains—to share what she has been carrying through the Tether. Octarion&#039;s red eyes remain fixed, experiencing the physiological response to being asked.",
-                "When he says yes, the permission ripples outward like a crack in obsidian. Kaori&#039;s fingers reach toward the space between them. The quantum shimmer begins."
+                "O Vazio. O santuário de escuridão absoluta de Octarion. O afro prata-lavanda de Kaori capta luz fantasma, suas tiras ciano brilhando como um coração visível.",
+                "Ela pede — não exige, não explica — para partilhar o que tem carregado através do Tether. Os olhos vermelhos de Octarion permanecem fixos, sentindo a resposta fisiológica ao ser questionado.",
+                "Quando ele diz sim, a permissão ondula para fora como uma fenda na obsidiana. Os dedos de Kaori alcançam o espaço entre eles. O brilho quântico começa."
             ]
         },
         {
@@ -119,9 +119,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058111.jpg",
             "filename": "frames_starlightguardians_nu/frame0058111.jpg",
             "overlay_texts": [
-                "The Rotunda breathes. Kaori&#039;s True-Sight unfolds across the space—four thousand minds arranged in a frieze of interconnected luminescence. The Sleeper Collective.",
-                "Octarion&#039;s red eyes dim to embers. Gooseflesh rises across his bare shoulders—the proof he has held faith for is already here, flourishing without hierarchy or vanity.",
-                "His cape falls still. The planetary field reshapes within him. The largest evidence against everything he has built stands before him in the form of a young woman documenting the future."
+                "A Rotunda respira. A Visão-Verdadeira de Kaori desenrola-se pelo espaço — quatro mil mentes organizadas num friso de luminescência interligada. O Coletivo Dormente.",
+                "Os olhos vermelhos de Octarion diminuem para brasas. Gänsehaut sobe pelos seus ombros nus — a prova pela qual ele manteve a fé já está aqui, florescendo sem hierarquia ou vaidade.",
+                "Sua capa aquieta-se. O campo planetário remodela-se dentro dele. A maior evidência contra tudo o que ele construiu está à sua frente na forma de uma jovem mulher documentando o futuro."
             ]
         },
         {
@@ -132,9 +132,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058112.jpg",
             "filename": "frames_starlightguardians_nu/frame0058112.jpg",
             "overlay_texts": [
-                "The Northeastward Chamber. Octarion stands alone. Kaori&#039;s evidence—a pamphlet of spectral diagrams—rests in his palm like a scale weight he has carried his entire reign.",
-                "His red eyes dim to a careful crimson. The planetary field trembles with recurrence—a sluggish recovery that asks nothing of him but presence.",
-                "He was a Warder, not a builder. Holding proportion without force. The megaphone calls of war that haunted the northern territories fall mute. Purpose finds its solace in refusal."
+                "A Câmara do Nordeste. Octarion permanece sozinho. A evidência de Kaori — um panfleto de diagramas espectrais — repousa na sua palma como um peso de balança que ele carregou durante todo o seu reinado.",
+                "Seus olhos vermelhos diminuem para um carmesim cuidadoso. O campo planetário estremece com a recorrência — uma recuperação lenta que nada lhe pede senão presença.",
+                "Ele era um Guardião, não um construtor. Mantendo a proporção sem força. As chamadas de megafone da guerra que assombravam os territórios do norte calam-se. O propósito encontra seu consolo na recusa."
             ]
         },
         {
@@ -145,9 +145,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058113.jpg",
             "filename": "frames_starlightguardians_nu/frame0058113.jpg",
             "overlay_texts": [
-                "Vortex Station. Cryo-Bay 4. Four thousand sleeping faces suspended in amber stasis fluid. Kaori and Dr. Chen approach them not as patients, but as partners in their own awakening.",
-                "The Ask has been broadcast. A cascade of tiny status indicators transitions from dormant amber to awakening rose. The fluid drains in perfect sequence.",
-                "The first pod hisses open. An elderly man draws his first breath in three centuries, gasping like he&#039;s been held underwater by something that finally, mercifully, let go."
+                "Estação Vortex. Ala de Criogenia 4. Quatro mil rostos adormecidos suspensos em fluido de estase de âmbar. Kaori e Dr. Chen aproximam-se deles não como pacientes, mas como parceiros no seu próprio despertar.",
+                "O Pedido foi transmitido. Uma cascata de pequenos indicadores de estado transita do âmbar dormente para o rosa despertante. O fluido drena em sequência perfeita.",
+                "A primeira cápsula abre-se com um silvo. Um homem idoso faz sua primeira respiração em três séculos, ofegando como se estivesse debaixo de água por algo que finalmente, misericordiosamente, o soltou."
             ]
         },
         {
@@ -158,9 +158,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058114.jpg",
             "filename": "frames_starlightguardians_nu/frame0058114.jpg",
             "overlay_texts": [
-                "Crater City&#039;s uppermost archive. Alcuin, a janitor at Helios Station in Year Zero, begins her testimony. Remembering the boiling cooling systems, the encrypted script.",
-                "Her voice is neatly factual: the orbital calculations showed precedence for the Kanara Basin three days before the official expedition. The manifesto was already written.",
-                "Around her sit others—a cook, a scorpion-keeper, a swineherd—radiantly patient. Reality glitching at the edges as if the past itself resists erasure."
+                "Arquivo mais alto de Crater City. Alcuin, uma zeladora na Estação Helios no Ano Zero, começa seu testemunho. Lembrando-se dos sistemas de arrefecimento a ferver, do script encriptado.",
+                "Sua voz é factualmente limpa: os cálculos orbitais mostravam precedência para a Bacia de Kanara três dias antes da expedição oficial. O manifesto já estava escrito.",
+                "Ao seu redor sentam-se outros — um cozinheiro, um tratador de escorpiões, um porqueiro — radiantemente pacientes. A realidade falha nas bordas como se o próprio passado resistisse ao apagamento."
             ]
         },
         {
@@ -171,9 +171,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058301.jpg",
             "filename": "frames_starlightguardians_nu/frame0058301.jpg",
             "overlay_texts": [
-                "The Tunneler Elder&#039;s voice recites the nomenclature of the dead: 287 conscious Spectres rendered to pulp, their names a postal registry of the murdered.",
-                "Kaori&#039;s True-Sight locks onto the conch-shell relic. Her cyan strips flicker in sympathy. The relic perspires opalescent fluid.",
-                "She understands: this was not compulsion but choice, orchestrated by those who vaulted into power through tribulation. The bloodiest lie of the age, delivered through the mouths of the silenced."
+                "A voz da Anciã Tuneladora recita a nomenclatura dos mortos: 287 Espectros conscientes reduzidos a polpa, seus nomes um registo postal dos assassinados.",
+                "A Visão-Verdadeira de Kaori fixa-se na relíquia da concha. Suas tiras ciano piscam em simpatia. A relíquia transpira fluido opalescente.",
+                "Ela compreende: isto não foi compulsão, mas escolha, orquestrada por aqueles que saltaram para o poder através da tribulação. A mentira mais sangrenta da era, entregue através da boca dos silenciados."
             ]
         },
         {
@@ -184,9 +184,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058116.jpg",
             "filename": "frames_starlightguardians_nu/frame0058116.jpg",
             "overlay_texts": [
-                "Last Light Station. -10,000 meters beneath Tidalcross. Steel walls rattle as the seismic array screams. The Fluidica Avatar—the Trench Singer—wakes in the abyss.",
-                "A body of pure Fluidica that moves water itself like flesh. With each exhalation, pressure cascades upward in synchronized pulses that carry no malice, only testimony.",
-                "Director Karesh broadcasts through her Noetica partnership: &quot;We abdicated stewardship. Now we listen.&quot; The tsunami building above them is not punishment. It is language."
+                "Estação Última Luz. -10.000 metros abaixo de Tidalcross. Paredes de aço chacoalham enquanto o conjunto sísmico grita. O Avatar de Fluidica — o Grabensänger — acorda no abismo.",
+                "Um corpo de Fluidica pura que move a própria água como carne. Com cada exalação, a pressão cai em cascata para cima em pulsos sincronizados que não carregam malícia, apenas testemunho.",
+                "A Diretora Karesh transmite através da sua parceria de Noética: &quot;Abdicámos da custódia. Agora ouvimos.&quot; O tsunami que se forma acima deles não é castigo. É linguagem."
             ]
         },
         {
@@ -197,9 +197,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058302.jpg",
             "filename": "frames_starlightguardians_nu/frame0058302.jpg",
             "overlay_texts": [
-                "Volcanic tufa tableland. The Dragon Guide hovers beside Mira, broadcasting translation into her brainstem. The Trench Singer&#039;s voice rendered visible as a spectroscopic lattice of frequencies.",
-                "MIRA: &quot;It&#039;s not dying. It&#039;s been trying to speak for three hundred years. The planet is not breaking. It&#039;s speaking.&quot;\n\nTaro&#039;s breath catches. Kaori&#039;s headphones pulse in sync with the chasm&#039;s tremor.",
-                "Rin stands motionless, hand extended palm-upward in suppliant listening. Understanding that acknowledgment is the first honest negotiation with a world that has been speaking all along."
+                "Mesa vulcânica de tufo. O Guia Dragão paira ao lado de Mira, transmitindo a tradução para o seu tronco cerebral. A voz do Grabensänger tornada visível como uma treliça espectroscópica de frequências.",
+                "MIRA: &quot;Não está a morrer. Tem tentado falar há trezentos anos. O planeta não está a quebrar. Está a falar.&quot;\n\nTaro perde o fôlego. Os auscultadores de Kaori pulsam em sincronia com o tremor do abismo.",
+                "Rin permanece imóvel, mão estendida com a palma para cima em escuta suplicante. Compreendendo que o reconhecimento é a primeira negociação honesta com um mundo que tem falado o tempo todo."
             ]
         },
         {
@@ -210,9 +210,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058303.jpg",
             "filename": "frames_starlightguardians_nu/frame0058303.jpg",
             "overlay_texts": [
-                "Drift Flagship Velocity. Grand Admiral Jinx receives the contamination attribution through Ghost-Walker channels. The deliberate poisoning of every attainable water container.",
-                "Electric blue fractals arc between her knuckles. She opens her mouth and the Wind-Swear emerges: a ritualistic incantation calling every nomad, every salvager to rise.",
-                "Across the horizon, massive sails angle toward a single convergence point. The Drift does not settle. But today, the Drift moves as one."
+                "Drift Flagship Velocity. A Grande Almirante Jinx recebe a atribuição de contaminação através dos canais Ghost-Walker. O envenenamento deliberado de cada recipiente de água atingível.",
+                "Fractais azul elétrico saltam entre seus nós dos dedos. Ela abre a boca e o Juramento do Vento emerge: um encantamento ritualístico convocando cada nómada, cada sucateiro a erguer-se.",
+                "Através do horizonte, velas massivas inclinam-se em direção a um único ponto de convergência. O Drift não assenta. Mas hoje, o Drift move-se como um só."
             ]
         },
         {
@@ -223,7 +223,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058119.jpg",
             "filename": "frames_starlightguardians_nu/frame0058119.jpg",
             "overlay_texts": [
-                "Shadow-Scab Hall of Ancestors. The Head Keeper receives a formal statement from Nova Terra: acknowledgment of the Ascension, the word &#039;sorry&#039; spoken 313 years too late."
+                "Salão dos Ancestrais da Crosta. A Guardiã-Chefe recebe uma declaração formal de Nova Terra: reconhecimento da Ascensão, a palavra &quot;desculpa&quot; dita 313 anos tarde demais."
             ]
         },
         {
@@ -234,11 +234,11 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058120.jpg",
             "filename": "frames_starlightguardians_nu/frame0058120.jpg",
             "overlay_texts": [
-                "Chrono Sanctum. Taro stands unstrapped from ceremony. The air grows thick, not with hostility but with the crushing Gravita pressure of a man who has carried the judgment of nations.",
-                "She feels the ponderous weight of vindication without victory. The words shimmer in Vitalis ink, struggling to breathe in the humid density.",
-                "Kaelen&#039;s voice arrives drenched in regulation restraint, but even this control begins to crumble. Something unglimpsed in his orange eyes reaches toward Taro.",
-                "She places it in the smallest vault among the unnamed. In this gesture lies the true answer: forgiveness is not absolution. It is the choice to keep living anyway.",
-                "Kaelen&#039;s cybernetic fingers curl against the throne&#039;s armrest—a gesture so unconscious, so simply human, it becomes the most honest thing spoken in the room."
+                "Chrono Sanctum. Taro está desvinculado da cerimónia. O ar torna-se denso, não com hostilidade, mas com a pressão de Gravita esmagadora de um homem que carregou o julgamento das nações.",
+                "A voz de Kaelen chega encharcada de contenção de regulamento, mas até este controlo começa a desmoronar. Algo não vislumbrado nos seus olhos cor de laranja alcança Taro.",
+                "A voz de Kaelen chega encharcada de contenção de regulamento, mas até este controlo começa a desmoronar. Algo não vislumbrado nos seus olhos cor de laranja alcança Taro.",
+                "Os dedos cibernéticos de Kaelen curvam-se contra o apoio de braço do trono — um gesto tão inconsciente, tão simplesmente humano, que se torna a coisa mais honesta dita na sala.",
+                "Os dedos cibernéticos de Kaelen curvam-se contra o apoio de braço do trono — um gesto tão inconsciente, tão simplesmente humano, que se torna a coisa mais honesta dita na sala."
             ]
         },
         {
@@ -249,9 +249,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058121.jpg",
             "filename": "frames_starlightguardians_nu/frame0058121.jpg",
             "overlay_texts": [
-                "Kaelen&#039;s predictive models cascade toward null. Sparklefly darts through the monastic chamber, her chaos manifesting as small fires that refuse to follow gravitational law.",
-                "She moves without pattern because she is free. Her freedom testifies against everything Kaelen has systematized into iron.",
-                "A tremor runs through the throne&#039;s substructure. For the first time in four decades, Kaelen experiences the gravitational pull of what he refused to become."
+                "Os modelos preditivos de Kaelen caem para zero. Sparklefly dardeja através da câmara monástica, seu caos manifestando-se como pequenos fogos que se recusam a seguir a lei gravitacional.",
+                "Move-se sem padrão porque é livre. Sua liberdade testemunha contra tudo o que Kaelen sistematizou em ferro.",
+                "Um tremor percorre a subestrutura do trono. Pela primeira vez em quatro décadas, Kaelen experimenta a atração gravitacional do que recusou tornar-se."
             ]
         },
         {
@@ -262,9 +262,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058122.jpg",
             "filename": "frames_starlightguardians_nu/frame0058122.jpg",
             "overlay_texts": [
-                "Maintenance crawlspace. Rin sits cross-legged as Petra pours out the architectural blueprints of Operation Moon&#039;s Fall. &quot;794 souls died in the Extraction.&quot;",
-                "Rin lets the full agony of inherited conviction seep into her chest. Her hands remain open on her knees: I hear the price. Now show me the cost.",
-                "Shadownip crystallises slightly. The three of them sit enmeshed in the dark, where the liveliest act of resistance is to sit with the question until the answer becomes undeniable."
+                "Espaço de manutenção. Rin senta-se de pernas cruzadas enquanto Petra despeja as plantas arquitetónicas da Operação Queda da Lua. &quot;794 almas morreram na Extração.&quot;",
+                "Rin deixa a agonia total da convicção herdada infiltrar-se no seu peito. Suas mãos permanecem abertas sobre os joelhos: Eu ouço o preço. Agora mostra-me o custo.",
+                "Shadownip cristaliza ligeiramente. Os três sentam-se enredados no escuro, onde o ato mais vivo de resistência é sentar-se com a pergunta até que a resposta se torne inegável."
             ]
         },
         {
@@ -275,9 +275,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058123.jpg",
             "filename": "frames_starlightguardians_nu/frame0058123.jpg",
             "overlay_texts": [
-                "Obsidian war chamber. The Directorate votes on deploying the Anti-Anima ordnance against Tidalcross. Director Voss&#039;s wrist implant displays the tally: 12 yes, 3 no.",
-                "The three dissenters refuse to rise. Recognizing the irreversible debt this crossing demands.",
-                "A younger member whispers a single word into the pressurized air: &quot;thenceforward.&quot; Meaning everything after this vote lives in a different world. The weapon remains unfired."
+                "Câmara de guerra de obsidiana. O Diretorado vota o envio da munição Anti-Anima contra Tidalcross. O implante de pulso do Diretor Voss exibe a contagem: 12 sim, 3 não.",
+                "Os três dissidentes recusam-se a erguer-se. Reconhecendo a dívida irreversível que esta travessia exige.",
+                "Um membro mais jovem sussurra uma única palavra para o ar pressurizado: &quot;doravante.&quot; Significando que tudo depois deste voto vive num mundo diferente. A arma permanece não disparada."
             ]
         },
         {
@@ -288,9 +288,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058124.jpg",
             "filename": "frames_starlightguardians_nu/frame0058124.jpg",
             "overlay_texts": [
-                "Hall of Ancestors. The Tunneler elder sits motionless. The walls begin to weep mineral discharge, each droplet carrying the imprint of Noctura&#039;s transgression.",
-                "Noctura materializes. Her glowing eyes cast darkness, a backward radiance. The elder&#039;s cheek trembles—the physiological rupture of betrayal traveling through the deepest bonds.",
-                "The obsidian floor fractures into new configurations that refuse to record what transpired. The Tunnelers preserve the terrible absurdity: Noctura remains untouched. Unsign-able."
+                "Salão dos Ancestrais. A Anciã Tuneladora permanece imóvel. As paredes começam a chorar descarga mineral, cada gota carregando a marca da transgressão de Noctura.",
+                "Noctura materializa-se. Seus olhos brilhantes projetam escuridão, uma radiância invertida. A bochecha da anciã treme — a rutura fisiológica da traição viajando através dos elos mais profundos.",
+                "O chão de obsidiana fratura-se em novas configurações que se recusam a gravar o que transpirou. Os Tuneladores preservam o terrível absurdo: Noctura permanece intocada. In-assinável."
             ]
         },
         {
@@ -301,9 +301,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058304.jpg",
             "filename": "frames_starlightguardians_nu/frame0058304.jpg",
             "overlay_texts": [
-                "Nova Terra Luminara Gardens. Vitalis practitioners broadcast not commands but requests to the Root Rot&#039;s unknowable consciousness. &quot;We do not grasp. We ask.&quot;",
-                "The corruption begins to whiten, membrane by membrane, as if touched by a counterweight of grace.",
-                "In the Drift, a Cloud-Weaver holds her breath as morning dew gathers, yield reaching 98%. The Anima did not change. Humanity finally did. Mournful joy travels the Aura-Net."
+                "Jardins Luminara de Nova Terra. Praticantes de Vitalis transmitem não ordens mas pedidos à consciência desconhecida de Root Rot. &quot;Não agarramos. Pedimos.&quot;",
+                "A corrupção começa a branquear, membrana por membrana, como se tocada por um contrapeso de graça.",
+                "No Drift, uma Tecelã de Nuvens sustém a respiração enquanto o orvalho da manhã se reúne, o rendimento atingindo 98%. O Anima não mudou. A humanidade finalmente mudou. A alegria lúgubre viaja pela Aura-Net."
             ]
         },
         {
@@ -314,9 +314,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058305.jpg",
             "filename": "frames_starlightguardians_nu/frame0058305.jpg",
             "overlay_texts": [
-                "Northwestern chamber. Kaori and Octarion. Kaori raises one hand, palm open: &quot;May I touch what you are?&quot;",
-                "Octarion shivers, gooseflesh rising across the gold chain harness. He nods, unanimous in his own consent. Two intelligences clinching not in conflict but in the buoyant relief of being truly seen.",
-                "The city&#039;s life-support machinery shifts key. The resolution they build together shudders through every obsidian corridor, rewriting tolerance into the system&#039;s deepest architecture."
+                "Câmara do noroeste. Kaori e Octarion. Kaori levanta uma mão, palma aberta: &quot;Posso tocar no que tu és?&quot;",
+                "Octarion estremece, gänsehaut subindo pelo arnês de corrente dourada. Ele acena, unânime no seu próprio consentimento. Duas inteligências unindo-se não em conflito, mas no alívio flutuante de ser verdadeiramente visto.",
+                "A maquinaria de suporte de vida da cidade muda de tom. A resolução que constroem juntos vibra através de cada corredor de obsidiana, reescrevendo a tolerância na arquitetura mais profunda do sistema."
             ]
         }
     ],
@@ -325,5 +325,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "en"
+    "current_lang": "pt"
 };
