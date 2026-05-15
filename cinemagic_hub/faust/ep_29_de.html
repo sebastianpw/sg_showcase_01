@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Kapitel IX: Land, Macht und das Wirken bis zum Ende — FAUST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">DE</span>
+    </button>
+    <div class="lang-menu"><a href="ep_29.html">EN</a><a href="ep_29_de.html">DE</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST&nbsp;·&nbsp; 9 / 10</div>
+        <h1 class="seq-title">Kapitel IX: Land, Macht und das Wirken bis zum Ende</h1>
+        <p class="seq-desc">Blind, uralt und noch immer befehlend, formt Faust die Erde selbst neu — und in der riesigen Maschinerie der Landgewinnung findet er endlich die erschreckende Nähe zur Zufriedenheit, der einzigen Bedingung, die sein Pakt verbietet.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000424.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Er steht auf einem hohen Damm und überblickt Feuchtgebiete, die ihm mit jeder Tugend der Wildnis widerstehen. Die Entwässerung der Moore, die Gewinnung gewaltiger Landstriche aus der Herrschaft des Wassers — dies ist seine Vision, die nun zu etwas messbar Konkretem kristallisiert ist. Arbeiter bewegen sich über das Gelände wie Hopliten in Formation. Deiche erheben sich. Kanäle werden gegraben. Ein Graben glänzt unter ungewissem Licht. Was ihn jetzt beseelt, ist nicht Landwirtschaft, sondern etwas egoistisch Grandioseres: die Fantasie der Beständigkeit selbst, des menschlichen Willens, der dem Ungeformten Ordnung aufzwingt. Er sieht Felder vor sich, die noch nicht geboren sind, Gehöfte und Speicher, das Vaterland, neu erschaffen durch sein Dekret. Mephisto schleicht am Rande umher, mit kaum verhohlener Ironie. Der Bau wird zu einer Erzählung der Zivilisation, die aus dem Chaos aufsteigt. Doch der Staub, der von der aufgewühlten Erde aufsteigt, trägt Vorzeichen in sich, die Faust in seinem Hunger lieber nicht liest. Die Natur beugt sich nicht so bereitwillig. Die Instrumente seines Ehrgeizes sind zugleich die Instrumente der Vertreibung anderer.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000425.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Auf dem schmalsten Streifen Land, der noch unberührt geblieben ist, pflegen Philemon und Baucis das Wenige, was ihnen gehört — eine Hütte, gesäumt von Deichen und Morgenlicht, ein Garten, der über Jahrzehnte standgehalten hat. Sie kennen den Namen des Mannes nicht, dessen Ingenieure die Sümpfe jenseits ihrer Grenze vermessen, noch begreifen sie die Gefräßigkeit, die eine solche Umgestaltung vorantreibt. Was sie kennen, ist Boden, Jahreszeiten, das Summen stetiger Arbeit. Ihr Gelübde, das sie vor langer Zeit an diesem Ort ablegten, galt nicht der Größe, sondern dem Wertvollen: zu pflanzen, Schutz zu bieten, auszuharren. Um sie herum wird das Geräusch der Bauarbeiten an jedem Nachmittag lauter. Sie weisen es nicht zurück. Sie pflegen ihr eigenes Stückchen Erde mit einer Art dienender Anmut, als könnten sie, indem sie den kleinen Dingen treu bleiben, etwas Größeres und Schrecklicheres abwenden. In ihren zitternden Händen und den flechtenbewachsenen Steinen ihrer Schwelle liegt eine Frage, die kein imperialer Träumer sich zu stellen bemüht hat: Was geht verloren, wenn alles neu erschaffen wird?</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000426.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Die Deiche erheben sich dort, wo das Marschland atmete. Faust überblickt mit kalter Genugtuung die neu enteigneten Felder, das gewaltige Programm der Landgewinnung, das sich bis zu einem künstlichen Horizont erstreckt. Doch die Kosten sammeln sich im Boden an: alte Pachtverhältnisse hinweggefegt, Gemeinschaften entwurzelt, die moralische Architektur der Welt gebeugt, um dem Hunger eines einzelnen Mannes nach Herrschaft zu dienen. Mephisto beobachtet dies vom Rande aus, elegant und amüsiert, als wären der Ruß und der Schutt der Vertreibung lediglich das unvermeidliche Nebenprodukt des Ehrgeizes — eine Steuer, die bereitwillig von jenen gezahlt wird, die es wagen, die Erde neu zu gestalten. Faust hält nicht inne, um das Fehlen von Barmherzigkeit zu bedenken. Er sieht nur den Überfluss in Reichweite. Doch etwas flackert am Rande seines Bewusstseins — ein Moment der Überwachung, als betrachte das Universum selbst ihn mit Verachtung. Der Windschutz seiner Gewissheit erzittert. Dies ist der Ernstfall, den er nie beim Namen nannte, als er unterschrieb: dass Größe und Verlust keine getrennten Konten sind. Jede Landgewinnung erfordert eine entsprechende Enteignung.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000427.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Er ist neunzig Jahre alt, blind und sieht deshalb endlich. Die äußere Welt ist irrelevant geworden, absorbiert in die theoretische Architektur des reinen Willens. Er spricht nicht zu jenen, die vor ihm arbeiten, sondern zur Unveränderlichkeit seiner eigenen Vision — einer Vision, die keine Augen braucht, die durch materiellen Widerstand dringt wie durch Dunst. Die Vorhänge um ihn herum fangen den Wind von Ländern ein, die er entwässert hat, von Feldern, die er zum Leben befohlen hat. Die Grauen Weiber treiben am Rande dieser Szene — Sorge, Mangel, Schuld, Not — spektrale Präsenzen, die seine Blindheit nicht völlig ausschließen kann. Die Sorge hat ihn bereits in der Nacht angehaucht und seine Augen versiegelt. Er weiß es nicht. Er gestikuliert mit kühner Gewissheit in Richtung einer Welt, die er nicht mehr sieht, aber vollkommen beherrscht. Seine Blindheit ist keine Verminderung, sondern eine Apotheose. In seiner Sichtlosigkeit ist Faust zu dem Hexenmeister geworden, der er immer war — er herrscht durch Mystik statt durch Sicht. Seine Blindheit ist seine letzte Eroberung. Und auch sein letzter Verlust.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000428.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Er spricht von einem Volk, frei auf freiem Grund, von täglichem Kampf, der die Existenz würdigt — und seine Augen brennen von einer schrecklichen Aufrichtigkeit. Dies ist der krasseste Moment seines Strebens: der Augenblick, in dem visionärer Eifer nicht mehr von Tyrannei zu unterscheiden ist. Um ihn herum formt sich die Landschaft neu — nicht durch seine Hand allein, sondern durch die Hände derer, die er befehligt. Die Lemuren arbeiten in gespenstischer Synchronisation, skelettartige Gestalten, die mit gehorsamer, stummer Präzision schleppen und ziehen. Der Boden unter dieser Vision ist noch immer umstritten, noch immer getränkt vom Blut jener, die durch seinen Ehrgeiz vertrieben wurden. Er sieht die Ironie nicht: dass er in seinem Hunger, das Morgen zu bauen, das Heute verpfändet hat. In diesem Moment ist Faust am meisten er selbst und am wenigsten menschlich — eine Figur, geschnitzt aus seiner eigenen Mythologie, die so spricht, als beuge sich die Bedeutung selbst seinem Wort. Das Kerzenlicht der Vernunft ist dem lodernden Glanz des Ehrgeizes gewichen. Die Geschichte wird sich an die Vision erinnern. Die Geschichte neigt dazu zu vergessen, was die Vision erforderte.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000429.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Die grasbewachsene Ebene erstreckt sich vor ihm, dem Meer selbst abgerungen — ein Monument, geschrieben in Erde und Stein. Faust steht auf dem Höhepunkt seiner Erwerbungen und überblickt das Reich, das er durch Willen und Vertrag errichtet hat. Die Arbeit geht weiter. Dies ist der Moment, den Mephisto versprochen hat — nicht Reichtum allein, sondern Herrschaft. Und in der Vision der Vollendung regt sich eine schreckliche Erkenntnis. Das Fieber des Ehrgeizes, der ständige Hunger, der ihn durch jede Schwelle trieb, beginnt sich in etwas anderes zu verwandeln: Zufriedenheit. Gefährlich. Tödlich. Das Streben, das ihn definierte, flackert, droht zu erlöschen. Der Pakt sah vor, dass, sollte ein solcher Moment eintreten — sollte Faust jemals zum flüchtigen Augenblick sagen: „Verweile doch, du bist so schön!“ —, er dann der Finsternis gehört. Er spricht diese Worte noch nicht aus. Doch im Labyrinth seines eigenen Schweigens hallen sie wider und warten. Der Übergang vom Hunger zum Besitz, vom Greifen zum Halten, vom Fieber zur Ruhe — dies ist die Schwelle, die keine ehrgeizige Seele unverändert überschreitet.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000430.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Der alte Mann liegt auf der Schwelle seines eigenen Werdens, blind und doch nach innen sehend — der Körper verbraucht, das Werk unvollendet, das Ziel in seiner eigentlichen Unvollständigkeit erreicht. Er hat seine Arbeiter durch einen letzten Tag der Landgewinnung getrieben. Der Wirbel des Ehrgeizes, der Jahrzehnte verschlang, hat sich auf einen einzigen Atemzug verengt. Er wütet nicht gegen das schwindende Licht. Es liegt ein seltsamer Friede in dem teilweisen Sieg — das Wissen, dass das, was er begann, ihn überdauern wird, dass sein Streben selbst das einzige Ziel war, das zu erreichen lohnte. Der Tod kommt nicht als Niederlage, sondern als die endgültige Synchronisation: der Moment, in dem der rastlose Hunger aufhört und das, was er schuf, Zeugnis ablegt. In seinem letzten bewussten Moment begreift Faust, dass Vollendung nie der Punkt war — nur das ungehinderte Greifen, das ewige Ziel, die Gier, die selbst dann nicht aufhörte, als der Körper nicht mehr antworten konnte. Nun lässt der Körper los. Das Projekt bleibt. Dieses Paradoxon ist weder Verdammnis noch Erlösung, sondern eine sibyllinische Wahrheit.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_28_de.html">&#9664; Kapitel VIII: Euphorion und der Fall des Ideals</a> <a class="ep-pn-btn" href="ep_30_de.html">Kapitel X: Tod, Gericht und Transzendenz &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_21_de.html">Kapitel I: Die Welt vor dem Fall</a><a class="ep-pill" href="ep_22_de.html">Kapitel II: Der Teufel betritt die Menschenwelt</a><a class="ep-pill" href="ep_23_de.html">Kapitel III: Gretchens Fall</a><a class="ep-pill" href="ep_24_de.html">Kapitel IV: Die Tragödie nimmt Gestalt an</a><a class="ep-pill" href="ep_25_de.html">Kapitel V: Kerker, Verlust und der Aufbruch in Teil II</a><a class="ep-pill" href="ep_26_de.html">Kapitel VI: Kaiserhof und öffentliche Illusion</a><a class="ep-pill" href="ep_27_de.html">Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form</a><a class="ep-pill" href="ep_28_de.html">Kapitel VIII: Euphorion und der Fall des Ideals</a><a class="ep-pill active" href="ep_29_de.html" aria-current="page">Kapitel IX: Land, Macht und das Wirken bis zum Ende</a><a class="ep-pill" href="ep_30_de.html">Kapitel X: Tod, Gericht und Transzendenz</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>

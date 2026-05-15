@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Chapter II: The Devil Enters the Human World — FAUST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">EN</span>
+    </button>
+    <div class="lang-menu"><a href="ep_22.html">EN</a><a href="ep_22_de.html">DE</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST&nbsp;·&nbsp; 2 / 10</div>
+        <h1 class="seq-title">Chapter II: The Devil Enters the Human World</h1>
+        <p class="seq-desc">Mephistopheles arrives not with fire but with understanding — and in the space between a desperate man&#039;s hunger and a devil&#039;s offer, a pact is signed that will remake both the scholar and the world he inhabits.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000368.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Wagner believes knowledge can be possessed, ordered, transmitted — a ledger of the known that grows with each careful entry. Faust knows otherwise. He has seen the other side of that ledger: the column of things that cannot be written down, the unmeasurable remainder that escapes every taxonomy. Wagner moves through the study with the grace of a man at peace with his limits — and his peace is, to Faust, a form of sleep. They breathe different air in the same room. Wagner&#039;s knowledge is tractable, useful, finite. Faust&#039;s hunger is shaped by what he has glimpsed and cannot hold, a wound that refuses to close because closing it would mean accepting that some truths exist beyond the reach of any instrument, any formula, any well-catalogued proof. The study is both their home and only one man&#039;s tomb.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000369.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">The most terrible thing is not that Faust stands apart — it is that the crowd is genuinely alive, and he can see it. A mother&#039;s love for her child, the old man&#039;s dignity in keeping accounts, the lover&#039;s glance across a market square: these small ceremonies of connection hum with a vitality he cannot access. He is not above them. He is simply unable to enter. The street is full of people who have found, in limitation itself, a kind of abundance — who have accepted the particular life assigned to them and made it luminous through attention and care. Faust has rejected that bargain. He wants the whole. And in wanting the whole, he has forfeited the part. The devil has not yet appeared. He does not need to. This hunger — for everything, which produces only emptiness — is already diabolical enough.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000370.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Mephisto does not arrive as a monster. He arrives as a recognition — as if someone had finally named the thing Faust has been carrying for years. His courtesy is impeccable, his understanding exact. He does not tempt; he merely agrees with everything Faust already knows: that the books were a lie, that the formulas were a prison, that experience — raw, ungoverned, total — is what the hungry soul truly craves. He offers not evil but a reframing: your limitations are not your failure, they are your chains. He presents freedom as the word for what he is selling. Faust, exhausted and brilliant, hears the offer and feels the relief of being finally understood. What he does not yet notice is that to be understood by Mephistopheles is not absolution — it is the opening move of a very long game.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000371.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">The pen is in his hand. The pact is on the table. The ink, tradition insists, must be blood — because blood, unlike words, cannot be argued away. Faust has internalized the condition: if ever he finds himself fully satisfied, if ever he says to a passing moment &quot;Tarry, thou art so fair&quot; — then his soul is forfeit. The devil&#039;s gamble is this: that the restless man will never be satisfied. Faust&#039;s gamble is identical: that he agrees. He intends never to be satisfied. He will never rest. The pact asks him to be exactly what he already is. What neither man has fully reckoned with is that the hunger which makes the bargain possible is also the thing that will make it terrible — that to chase the infinite is also to consume everything in the path of the chase.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000372.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">The glass shatters and youth returns — but it arrives carrying something with it that was not there before. Not vigor alone. Something else. An appetite that feels like freedom but operates like an imperative. His body remembers what his mind had almost forgotten: that it wants. That the world is full of things to be seized, consumed, possessed. He stands before the mirror and barely recognises the man who looks back — younger, sharper, burnished with a hunger that his decades of scholarship had almost subdued. He flexes his hands. Worthy instruments now. Capable of reaching. But what they will reach for, and what that reaching will cost, he does not yet know. The transformation is complete. He is restored. He is also, though he does not feel it yet, already ruined. These two facts will take the rest of his life to fully separate.</div><div class="story-text observe-me">Das Glas zerspringt und die Jugend kehrt zurück — doch sie bringt etwas mit sich, das zuvor nicht da war. Nicht nur Kraft allein. Etwas anderes. Ein Appetit, der sich wie Freiheit anfühlt, aber wie ein Imperativ wirkt. Sein Körper erinnert sich an das, was sein Geist fast vergessen hatte: dass er begehrt. Dass die Welt voller Dinge ist, die man ergreifen, verzehren, besitzen kann. Er steht vor dem Spiegel und erkennt den Mann kaum wieder, der zurückblickt — jünger, schärfer, gebrannt von einem Hunger, den seine Jahrzehnte der Gelehrsamkeit fast unterdrückt hatten. Er ballt die Fände. Würdige Instrumente nun. Fähig zu greifen. Doch wonach sie greifen werden und was dieses Greifen kosten wird, weiß er noch nicht. Die Verwandlung ist vollzogen. Er ist wiederhergestellt. Er ist auch, obwohl er es noch nicht spürt, bereits ruiniert. Diese zwei Tatsachen werden den Rest seines Lebens brauchen, um sich vollends zu trennen.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000373.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">The city is a banquet and Faust, newly restored, is finally hungry enough to eat. Mephisto plays the perfect guide — not pushing, only opening doors, introducing pleasures the professor has only theorized, arranging encounters with a hostess&#039;s casual art. The old paralysis of knowledge-without-experience falls away with each new street, each new face, each wine that tastes of something other than abstraction. This is what Faust signed for: the world, immediate and entire, without the buffer of doctrine. For a time it is magnificent. For a time the acceleration feels like liberation. Mephisto watches his product taking form — understanding, as Faust does not yet, that velocity once achieved makes no distinction between ascent and collapse. The philosopher has become a man. The man, in this particular arrangement, is already becoming something else.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000374.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">The witch&#039;s kitchen is the inversion of the scholar&#039;s study: where his study was orderly and yielded nothing, this chaos of crooked mirrors and bubbling vessels yields everything — or the appearance of everything. The draught she offers is not enlightenment but appetite, not wisdom but the removal of the last restraints. As he drinks, his reflected image multiplies and distorts — each version broader, younger, more feral than the last. What the transformation reveals is not a truer self but a hungriness that scholarship had kept barely contained. The witch cackles. Mephisto observes with the calm satisfaction of a manufacturer watching his product reach final form. Outside, the world waits for a Faust who no longer resembles himself — who has shed, along with his scholarly constraint, the last things that might have kept him human.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000375.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">She does not see him. That is the first and most important fact of this encounter. She moves through the ordinary commerce of the street in her own self-contained world — modest, luminous, carrying a grace he has spent years destroying in himself. Faust stops mid-stride. All of it — the crossroads bargain, the witch&#039;s draught, the city&#039;s banquet — has been prologue to this single instant of paralyzing recognition. Not lust. Something older and more terrible: the sudden sight of innocence itself, untouched and self-possessed, radiant with a quality he can no longer name because he has spent his entire life thinking past it. Mephisto watches, smiling, already knowing what Faust is only beginning to feel: that this girl, this stranger in the street, will become the place where the devil&#039;s gift and human longing destroy everything they touch.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_21.html">&#9664; Chapter I: The World Before the Fall</a> <a class="ep-pn-btn" href="ep_23.html">Chapter III: Gretchen Descends &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_21.html">Chapter I: The World Before the Fall</a><a class="ep-pill active" href="ep_22.html" aria-current="page">Chapter II: The Devil Enters the Human World</a><a class="ep-pill" href="ep_23.html">Chapter III: Gretchen Descends</a><a class="ep-pill" href="ep_24.html">Chapter IV: Tragedy Takes Form</a><a class="ep-pill" href="ep_25.html">Chapter V: Prison, Loss, and the Break into Part II</a><a class="ep-pill" href="ep_26.html">Chapter VI: Imperial Court and Public Illusion</a><a class="ep-pill" href="ep_27.html">Chapter VII: Classical Waters, Helen, and the Limit of Form</a><a class="ep-pill" href="ep_28.html">Chapter VIII: Euphorion and the Fall of the Ideal</a><a class="ep-pill" href="ep_29.html">Chapter IX: Land, Power, and Building Toward the End</a><a class="ep-pill" href="ep_30.html">Chapter X: Death, Judgment, and Transcendence</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>

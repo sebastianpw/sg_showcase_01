@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Kapitel III: Gretchens Fall — FAUST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">DE</span>
+    </button>
+    <div class="lang-menu"><a href="ep_23.html">EN</a><a href="ep_23_de.html">DE</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST&nbsp;·&nbsp; 3 / 10</div>
+        <h1 class="seq-title">Kapitel III: Gretchens Fall</h1>
+        <p class="seq-desc">Durch Geschenke, Gärten und die langsame Maschinerie der Verführung wird ein unschuldiges Mädchen über eine Schwelle gezogen, die sie nicht sehen kann — und die Welt, der sie vertraute, beginnt sich mit jedem abgewandten Blick langsam zurückzuziehen.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000376.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Verderben kündigt sich nicht an. Es erscheint als Schönheit — konkret als ein Schmuckkästchen, das offen auf abgenutztem Leinen liegt, während Gold das Lampenlicht mit einem Glanz einfängt, der nicht von Reichtum, sondern von Möglichkeiten spricht. Mephisto hat das Geschenk mit klinischer Präzision gewählt: nicht Geld, das beleidigen würde, sondern Schönheit, die man nicht ablehnen kann, ohne etwas in sich selbst abzulehnen. Gretchens Finger schweben über dem Kästchen mit einem Zittern, auf das kein Gebot sie vorbereitet hat. So wird die Schwelle überschritten — nicht in einem dramatischen Moment moralischen Versagens, sondern in einem Innehalten, einem Zögern, einem Augenblick des Fragens, was es bedeuten würde, zuzugreifen. Der Raum wirkt plötzlich zerbrechlich. Die Juwelen atmen mit geliehenem Licht. Und sie greift zu — noch nicht ahnend, dass mit dieser Geste, diesem kleinsten Akt des Begehrens, die Maschinerie ihrer Vernichtung bereits zu laufen begonnen hat.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000377.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Sie singt an ihrem Spinnrad, und das Lied ist echt. Dies ist der letzte unkomplizierte Moment — ein Mädchen in ihrem eigenen Zimmer, in ihrer eigenen Stadt, in der bürgerlichen und geistlichen Ordnung, die sie nie infrage zu stellen gedachte. Ihre Schönheit ist nicht inszeniert. Sie strahlt aus der Abwesenheit von Arglist, aus der Gesundheit einer Seele, die nie eine Maske brauchte. Sie weiß nicht, dass sie beobachtet wird, dass die Maschinerie von Fausts Verlangen bereits irgendwo jenseits ihrer Wände in Gang gesetzt wurde, dass die Geschenke bereitliegen, die Einführung bereits geplant ist. Der Raum um sie her ist karg und makellos — jeder Gegenstand an seinem Platz, jede Oberfläche die Disziplin eines Lebens widerspiegelnd, das weiß, was es ist, und damit zufrieden ist. Die Szene hält den Atem an. Nicht, weil sie idyllisch ist, sondern weil sie weiß, was Gretchen noch nicht weiß: dass all dies kurz vor seinem Ende steht.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000378.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Die wirksamste Waffe des Teufels ist nicht die Versuchung, sondern die Vorstellung. Mephisto hat diese Gesellschaftsszene mit der Präzision eines Regisseurs arrangiert: Faust als galanter Verehrer, Marthe als geschmeichelte Witwe, Gretchen als die Unschuldige, die die Quelle ihres Unbehagens nicht recht verorten kann. Jede Geste ist ein Schachzug. Die Spitzendeckchen und der verblasste Lavendel sind keine Kulisse — sie sind Tarnung. Verführung beginnt in diesem Raum nicht mit Leidenschaft, sondern mit Höflichkeit, mit dem sozialen Schmiermittel von Kompliment und Zuvorkommenheit, mit der Schaffung einer Situation, in der Ablehnung Unhöflichkeit wäre. Gretchen tritt unsicher ein, ihre Unschuld ist bereits eine Last in einem Raum, der darauf ausgelegt ist, sie aufzulösen. Der Teufel tritt nicht mit Drohungen durch Türen. Er erscheint mit exzellenten Manieren und einem warmen Lächeln, und die Türen öffnen sich ihm jedes Mal.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000379.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Der Garten tut sein Werk. Die Pfade verengen sich. Licht bricht sich durch Blätter in Mustern, die zu schön sind, um zufällig zu sein. Fausts Worte, einst auf die Sterne gerichtet, haben sich endlich auf etwas Nahem niedergelassen: ihr Gesicht, ihre gesenkten Augen, das kleine Heben ihres Kinns, wenn sie sich zur Antwort entschließt. Die philosophische Maschinerie ist verstummt. Was bleibt, ist einfacher und gefährlicher: zwei Menschen in einem Garten, von denen einer erkennt, dass Begehren nicht grandios sein muss, um verzehrend zu sein. Ihre Hand streift den Rand eines Blattes. Seine folgt. Die Luft zwischen ihnen moduliert — warm, intim, verräterisch. Keiner spricht von der Zukunft. Keiner kann es. Die Gänse auf dem Teich beobachten dies ohne Kommentar. Was hier geschieht, ist weder Philosophie noch schon Liebe — es ist der Moment kurz vor beidem, wenn Unschuld und Hunger sich in einer Aufhebung der Konsequenzen begegnen, die keine der Parteien zu untersuchen wagt.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000380.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Er beugt sich über ihre schlafende Gestalt, und die Zärtlichkeit ist echt — was genau das ist, was diesen Moment moralisch so komplex macht. Faust beabsichtigt keinen Schaden. Er liebt in der Art, wie Männer lieben, die nie gelernt haben, ohne Besitzanspruch zu lieben: vollkommen, hungrig, mit dem Bedürfnis, das, was von Natur aus flüchtig ist, dauerhaft zu machen. Unter der Zärtlichkeit windet sich etwas Dunkleres — das Bedürfnis zu besitzen, festzuhalten, die Geliebte daran zu hindern, etwas anderes zu sein als das Objekt seines Verlangens. Mephistos Schatten füllt den Raum, ohne ihn einzunehmen. Des Teufels Arbeit ist bereits getan: Er hat Faust gelehrt, dass Wollen und Lieben dasselbe sind, dass Fürsorge und Konsum identisch sind. Der Beutel voller Versprechungen wird schwerer. Das Mädchen schläft, unschuldig und makellos. Und der Mann, der sich über sie beugt, ist — ohne es zu wissen — bereits ihre Katastrophe.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000381.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Die Geschenke liegen in ihrem Haus verstreut wie Beweise eines Eindringens, das sie nicht benennen kann. Gretchen bewegt sich durch Räume, die einst ganz die ihren waren, und findet sie aufgeladen mit einer Präsenz, die sie nicht eingeladen hat — oder doch eingeladen hat und nun nicht mehr kontrollieren kann. Sie ist nicht mehr das Mädchen, das allein an seinem Rad sang. Etwas in ihr hat sich verschoben, ein Schloss wurde umgedreht, und die Tür, die es öffnet, führt irgendwohin, wohin sie von hier aus nicht sehen kann. Sie berührt nichts. Ihre Finger schweben, gleichermaßen furchtsam wie angezogen. Das Entzücken ist real — sie würde lügen, wenn sie es leugnete —, aber ebenso real ist das erste leise Flüstern des Gewissens, das Wissen, dass sie an Boden verliert, den sie nicht wird zurückgewinnen können. Die Poesie ihres früheren Lebens rückt in die Ferne. Was bleibt, ist das Begehren — nackt, klärend, erschreckend — und das Wissen, dass Verlangen, einmal anerkannt, ganz seinem eigenen Pfad folgt.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000382.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Sie kniet im Dom und die Architektur richtet sie. Nicht metaphorisch — der Stein selbst scheint sich zu senken, das Gewölbe zu drücken, jeder gemalte Heilige sie mit Augen zu fixieren, die wissen, was sie getan hat und was sie in sich trägt. Der Weihrauch steigt ohne Trost empor. Ihre Hände zittern um das Taschentuch — ein Beweisstück, materielles Gewicht, der Gegenstand, der diesen heiligen Raum mit all dem verbindet, was in profanen Räumen geschehen ist. Sie ist nicht hier, um zu beten. Sie ist hier, um gerichtet zu werden. Die Glocken läuten irgendwo oben, ihr Widerhall in ihrer Brust fühlt sich an wie ein Urteilsspruch. Um sie herum knien die Gläubigen in der echten Einfalt ungetrübter Hingabe, und sie ist von ihnen getrennt auf eine Weise, die keine Absolution, die sie sich vorstellen kann, wiedergutmachen wird. Die Kirche, die versprach, ein Zufluchtsort vor dem Gericht zu sein, ist zu seinem effizientesten Instrument geworden.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000383.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Die Geschenke liegen auf dem Tisch des Krankenzimmers verstreut wie Beweise eines noch nicht gestandenen Verbrechens. Gretchen pflegt ihre Mutter mit zitternder Zärtlichkeit — sie glättet die Bettdecke, bringt Wasser an die rissigen Lippen —, während die korrumpierenden Zeichen von Fausts Werbung in Reichweite der Frau liegen, die niemals erfahren darf, was sie bedeuten. Dies ist der Raum, in dem Unschuld und Komplizenschaft dieselbe Luft atmen. Das Fieber der Mutter ist real; das gotische Gewicht der Szene — die Tochter, die die Sterbende pflegt, während sie das Geheimnis hütet, das diese noch schneller töten würde — ist ebenfalls real. Gretchens Hände bewegen sich mit geübter Sorgfalt, doch ihre Augen verraten den Bruch. Sie hat etwas in dieses Haus gebracht, das das Haus nicht halten kann. Draußen geht das Leben der Stadt weiter. Drinnen hat die Konsequenz ihre Arbeit begonnen, und die besondere Grausamkeit liegt darin, dass es von außen betrachtet exakt wie Hingabe aussieht.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000384.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Die Stadt hat bereits entschieden. Sie sieht es in jedem abgewandten Blick, jedem Rocksaum, der vor ihrem Vorbeigehen zurückweicht, jeder Mutter, die ihre Tochter an sich zieht, wenn Gretchen vorübergeht. Der Klatsch hat seine Arbeit mit der Effizienz eines sozialen Organismus getan, der keine Fakten braucht — nur das Zeugnis einer sich verändernden Silhouette und eines Namens, der nicht länger zur Gemeinschaft der Ehrbaren gehört. Sie trägt ihre Schande, wie man eine Seuche trägt: vorsichtig, verzweifelt, im Bewusstsein, dass Nähe gefährlich geworden ist. Die Kirchentüren bleiben offen, doch sie tritt nicht mehr ein. Der Markt ruft, doch sie antwortet nicht mehr. Dies ist die wahre Architektur des Ruins — kein dramatischer Zusammenbruch, sondern der langsame, methodische Rückzug einer Welt, die sie einst hielt, Schwelle um Schwelle, bis nur noch die schreckliche Klarheit bleibt, aus dem ganz gewöhnlichen Leben, für das sie geboren wurde, ausgelöscht worden zu sein.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_22_de.html">&#9664; Kapitel II: Der Teufel betritt die Menschenwelt</a> <a class="ep-pn-btn" href="ep_24_de.html">Kapitel IV: Die Tragödie nimmt Gestalt an &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_21_de.html">Kapitel I: Die Welt vor dem Fall</a><a class="ep-pill" href="ep_22_de.html">Kapitel II: Der Teufel betritt die Menschenwelt</a><a class="ep-pill active" href="ep_23_de.html" aria-current="page">Kapitel III: Gretchens Fall</a><a class="ep-pill" href="ep_24_de.html">Kapitel IV: Die Tragödie nimmt Gestalt an</a><a class="ep-pill" href="ep_25_de.html">Kapitel V: Kerker, Verlust und der Aufbruch in Teil II</a><a class="ep-pill" href="ep_26_de.html">Kapitel VI: Kaiserhof und öffentliche Illusion</a><a class="ep-pill" href="ep_27_de.html">Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form</a><a class="ep-pill" href="ep_28_de.html">Kapitel VIII: Euphorion und der Fall des Ideals</a><a class="ep-pill" href="ep_29_de.html">Kapitel IX: Land, Macht und das Wirken bis zum Ende</a><a class="ep-pill" href="ep_30_de.html">Kapitel X: Tod, Gericht und Transzendenz</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>

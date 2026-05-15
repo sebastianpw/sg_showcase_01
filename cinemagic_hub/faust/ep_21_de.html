@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Kapitel I: Die Welt vor dem Fall — FAUST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">DE</span>
+    </button>
+    <div class="lang-menu"><a href="ep_21.html">EN</a><a href="ep_21_de.html">DE</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST&nbsp;·&nbsp; 1 / 10</div>
+        <h1 class="seq-title">Kapitel I: Die Welt vor dem Fall</h1>
+        <p class="seq-desc">In der himmlischen Maschinerie und der erstickenden Stille einer Gelehrtengruft wird eine Wette geschlossen und ein Geist bricht auf — Fausts intellektuelle Verzweiflung wird zum Motor für alles, was folgt.</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000362.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Noch bevor Faust in seinem Studierzimmer den ersten gequälten Atemzug tut, ist die kosmische Wette bereits besiegelt. Gott und Teufel begegnen sich nicht im Donnerhall, sondern in einem Salon der Ewigkeit — Mephisto lümmelt sich mit der Gelassenheit eines Mannes, der das menschliche Scheitern durch alle Zeitalter beobachtet hat, während die Engel ihren geduldigen wechselseitigen Lobpreis singen. Der Herr ist sich gelassen gewiss, was der Hunger des rastlosen Gelehrten letztlich offenbaren wird. In der Wette geht es nicht um Verdammnis. Es geht darum, ob das Streben selbst — blind, unappeasabel, prachtvoll — eine Form des Glaubens darstellt. Mephisto setzt auf den Ruin. Gott setzt auf das Erreichen. Der Unterschied zwischen ihnen ist nicht Macht, sondern Geduld. Faust, ahnungslos in seinem Bücherturm, ist bereits zur Bühne eines uralten Streits geworden, an dem teilzunehmen er nicht gebeten wurde. Himmel und Hölle sind sich nur in einem einig: Dass seine Seele keinem von beiden gehört — bis er selbst wählt.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000363.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Mephisto erscheint im Himmel nicht mit Feuer und Ultimaten. Er erscheint mit einem Grinsen und einem Argument — der ewige Widersacher, der Dorn, der den Rosengarten ehrlich macht. Seine Verachtung für Faust ist eine Inszenierung: Was er wahrhaft anbietet, ist eine Wette, von der er glaubt, sie längst gewonnen zu haben. Er hat tausend Gelehrte am Rad des Wissens ohne Weisheit zerbrechen sehen. Er kennt das Muster. Er kennt den Hunger. Was er nicht einkalkuliert hat — was er nicht einkalkulieren kann —, ist, dass der Hunger selbst der Kern der Sache sein könnte. Die Engel singen ungestört weiter. Der Herr hört gelassen zu. Und Mephisto, brillant und doch im Irrtum, schreitet über den Boden des Himmels wie ein Verkäufer, der kurz davor steht, den einzigen Handel zu verlieren, der jemals von Bedeutung war.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000364.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Die Bücher sind zu Mauern eines Gefängnisses geworden, das der Gefangene selbst erbaut hat. Faust hat Theologie, Philosophie, Juristerei und Medizin gemeistert — vier Königreiche ererbter Wahrheit — und steht nun vor dem angehäuften Schatz menschlichen Denkens mit der Erkenntnis, dass er nichts weiß, was von Bedeutung wäre. Die Instrumente fangen das fahle Licht ein und spotten seiner. Die Astrolabien messen Distanzen, die er nicht überwinden kann. Die Tiegel haben alles zu Asche reduziert. Dies ist der Moment vor dem Pakt, der Moment vor dem Fall: noch keine Verzweiflung, sondern etwas Schlimmeres — die luzide Einsicht, dass Wissen ohne Berührung ein schöner Leichnam ist. Er wütet nicht. Er steht inmitten seiner Bücher wie ein Mann in einem Haus, dem er entwachsen ist: Er misst die Wände und begreift endlich, dass der einzige Weg nach vorn mitten durch sie hindurchführt.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000365.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Das Feuer im Kamin hinter ihm stirbt. Die Manuskripte vor ihm sind tot. Faust steht im Trümmerhaufen eines Lebens, das er dem Streben nach Verständnis gewidmet hat, und was er gefunden hat, ist die Gestalt dessen, was er nicht erreichen kann. Er ist nicht gescheitert. Er war vollkommen erfolgreich — und genau das ist die Krise. Jede Frage, die er beantwortet hat, hat drei neue aufgeworfen, jede tiefer und unergründlicher als die letzte. Der Hunger, der ihn zu seinen Büchern trieb, wurde nur so weit gesättigt, dass er noch rasender wurde. Er verlangt nach dem Kontakt mit dem Realen — brennend, unmittelbar, von Angesicht zu Angesicht — nicht vermittelt durch den Schleier der Formel eines anderen Toten. Der Raum wirkt gequält von allem, was er nicht zu verstehen vermochte. Der Pakt, der ihn erwartet, ist noch nicht sichtbar. Doch die Bedingungen dafür sind bereits vollkommen bereitet.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000366.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Der Ostermorgen drängt sich durch die Wände eines Zimmers, das seit Jahren keinen Frühling mehr gesehen hat. Die Glocken bitten nicht um Erlaubnis. Sie bieten keinen Trost und keine Theologie an — nur die nackte, animalische Tatsache, dass sich etwas regt, dass die Welt einen weiteren Winter überlebt hat, dass grüne Dinge wieder sprießen, ganz ohne seine Hilfe oder Zustimmung. Für einen einzigen Augenblick, während er mit dem bereits bereiteten Giftbecher im versiegelten Studierzimmer steht, hört Faust die Glocken und zögert. Nicht, weil er glaubt. Sondern weil er sich erinnert, geglaubt zu haben — und in der Kluft zwischen dem Mann, der er war, und dem Mann, der er geworden ist, bricht etwas gerade weit genug auf, um Licht hereinzulassen. Er erhebt sich nicht, um sich der Prozession anzuschließen. Aber er stirbt heute nicht. Das ist genug. Dieses Zögern ist alles.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000367.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Er zieht den Kreis und ruft herbei, was er nicht zu rufen berechtigt ist. Der Erdgeist erscheint — nicht als Antwort auf seine Frage, sondern als die sichtbar gewordene Frage selbst: eine Präsenz so gewaltig, so gänzlich gleichgültig gegenüber seinem Genie, dass sein Intellekt — einst sein Stolz, seine Rüstung, seine Identität — in einem Augenblick zur Last wird. Der Geist spricht nicht zu ihm wie zu einem Gleichen. Er spricht, wie das Wetter spricht: ohne Bosheit, ohne Ansprache, ohne jede Anerkennung, dass sein Leiden von Interesse wäre. Er weicht zurück. Der Geist entschwindet. Die Bücher um ihn her wirken zum ersten Mal theatralisch — gemalte Kulissen eines Stücks, das er nicht mehr zu verstehen glaubt. Er hat etwas Reales berührt. Und was es ihn gelehrt hat, ist die unverhältnismäßige Distanz zwischen dem, was er ist, und dem, was er sein wollte.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><span class="ep-pn-btn disabled">&#9664; Previous</span> <a class="ep-pn-btn" href="ep_22_de.html">Kapitel II: Der Teufel betritt die Menschenwelt &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill active" href="ep_21_de.html" aria-current="page">Kapitel I: Die Welt vor dem Fall</a><a class="ep-pill" href="ep_22_de.html">Kapitel II: Der Teufel betritt die Menschenwelt</a><a class="ep-pill" href="ep_23_de.html">Kapitel III: Gretchens Fall</a><a class="ep-pill" href="ep_24_de.html">Kapitel IV: Die Tragödie nimmt Gestalt an</a><a class="ep-pill" href="ep_25_de.html">Kapitel V: Kerker, Verlust und der Aufbruch in Teil II</a><a class="ep-pill" href="ep_26_de.html">Kapitel VI: Kaiserhof und öffentliche Illusion</a><a class="ep-pill" href="ep_27_de.html">Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form</a><a class="ep-pill" href="ep_28_de.html">Kapitel VIII: Euphorion und der Fall des Ideals</a><a class="ep-pill" href="ep_29_de.html">Kapitel IX: Land, Macht und das Wirken bis zum Ende</a><a class="ep-pill" href="ep_30_de.html">Kapitel X: Tod, Gericht und Transzendenz</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
