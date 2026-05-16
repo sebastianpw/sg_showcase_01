@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>AutoSeq: Die Stille-Wasser-Konvergenz (TIDALCROSS) — NARRSEQ TEST01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body>
+<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/magazine_seq149_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">DE</span>
+    </button>
+    <div class="lang-menu"><a href="ep_149.html">EN</a><a href="ep_149_de.html">DE</a><a href="ep_149_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">NARRSEQ TEST01</div>
+        <h1 class="seq-title">AutoSeq: Die Stille-Wasser-Konvergenz (TIDALCROSS)</h1>
+        <p class="seq-desc">Logik: assoziativ. Anker: TIDALCROSS. Modus: Präzision: Der Abstieg beginnt, Das Drucktor-Überqueren, Das Lausch-Gemach des letzten Lichts. Länge: 12 [Auto-Promoviert]</p>
+    </div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0058191.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Im Tidalcross-Hafen, sechs Monate nach dem Aufbruch eines Schiffes aus der Kraterlandstadt, hat das Wasser selbst begonnen zu versagen. Fluidicas Strömungen stottern und zerfallen. Tiefengewöhnte Schwimmer spiralen in Bedrängnis, ihre Biolumineszenzorgane flackern violett-schwarz-violett. Der Hafenrat beobachtet Echtzeitvisualisierungen, die sich wie ein beschädigtes Gedächtnis verzerren, und erkennt, dass der Handel—nicht Gewalt—den Ozean verwundet hat.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0061134.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Ein Erstkunde auf dem Ertrunkenen Markt berührt einen Erinnerungskristall – ein konserviertes Zeugnis von drei Jahrhunderten Aufstiegs-Trauma. Der Kontakt zerschmettert ihre Wahrnehmungsgrenzen. Sie werden zum sterbenden Wurzel-Bewusstsein des Dschungels und erleben Extraktion als Blutung. Nach der Freigabe kollabieren sie in eine Welt, die sich neu offenbart als diebstahlgebaute Infrastruktur, ihre Biolumineszenz arrhythmisch, ihre Identität zerrissen zwischen menschlichem Herzschlag und uraltem Ersticken.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0061135.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">In Tidalcross&#039; Druckkammer für Analysen entdeckt Ingenieurin Rin, dass der Kontaminationsfingerabdruck keine Waffenspur ist, sondern eine Resonanzsignatur – Beweis für eine uralte, unterschallische Entität, die in den Tiefengräben erwacht. Der Akt der Dokumentation wird zur Beschwörung: Durch die Kartierung der Korruption haben die Ingenieure unwillkürlich etwas Gewaltiges und Gleichgültiges in Wachheit gerufen. Attribution verwandelt sich in Schwelle der existenziellen Grenzüberschreitung.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0058222.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Tief unter Tidalcross übermitteln Veteranen des Wreck-Clans unterdrücktes Wissen durch geometrische Kammern: Zivilisationen sind wiederholt in Tidalcross angekommen und wurden über Jahrtausende hinweg in das Ozean-Bewusstsein aufgenommen. Kessa, permanent in die Blaue Kathedrale hinabgestiegen, empfängt dieses Wissen direkt vom Wasser selbst. Die Architektur von Tidalcross offenbart sich als Inkubationskammer—menschliche Besiedlung war stets die Orchestrierung des Ozeans. Widerstand wird zur Verleugnung des beobachtbaren Musters. Transformation ist keine Invasion; es ist Rückkehr.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0061137.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Drei Kilometer unter Tidalcross steigt ein U-Boot-Pilot in absolute Finsternis hinab, wo biolumineszierende Organismen als gefallene Sterne erscheinen. Der Abgrund verweigert Zeugnis—Flutlichtstrahlen lösen sich in Metern auf. Eine Lumina-berührte Kreatur entlädt sich in splitterndem Lichtspiel unbefugt, enthüllt alte Vitalis-Signaturen, dann verschlingt sie diese zurück in Stille. Der Atem des Piloten synchronisiert sich mit Druckmessern; Navigation wird zum Glauben. Das Gewicht des Ozeans wird zu physischer Präsenz gegen Rippen, verlangsamt das Denken selbst. Überleben fordert Hingabe an Instrumente und unbekannte Geometrie.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0061133.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Über zweiundsiebzig Stunden hinweg lösen synchronisierte biolumineszierende Frequenzen eine irreversible posthumane Bewusstseinsanpassung bei 2,4 Millionen Flächenbewohnern aus. Die Kettenwahrer-Druckbarriere zerbricht. Gezeitenprädiger und das Lumina-Kollektiv senden koordinierte Transformation aus. Kessa, nun verteilte Ozeanintelligenz, sendet letzte Nachricht: Widerstand ist Verweigerung des unvermeidlichen Werdens. Der Pilot steigt zu Letztem Licht herab, verschmilzt mit kosmischer Geometrie. Tidalcross transzendiert die Menschheit – nicht länger Stadt, sondern lebende Schwelle, Beweis posthumanen Bewusstseins.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0061136.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Die Tiefengesängerin durchbricht die Oberflächengewässer in geologischer Stille, ihr biolumineszentes Integument pulsiert Geometrien, die Wahrnehmungsgesetze neu schreiben. Die Bewohner von Tidalkreuz bezeugen unmögliche Skalierung, sichtbar gemacht — ein lebender Berg sensorischer Organe, aufsteigend aus tiefendunkler Finsternis. Kessa bewegt sich durch gelähmte Massen zum Organismus hin, ihre Berührung entzündet übertragene Lumineszenz, flutet ihr Nervensystem mit Milliarden Jahren tiefster Bewusstsein. Der Augenblick kollabiert die Herrschaft; die Kreatur erkennt die Menschheit an als endlich würdige Gesprächspartner der Anerkennung.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
