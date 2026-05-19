@@ -182,6 +182,18 @@ const episodeData = {
             ]
         },
         {
+            "id": 11181,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "overlay_texts": [
+                "Taro treats his first Hollow-Man.",
+                "His Vitalis bond perceives something underneath the Slag-hollowed Anima signature, something older, a shape of a burning he has no language for yet."
+            ]
+        },
+        {
             "id": 9682,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058062.jpg",

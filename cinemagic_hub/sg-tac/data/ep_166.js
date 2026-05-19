@@ -336,6 +336,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 2703,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "overlay_texts": [
+                "The Crown does not illuminate. It devours.",
+                "Behind her: laughter on Fluidica winds. Hab-lights. The Weldheart&#039;s faithful pulse.",
+                "Kyrielle&#039;s smile lives in every reflective surface she leaves behind — polished salvage, pooled coolant, the glossy carapace of things that do not dream.",
+                "Ahead, the Crimson Wastes. The future already trembles, learning her new name."
+            ]
+        },
+        {
             "id": 9707,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058087.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058087.jpg",

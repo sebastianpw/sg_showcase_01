@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "PRÉ-SÉRIE S01",
             "chapter_label": null,
             "url": "ep_164_pt.html"
         },

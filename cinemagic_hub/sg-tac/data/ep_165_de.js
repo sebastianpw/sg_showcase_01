@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "SERIEN-VORSPIEL S01",
             "chapter_label": null,
             "url": "ep_164_de.html"
         },
@@ -179,6 +179,18 @@ const episodeData = {
                 "Er passt einen einzelnen Parameter auf dem Holo-Fragment an. Die Ausbreitungsrate der Kontamination in den Schrottdünen. Das Modell aktualisiert sich. Die Realität schaudert.",
                 "In dieser Mikrosekunde sieht Kaelen es: die Kaskade. Den Moment, in dem die terminale Zeitlinie der Stadt unvermeidlich wird. Die Kaskade ist kein zukünftiges Ereignis. Sie ist bereits eingetreten.",
                 "Er triumphiert nicht. Was bleibt, ist Geduld. Und die Wahrscheinlichkeit von 0,153 %, die er nicht auf Null berechnen konnte. Ungewissheit fühlt sich nach vierzig Jahren wie Trauer an."
+            ]
+        },
+        {
+            "id": 11181,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "overlay_texts": [
+                "Taro treats his first Hollow-Man.",
+                "His Vitalis bond perceives something underneath the Slag-hollowed Anima signature, something older, a shape of a burning he has no language for yet."
             ]
         },
         {

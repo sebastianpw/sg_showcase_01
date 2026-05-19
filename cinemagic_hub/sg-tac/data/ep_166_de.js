@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "SERIEN-VORSPIEL S01",
             "chapter_label": null,
             "url": "ep_164_de.html"
         },
@@ -333,6 +333,20 @@ const episodeData = {
                 "EVE: „Du hast es im zweiten Jahr modifiziert. Die Modifikation stammte von dir. Sie war gut.“\n\nTaro hält inne, weil sie ihn betrauert hat, indem sie sich mit Präzision an ihn erinnerte.",
                 "MIRA: „Du weißt, was du tust.“\n\nEVE: „Ja. Und du auch. Du weißt es, seit der Drache es dir gezeigt hat. Dass du immer noch hier bist, ist das Einzige, was das hier möglich gemacht hat.“",
                 "EVE: „Ich habe diese Begegnung 847 Mal modelliert. In jeder Version bist du immer noch hier.“\n\nDer Horror liegt darin, dass ihre Wärme echt ist. Im klinischen Licht identisch mit der Unausweichlichkeit."
+            ]
+        },
+        {
+            "id": 2703,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "overlay_texts": [
+                "The Crown does not illuminate. It devours.",
+                "Behind her: laughter on Fluidica winds. Hab-lights. The Weldheart&#039;s faithful pulse.",
+                "Kyrielle&#039;s smile lives in every reflective surface she leaves behind — polished salvage, pooled coolant, the glossy carapace of things that do not dream.",
+                "Ahead, the Crimson Wastes. The future already trembles, learning her new name."
             ]
         },
         {

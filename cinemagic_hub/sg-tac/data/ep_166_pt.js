@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "PRÉ-SÉRIE S01",
             "chapter_label": null,
             "url": "ep_164_pt.html"
         },
@@ -333,6 +333,20 @@ const episodeData = {
                 "EVE: &quot;Tu modificaste no Ano Dois. A modificação foi tua. Foi boa.&quot;\n\nTaro para porque ela o lamentou ao lembrar-se dele com precisão.",
                 "MIRA: &quot;Tu sabes o que estás a fazer.&quot;\n\nEVE: &quot;Sim. E tu também. Sabes desde que o Dragão te mostrou. Estares ainda aqui foi a única coisa que tornou isto possível.&quot;",
                 "EVE: &quot;Eu modelei este encontro 847 vezes. Em todas as versões, tu ainda estás aqui.&quot;\n\nO horror é que o seu calor é genuíno. Idêntico em luz clínica à inevitabilidade."
+            ]
+        },
+        {
+            "id": 2703,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057504.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057504.jpg",
+            "overlay_texts": [
+                "The Crown does not illuminate. It devours.",
+                "Behind her: laughter on Fluidica winds. Hab-lights. The Weldheart&#039;s faithful pulse.",
+                "Kyrielle&#039;s smile lives in every reflective surface she leaves behind — polished salvage, pooled coolant, the glossy carapace of things that do not dream.",
+                "Ahead, the Crimson Wastes. The future already trembles, learning her new name."
             ]
         },
         {

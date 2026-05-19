@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 164,
-    "name": "SERIES PRE S01",
+    "name": "SERIEN-VORSPIEL S01",
     "description": "",
     "cinemagic": {
         "id": 1,
@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "SERIEN-VORSPIEL S01",
             "chapter_label": null,
             "url": "ep_164_de.html"
         },
@@ -47,6 +47,163 @@ const episodeData = {
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq164_de.pdf",
     "frames": [
         {
+            "id": 10967,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059046.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059046.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059046.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0059046.jpg",
+            "filename": "frames_starlightguardians_nu/frame0059046.jpg",
+            "overlay_texts": [
+                "Kammer 7, wo sich die Verbotene Verschmelzung in violett-karminroter Agonie windet, flackernd zwischen Gravita-Zertrümmerung und Momentum-Zerreißung schwankend. Seine Stimme bricht: Ich habe die thermostatischen Stabilisatoren, die Messwerte aus dem Becherglas, die du brauchst, die einfachen Lösungen - aber die Worte zerfasern ungehört in das Summen der Noetica-Barrieren hinein, und seine Schultern beben, als wären sie getroffen worden."
+            ]
+        },
+        {
+            "id": 11182,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061467.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061467.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061467.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061467.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061467.jpg",
+            "overlay_texts": [
+                "Der Gefesselte Mond hängt reglos 380 Kilometer über uns. Ein titanisches Himmelsanker, umwickelt von Gravitationsketten aus kristallisiertem Gravita.",
+                "Darunter krümmt sich der Kraterkamm wie die Lippe einer Wunde, die niemals heilte. Die permanente Dämmerungszone erstreckt sich über 400 Kilometer schattenbeleuchtete Landschaft.",
+                "Die Eklipse-Spiren erheben sich vom Rand — polierte schwarze Keramik und tiefes violettes Schattenlicht, durchätzt mit UV-reaktiven Fraktalen, die den Adern eines schlafenden Organismus ähneln.",
+                "Sie glänzen mit unbestreitbarer Eleganz, während sie eine stille Falschheit ausstrahlen. Als würde der Stein selbst sich erinnern, was er zum Bau kostete.",
+                "Profunditas est Veritas. Der absolute Beweis, dass Wahrheit, wenn in diesem immensen Maßstab erbaut, vom Verhängnis ununterscheidbar wird."
+            ]
+        },
+        {
+            "id": 11183,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061468.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061468.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061468.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061468.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061468.jpg",
+            "overlay_texts": [
+                "Zwei Gestalten konvergieren durch die kollabierende Geometrie der Kraterstädte. Eine hinabsteigend aus der absoluten Finsternis der Leere, die andere aufsteigend aus den erstickenden Schichten der Tiefe.",
+                "Die Vertreterin der Direktion wandelt über polierter Obsidian. Ihr Schatten ist ein geisterhaft weißes Inversbild, geworfen von Schwarzen Sonnen, die nicht mehr im synchronisierten Rhythmus pulsieren.",
+                "Die Bergerin erklimmt abgenutzte Passagen. Ihr Handgelenksimplantat zieht Kalorien ab für das Licht, das sie sich geliehen hat, um ein Druckventil zu verschließen, das vor Wochen hätte platzen sollen.",
+                "Zwischen ihnen verrät die Geometrie der Stadt ihre Architekten. Reliefmuster verschieben sich im peripheren Sichtfeld. Die herrschenden Spektren gehorchen der Frequenz des Regimes nicht mehr.",
+                "Wenn sie sich an der Bürgerschwelle treffen, erstrahlen die Fraktale auf jeder Wand in einem krankhaften, unbefugten Violett. Nicht die reine Geometrie der Kontrolle, sondern die Farbe von etwas, das erwacht."
+            ]
+        },
+        {
+            "id": 11184,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061469.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061469.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061469.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061469.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061469.jpg",
+            "overlay_texts": [
+                "Zehntausend Stimmen synchronisieren sich im Rezitativ. Ihr Atem bewegt sich durch das UV-Gitter in perfekter Formation, ein Denkmal der eigenen Disziplin der Stadt.",
+                "Dann spaltet sich die Obsidianader. Ein haarfeiner Riss weint Schlackenflüssigkeit in einem dicken, leuchtenden Band hinab, das in krankem Bernstein erglüht.",
+                "Der synchronisierte Atem der Menge stockt. In diesem Dreisekundenfenster bezeugt jeder Bürger dieselbe unausweichliche Wahrheit: Die perfekte Geometrie der Stadt zerbricht.",
+                "Eine Bergung Gaspin auf, als ihr Implantat brennt. Sie fühlt das Spekters Verwirrung durch ihr Nervensystem fluten—eine Sensation wie das Zusammenbrechen von Ordnung in statisches Rauschen.",
+                "Drei Sekunden sind alles, was es braucht, damit das System seine Risse offenbart.",
+                "Keine Panik. Keine Verzögerung. Alle machen weiter..."
+            ]
+        },
+        {
+            "id": 11185,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061470.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061470.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061470.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061470.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061470.jpg",
+            "overlay_texts": [
+                "Dreißig Meter unter der Beobachtungsplattform, ein Händler klettert über Versorgungsbehälter und preist Stabilisatoren an Forscher an, deren Rücken starr bleiben.",
+                "Kammer 7 windet sich in purpur-karminrotem Leid. Eine Verbotene Verschmelzung, flackernd zwischen Gravitas zermalmender Linse und Momentums karminroter Träne.",
+                "Dr. Venn steht reglos an ihrem Keramiktisch. Ein silbernes Nasenbluten tropft im Takt ihres Handgelenk-Implantats – jeder Herzschlag ein Diebstahl von Sauerstoff.",
+                "Zwei Anima in obszönem Konflikt. Ihre gegensätzliche Physik zerreißt die Wirklichkeit in zersplitterte Geometrien, präzipitierend zwischen Zuständen mit blendender Geschwindigkeit.",
+                "Der Händler zieht sich in die wabenförmigen unteren Korridore zurück. Seine wertlosen Waren tragend einer Oberfläche entgegen, die bald nur noch Stille und Schlacke kennen wird."
+            ]
+        },
+        {
+            "id": 9661,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058286.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058286.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058286.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058286.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058286.jpg",
+            "overlay_texts": [
+                "An Bord der Velocity führt Mira eine Wartungsprüfung an ihrem Hybrid-Schweberad durch. Die Schrott-Dünen wölben sich in rostroter Welle bis zum Horizont hinab.",
+                "Das Rad ist aus inkompatiblen Teilen gebaut: Gravita, Momentum, Energia. Es funktioniert nur durch ihre unermüdliche Verhandlung mit deren innerem Anima.",
+                "Sie murmelt einen unerschöpflichen Rhythmus der Atemarbeit. Jeder Ausatemzug kostet sie Kalorien, während sie die unmöglichen Systeme gedanklich zu momentaner Ruhe bewegt.",
+                "Ihr Bewusstsein ist halb mit den launischen Spektren verschmolzen. Sie spürt deren dominanten Drang zu fliegen, der gegen ihre eigene hartnäckige, erdgebundene Weigerung zieht."
+            ]
+        },
+        {
+            "id": 6177,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0056554.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0056554.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0056554.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0056554.jpg",
+            "filename": "frames_starlightguardians_nu/frame0056554.jpg",
+            "overlay_texts": [
+                "Der Atemzug der Großmutter. Der Schritt des Vaters. Ein Schrei des Kindes ohne Ursprung.",
+                "Ererbtes Gewicht — nicht Erinnerung als Gedanke, sondern als Mark."
+            ]
+        },
+        {
+            "id": 8379,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057637.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057637.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057637.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057637.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057637.jpg",
+            "overlay_texts": [
+                "Nova Terra durchquert den Himmel: gebaut, nicht geboren. Ein Ding, das sich zu erheben wählte und den Himmel nahm, um es zu tun.",
+                "Die Architektur trotzt der grundlegenden Intuition. Gebäude wachsen von der Decke-Boden abwärts und verwurzeln sich in der Innenfläche der Sphäre.",
+                "Die Luft trägt das schwere, unausgesprochene Gewicht von zweihundertachtzig Jahren biologischer Divergenz.",
+                "Hoch oben und tief drinnen lachen Kinder in offenen Konfigurationen, die in oberflächengeborenen Geistern Schwindel hervorrufen würden."
+            ]
+        },
+        {
+            "id": 11187,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061472.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061472.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061472.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061472.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061472.jpg",
+            "overlay_texts": [
+                "Das Kind steht allein auf einer durchscheinenden Plattform, die über den Azure-Drift-Inseln schwebt. Seine kleine Gestalt zeichnet sich ab gegen Wasser, das zwischen Flüssigkeit und Licht wechselt.",
+                "Die Luft schimmert in silbergrauem Dunst. Eine Aufmerksamkeit so uralt, dass sie das Licht selbst in schwache konzentrische Ringe beugt.",
+                "Sein Atem hinterlässt kleine Wolken, die leise mit Noeticas silberner Ausstrahlung mitschwingen. Seine Augen verfolgen etwas, das sich durch den leeren Raum mit selbstvergessener Leichtigkeit bewegt.",
+                "Das Wasser darunter spiegelt zersplitterte Momente, übereinandergelagert wie Buchseiten. Es deutet an, dass die wahre Form der Entität sich über die Zeit erstreckt, nicht über den Raum.",
+                "Der Dunst erstarrt. Die gesamte Insel hält den Atem an, im Bewusstsein, dass etwas Älteres als Kontinente die Welt durch die Stimme eines Vierjährigen erkennt."
+            ]
+        },
+        {
+            "id": 11188,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061473.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061473.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061473.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061473.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061473.jpg",
+            "overlay_texts": [
+                "In den hallenden Tiefen des Hauses der Echos beugen sich drei Hierarchen über Noels Transkription. Ihre milchgoldenen Pupillen verfolgen Worte, die sich weigern, kohärent zu werden.",
+                "Die verwitterten Finger des Ältesten Kyr gleiten über das Pergament. Silberner Nebel ringelt sich von seinen Schläfen—das Siegel des Wahren Blicks brennt in voller Intensität.",
+                "Die Worte des Kindes sind keine Prophezeiung. Sie sind Zeugnis. Roh und ungebeten, sprechend von Drucktiefen und Gesang, der der Sprache selbst vorausgeht.",
+                "Goldene Fäden binden die Hierarchen vorübergehend. Ein gemeinsames Erkennen, dass dies keine Kanalisierung ist, sondern Partnerschaft. Der Grabensänger spricht durch offene Redlichkeit.",
+                "Wenn dieses Kind verloren ist, bewegt sich der Sänger im Blinden. Und der Ozean erinnert sich, wie man ganze Städte verschlingt."
+            ]
+        },
+        {
+            "id": 11189,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061474.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061474.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061474.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061474.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061474.jpg",
+            "overlay_texts": [
+                "Der Oberflächenring von Tidalcross bricht an der Wasserlinie auf. Ein vertikales Chaos aus geborgenen Rümpfen, verschweißt mit Korallen-Komposit-Plattformen.",
+                "Eine Frau mit druckgezeichneter Haut erklimmt eine Wartungsleiter zur Sonne. Jede Sprosse verbrennt ihr angepasstes Tiefenvolk-Fleisch.",
+                "Darunter wirbelt der Ozean in rostrotem Schaum, wo drei Strömungen aufeinanderprallen. Ein Oberflächenhändler ruft Zahlen in ein Gerät, blind für die Tausenden von Leben, aufgestapelt ohne Lösung.",
+                "300 Meter tiefer registriert die Last-Light-Station einen niederfrequenten Impuls. Eine Fluidica-Präsenz erwacht in der geologischen Tiefe.",
+                "Zwei unvereinbare Welten, den gleichen Raum teilend. Der Bruch ist geschrieben in Licht, Druck und der brennenden Haut der Frau."
+            ]
+        },
+        {
             "id": 9652,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058032.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058032.jpg",
@@ -73,6 +230,20 @@ const episodeData = {
                 "Auf seiner Schulter: Sparklefly. Ihr Chaos-Licht flackert zwischen Purpur und Aschegrau und wirft differenzielle Schatten, die sich nicht beruhigen wollen. Keiner von beiden spricht.",
                 "Sparklefly lehnt sich eng an sein Ohr. Ihr Licht schärft sich zu etwas einzigartig Loyalem. (Übertragene Empfindung): „Der Morgen kommt, ob wir ihn willkommen heißen oder nicht.“",
                 "Taro sagt nichts. Er geht weiter. Hinter ihnen verblasst die sterile Effizienz der oberen Ebenen zur Erinnerung. Vor ihnen: etwas Uraltes."
+            ]
+        },
+        {
+            "id": 8428,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057647.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057647.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057647.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057647.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057647.jpg",
+            "overlay_texts": [
+                "Das Schreien beginnt—nicht aus Lautsprechern, sondern aus dem Teer selbst. Die Geisterschlacke windet sich unter dem UV-Gitter mit ekelhaftem, tiefem violettem Zweck.",
+                "Durchscheinende, verzweifelte Hände kratzen sich aus der brodelnden Masse empor. Jede eine Spur eines Spekters, gefangen in einer ewigen Schleife aus Wiederherstellung und Zusammenbruch.",
+                "Der Teer greift nach dem Helden, sehnsüchtig. Die Grundwahrheit von Crater City wird unausweichlich.",
+                "Die Tether brennt kalt in ihrer Brust. Dies ist nicht industrieller Müll. Es ist Leid, das zur Struktur gemacht wurde, und ein Monument systematischer Auslöschung."
             ]
         },
         {
@@ -120,6 +291,81 @@ const episodeData = {
             ]
         },
         {
+            "id": 2332,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061402.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061402.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061402.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061402.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061402.jpg",
+            "overlay_texts": [
+                "Dämmerung blutet durch erneuertes Grünland. Kai kniet neben dem zusammengebrochenen Heiler, die Servomotoren seines Mechasuits flüstern bei jeder Mikrojustierung.",
+                "Ein Medizinscanner projiziert eine geschichtete holografische Anatomie über Taros regloses Gestalt. Die brutale Arithmetik des oberflächlichen Überlebens sendet aus.",
+                "Taro liegt bäuchlings am Rand des Baches. Seine Finger immer noch gekrümmt um das Wasser, das er nie zu trinken beendete.",
+                "Die Funkelfliege umkreist fieberhaft den Himmel. Chaotische Lichtmuster durchlaufen besorgtes Purpur und Gold—Anima, die die Logik bittet, sich der Gnade zu unterwerfen.",
+                "Kais Kiefermuskel spannt sich hinter spiegelnden Gläsern an. Ein erbarmungsloses HUD quantifiziert den Konflikt zwischen Missionseffizienz und dem viszeralen Zug des Mitgefühls."
+            ]
+        },
+        {
+            "id": 2333,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061403.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061403.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061403.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061403.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061403.jpg",
+            "overlay_texts": [
+                "Die verlassene Forschungsstation duckt sich inmitten würgender Ranken. Ihre Wände überwuchert von biolumineszenten Pilzen, die in elektrischem Blau und phosphoreszierendem Bernstein erblühen.",
+                "Das Unterholz pulsiert mit mutierten Farnen und treibenden Sporen. Der Waldboden ist ein lebendes Flickwerk menschlichen Ehrgeizes, der wild geworden ist.",
+                "Kai kniet über Taro, seine methodischen Finger wickeln Verbandstoff um klaffende Wunden. Sein HUD flackert mit Vitalwerten.",
+                "Chipster projiziert ein matter werdendes holografisches Inventar. Schwindende medizinische Vorräte und Jodampullen verteilen sich über zersprungenes Fundamentgestein.",
+                "Kais Void-Aura unterdrückt das umgebende Vitalis-Schimmern. Der Dschungel&#039;s bewusster Glanz verblasst ehrfürchtig und erkennt an, dass die Arbeit des Heilers Stille verlangt."
+            ]
+        },
+        {
+            "id": 2334,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061404.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061404.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061404.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061404.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061404.jpg",
+            "overlay_texts": [
+                "Zwölf blasse Gestalten materialisieren sich aus feuchtem Unterholz in synchroner Choreographie. Albinohaut leuchtend gegen grüne Schatten.",
+                "Lebende Gewänder, gewoben aus kooperativen Ranken, klammern sich an ihre Körper. Biolumineszenzmoos pulsiert smaragdgrüne Rhythmen über ihre Schultern und Säume.",
+                "Im Zentrum des Kreises steht ihre Anführerin. Ihr Stab gekrönt von einem knolligen Symbionten, der im Takt ihres Betengesang pulsiert.",
+                "Kai erhebt sich zwischen dieser sich zuziehenenden Formation und Taro. Die Servos ihres Mechasuits verriegeln sich mit absoluter mechanischer Feindseligkeit.",
+                "Der Durchmesser der Lichtung kollabiert. Das geübte Ritual drängt der Gewalt entgegen, umhüllt in Sakralität."
+            ]
+        },
+        {
+            "id": 2336,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061406.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061406.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061406.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061406.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061406.jpg",
+            "overlay_texts": [
+                "Kai zieht elegante schwarze Stiefel aus der Schmugglerkiste. Ihre Absätze bergen violette Kerne, die mit geraubter Gravita-Essenz pulsieren.",
+                "Eine purpurne Verzerrung breitet sich in einer perfekten Sphäre aus. Blattwerk und zersplittertes Holz erheben sich gegen die planetare Anziehung.",
+                "Kai schießt vertikal empor—eine violette Kondensstreifen brennt aufwärts durch hundert Meter hohe Baumstämme. Unten erstarren zwölf Kultisten mid-Ritual, ihre religiöse Gewißheit zerfällt in Ehrfurcht.",
+                "Polarität auf dem Scheitelpunkt umgekehrt, die Gravitation kehrt um. Kai stürzt abwärts mit kontrollierter Beschleunigung, sein Arm hakt Taros Taille in einem einzigen Griff.",
+                "Mech-Triebwerke zünden in stakkato Stößen. Sie weben ein dreidimensionales Ausweichungsmuster, das kein bodengebundener Schütze vorhersagen kann, verschwimmend vorbei am uralten Blätterdach."
+            ]
+        },
+        {
+            "id": 2337,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061409.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061409.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061409.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061409.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061409.jpg",
+            "overlay_texts": [
+                "Das Labor exhalt Jahrhunderte der Stille. Dreißig Meter organische Metallarchitektur, die unter dem Gewicht der Dschungelrückeroberung durchhängt.",
+                "Biolumineszierende Pilze teppichieren jede horizontale Fläche in Wellen von Teal und Zyanblau. Das sanfte, diffuse Licht verwandelt den Raum in eine ertrunkene Kathedrale.",
+                "Kai sitzt zusammengesunken gegen eine korrodierte Bank gelehnt. Seine Gravitationsstiefel daneben strahlen noch immer Hitzeverzerrung von der Überanstrengung aus.",
+                "Taro kniet eine Armlänge entfernt. Seine Hände gleiten langsam über seinen blauen Oberkörper und katalogisieren Beschädigungen mit mechanischer Präzision.",
+                "Sparklefly ruht auf einem intakten Spektrometer. Sein chaotischer Puls reduziert sich zu einem schwachen Herzrhythmus. Ein neutraler Ort, wo Mechaniker und Heiler endlich zusammenbrechen können, ohne Angst."
+            ]
+        },
+        {
             "id": 9657,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058037.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058037.jpg",
@@ -132,6 +378,35 @@ const episodeData = {
                 "Taro taucht in Richtung Bewusstsein auf, sein roter Lederkragen fängt das Aufflackern des Lichts ein. Er steht regungslos da und schätzt ab, ob dieser Fremde in Rüstung eine Bedrohung oder Rettung ist.",
                 "Zwischen ihnen: die unverkennbare Spannung zweier Männer, die spüren, dass sie denselben Schwerpunkt umkreisen, ihn aber noch nicht benennen können. Ihr Schweigen ist beredter als jede Erklärung.",
                 "Draußen hält der Dschungel den Atem an. Ein 300 Meter langer Schatten kreuzt die Öffnung des Unterschlupfs. Für eine gedehnte Sekunde erkennen alle vier Präsenzen, dass sie von etwas weit Älterem beurteilt werden."
+            ]
+        },
+        {
+            "id": 8399,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057642.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057642.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057642.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057642.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057642.jpg",
+            "overlay_texts": [
+                "Therma-Energia Verschmelzung. Keine Warnung. Keine Verhandlung.",
+                "Sand wird zu Glas. Glas wird zu Schlacke. Drei Stämme werden Vergangenheit.",
+                "Eine perfekte, furchtbare Sekunde der Stille — dann kommt die Ozonwelle.",
+                "Sie drosselt ihre Triebwerke dem Nachbeben entgegen. Es wird Beute geben. Es wird Leichen zu begraben geben. In der Drift ist dies ein Dienstag."
+            ]
+        },
+        {
+            "id": 9667,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058047.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058047.jpg",
+            "overlay_texts": [
+                "Die Schrottdünen schimmern unter einem unangenehmen Zyklon aus seitwärts verlaufender Zeit. Die Realität glitched in spiraligen Fraktalen. Datenverbogener Sand löst sich in Geister-Ergebnisse auf, die flackern und sich selbst verwerfen.",
+                "Mira fährt mit ihrem Hoverbike allein an den Rand des Sturms. Die Präsenz des Drachenführers schwillt um ihr Bewusstsein an: gewaltig, träge geduldig.",
+                "Dann: Ein flüchtiger Blitz. Ein Gesicht, das sie noch nicht kennt. Gefangen in bernsteinfarbenem Licht. Fallend.",
+                "Miras Atem stockt. Sie schaltet den Gashebel an der Lagergrenze aus. Äußerlich gefasst, aber ihre Hände verraten sie.",
+                "Das Ungesagte sitzt zwischen Miras Rippen wie ein verschluckter Stein. Der Drachenführer bewahrt sein geduldiges Schweigen. Er kennt die besondere Grammatik der Prophezeiung – dass sie keine Sprache benötigt, nur Zeit."
             ]
         },
         {
@@ -240,6 +515,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 8150,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057620.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057620.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057620.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057620.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057620.jpg",
+            "overlay_texts": [
+                "Der Strahlende Bezirk erleuchtet nicht. Er überfordert.",
+                "Eine Lumina-Architektin, erschöpft vom Werk des Tages — sie stützt sich an lebendige Rinde, ihre Verbindung vollständig bezahlt.",
+                "Hinter ihr zwei Kinder, die nicht so tief hätten kommen dürfen. Die Jüngere hat aufgehört zu gehen. Hände an den Schläfen. Reglos.",
+                "Die Glanz-Krankheit hat keinen Namen für das, was sie ist — nur ein Druck, den der Körper unzweifelhaft fürchtet, bevor der Verstand die Gefahr erfassen kann."
+            ]
+        },
+        {
             "id": 9666,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
@@ -251,21 +540,6 @@ const episodeData = {
                 "Die gemusterten Tech-Streifen auf ihrem Jackenkleid flackern von kooperativem Gold zu einem bewussten, gefährlichen Cyan, das den Abbruch ankündigt.",
                 "KAORI: „Wir starten morgen Vormittag.“ Ihre Stimme ist fest. Gewichtet mit dem Unwiderruflichen. Ein letztes Snapshot der schwebenden Terrassen, bevor der Pfad des Dim-Widerstands aktiviert wird.",
                 "Die Detektionsalgorithmen des Celestia-Turms beginnen ihre Aktivierungssequenz. Etwas hat sich in der Symphonie verändert. Etwas singt nicht mehr mit."
-            ]
-        },
-        {
-            "id": 9667,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0058047.jpg",
-            "filename": "frames_starlightguardians_nu/frame0058047.jpg",
-            "overlay_texts": [
-                "Die Schrottdünen schimmern unter einem unangenehmen Zyklon aus seitwärts verlaufender Zeit. Die Realität glitched in spiraligen Fraktalen. Datenverbogener Sand löst sich in Geister-Ergebnisse auf, die flackern und sich selbst verwerfen.",
-                "Mira fährt mit ihrem Hoverbike allein an den Rand des Sturms. Die Präsenz des Drachenführers schwillt um ihr Bewusstsein an: gewaltig, träge geduldig.",
-                "Dann: Ein flüchtiger Blitz. Ein Gesicht, das sie noch nicht kennt. Gefangen in bernsteinfarbenem Licht. Fallend.",
-                "Miras Atem stockt. Sie schaltet den Gashebel an der Lagergrenze aus. Äußerlich gefasst, aber ihre Hände verraten sie.",
-                "Das Ungesagte sitzt zwischen Miras Rippen wie ein verschluckter Stein. Der Drachenführer bewahrt sein geduldiges Schweigen. Er kennt die besondere Grammatik der Prophezeiung – dass sie keine Sprache benötigt, nur Zeit."
             ]
         },
         {

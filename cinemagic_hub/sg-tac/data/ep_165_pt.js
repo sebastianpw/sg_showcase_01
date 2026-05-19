@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 164,
-            "name": "SERIES PRE S01",
+            "name": "PRÉ-SÉRIE S01",
             "chapter_label": null,
             "url": "ep_164_pt.html"
         },
@@ -179,6 +179,18 @@ const episodeData = {
                 "Ele ajusta um único parâmetro no holo-fragmento. A taxa de propagação da contaminação nas Dunas de Sucata. O modelo atualiza-se. A realidade estremece.",
                 "Naquele microssegundo, Kaelen vê: a cascata. O momento em que a linha do tempo terminal da cidade se torna inevitável. A cascata não é um evento futuro. Já ocorreu.",
                 "Ele não se vangloria. O que resta é paciência. E a probabilidade de 0,153% que ele não conseguiu calcular para zero. Incerteza, após quarenta anos, parece luto."
+            ]
+        },
+        {
+            "id": 11181,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061341.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061341.jpg",
+            "overlay_texts": [
+                "Taro treats his first Hollow-Man.",
+                "His Vitalis bond perceives something underneath the Slag-hollowed Anima signature, something older, a shape of a burning he has no language for yet."
             ]
         },
         {
