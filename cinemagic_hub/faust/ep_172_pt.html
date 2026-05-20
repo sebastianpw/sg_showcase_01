@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>FAUST COVER — FAUST</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
+        
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body>
+<div class="top-actions"><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Confira este episódio: FAUST COVER">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">PT</span>
+    </button>
+    <div class="lang-menu"><a href="ep_172.html">EN</a><a href="ep_172_de.html">DE</a><a href="ep_172_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST</div>
+        <h1 class="seq-title">FAUST COVER</h1>
+        
+    </div>
+    <div class="ep-cover-wrapper observe-me visible"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg" class="ep-cover-img" alt="Cover"></div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">The veil parts. What remains of Fauststripped of ambition, emptied of striving, the body consigned to earthrises as essence. Faust weary obsessive scholar pale gaunt face intense searching eyes high forehead slightly unkempt dark hair shadowed temples narrow lips restless tragic dignity worn black academic coat high collar and rumpled waistcoat ascends through chiaroscuro shadow toward ascending light. Not salvation earned through merit, but grace descending like light through water. The Eternal Feminine draws upward, a magnetic pull toward wholeness that his mortal frame could never contain. Mater Gloriosa sublime celestial feminine figure radiant compassionate expression luminous face flowing light hair and magnificent celestial robes sacred serenity transcendent divine majesty descends with remote yet tender presence. Around him, the chorus speaks what he cannot: that endless yearning itself becomes the redemptive act. Una Poenitentium Gretchen Redeemed redeemed gretchen luminous spiritual young woman gentle sorrowful eyes softened face long fair hair and pure white penitential garments transcendent purity compassionate grace reaches toward him with uplifted redemption. Pater Ecstaticus ascetic mystic figure uplifted radiant face wild thinning hair ecstatic spiritual fervor luminous beard and flowing robes transcendent contemplative presence moves upward in sacred rapture. Pater Profundus solemn monklike mystic deep contemplative eyes rugged aged face long beard and heavy dark robe spiritual gravity sublime inner turmoil stands rooted in depth. Pater Seraphicus youthful saintly mystic serene luminous expression soft hair gentle face and white light monastic robe compassionate spiritual purity angelic tenderness radiates transcendent warmth. Doctor Marianus visionary theologian refined ascetic features uplifted gaze neatly kept hair trimmed beard dark scholarly robe ecstatic devotion intellectual spirituality solemn veneration presides over the ascending mystery. Archangels radiant celestial beings noble youthful faces calm powerful eyes flowing hair luminous skin and layered heavenly robes with luminous trim solemn divine harmony winged presence disciplined grace surround the ascension. Magna Peccatrix redeemed sorrowful woman graceful melancholic beauty weathered face soft eyes gently disordered hair and humble penitential clothing spiritual longing quiet repentance tender dignity gazes upward in witness. Mulier Samaritana compassionate biblical woman serene expressive face calm eyes neatly arranged hair and modest flowing robe spiritual humility redemptive warmth clear mercy and grace stands in solemn attendance. Maria Aegyptiaca ascetic redeemed woman weathered beautiful features sacred solitude dark windblown hair simple rough robe desert worn cloth mystical serenity penitent strength and inward fire kneels in reverent contemplation. All the dialectic dissolves: Mephisto&#039;s jest, the pact&#039;s dark logic, Gretchen&#039;s sufferingall transfigured into the wound through which grace enters. The celestial voices do not absolve; they receive. They do not explain; they transform. The soul, still incomplete, still reaching, finds itself held at last not by doctrine but by love older than time. The horizontal struggle ends. The vertical ascent begins. The stage empties into luminous light. Oil painterly anime cinematic chiaroscuro rich shadow contrast. Timeless german romantic atmosphere. The testimony of a life lived in contradiction becomes, at the threshold, a prayer answered by silence that speaks.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="../pres01e01/index_pres01e01_pt.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pres01e01/assets/frame0057469.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Also discover:</div>
+        <div class="end-teaser-title">More to explore: PRES01E01</div>
+    </div>
+</a></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
