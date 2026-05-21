@@ -12,7 +12,7 @@ const episodeData = {
             "name": "Emberveil",
             "chapter_label": null,
             "cover_raw": "/frames_starlightguardians_nu/frame0056396.jpg",
-            "seq_data_raw": "[{\"sketch_id\":10994,\"frame_id\":44175},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9233,\"frame_id\":46834},{\"sketch_id\":9292,\"frame_id\":46841},{\"sketch_id\":9294,\"frame_id\":46835},{\"sketch_id\":11021,\"frame_id\":44408},{\"sketch_id\":9237,\"frame_id\":46851},{\"sketch_id\":9255,\"frame_id\":37386},{\"sketch_id\":9289,\"frame_id\":42838},{\"sketch_id\":9232,\"frame_id\":37582},{\"sketch_id\":9329,\"frame_id\":42843},{\"sketch_id\":3434,\"frame_id\":42883},{\"sketch_id\":10974,\"frame_id\":44138},{\"sketch_id\":10996,\"frame_id\":44177},{\"sketch_id\":9336,\"frame_id\":46147},{\"sketch_id\":11064,\"frame_id\":44674},{\"sketch_id\":3417,\"frame_id\":42882},{\"sketch_id\":11197,\"frame_id\":46850},{\"sketch_id\":10689,\"frame_id\":43624},{\"sketch_id\":11010,\"frame_id\":44397},{\"sketch_id\":10969,\"frame_id\":44133},{\"sketch_id\":10968,\"frame_id\":44132},{\"sketch_id\":9252,\"frame_id\":46145},{\"sketch_id\":11005,\"frame_id\":44186},{\"sketch_id\":11061,\"frame_id\":44671},{\"sketch_id\":11013,\"frame_id\":46862},{\"sketch_id\":9241,\"frame_id\":41773},{\"sketch_id\":11009,\"frame_id\":44396},{\"sketch_id\":9236,\"frame_id\":42835},{\"sketch_id\":8345,\"frame_id\":42759},{\"sketch_id\":2713,\"frame_id\":42649},{\"sketch_id\":11027,\"frame_id\":44414}]",
+            "seq_data_raw": "[{\"sketch_id\":10994,\"frame_id\":44175},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9233,\"frame_id\":46834},{\"sketch_id\":9292,\"frame_id\":46841},{\"sketch_id\":9294,\"frame_id\":46835},{\"sketch_id\":11021,\"frame_id\":44408},{\"sketch_id\":9237,\"frame_id\":46851},{\"sketch_id\":9255,\"frame_id\":37386},{\"sketch_id\":9289,\"frame_id\":42838},{\"sketch_id\":9232,\"frame_id\":46849},{\"sketch_id\":9329,\"frame_id\":42843},{\"sketch_id\":3434,\"frame_id\":42883},{\"sketch_id\":10974,\"frame_id\":44138},{\"sketch_id\":10996,\"frame_id\":44177},{\"sketch_id\":9336,\"frame_id\":46147},{\"sketch_id\":11064,\"frame_id\":44674},{\"sketch_id\":3417,\"frame_id\":42882},{\"sketch_id\":11197,\"frame_id\":46850},{\"sketch_id\":10689,\"frame_id\":43624},{\"sketch_id\":11010,\"frame_id\":44397},{\"sketch_id\":10969,\"frame_id\":44133},{\"sketch_id\":10968,\"frame_id\":44132},{\"sketch_id\":9252,\"frame_id\":46145},{\"sketch_id\":11005,\"frame_id\":44186},{\"sketch_id\":11061,\"frame_id\":44671},{\"sketch_id\":11013,\"frame_id\":46862},{\"sketch_id\":9241,\"frame_id\":41773},{\"sketch_id\":11009,\"frame_id\":44396},{\"sketch_id\":9236,\"frame_id\":42835},{\"sketch_id\":8345,\"frame_id\":42759},{\"sketch_id\":2713,\"frame_id\":42649},{\"sketch_id\":11027,\"frame_id\":44414}]",
             "url": "ep_146.html"
         }
     ],
@@ -146,11 +146,11 @@ const episodeData = {
         },
         {
             "id": 9232,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0051131.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0051131.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0051131.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0051131.jpg",
-            "filename": "frames_starlightguardians_nu/frame0051131.jpg",
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0061889.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0061889.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0061889.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0061889.jpg",
+            "filename": "frames_starlightguardians_nu/frame0061889.jpg",
             "overlay_texts": [
                 "The Forge Crown. Emberveil&#039;s wound that will not scar.",
                 "Fourteen hundred meters of cooled fury, held upright by devotion and Cohesiva geometry — the Channelers&#039; Guild running its eighth consecutive watch at 94% tolerance.",
@@ -492,11 +492,6 @@ const episodeData = {
                 "title": "NARRSEQ TEST01",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0058191.jpg",
                 "url": "../index_stillwater.html"
-            },
-            {
-                "title": "PRES01E01",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pres01e01/assets/frame0057469.jpg",
-                "url": "../index_pres01e01.html"
             }
         ]
     },
