@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>PRE EMBERVEIL 01</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); min-height: 100vh; }
+        .content { max-width: 800px; margin: 0 auto; padding: 80px 20px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+        .cover-img { width: 100%; max-width: 500px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); margin-bottom: 40px; border: 1px solid rgba(255,255,255,0.05); }
+        .series-title { font-family: var(--font-title); font-size: 2.8rem; font-weight: 400; margin: 0 0 20px; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .series-desc { font-size: 1.15rem; opacity: 0.8; line-height: 1.7; max-width: 650px; margin: 0 auto 60px; }
+        .toc { width: 100%; max-width: 600px; text-align: left; }
+        .season-hdr { font-family: var(--font-title); font-size: 1rem; color: #888; letter-spacing: 2px; text-transform: uppercase; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin: 30px 0 16px; }
+        .ep-link { display: block; color: var(--text-color); text-decoration: none; font-size: 1.1rem; padding: 8px 0; transition: color 0.2s, transform 0.2s; }
+        .ep-link:hover { color: var(--accent-color); transform: translateX(6px); }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--bg-color); border: 1px solid rgba(205,164,52,0.18); border-radius: 20px; padding: 6px 12px; color: #c8b88a; font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--accent-color); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--bg-color); border: 1px solid rgba(205,164,52,0.18); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: #c8b88a; text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: rgba(205,164,52,0.14); color: var(--accent-color); }
+        
+        @media (max-width: 768px) { .series-title { font-size: 2.2rem; } }
+    </style>
+</head>
+<body>
+    
+    <div class="top-actions"><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">EN</span>
+    </button>
+    <div class="lang-menu"><a href="index_premberveil.html">EN</a><a href="index_premberveil_de.html">DE</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+    <div class="content">
+        <a href='ep_146.html'><img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg' class='cover-img' alt='Cover'></a>
+        <h1 class="series-title">PRE EMBERVEIL 01</h1>
+        <p class="series-desc"></p>
+        <div class="toc"><h2 class='season-hdr'>PRE EMBERVEIL 01</h2><a class='ep-link' href='ep_146.html'>&#9654; Emberveil</a></div>
+    </div>
+</body>
+</html>
