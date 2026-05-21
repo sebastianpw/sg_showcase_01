@@ -11,36 +11,48 @@ const episodeData = {
             "id": 164,
             "name": "SERIEN-VORSPIEL S01",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0059046.jpg",
+            "seq_data_raw": "[{\"sketch_id\":10967,\"frame_id\":44131},{\"sketch_id\":11182,\"frame_id\":46481},{\"sketch_id\":7082,\"frame_id\":42884},{\"sketch_id\":11183,\"frame_id\":46482},{\"sketch_id\":8458,\"frame_id\":43335},{\"sketch_id\":1621,\"frame_id\":42863},{\"sketch_id\":11198,\"frame_id\":46852},{\"sketch_id\":11184,\"frame_id\":46483},{\"sketch_id\":8658,\"frame_id\":42798},{\"sketch_id\":11185,\"frame_id\":46484},{\"sketch_id\":1598,\"frame_id\":42273},{\"sketch_id\":9661,\"frame_id\":43390},{\"sketch_id\":6177,\"frame_id\":41761},{\"sketch_id\":8379,\"frame_id\":42764},{\"sketch_id\":1593,\"frame_id\":42272},{\"sketch_id\":11187,\"frame_id\":46486},{\"sketch_id\":11188,\"frame_id\":46487},{\"sketch_id\":2181,\"frame_id\":42597},{\"sketch_id\":8310,\"frame_id\":42756},{\"sketch_id\":1629,\"frame_id\":43307},{\"sketch_id\":2256,\"frame_id\":42607},{\"sketch_id\":11189,\"frame_id\":46488},{\"sketch_id\":9652,\"frame_id\":43137},{\"sketch_id\":9653,\"frame_id\":43138},{\"sketch_id\":2515,\"frame_id\":42625},{\"sketch_id\":8428,\"frame_id\":42774},{\"sketch_id\":9654,\"frame_id\":43139},{\"sketch_id\":1846,\"frame_id\":42278},{\"sketch_id\":2952,\"frame_id\":42697},{\"sketch_id\":9655,\"frame_id\":43140},{\"sketch_id\":9656,\"frame_id\":43141},{\"sketch_id\":2332,\"frame_id\":46417},{\"sketch_id\":2333,\"frame_id\":46418},{\"sketch_id\":2334,\"frame_id\":46419},{\"sketch_id\":2336,\"frame_id\":46422},{\"sketch_id\":2337,\"frame_id\":46425},{\"sketch_id\":9657,\"frame_id\":43142},{\"sketch_id\":8399,\"frame_id\":42769},{\"sketch_id\":1628,\"frame_id\":43299},{\"sketch_id\":2201,\"frame_id\":42599},{\"sketch_id\":2283,\"frame_id\":42615},{\"sketch_id\":9105,\"frame_id\":42801},{\"sketch_id\":9667,\"frame_id\":43152},{\"sketch_id\":2163,\"frame_id\":42593},{\"sketch_id\":9658,\"frame_id\":43143},{\"sketch_id\":1558,\"frame_id\":42561},{\"sketch_id\":9659,\"frame_id\":43144},{\"sketch_id\":2308,\"frame_id\":42616},{\"sketch_id\":9660,\"frame_id\":43145},{\"sketch_id\":9662,\"frame_id\":43147},{\"sketch_id\":9663,\"frame_id\":43148},{\"sketch_id\":9664,\"frame_id\":43149},{\"sketch_id\":9665,\"frame_id\":43150},{\"sketch_id\":8150,\"frame_id\":42747},{\"sketch_id\":8432,\"frame_id\":42776},{\"sketch_id\":8382,\"frame_id\":42766},{\"sketch_id\":9666,\"frame_id\":43151},{\"sketch_id\":8436,\"frame_id\":42777},{\"sketch_id\":2399,\"frame_id\":42626},{\"sketch_id\":9668,\"frame_id\":43153},{\"sketch_id\":9669,\"frame_id\":43154},{\"sketch_id\":9670,\"frame_id\":43155},{\"sketch_id\":9671,\"frame_id\":43156}]",
             "url": "ep_164_de.html"
         },
         {
             "id": 165,
             "name": "SERIES PRE S02",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0058052.jpg",
+            "seq_data_raw": "[{\"sketch_id\":9672,\"frame_id\":43157},{\"sketch_id\":9674,\"frame_id\":43393},{\"sketch_id\":9675,\"frame_id\":43160},{\"sketch_id\":9676,\"frame_id\":43161},{\"sketch_id\":9677,\"frame_id\":43394},{\"sketch_id\":9678,\"frame_id\":43163},{\"sketch_id\":9679,\"frame_id\":43164},{\"sketch_id\":9680,\"frame_id\":43165},{\"sketch_id\":9681,\"frame_id\":43166},{\"sketch_id\":11181,\"frame_id\":46356},{\"sketch_id\":9682,\"frame_id\":43167},{\"sketch_id\":9683,\"frame_id\":43168},{\"sketch_id\":9684,\"frame_id\":43169},{\"sketch_id\":9685,\"frame_id\":43170},{\"sketch_id\":9686,\"frame_id\":43171}]",
             "url": "ep_165_de.html"
         },
         {
             "id": 166,
             "name": "SERIES PRE S03",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0058067.jpg",
+            "seq_data_raw": "[{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":9692,\"frame_id\":43396},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
             "url": "ep_166_de.html"
         },
         {
             "id": 167,
             "name": "SERIES PRE S04",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0058090.jpg",
+            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
             "url": "ep_167_de.html"
         },
         {
             "id": 168,
             "name": "SERIES PRE S05",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0058106.jpg",
+            "seq_data_raw": "[{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
             "url": "ep_168_de.html"
         },
         {
             "id": 169,
             "name": "SERIES PRE S06",
             "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0058306.jpg",
+            "seq_data_raw": "[{\"sketch_id\":9747,\"frame_id\":43410},{\"sketch_id\":9748,\"frame_id\":43233},{\"sketch_id\":9749,\"frame_id\":43411},{\"sketch_id\":9750,\"frame_id\":43412},{\"sketch_id\":9751,\"frame_id\":43236},{\"sketch_id\":9752,\"frame_id\":43237},{\"sketch_id\":9753,\"frame_id\":43413},{\"sketch_id\":9754,\"frame_id\":43414},{\"sketch_id\":9755,\"frame_id\":43240},{\"sketch_id\":9756,\"frame_id\":43241},{\"sketch_id\":9757,\"frame_id\":43415},{\"sketch_id\":9758,\"frame_id\":43243},{\"sketch_id\":9759,\"frame_id\":43244},{\"sketch_id\":9760,\"frame_id\":43416},{\"sketch_id\":9761,\"frame_id\":43246},{\"sketch_id\":9762,\"frame_id\":43247},{\"sketch_id\":9763,\"frame_id\":43417},{\"sketch_id\":9764,\"frame_id\":43418},{\"sketch_id\":9765,\"frame_id\":43250},{\"sketch_id\":9766,\"frame_id\":43251},{\"sketch_id\":9767,\"frame_id\":43252},{\"sketch_id\":9768,\"frame_id\":43253},{\"sketch_id\":9769,\"frame_id\":43254}]",
             "url": "ep_169_de.html"
         }
     ],
@@ -73,6 +85,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 7082,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057758.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057758.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057758.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057758.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057758.jpg",
+            "overlay_texts": [
+                "Die Spitze — wo Stille erkauft wird, nicht verdient.",
+                "Obsidianwurzeln greifen ins Nichts. Gravita kniet.",
+                "Darunter atmen 150.000 Leben ihre Vitalität hinauf, damit diese wenigen rein atmen können.",
+                "Eine einsame Gestalt verfolgt die Vitalis-gebundenen Adern eines hängenden Blattes — und wendet den Blick nicht ab von dem, was es kostete."
+            ]
+        },
+        {
             "id": 11183,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061468.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061468.jpg",
@@ -85,6 +111,48 @@ const episodeData = {
                 "Die Bergerin erklimmt abgenutzte Passagen. Ihr Handgelenksimplantat zieht Kalorien ab für das Licht, das sie sich geliehen hat, um ein Druckventil zu verschließen, das vor Wochen hätte platzen sollen.",
                 "Zwischen ihnen verrät die Geometrie der Stadt ihre Architekten. Reliefmuster verschieben sich im peripheren Sichtfeld. Die herrschenden Spektren gehorchen der Frequenz des Regimes nicht mehr.",
                 "Wenn sie sich an der Bürgerschwelle treffen, erstrahlen die Fraktale auf jeder Wand in einem krankhaften, unbefugten Violett. Nicht die reine Geometrie der Kontrolle, sondern die Farbe von etwas, das erwacht."
+            ]
+        },
+        {
+            "id": 8458,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058231.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058231.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058231.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058231.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058231.jpg",
+            "overlay_texts": [
+                "Kraterstadt wacht nicht auf. Sie initialisiert.",
+                "847. Keine Rangstufe. Ein Rest.",
+                "Der Gravita-Aufzug sinkt durch Schichten fremden Leids — bernsteinfarbener Schweiß, verbogene Luft, Hitze dick genug zum Kauen — und jeder Meter ist eine Schuld, die der Apex-Distrikt zu benennen sich weigert.",
+                "Bei 21°C schnallt sich die Keramikpanzerung zu. Die Angst bleibt. Sie lernt nur, unsichtbar zu sein."
+            ]
+        },
+        {
+            "id": 1621,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057737.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057737.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057737.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057737.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057737.jpg",
+            "overlay_texts": [
+                "EINE MILLION SEELEN — UNNACHGIEBIG UNAUFERSTANDEN.",
+                "In den Amphitheatern aus poliertem Obsidian verkündet die Amtlichkeit ihre Verfeinerung Kindern, die bereits die Geometrie der Gefangenschaft kennen.",
+                "Darunter, in honigwabiger Finsternis, leuchtet das verbotene Grün in Saphir und Jade — eine Liturgie der Überlebenden, unterirdisch und wohlklingend.",
+                "Über allem die gefesselte Mond: himmlischer Hierophant der ewigen Finsternis. Ihr Gesang erhebt sich wie Rauch von einem unsichtbaren Scheiterhaufen — ‚Wir sind die Finsternis verkörpert.&#039;"
+            ]
+        },
+        {
+            "id": 11198,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058010.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058010.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058010.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058010.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058010.jpg",
+            "overlay_texts": [
+                "DAS KRATERKAMMER-DIREKTORAT",
+                "Zwölf Operatoren des tiefen Amphitheaters — in Kohlegewalt gekleidet, ihre Siegelborte kalt wie der Stein darunter.",
+                "Empathie: sublimiert. Entschlossenheit: absolut.",
+                "Hier trägt die UrAngst der Herrschaft ein Gesicht, das jeden Skrupel verloren hat, den es einst kannte."
             ]
         },
         {
@@ -104,6 +172,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 8658,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057671.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057671.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057671.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057671.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057671.jpg",
+            "overlay_texts": [
+                "Fünfzehn Jahre Leselicht — und der Garten schreit.",
+                "Krankliches Gelbgrün: der chromatische Schrei einer Milliarde ertrinkender Kolonien.",
+                "Ihr Vitalis lodert auf. Geliehener Schmerz. Der Tether fordert seinen Zehnt in Kupfer.",
+                "Das Grün erblasst. Sie bewegt sich bereits — ihr Körper eilt dem Trauer voraus, die ihr Geist noch nicht zu benennen gewagt hat."
+            ]
+        },
+        {
             "id": 11185,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061470.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061470.jpg",
@@ -116,6 +198,20 @@ const episodeData = {
                 "Dr. Venn steht reglos an ihrem Keramiktisch. Ein silbernes Nasenbluten tropft im Takt ihres Handgelenk-Implantats – jeder Herzschlag ein Diebstahl von Sauerstoff.",
                 "Zwei Anima in obszönem Konflikt. Ihre gegensätzliche Physik zerreißt die Wirklichkeit in zersplitterte Geometrien, präzipitierend zwischen Zuständen mit blendender Geschwindigkeit.",
                 "Der Händler zieht sich in die wabenförmigen unteren Korridore zurück. Seine wertlosen Waren tragend einer Oberfläche entgegen, die bald nur noch Stille und Schlacke kennen wird."
+            ]
+        },
+        {
+            "id": 1598,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057095.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057095.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057095.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057095.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057095.jpg",
+            "overlay_texts": [
+                "Die Schott-Dünen begraben ihre Toten nicht.",
+                "Zweihunderttausend Seelen hocken in den Rippen einer gefallenen Welt — jeder Schatten ein Viertel, jeder Träger eine Straße.",
+                "Stromabwärts, durch die ockerfarbene Staubwolke, kommen die Sturm-Reiter: fünfzigtausend Nomaden, die auf Impuls-Spektren über die ausgedehnten Friedhofsebenen reiten.",
+                "Katastrophe, hartnäckig bewohnt. Ausrottung, hartnäckig verweigert."
             ]
         },
         {
@@ -159,6 +255,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 1593,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057094.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057094.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057094.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057094.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057094.jpg",
+            "overlay_texts": [
+                "Nova Terra. Fünf Millionen Seelen. Vierzig Kilometer über ihrer ursprünglichen Sünde.",
+                "Unter den Goldenen Erinnerungswinden, unter den fraktalen Türmen und der vergoldeten Kartographie der Rangordnung — zweitausend Meter Leere, dann Wolke, dann Dschungelleiche.",
+                "Die Wurzelfäule steigt immer noch. Anklagend. Unheilig.",
+                "Und die Stadt lodert weiter — trotzige, dekadente, herrlich gleichgültig gegenüber dem, was sie begrub."
+            ]
+        },
+        {
             "id": 11187,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061472.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0061472.jpg",
@@ -186,6 +296,62 @@ const episodeData = {
                 "Die Worte des Kindes sind keine Prophezeiung. Sie sind Zeugnis. Roh und ungebeten, sprechend von Drucktiefen und Gesang, der der Sprache selbst vorausgeht.",
                 "Goldene Fäden binden die Hierarchen vorübergehend. Ein gemeinsames Erkennen, dass dies keine Kanalisierung ist, sondern Partnerschaft. Der Grabensänger spricht durch offene Redlichkeit.",
                 "Wenn dieses Kind verloren ist, bewegt sich der Sänger im Blinden. Und der Ozean erinnert sich, wie man ganze Städte verschlingt."
+            ]
+        },
+        {
+            "id": 2181,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057440.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057440.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057440.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057440.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057440.jpg",
+            "overlay_texts": [
+                "Unter einem toten Hangar trinkt eine Offenbarungskammer die übriggebliebene Trauer der Sonne.",
+                "Zehn Leeren knien. Ein Kind empfängt.",
+                "Ihre Adern lernen Gold auf die harte Weise — Lumina schreibt sich in Knochen, in Atem, ins Unwiederherstellbare.",
+                "Das Zifferblatt dreht sich. Die rote Zone war schon immer das Ziel."
+            ]
+        },
+        {
+            "id": 8310,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057629.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057629.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057629.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057629.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057629.jpg",
+            "overlay_texts": [
+                "Das Goldene Zeitalter endete nicht. Es wurde vererbt.",
+                "Jede unvollendete Hülle trägt noch die Spektralmarke — ein Versprechen, das länger währte als jene, die es gaben.",
+                "Nova Terra besteht über der Narbe, nicht durch Glanz erhalten, sondern durch ein Opfer, das es niemals laut benannt hat.",
+                "Die Spektren kehren hier nicht zurück. Schuld, wie Rost, erinnert sich."
+            ]
+        },
+        {
+            "id": 1629,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058203.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058203.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058203.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058203.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058203.jpg",
+            "overlay_texts": [
+                "TIDALCROSS — wo drei Strömungen sich treffen wählen, und 3,2 Millionen Seelen den Streit auf ewig entscheiden.",
+                "Sechzig Kilometer Plattformstadt-Ausbreitung über der Oberfläche. Darunter leuchten die Tiefenvölker wie eine versunkene Armada — 500.000 Lichter, Faden tief unten.",
+                "Die Stille-Wasser-Konvergenz: eine Unmöglichkeit, die zur mächtigsten menschlichen Siedlung der Erde wurde. Oberfläche und Tiefe, Vermischung und Last, Sonne und die kalte Kathedralfinsternis.",
+                "Die Menschheit, gespalten. Keine Hälfte fähig, zu vergessen, was die andere Hälfte atmet."
+            ]
+        },
+        {
+            "id": 2256,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057452.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057452.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057452.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057452.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057452.jpg",
+            "overlay_texts": [
+                "Die ertrunkene Klammer hält ihre tote Geometrie — dreihundert Meter Unternehmensruine, senkrecht zur Vernunft errichtet.",
+                "Rin bewegt sich wie eine Klinge, die ihre Scheide findet: Bergung, Überleben, keine verschwendete Bewegung.",
+                "Hinter ihr entfaltet sich zwölf Meter hydraulische Prophezeiung und öffnet ihre konzentrische Predigt.",
+                "Das Gebäude stöhnt sein letztes Unternehmensbekenntnis aus. Sie ist bereits durch das Fenster — den Datenkern wie einen gestohlenen Stern umklammert, während der Haischatten die Stockwerke verschluckt, die sie hinter sich gelassen hat."
             ]
         },
         {
@@ -233,6 +399,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 2515,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057481.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057481.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057481.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057481.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057481.jpg",
+            "overlay_texts": [
+                "Kraterstaat hält keine Wärme für die Trauernden.",
+                "Die Schwarze Sonne ruft ihr Abrechnung — gleichmäßig, ohne Gnade.",
+                "Gravita siedet hinaus. Regen beugt sich. Stein verschluckt den Schall.",
+                "Trauer. Zorn. Entschlossenheit. Das Violett macht keinen Unterschied."
+            ]
+        },
+        {
             "id": 8428,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057647.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057647.jpg",
@@ -259,6 +439,34 @@ const episodeData = {
                 "Er blickt zum Mond auf. Er versteht. Nicht im Denken. Im Instinkt. Wie das Erkennen eines Hungers, den er schon immer in sich trug – einen, den er für seinen eigenen hielt. Der Mond will nicht bleiben.",
                 "Jeder Bürger von Crater City atmet nur deshalb, weil Tausende von Gravita-gebundenen Operatoren in absoluter Wachsamkeit stehen, während ihre Lebenskraft als unsichtbarer Tribut an den Himmel nach oben sickert.",
                 "Er hat sein ganzes Leben im Schatten des Mondes verbracht, ohne jemals zu wissen, dass er sich unter der Erde befand."
+            ]
+        },
+        {
+            "id": 1846,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057100.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057100.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057100.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057100.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057100.jpg",
+            "overlay_texts": [
+                "Die Zersplitterte Spieglewüste — wo ein Dschungel mid-Atemzug starb und die Wunde sich nie schloss.",
+                "Achtzig Kilometer versteinerter Qual. Jede Kante ein Denkmal. Jeder Schatten, absolut.",
+                "Unter dem verglasten Blätterdach verhandeln fünftausend Seelen jeden Schritt — mit einem Gelände, das schneidet, Kälte, die tötet, und einem Dschungel-Bewusstsein, das jede Schuld zählt.",
+                "Die smaragdgrünen Risse heilen nicht. Sie rechnen ab."
+            ]
+        },
+        {
+            "id": 2952,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057570.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057570.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057570.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057570.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057570.jpg",
+            "overlay_texts": [
+                "Schwelle der Parametrischen Ruinen.",
+                "Das Kosmische Prisma schlägt fehl — Gravita beugt Licht in Verderben, Beton erhebt sich gegen sein eigenes Gewicht.",
+                "Kai 1758160399. Unzweifelhaft erschüttert. Noch immer kalkulierend.",
+                "Ein Körper an seiner Verwirkungsgrenze. Ein Geist, der noch nicht gestrauchelt ist."
             ]
         },
         {
@@ -395,6 +603,62 @@ const episodeData = {
             ]
         },
         {
+            "id": 1628,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058195.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058195.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058195.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058195.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058195.jpg",
+            "overlay_texts": [
+                "Dreihundert Kilometer schlummernder Zorn — wiedergeboren.",
+                "Zweihunderttausend Seelen eingesperrt in Schottenwänden-Gräbern, zählen Herzschläge in tiefster Stille, ergattern Überleben aus rationierten Schlucken und geatmetem Atem.",
+                "Fünfzigtausend treiben einzeln durchs Vakuum — jedes Sturmseglereschiff eine Insel, Segel eingerollt, Schwung-Spekter zu nichts verblasst, Kapitäne verlockt in blinde Isolation.",
+                "Wenn das Karmesin endlich ausatmet: vierhundertdreiundneunzig Flaggen antworten. Siebenundvierzig tun es nicht. Triumph und Elegie, untrennbar — die Schrottdünen behalten, was sie fordern."
+            ]
+        },
+        {
+            "id": 2201,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057442.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057442.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057442.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057442.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057442.jpg",
+            "overlay_texts": [
+                "Drei Tänzer. Ein unheiliger Sturm. Kein Grund unter uns, dem zu trauen wäre.",
+                "Impulsglyphen lodernauf karminrot — jede Flügelklinge eine bewusste Aussage gegen den irreduziblen Sturm.",
+                "Weit darunter treiben Void-Moos-Sporen eiskalt durch brodelndes geschmolzenes Glas — der Avernische Boden einer auseinanderbrechenden Welt.",
+                "Chronoringe breiten sich wellenförmig von einer Brustharnisc aus, die Zeit selbst in flackernder Verhandlung — dann der Sturz, furchtbar anmutig, in die ausgestreckten Arme des Aufwinds."
+            ]
+        },
+        {
+            "id": 2283,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057466.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057466.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057466.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057466.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057466.jpg",
+            "overlay_texts": [
+                "Vierzehn Acres verbranntes Glas — und dennoch wählten die Luminari diesen Ort.",
+                "Das Licht weicht ihrer Botschafterin. Die Verwüstung hält den Atem an.",
+                "Eve steht als Avatar einer verwundeten Welt, ihre Vitalis-Aura blutet Gold in die Asche.",
+                "Zwei Hände greifen über den gewaltigen Unterstrom der Geschichte hinweg. Der Greif beobachtet. Die bronzene Luft summt von Nimmermehr — und Anfang."
+            ]
+        },
+        {
+            "id": 9105,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057674.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057674.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057674.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057674.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057674.jpg",
+            "overlay_texts": [
+                "Die Drift, von oben gesehen.",
+                "Unter ihr erstrecken sich die Karminöden — weitläufig, gleichgültig, schuppig bedeckt mit Trümmern und windgeschliffenen Hochebenen.",
+                "Darunter reiten Sandschiffe auf dem Momentum: karminrote Striche, die die Prärie der Vernichtung durchschneiden wie ein Zepter, das über Samt gezogen wird.",
+                "Aus dieser Höhe sieht aller Eifer aus wie ein Gebet."
+            ]
+        },
+        {
             "id": 9667,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058047.jpg",
@@ -407,6 +671,20 @@ const episodeData = {
                 "Dann: Ein flüchtiger Blitz. Ein Gesicht, das sie noch nicht kennt. Gefangen in bernsteinfarbenem Licht. Fallend.",
                 "Miras Atem stockt. Sie schaltet den Gashebel an der Lagergrenze aus. Äußerlich gefasst, aber ihre Hände verraten sie.",
                 "Das Ungesagte sitzt zwischen Miras Rippen wie ein verschluckter Stein. Der Drachenführer bewahrt sein geduldiges Schweigen. Er kennt die besondere Grammatik der Prophezeiung – dass sie keine Sprache benötigt, nur Zeit."
+            ]
+        },
+        {
+            "id": 2163,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057436.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057436.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057436.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057436.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057436.jpg",
+            "overlay_texts": [
+                "Die Schrottdünen vergeben keine Landungen.",
+                "Eve. Luminari-geboren. Gefallen.",
+                "Über ihr entfaltet Atairukh seine Schwingen — und für eine heilige Sekunde bleibt das Trümmerfeld reglos.",
+                "Unter dem Sand zählen die Momentum-Spektren die Sekunden. Die Plünderer sind bereits in Bewegung."
             ]
         },
         {
@@ -425,6 +703,20 @@ const episodeData = {
             ]
         },
         {
+            "id": 1558,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057402.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057402.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057402.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057402.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057402.jpg",
+            "overlay_texts": [
+                "Nova Terra — drei Kilometer gestohlener Himmel, in der Schwebe gehalten von umgeschriebener und unbegnadigter Physik.",
+                "Sein Bauch träufelt Smaragd: das Kreislaufgespenst eines Dschungels, kontinentweit ausgeblutet, um den Aufstieg ehrlich zu halten.",
+                "Die goldenen Erinnerungswinde verdunsten längst, bevor sie die Schattennarbe erreichen. Lorbeeren für niemanden darunter.",
+                "Lena spürt die Fessel in ihrer Brust brennen — ihr Körper benennt das Verkehrte, das jede gewissenhaft gewartete Maschine zu sprechen verweigert."
+            ]
+        },
+        {
             "id": 9659,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058039.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058039.jpg",
@@ -438,6 +730,20 @@ const episodeData = {
                 "Unsichtbare Noetica-Ranken werden sichtbar – hauchdünne Fäden, die jede Iris mit dem zentralen Celestia-Turm verbinden, wobei jeder Strahl mit biometrischen Daten pulsiert. Das flüchtige Aufflackern eines Sekunden-Zweifels wird schnell durch das kollektive Summen geglättet.",
                 "Entsetzen. Das Gearbit kreischt und entzieht ihrem Mark Kalorien. Ihr Widerstand strahlt – nur für eine Mikrosekunde – als unharmonische Dissonanz in der Symphonie des Aura-Netzes aus.",
                 "Eine Gestalt drei Meter vor ihr hält mitten im Schritt inne. Der Kopf neigt sich. Sie haben es gespürt. Sie haben sie gespürt. Der fröhlich geordnete Platz entwickelt seinen ersten echten Schatten seit Jahrzehnten."
+            ]
+        },
+        {
+            "id": 2308,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057468.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057468.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057468.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057468.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057468.jpg",
+            "overlay_texts": [
+                "Der Strahlende Bezirk: knochenweiß, aufrichtig, unberührt vom Zweifel.",
+                "Aktiviere das Wahre Gesicht — und der Urschaden kommt an die Oberfläche.",
+                "Eine Million wunderschöner Geister, ihr Leiden in Frequenzen deutlich ausgestellt, die nur die Verfluchten zu deuten vermögen.",
+                "Eine Stadt, die Transparenz verehrt, hat die Wunden ihrer Bürger zur unwillkürlichen Architektur gemacht."
             ]
         },
         {
@@ -529,6 +835,34 @@ const episodeData = {
             ]
         },
         {
+            "id": 8432,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057649.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057649.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057649.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057649.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057649.jpg",
+            "overlay_texts": [
+                "Nova Terra beobachtet dich nicht. Es liest dich.",
+                "Jeder Schritt ein Geständnis — staccato weiße Panik, die das Gold zersplittert.",
+                "Die Gelehrtenbrücke hält unwandelbar. Ihre Geläufigkeit ist durch Stille verdient.",
+                "In einer Stadt, die auf radikaler Transparenz erbaut ist, ist Selbsttäuschung das Schwerste, das du tragen kannst."
+            ]
+        },
+        {
+            "id": 8382,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057639.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057639.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057639.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057639.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057639.jpg",
+            "overlay_texts": [
+                "Der Schleier löst sich auf. Die Welt verdoppelt sich.",
+                "Lumina wölbt sich über grauem Stein. Vitalis blutet durch Beton. Resonantia entwirkt die Menge.",
+                "Die Tether entzündet sich — und der Körper zahlt den Preis.",
+                "Drei Herzschläge. Zwei Welten. Ein Neuling, der die wahre Last des Sehens erlernt."
+            ]
+        },
+        {
             "id": 9666,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058046.jpg",
@@ -540,6 +874,34 @@ const episodeData = {
                 "Die gemusterten Tech-Streifen auf ihrem Jackenkleid flackern von kooperativem Gold zu einem bewussten, gefährlichen Cyan, das den Abbruch ankündigt.",
                 "KAORI: „Wir starten morgen Vormittag.“ Ihre Stimme ist fest. Gewichtet mit dem Unwiderruflichen. Ein letztes Snapshot der schwebenden Terrassen, bevor der Pfad des Dim-Widerstands aktiviert wird.",
                 "Die Detektionsalgorithmen des Celestia-Turms beginnen ihre Aktivierungssequenz. Etwas hat sich in der Symphonie verändert. Etwas singt nicht mehr mit."
+            ]
+        },
+        {
+            "id": 8436,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057650.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057650.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057650.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057650.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057650.jpg",
+            "overlay_texts": [
+                "Projekt Eschaton. Erste und letzte Prüfung.",
+                "Der Chrono-Avatar schrie nicht. Er wurde einfach alt.",
+                "Der Sieg währte drei Sekunden. Dann begann die Asche zu steigen.",
+                "Vex verstand, mit der Beklemmung der schlechthin Triumphierenden: Sie hatten keine Waffe gebaut. Sie hatten eine Tür geöffnet, die die Dissonanz dreihundert Jahre lang geduldig zu durchschreiten geübt hatte."
+            ]
+        },
+        {
+            "id": 2399,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057484.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057484.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0057484.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057484.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057484.jpg",
+            "overlay_texts": [
+                "DIE KATHEDRALE DES URARCHITEKTEN — KRATSTADT",
+                "Fünfhundert Meter gestohlene Schwerkraft. Siebzehn Orientierungen. Ein ungeduldig Gott.",
+                "Vierzig Jahre Trümmer hängen im Mittelfall erstarrt — ein Fossilienbestand der Überlegenheit, suspendiert dort, wo die Zeit zu dünn wurde, um ihren Satz zu vollenden.",
+                "Am Konvergenzpunkt ist Hinab keine Richtung. Es ist eine Ergebung."
             ]
         },
         {
@@ -603,6 +965,25 @@ const episodeData = {
             ]
         }
     ],
+    "meta_kw": "STARLIGHT GUARDIANS SERIES PRE S01",
+    "meta_desc": "STARLIGHT GUARDIANS SERIES PRE S01",
+    "social_links": [
+        {
+            "type": "instagram",
+            "url": "https://www.instagram.com/starlightguardianscom/"
+        },
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/@starlightguardianscom"
+        }
+    ],
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059046.jpg",
+    "next_teaser": {
+        "type": "next_episode",
+        "title": "SERIES PRE S02",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
+        "url": "ep_165_de.html"
+    },
     "available_langs": [
         "en",
         "de",

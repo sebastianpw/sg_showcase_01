@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>SERIES PRE S02 — SERIES PRE</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,15 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +34,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +72,20 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq165_pt.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Confira este episódio: SERIES PRE S02">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq165_pt.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -77,6 +110,7 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">SERIES PRE S02</h1>
         
     </div>
+    <div class="ep-cover-wrapper observe-me visible"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg" class="ep-cover-img" alt="Cover"></div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Estação Vortex. Os padres cantores da Catedral de Algas calam-se. Não em sequência. Não por escolha. Em incrementos de meio segundo, cada tanque escurecendo um intervalo preciso antes do próximo — um ritmo demoníaco que não espelha nada na natureza e tudo na engenharia.</div><div class="story-text observe-me">A Almirante Kess está junto à antepara magnética fria. Magra como um osso. Nascida no vácuo. Seu implante de pulso cascata com dados que ela observa há três horas sem se permitir nomear o que está a ver.</div><div class="story-text observe-me">Nova Terra: assinatura de Root Rot. O Drift: falhas de orvalho evaporando em intervalos precisos de 117 horas. Tidalcross: anomalias nas comportas de pressão espalhando-se por selos de compósito de coral. Cada fratura seguindo a mesma geometria angular.</div><div class="story-text observe-me">RESONANTIA (Transmissão interna): &quot;Padrão bloqueado. Origem: nula. Vetor de propagação: desconhecido.&quot;</div><div class="story-text observe-me">As palavras chegam sem conforto. Os dados recusam-se a fornecer um único ponto de origem, porque está em todo o lado ao mesmo tempo.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">A luz dos fungos projeta tudo em violeta doentio. A luz da contabilidade — uma frequência que revela obrigação, que despe a pretensão da graça social e deixa apenas saldos de contas.</div><div class="story-text observe-me">Melori está na passagem elevada. Sua pele de obsidiana preta mate absorve a luz violeta. Seu cabelo liso para trás, puramente branco, capta-a nitidamente. Seus antebraços cristalinos refratam-na para baixo.</div><div class="story-text observe-me">Taro e Kai aproximam-se. O peso da avaliação de Melori atinge Taro antes que os olhos dela o encontrem — diferenciais de pressão, como se ela estivesse a calcular o passivo dele.</div><div class="story-text observe-me">Os olhos brancos de Melori encontram os de Taro. Suas veias bioluminescentes pulsam em padrões anulares — rítmicos como a respiração de um interrogador.</div><div class="story-text observe-me">MELORI: &quot;Tu trazes ele aqui.&quot;<br />
 <br />
 (Uma declaração, acusação ou simples nota de facto.)</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">O Salão dos Ancestrais abre-se diante deles — quatro mil estátuas calcificadas em agrupamentos genealógicos. O teto de treliça de raízes filtra a luz verde tenebrosa através da sua geometria trançada.</div><div class="story-text observe-me">Melori para numa estátua entre quatro mil. É a mais gasta, suas feições erodidas quase até à abstração. Tocada. Semanalmente. Ao longo de décadas.</div><div class="story-text observe-me">Seus antebraços cristalinos captam o verde-raiz. Suas veias roxas pulsam enquanto sua mão nua pressiona contra a pedra. Um encontro semanal mantido em silêncio.</div><div class="story-text observe-me">Taro reconhece este peso de luto formalizado em ritual. Ele dá um passo à frente. Melori levanta uma palma cristalina, parando-o com generosidade em vez de recusa.</div><div class="story-text observe-me">Os olhos brancos de Melori encontram os de Taro. Isto é o que ela carrega. E ela trouxe-o aqui para segurar uma porção desse peso — não para o tirar, mas para o testemunhar.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">As botas de Mira anunciam-na. Cada passo transmite certeza através do ar carregado de Momentum da câmara de reunião. Ela entra na sala vazia como se já tivesse negociado seus termos com o deserto lá fora.</div><div class="story-text observe-me">O conjunto está presente: Kai, Taro, Eve, Kaori. Mira cumprimenta-os por espécie, por essência, por aliança.</div><div class="story-text observe-me">MIRA: &quot;Cantora do caos. Sombra tecnológica. Ser de penas. Mente geométrica.&quot;</div><div class="story-text observe-me">Cada membro reconhece-se não como indivíduo, mas como função. Como peças de um arranjo cósmico cuja conclusão estão a ver pela primeira vez.</div><div class="story-text observe-me">MIRA: &quot;O limiar não aguentará muito mais tempo. Atravessamos a mesma porta ao mesmo tempo, ou nada feito.&quot;<br />
@@ -97,6 +131,13 @@ MELORI: &quot;Conhecimento não é poder. Conhecimento é o pré-requisito para 
 <br />
 Doze gerações de conhecimento-profundo prepararam-na para o anúncio. Não a prepararam para o que está a subir.</div></div></div><div class="panel" id="panel-14"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15"><div class="text-blocks"><div class="story-text observe-me">A Junção da Crosta exala perfume de musgo e o cheiro-fantasma de decomposição de raízes. Esporos bioluminescentes flutuam como neve invertida. Eve senta-se de pernas cruzadas num ninho de fibras de raiz tecidas.</div><div class="story-text observe-me">Ela tem pensado na Coroa. O conhecimento assenta no seu peito como uma pedra atirada para águas paradas. Ondulações espalhando-se para fora. Ainda não tocando nos seus outros seis elos.</div><div class="story-text observe-me">Atairukh, o Espectro de Gravita mais velho, ocupa o espaço atrás dela como um facto geológico. O portador do veto. Aquele cuja recusa carrega o peso da negação absoluta.</div><div class="story-text observe-me">A pergunta de Eve é moldada mais pela respiração do que pela articulação. A cabeça maciça de Atairukh inclina-se. O olho injetado de sangue intensifica o seu escrutínio. A luz verde-cobre aprofunda-se em direção ao âmbar.</div><div class="story-text observe-me">A impossibilidade: Atairukh não recusa. A cabeça maciça baixa. O ninho de raízes sob Eve afunda-se mais na pedra, como se a arquitetura reconhecesse a permissão.</div><div class="story-text observe-me">As penas do Grifo carregam agora o âmbar. Âmbar é a cor da energia Chrono. A cor da consequência. A cor do que já foi decidido quarenta anos antes da decisão ser tomada.</div><div class="story-text observe-me">Eve fecha os olhos. A selva acima respira no seu sono. Os esporos flutuam. As penas de âmbar mantêm-se.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_166_pt.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058067.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">SERIES PRE S03</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">

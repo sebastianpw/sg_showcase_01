@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>SERIES PRE S02 — SERIES PRE</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,15 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +34,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +72,20 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq165_en.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Check out this episode: SERIES PRE S02">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/magazine_seq165_en.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -77,6 +110,7 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">SERIES PRE S02</h1>
         
     </div>
+    <div class="ep-cover-wrapper observe-me visible"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg" class="ep-cover-img" alt="Cover"></div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Vortex Station. The Algae Cathedral&#039;s singing priests fall silent. Not in sequence. Not through choice. In half-second increments, each tank dimming a precise interval before the next—a daemoniacal rhythm that mirrors nothing in nature and everything in engineering.</div><div class="story-text observe-me">Admiral Kess stands at the cold magnetic bulkhead. Bone-thin. Void-born. Her wrist implant cascades with data she has been looking at for three hours without permitting herself to name what she is seeing.</div><div class="story-text observe-me">Nova Terra: Root Rot signature. The Drift: dew failures evaporating in precise 117-hour intervals. Tidalcross: pressure gate anomalies spreading through coral-composite seals. Each fracture following the same angular geometry.</div><div class="story-text observe-me">RESONANTIA (Internal broadcast): &quot;Pattern locked. Origin: null. Propagation vector: unknown.&quot;</div><div class="story-text observe-me">The words arrive without comfort. The data refuses to provide a single point of origin, because it is everywhere at once.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058289.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">The fungi-light casts everything in sickly violet. The light of ledger-keeping—a frequency that reveals obligation, that strips the pretense of social grace and leaves only account balances.</div><div class="story-text observe-me">Melori stands on the causeway. Her matte black obsidian skin absorbs the violet light. Her pure white slicked-back hair catches it cleanly. Her crystalline forearms refract it downward.</div><div class="story-text observe-me">Taro and Kai approach. The weight of Melori&#039;s assessment hits Taro before her eyes find him—pressure differentials, as if she is calculating his liability.</div><div class="story-text observe-me">Melori&#039;s white eyes find Taro. Her bioluminescent veins pulse in annular patterns—rhythmic as a questioner&#039;s breath.</div><div class="story-text observe-me">MELORI: &quot;You bring him here.&quot;<br />
 <br />
 (A statement, accusation, or simple notation of fact.)</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058055.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">The Hall of Ancestors opens before them—four thousand calcified statues in genealogical groupings. The root-lattice ceiling filters tenebrous green light down through its braided geometry.</div><div class="story-text observe-me">Melori stops at one statue among four thousand. It is the most worn, its features eroded nearly to abstraction. Touched. Weekly. Over decades.</div><div class="story-text observe-me">Her crystalline forearms catch the root-green. Her purple veins pulse as her bare hand presses against the stone. A weekly appointment kept in silence.</div><div class="story-text observe-me">Taro recognizes this weight of grief formalized into ritual. He steps forward. Melori raises one crystalline palm, stopping him with generosity rather than refusal.</div><div class="story-text observe-me">Melori&#039;s white eyes find Taro&#039;s. This is what she carries. And she has brought him here to hold a portion of that weight—not to take it, but to witness it.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058056.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Mira&#039;s boots announce her. Each step broadcasts certainty through the Momentum-laced air of the meeting chamber. She enters the bare room like she&#039;s already negotiated its terms with the desert outside.</div><div class="story-text observe-me">The ensemble is present: Kai, Taro, Eve, Kaori. Mira greets them by species, by essence, by covenant.</div><div class="story-text observe-me">MIRA: &quot;Chaos-singer. Tech-shade. Feathered one. Geometric mind.&quot;</div><div class="story-text observe-me">Each member recognizes themselves not as individuals, but as functions. As pieces of a cosmic arrangement whose completion they are looking at for the first time.</div><div class="story-text observe-me">MIRA: &quot;The threshold won&#039;t hold much longer. We move through the same door at the same time, or not at all.&quot;<br />
@@ -97,6 +131,13 @@ MELORI: &quot;Knowledge is not power. Knowledge is the prerequisite for power.&q
 <br />
 Twelve generations of Deep-knowing has prepared her for announcement. It has not prepared her for what is ascending.</div></div></div><div class="panel" id="panel-14"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058066.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15"><div class="text-blocks"><div class="story-text observe-me">The Scab Junction exhales moss-perfume and the ghost-scent of root-decay. Bioluminescent spores drift like inverted snow. Eve sits cross-legged on a nest of woven root-fibers.</div><div class="story-text observe-me">She has been thinking about the Crown. The knowledge sits in her chest like a stone dropped into still water. Ripples spreading outward. Not yet touching her other six bonds.</div><div class="story-text observe-me">Atairukh, the eldest Gravita Spectre, occupies the space behind her like a geological fact. The veto-bearer. The one whose refusal carries the weight of absolute negation.</div><div class="story-text observe-me">Eve&#039;s question is shaped more by breath than articulation. Atairukh&#039;s massive head tilts. The bloodshot eye intensifies its scrutiny. The copper-green light deepens toward amber.</div><div class="story-text observe-me">The impossibility: Atairukh does not refuse. The massive head dips. The root-nest beneath Eve settles deeper into stone, as if the architecture acknowledges the permission.</div><div class="story-text observe-me">The Griffin&#039;s feathers now carry the amber. Amber is the color of Chrono energy. The color of consequence. The color of what has already been decided forty years before the decision was made.</div><div class="story-text observe-me">Eve closes her eyes. The jungle above breathes in its sleep. The spores drift. The amber feathers hold.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_166.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058067.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">SERIES PRE S03</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
