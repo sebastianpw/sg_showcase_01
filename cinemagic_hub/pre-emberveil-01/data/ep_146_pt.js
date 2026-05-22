@@ -1,7 +1,7 @@
 const episodeData = {
     "id": 146,
-    "name": "Emberveil",
-    "description": "Fünf Naturen. Fünf Bezirke. Fünf Streitigkeiten, die die Stadt nicht beizulegen gedenkt.\nKetharas Basalt blutet südwärts. Der Dulran gräbt seine kalten Gänge nach Osten. An den Kochenden Toren bringen Kohäsiva und Fluidika nichts ins Reine — und beherrschen alles.\nÖstlich: das Hochland, wo die Drift-Karawanen staubschwer und wirklichkeitsschwach ankommen, Probabilis flackernd an den Rändern des Erkennbaren.\nHarmonie war nie das Ziel. Nur die hart erkämpfte, täglich erneuerte, eigensinnig bewahrte Übereinkunft, weiterzuleben — trotz jeder Natur, die das Gegenteil heischt.",
+    "name": "Véu de Brasas",
+    "description": "Cinco naturezas. Cinco distritos. Cinco conflitos que a cidade se recusa a resolver.\nA basalto de Kethara sangra para o sul. O Dulran esculpe seus corredores gelados para o leste. Nos Portões Ferventes, Cohesiva e Fluidica não resolvem nada — e controlam tudo.\nPara o leste: o planalto onde as caravanas Drift chegam pesadas de pó e realidade frouxa, Probabilis cintilando nas margens do cognoscível.\nNunca houve harmonia no horizonte. Apenas o acordo conquistado a duras penas, renovado diariamente, teimosamente mantido de seguir vivendo — apesar de cada natureza insistindo ao contrário.",
     "cinemagic": {
         "id": 6,
         "name": "PRE EMBERVEIL 01"
@@ -9,14 +9,14 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 146,
-            "name": "Emberveil",
+            "name": "Véu de Brasas",
             "chapter_label": null,
             "cover_raw": "/frames_starlightguardians_nu/frame0056396.jpg",
             "seq_data_raw": "[{\"sketch_id\":10994,\"frame_id\":44175},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9233,\"frame_id\":46834},{\"sketch_id\":9292,\"frame_id\":46841},{\"sketch_id\":9294,\"frame_id\":46835},{\"sketch_id\":11021,\"frame_id\":44408},{\"sketch_id\":9237,\"frame_id\":46851},{\"sketch_id\":9255,\"frame_id\":37386},{\"sketch_id\":9289,\"frame_id\":42838},{\"sketch_id\":9232,\"frame_id\":46849},{\"sketch_id\":9329,\"frame_id\":42843},{\"sketch_id\":3434,\"frame_id\":42883},{\"sketch_id\":10974,\"frame_id\":44138},{\"sketch_id\":10996,\"frame_id\":44177},{\"sketch_id\":9336,\"frame_id\":46147},{\"sketch_id\":11064,\"frame_id\":44674},{\"sketch_id\":3417,\"frame_id\":42882},{\"sketch_id\":11197,\"frame_id\":46850},{\"sketch_id\":10689,\"frame_id\":43624},{\"sketch_id\":11010,\"frame_id\":44397},{\"sketch_id\":10969,\"frame_id\":44133},{\"sketch_id\":10968,\"frame_id\":44132},{\"sketch_id\":9252,\"frame_id\":46145},{\"sketch_id\":11005,\"frame_id\":44186},{\"sketch_id\":11061,\"frame_id\":44671},{\"sketch_id\":11013,\"frame_id\":46862},{\"sketch_id\":9241,\"frame_id\":41773},{\"sketch_id\":11009,\"frame_id\":44396},{\"sketch_id\":9236,\"frame_id\":42835},{\"sketch_id\":8345,\"frame_id\":42759},{\"sketch_id\":2713,\"frame_id\":42649},{\"sketch_id\":11027,\"frame_id\":44414}]",
-            "url": "ep_146_de.html"
+            "url": "ep_146_pt.html"
         }
     ],
-    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/magazine_seq146_de.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/magazine_seq146_pt.pdf",
     "frames": [
         {
             "id": 10994,
@@ -26,10 +26,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059093.jpg",
             "filename": "frames_starlightguardians_nu/frame0059093.jpg",
             "overlay_texts": [
-                "Manche Wahrheiten sind nur vom Nadir aus lesbar.",
-                "Darunter: Emberveils fünfnatüriges Chaos — Obsidian, Lavafaden, silbernes Delta, die Gezeitenkreuz-Küste ein graugrünes Gerücht.",
-                "Der Tether brennt in seinen Gelenken. Zeugenschaft kostet.",
-                "Eine Asche-Wacht-Hand gegen segmentiertes Stahl — klein, absichtsvoll, real — und der Zyklus erklärt sich selbst: Schöpfung verzehrt, was sie bewusst macht."
+                "Algumas verdades só são legíveis a partir do nadir.",
+                "Abaixo: o caos de cinco naturezas de Emberveil — obsidiana, fio-de-lava, delta prateado, a costa de Tidalcross um boato cinzento-esverdeado.",
+                "A Amarração arde em suas junções. Testemunhar tem seu preço.",
+                "Uma mão da Ash-Watch contra aço segmentado — pequena, deliberada, real — e o ciclo se declara: a criação consome aquilo que torna consciente."
             ]
         },
         {
@@ -40,10 +40,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057504.jpg",
             "filename": "frames_starlightguardians_nu/frame0057504.jpg",
             "overlay_texts": [
-                "Die Krone erleuchtet nicht. Sie verschlingt.",
-                "Hinter ihr: Gelächter auf Fluidica-Winden. Hab-Lichter. Der treue Puls des Schweißherzens.",
-                "Kyrielles Lächeln lebt in jeder reflektiven Oberfläche, die sie hinterlässt — polierter Schrott, aufgesammeltes Kühlmittel, das glänzende Außenskelett von Dingen, die nicht träumen.",
-                "Voraus die Karminöde. Die Zukunft bebt bereits und lernt ihren neuen Namen."
+                "A Coroa não ilumina. Ela devora.",
+                "Atrás dela: risos nos ventos de Fluidica. Luzes-hab. O pulso fiel do Coração-Soldado.",
+                "O sorriso de Kyrielle vive em cada superfície refletora que deixa para trás — sucata polida, coolant acumulado, a carapaça brilhante de coisas que não sonham.",
+                "À frente, os Ermos Carmesim. O futuro já treme, aprendendo seu novo nome."
             ]
         },
         {
@@ -54,10 +54,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061866.jpg",
             "filename": "frames_starlightguardians_nu/frame0061866.jpg",
             "overlay_texts": [
-                "Embverheils südliche Handfläche, offen zur Flut gekrümmt.",
-                "Vier Rümpfe in Ruhe. Vulkanglas geschichtet in zerbrochenem Bernstein. Fracht bestimmt für Tidalkreuz und das Tiefe Volk jenseits.",
-                "Bei Einbruch der Dämmerung entfaltet sich der Kai — kleine Feuer entzündet, salzgehärteter Rauch, der sich durch Schmiedewind vom Delta windet.",
-                "Zwei Städte. Vierhundert Kilometer offene Küste. Ein Ort der Schwelle, wo sie sich erinnern, dass sie denselben Horizont teilen."
+                "A palma sul de Emberveil, aberta em concha para a maré.",
+                "Quatro cascos em repouso. Vidro vulcânico empilhado em âmbar fraturado. Carga destinada a Tidalcross e ao Povo das Profundezas além.",
+                "Ao anoitecer, o cais se desdobra — pequenos fogos acesos, fumaça curada em sal tramando vento-forja vindo do delta.",
+                "Duas cidades. Quatrocentos quilômetros de costa aberta. Um limiar onde se lembram de compartilhar o mesmo horizonte."
             ]
         },
         {
@@ -68,10 +68,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061878.jpg",
             "filename": "frames_starlightguardians_nu/frame0061878.jpg",
             "overlay_texts": [
-                "Der Saltwatch-Horizont — wo Emberveil endet und die Tiefe ihre geduldige Abrechnung beginnt.",
-                "Fünf Bezirke streiten hinter ihm in Dampf und Schmiedefeuer. Davor: obsidiane Stille. Eine Narbe, die verschluckt.",
-                "Durch den Tether liest Kai das subsanische Zeugnis des Ozeans — keine Drohung, sondern Wiedererkennung. Etwas Altes, das seine Anwesenheit markiert.",
-                "Die Jahreszeit kündet sich nicht an. Sie neigt einfach den Horizont, und jene, die hören, wissen es."
+                "O Horizonte da Saltwatch — onde Emberveil termina e o abismo começa sua contagem paciente.",
+                "Cinco distritos discutem em vapor e luz de forja atrás dele. À frente: imobilidade obsidiana. Uma cicatriz que absorve.",
+                "Através da Ligação, Kai lê o testemunho subsônico do oceano — não ameaça, mas reconhecimento. Algo antigo, marcando presença.",
+                "A estação não se anuncia. Ela simplesmente inclina o horizonte, e aqueles que escutam sabem."
             ]
         },
         {
@@ -82,10 +82,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061867.jpg",
             "filename": "frames_starlightguardians_nu/frame0061867.jpg",
             "overlay_texts": [
-                "Fünf Naturen von Emberveil — und er steht dort, wo sie sich gegenseitig aufheben.",
-                "Schmiedenarbenbedeckt. Versenkt. Unerschütternd.",
-                "Die Stadt exhales ihre fünf Atemzüge über ihm. Er empfängt keinen davon.",
-                "Er hört nicht auf das Hörbare. Er wartet auf das, das sich noch nicht zum Klang entschieden hat."
+                "Cinco naturezas de Embravão — e ele está onde se anulam mutuamente.",
+                "Marcado pela Forja. Submerso. Imóvel.",
+                "A cidade exala seus cinco suspiros sobre ele. Ele não recebe nenhum deles.",
+                "Ele não escuta o que é audível. Ele aguarda o que ainda não decidiu tornar-se som."
             ]
         },
         {
@@ -96,10 +96,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059341.jpg",
             "filename": "frames_starlightguardians_nu/frame0059341.jpg",
             "overlay_texts": [
-                "Das Sandtor hält den Atem an — fünf verfeindete Bezirke, zweitausend Seelen, ein einziger Atemzug.",
-                "Morvens ausgehöhlte Wangen zählen den Tribut der Fessel. Shens Berechnungen pressen sich eiskalt gegen den Knochen.",
-                "Probabilis zerreißt sich nach außen: jede zerfrackte Möglichkeit schwebend in der Schwelle — Annahme, Zusammenbruch, Anpassung, Auflösung.",
-                "Unter dem gleichgültigen Glanz der Schmiedekrone steigt Deltagas auf wie Jahrhunderte von Streit, die sich niemals zu Frieden lösten."
+                "O Portão de Areia retém a respiração — cinco distritos em guerra, duas mil almas, uma única exalação.",
+                "As faces ocas de Morven contam o preço da Ligadura. Os cálculos de Shen pressionam frio contra o osso.",
+                "Probabilis irrompe para fora: cada possibilidade fraturada suspensa no limiar — aceitação, colapso, adaptação, dissolução.",
+                "Sob o brilho indiferente da Coroa da Forja, o vapor delta sobe como séculos de discórdia que nunca se resolveu em paz."
             ]
         },
         {
@@ -110,10 +110,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061890.jpg",
             "filename": "frames_starlightguardians_nu/frame0061890.jpg",
             "overlay_texts": [
-                "Sechs Kanäle. Sechs Rhythmen. Eine Stadt, die ihren eigenen Namen atmet.",
-                "Ein Kind liest Fluidica so, wie Archivare Knochen lesen — durch Berührung, durch Rückstände, durch das, was die Luft sich weigert zu vergessen.",
-                "Der Fünfte Kanal hält seine Stille wie ein Wärter ein Ledger hält: jedes Fragment eingeordnet, jede Stille ein kategorialer Bericht über das, was vor der Dissonanz verloren ging.",
-                "Dämmerung. Die Windharfen entsiegeln ihre Kehlen über den Siedenden Toren — und Emberveil singt nicht so sehr, wie es zu einer Übereinkunft gelangt, kontrapunktisch und phosphoreszierend, Bernsteinlicht bricht wie eine Proklamation über dunkles Wasser auf, die niemand, der gegenwärtig ist, zuerst gemacht hat."
+                "Seis canais. Seis ritmos. Uma cidade respirando seu próprio nome.",
+                "Uma criança lê Fluidica como arquivistas leem osso — pelo toque, pelos resíduos, pelo que o ar se recusa a esquecer.",
+                "O Quinto Canal mantém sua imobilidade como um carcereiro mantém um livro de registros: cada fragmento prateleirado, cada silêncio uma contabilidade categórica do que se perdeu antes da Dissonância.",
+                "Crepúsculo. As Harpas-do-Vento destampam suas gargantas acima dos Portões Ferventes — e Embervéu não canta tanto quanto chega a um acordo, contrapuntístico e fosforescente, luz âmbar destrancando-se pela água escura como um pronunciamento que ninguém presente foi o primeiro a fazer."
             ]
         },
         {
@@ -124,10 +124,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0050932.jpg",
             "filename": "frames_starlightguardians_nu/frame0050932.jpg",
             "overlay_texts": [
-                "Dreißig Jahre Nachttransporte — ohne Instrumente, ohne Spektren.",
-                "Sie liest den Fluss, wie Bergung Trümmer liest: anhand dessen, was er bereits gebrochen hat.",
-                "Embverveils fünf Naturen streiten sich durch einen Korridor aus schwarzem Wasser.",
-                "Sie navigiert nicht um das Chaos herum. Sie stimmt sich selbst darauf ab."
+                "Trinta anos de trânsitos noturnos — sem instrumentos, sem Espectros.",
+                "Ela lê o rio da forma como a salvação lê destroços: pelo que já foi quebrado.",
+                "As cinco naturezas de Emberveil discutem através de um corredor de água negra.",
+                "Ela não navega ao redor do caos. Ela se afina com ele."
             ]
         },
         {
@@ -138,10 +138,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057711.jpg",
             "filename": "frames_starlightguardians_nu/frame0057711.jpg",
             "overlay_texts": [
-                "Emberveil wählt seine Natur nicht. Es schichtet sie.",
-                "Der Tether kümmert sich nicht, welches Licht du geboren hast.",
-                "Halbgeschmolzen. Halbertränkt. Drei Herzschläge in der Naht.",
-                "Hier zu leben heißt, die Übersetzung zu werden. Sie täglich zu betrauern — und trotzdem hinabzusteigen."
+                "Emberveil não escolhe sua natureza. Ela as sobrepõe.",
+                "A Corrente não se importa com qual luz você nasceu.",
+                "Meio-derretido. Meio-afogado. Três batidas no limiar.",
+                "Viver aqui é tornar-se a tradução. Lamentá-la diariamente — e descer mesmo assim."
             ]
         },
         {
@@ -152,10 +152,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061889.jpg",
             "filename": "frames_starlightguardians_nu/frame0061889.jpg",
             "overlay_texts": [
-                "Die Schmiedekrone. Emberveil&#039;s Wunde, die nicht vernarben wird.",
-                "Vierzehnhundert Meter erstarrter Zorn, aufrecht gehalten durch Hingabe und Kohäsiva-Geometrie — die Gilde der Kanalisatoren absolviert ihre achte aufeinanderfolgende Schicht bei 94% Toleranzgrenze.",
-                "Unter dem Auge der Witwe drängen sich Pilger mit ihren Silhouetten gegen den Kraterrand. Unter ihnen wechselt Obsidian in der Farbe getrockneten Blutes den Besitzer. Darunter glüht Keth-Prime.",
-                "Drei Jahrhunderte an Kanälen. Ein Beben bis zum Ende des Interregnums."
+                "A Coroa da Forja. A ferida de Embervéu que não cicatriza.",
+                "Mil e quatrocentos metros de fúria resfriada, mantidos eretos pela devoção e geometria Coesiva — a Guilda dos Canalizadores cumprindo seu oitavo turno consecutivo a 94% de tolerância.",
+                "Abaixo do Olho da Viúva, peregrinos pressionam suas silhuetas contra a borda da caldeira. Abaixo deles, obsidiana da cor de sangue seco troca de mãos. Abaixo disso, Keth-Prima arde lentamente.",
+                "Três séculos de canais. Um tremor do fim do interregno."
             ]
         },
         {
@@ -166,10 +166,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057716.jpg",
             "filename": "frames_starlightguardians_nu/frame0057716.jpg",
             "overlay_texts": [
-                "Sechshundert Meter Grundgestein, ausgehöhlt und besiedelt.",
-                "Die Schmiedekrone erhebt sich nicht — sie währt, unerschütterlich, niemandem rechenschaftspflichtig.",
-                "Energiespektren zeichnen ihre Bekenntnisse in elektrischem Blau über schwarzen Stein.",
-                "Darunter kämpfen fünf Bezirke. Darüber wartet der Fels einfach."
+                "Seiscentos metros de rocha matriz, escavados e vazios, agora ocupados.",
+                "A Coroa da Forja não ascende — persiste, inamovível, responsável a ninguém.",
+                "Espectros de Energia traçam suas confissões pela pedra negra em azul elétrico.",
+                "Abaixo, cinco distritos guerreiam. Acima, a rocha simplesmente aguarda."
             ]
         },
         {
@@ -180,9 +180,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057757.jpg",
             "filename": "frames_starlightguardians_nu/frame0057757.jpg",
             "overlay_texts": [
-                "Zwanzig Geschichten aus gesammeltem Knochen. Jede Säule ein Leitmotiv der Hitze.",
-                "Es entfaltet sich von unten nach oben über die oberen Ränge — räuberisch, unvermeidlich, unhastig.",
-                "Unter der Menge, unter den Bergungsfeuer, erntet Kondensation ihr langsames Denkmal. Tropfen um Tropfen."
+                "Vinte andares de osso recuperado. Cada coluna um leitmotiv do calor.",
+                "Desdobra-se desde o mais baixo através dos patamares superiores — predatório, inevitável, sem pressa.",
+                "Abaixo da multidão, abaixo dos fogos de salvação, a condensação colhe seu lento memorial. Gota a gota."
             ]
         },
         {
@@ -193,10 +193,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059053.jpg",
             "filename": "frames_starlightguardians_nu/frame0059053.jpg",
             "overlay_texts": [
-                "Die Sternenesse vergibt nicht dem Kalkulierenden.",
-                "Goldene Asche verfängt sich in ihrem Haar — jedes Partikel ein Splitter stellarer Materie, ein Preis, noch nicht gezahlt.",
-                "Die Fessel brennt durch ihre Schultern. Sie spreizt ihre Finger trotzdem.",
-                "Im Visier: ein Phantom dessen, was sie zu schmieden gedenkt, zitternd zwischen Glanz und Verderben."
+                "A Forja Estelar não perdoa os calculistas.",
+                "Cinza dourada se prende em seus cabelos — cada partícula um fragmento de matéria estelar, um preço ainda não cobrado.",
+                "A Ligação queima através de seus ombros. Ela flexiona os dedos ainda assim.",
+                "Na viseira: um fantasma do que ela pretende forjar, cintilando entre glória e ruína."
             ]
         },
         {
@@ -207,10 +207,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059095.jpg",
             "filename": "frames_starlightguardians_nu/frame0059095.jpg",
             "overlay_texts": [
-                "Rückgrat der brennenden Kathedrale.",
-                "Er hat jeden schwachen Naht auswendig gelernt — drei Jahreszeiten voller Bergungsfahrten, schwielige Finger, die in altem Metall unfehlbar die Kapitulation finden.",
-                "Wärmesignaturen, strukturelle Gespenster, die Schmiede weiß gebrannt dort, wo sie zu töten beabsichtigt.",
-                "Das Tether brennt in seinem metabolischen Kern. Darunter nur Asche, flacher Atem und die schlafmachende Dunkelheit von Schächten, die niemandem gehören — außer denen, die verzweifelt genug sind, um dünner zu werden als die Zwischenräume."
+                "Espinha dorsal da Catedral em Chamas.",
+                "Ele memorizou cada costura frágil — três temporadas de expedições de salvamento, dedos calejados encontrando rendição na metal envelhecida com infalível precisão.",
+                "Assinaturas de calor, espectros estruturais, a forja pintada de branco onde pretende matar.",
+                "A Ligação arde em seu núcleo metabólico. Abaixo, apenas cinza, respiração rasa, e a escuridão sonífuga de dutos que não pertencem a ninguém — exceto aos desesperados o bastante para se tornarem mais finos que os espaços entre."
             ]
         },
         {
@@ -221,10 +221,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061132.jpg",
             "filename": "frames_starlightguardians_nu/frame0061132.jpg",
             "overlay_texts": [
-                "Emberveil&#039;s Puls — nicht gehört, sondern gespürt.",
-                "Kanalisatoren bewegen sich in Sehnen und Ritual, kratzen Jahrhunderte aus des Steins zernarbtem Mund.",
-                "Über dem geschmolzenen Fluss verhandeln Therma-Spektren in Hitze und Beben — ihre hartnäckige Präsenz greifbar wie Radium, furchtbar wie Geburtsrecht.",
-                "Alle paar Herzschläge erinnert dich die Stadt daran, dass sie lebt — und dass sie es immer schon rücksichtslos, erhaben gewesen ist."
+                "O pulso de Emberveil — não ouvido, mas sentido.",
+                "Os Canalizadores movem-se em tendão e ritual, raspando séculos da boca cicatrizada da pedra.",
+                "Acima do fluxo incandescente, os Espectros Térmicos negociam em calor e tremor — sua presença obstinada tangível como rádio, medonha como direito de nascença.",
+                "A cada poucos batidas do coração, a cidade te relembra que está viva — e que sempre foi, de forma impiedosa, sublime."
             ]
         },
         {
@@ -235,10 +235,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059610.jpg",
             "filename": "frames_starlightguardians_nu/frame0059610.jpg",
             "overlay_texts": [
-                "Knotenpunkt Drei. Die Therma-Schwelle.",
-                "Zwei Wachen über dem Brüllen — eine aus Fleisch und Narbe, eine aus matter blauer Präzision.",
-                "Unter ihnen: geschmolzener Streit. Dampf und Karmesin, schwelend ohne Unterlass.",
-                "Ihre Blicke treffen sich nie. Der Bund hält dennoch."
+                "Junção Três. O Limiar Térmico.",
+                "Duas vigílias sustentadas acima do rugido — uma de carne e cicatriz, outra de precisão azul-fosco.",
+                "Abaixo delas: argumento derretido. Vapor e carmesim, acandescendo sem trégua.",
+                "Seus olhares nunca se encontram. A aliança persiste ainda assim."
             ]
         },
         {
@@ -249,10 +249,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057756.jpg",
             "filename": "frames_starlightguardians_nu/frame0057756.jpg",
             "overlay_texts": [
-                "Die Thermalquellen haben die Schicht aufgerissen.",
-                "Ein Wutgespenst steigt herab — glühend heiß genug, um Karminrot in atembare Luft zu meißeln.",
-                "Um sie herum weicht die Menge mit reptilischem Instinkt zurück. Niemand erwidert Blicke, die nicht zu sehen sind.",
-                "Die Erde antwortet. Ein sympathisches Beben. Die Ruhestätte erkennt, was durch sie schreitet."
+                "Os respiradouros termais abriram a estratificação.",
+                "Um espectro de fúria desce — ardente o suficiente para esculpir carmesim no ar respirável.",
+                "Ao seu redor, a multidão se abre com instinto reptiliano. Ninguém encontra os olhos que não conseguem ver.",
+                "A terra responde. Um tremor simpático. O ninho reconhece o que caminha por ele."
             ]
         },
         {
@@ -263,10 +263,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058018.jpg",
             "filename": "frames_starlightguardians_nu/frame0058018.jpg",
             "overlay_texts": [
-                "Geboren dort, wo des Schmiedestadt Streit niemals endete.",
-                "Therma verzehrt — ergo wurde Ausdauer selbst zum Fleisch.",
-                "Der Verbrannte. Tapfer. Sterblich. Noch immer aufrecht.",
-                "Zwischen zerfallenen Spitzen und schleeischwarzem Rauch erkennen die Gluten ihren Schöpfer."
+                "Nascido onde a disputa da cidade-forja nunca cessou.",
+                "Therma consumida — logo, a resistência tornou-se a própria carne.",
+                "O queimado. Valente. Mortal. Ainda de pé.",
+                "Entre torres decadentes e fumaça preta como neve, as brasas reconhecem seu criador."
             ]
         },
         {
@@ -277,10 +277,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058526.jpg",
             "filename": "frames_starlightguardians_nu/frame0058526.jpg",
             "overlay_texts": [
-                "Der Höhenmoment, der ihre Mannschaft verschlang.",
-                "Die Uhr regt sich nicht. Auch sie nun nicht mehr.",
-                "Kupferdraht zieht sich zu. Leinenverbrannte Fleisch ergibt sich der Dauerhaftigkeit.",
-                "Ihre Hand zu öffnen bedeutet, welche Form der Vernichtung man werden will, zu wählen."
+                "O instante-altitude que engoliu sua tripulação.",
+                "O relógio não se move. Nem ela, agora.",
+                "O fio de cobre se aperta. Carne queimada-por-corrente cede à permanência.",
+                "Abrir sua mão é escolher qual forma de ruína se tornar."
             ]
         },
         {
@@ -291,9 +291,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059330.jpg",
             "filename": "frames_starlightguardians_nu/frame0059330.jpg",
             "overlay_texts": [
-                "DreiundSechzig Jahre steinbewahrten Schweigens — und Emberveils tiefe Erinnerung regt sich.",
-                "Die Therma warnt nicht zweimal.",
-                "Treffen am Rand des Geländers — nicht fliehend aus der Stadt, sondern sie endlich sehend."
+                "Sessenta e três anos de silêncio guardado na pedra — e a memória profunda de Emberveil desperta.",
+                "A Therma não avisa duas vezes.",
+                "Encontro à beira do parapeito — não fugindo da cidade, mas finalmente a vendo."
             ]
         },
         {
@@ -304,10 +304,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059048.jpg",
             "filename": "frames_starlightguardians_nu/frame0059048.jpg",
             "overlay_texts": [
-                "Der Berg regt sich unter der Last dessen, was getan werden muss.",
-                "Die Glut einer Aufgabe, die kein Hirte beneiden würde.",
-                "Violett und Bernstein, verschmolzen am Punkt gemeinsamer Anspannung — dem Unheil entgegen, bedacht.",
-                "Unten: die Therma-Entität atmet aus. Oben: die Inseln von Arclight beginnen, glacial, sich zurückzuziehen."
+                "A montanha se agita sob o peso do que deve ser feito.",
+                "O ardor de uma tarefa que nenhum pastor invejaria.",
+                "Violeta e âmbar, fundidos no ponto da tensão partilhada — rumo ao abismo, deliberado.",
+                "Abaixo: a entidade Therma exala. Acima: as ilhas de Arclight começam, glacialmente, a recuar."
             ]
         },
         {
@@ -318,9 +318,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059047.jpg",
             "filename": "frames_starlightguardians_nu/frame0059047.jpg",
             "overlay_texts": [
-                "Zwei Silhouetten. Zwei? Ein Horizont, an der Naht gespalten — glühender Ruin auf der einen Seite, eindringende Finsternis auf der anderen.",
-                "Das kantige Wesen schwebt zwischen den Treuen, seine Geometrie fängt Feuerglut und Void-Schatten in gleicher, phlegmatischer Weise.",
-                "Sein Sigill lodert heller mit jedem Herzschlag. Die Fessel zehrt ihn auf. Dennoch hält er das Gleichgewicht — ritterlich, erschöpft, zitternd an der Grenze, wo Wärme in Kälte übergeht."
+                "Duas silhuetas. Duas? Um horizonte, dividido na costura — ruína incandescente de um lado, escuridão invasora do outro.",
+                "A criatura angular paira entre lealdades, sua geometria capturando a luz do fogo e a sombra do vazio em medida igual, flegmática.",
+                "Seu sigilo flameja mais brilhante a cada batida do coração. A Amarração o esgota. Ele mantém o equilíbrio mesmo assim — galantemente, exaustamente, tremendo no limite onde o calor se transforma em frio."
             ]
         },
         {
@@ -331,10 +331,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061130.jpg",
             "filename": "frames_starlightguardians_nu/frame0061130.jpg",
             "overlay_texts": [
-                "Witwen bitten nicht um Erlaubnis.",
-                "Aus den Flussvierteln verlassen Kaufleute ihre Stände. Das Wasser beginnt zu dampfen. Thermisch gebundene Körper erstarren vor geborger Furcht — die Panik eines Spekters, knochentief übertragen.",
-                "In den Kammern des Fünffachen Rats verschlingt Asche das Glimmerlicht. Die Siedenden Tore spannen sich gegen Drücke, die keine Simulation je zu ahnen wagte.",
-                "Der Stein unter Emberveil verhandelt nicht länger. Er erklärt. Und die Stadt, gebaut auf dem Glauben, dass Fünf Naturen in Gespräch gehalten werden könnten, muss sich nun mit einer auseinandersetzen, die aufgehört hat zuzuhören."
+                "Viúvas não pedem permissão.",
+                "Dos Distritos Fluviais, comerciantes abandonam seus tabuleiros. A água começa a vaporizar. Corpos termoligados se inundam de frio com temor tomado de empréstimo — pânico de um Espectro, transmitido até à medula.",
+                "Nas câmaras do Conselho Quíntuplo, cinza engole a luz de brasa. Os Portais Ferventes se contorcem contra pressões que nenhuma simulação ousou conjecturar.",
+                "A pedra sob Véu de Brasa já não está negociando. Está declarando. E a cidade construída sobre a fé de que Cinco Naturezas poderiam ser mantidas em conversa deve agora se defrontar com uma que parou de escutar."
             ]
         },
         {
@@ -345,10 +345,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059104.jpg",
             "filename": "frames_starlightguardians_nu/frame0059104.jpg",
             "overlay_texts": [
-                "Nachtfall über der Vollendeten Ader.",
-                "Die Lava schläft nicht. Sie verkündet.",
-                "Rasende Schatten meißeln den schwarzen Stein — und an der Achse des Labyrinths steht Der Wächter: übernatürlich reglos. Purpurne Adern knisternd. Glubschaugen aus Laternen, die weder der Hitze noch der Kälte gehören.",
-                "Darunter verlaufen die Dulran-Fäden gletscherblau — ein paralleles Argument, unübersetzbar, weigert sich zu kochen. Dies ist Emberveil in seiner kathartischen Ganzheit: Entblößung ohne Nähe. Eine klinische Verrechnung all dessen, was es erduldet."
+                "Nightfall Across the Consummate Vein.",
+                "A lava não dorme. Ela pronuncia.",
+                "Sombras frenéticas esculpem a pedra negra — e no eixo do labirinto, A Sentinela permanece: preternaturalmente imóvel. Veias púrpuras crepitando. Olhos de lanterna ávidos que não pertencem nem ao calor nem ao frio.",
+                "Abaixo, os fios Dulran correm azul-glacial — um argumento paralelo, intraduzível, recusando-se a fervir. Esta é a integralidade catártica de Emberveil: exposição sem intimidade. Uma contabilidade clínica de tudo o que ela tolera."
             ]
         },
         {
@@ -359,10 +359,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059607.jpg",
             "filename": "frames_starlightguardians_nu/frame0059607.jpg",
             "overlay_texts": [
-                "Die Erhebung der Fünf Steine",
-                "Basalt. Granit. Sandstein. Kalkstein. Ton.\nFünf geologische Zeitalter. Ein strahlender Narr, der es wagte, an ihrer Konvergenz zu stehen.",
-                "Die Freudenfunke fragt nicht um Erlaubnis.\nSie befruchtet die mineralische Staubluft und versöhnt die uralte Kammer herrlich, flüchtig — wiederhergestellt.",
-                "Oben: der Sternenbetrachter, reglos. Seine leuchtenden Augen folgen der Aufwärtsbewegung mit der Inbrunst dessen, der versteht, was er bezeugt — und es zu unterbinden unterließ."
+                "A Ascensão das Cinco Pedras",
+                "Basalto. Granito. Arenito. Calcário. Argila.\nCinco idades geológicas. Um tolo radiante que ousou permanecer em sua convergência.",
+                "A Centelha da Alegria não pede permissão.\nEla fecunda o ar repleto de pó mineral e torna a câmara ancestral gloriosamente, brevemente — reconciliada.",
+                "Acima: o Observador de Estrelas, imóvel. Seus olhos luminosos rastreiam o movimento ascendente com o fervor de quem compreende o que está testemunhando — e se absteve de impedi-lo."
             ]
         },
         {
@@ -373,9 +373,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0061901.jpg",
             "filename": "frames_starlightguardians_nu/frame0061901.jpg",
             "overlay_texts": [
-                "Die Rüstung weiß, wer sie dich sein lassen will.",
-                "Das Spiegelbild ist anderer Meinung.",
-                "Ein Wort von Mira — und die Zerbrochenen empfangen es wie einen Segen, den sie niemals hätten überleben dürfen."
+                "A armadura sabe quem quer que você seja.",
+                "O reflexo discorda.",
+                "Uma palavra de Mira — e os quebrados a recebem como uma bênção que nunca deveriam ter sobrevivido."
             ]
         },
         {
@@ -386,10 +386,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0056566.jpg",
             "filename": "frames_starlightguardians_nu/frame0056566.jpg",
             "overlay_texts": [
-                "Das Östliche Tor ist niemals geschlossen worden.",
-                "Wo Probabilis aus den Karmesinöden hereinblutet, vergessen Gebäude ihre eigene Geometrie — und die Archäologen von Dulran existieren manchmal an zwei Orten gleichzeitig, bevor die Wüste entscheidet.",
-                "Sandpriester, Driftreiter, Händler ungewisser Herkunft: die Offenen Handflächen stellen nur eine Frage.",
-                "Was bietest du dar?"
+                "O Portão Oriental nunca foi fechado.",
+                "Onde Probabilis sangra das Terras Escarlates, os edifícios esquecem sua própria geometria — e os arqueólogos de Dulran às vezes existem em dois lugares antes do deserto decidir.",
+                "Sacerdotes da Areia, Cavaleiros da Deriva, mercadores de origem incerta: as Palmas Abertas fazem apenas uma pergunta.",
+                "O que você oferece?"
             ]
         },
         {
@@ -400,10 +400,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059329.jpg",
             "filename": "frames_starlightguardians_nu/frame0059329.jpg",
             "overlay_texts": [
-                "Emberveil empfängt nicht.",
-                "Es prüft.",
-                "Das Fundament kehrt seine Geduld um — staccato Beben, talggrauer Staub, das Schmiedamberlich zählt gierig jeden Riss.",
-                "Und im Schatten des Lavakanals steht etwas Regungsloses Zeuge: Rutschung ist kein Unfall. Sie ist das älteste Streitgespräch der Stadt."
+                "Emberveil não acolhe.",
+                "Ela testa.",
+                "A rocha-mãe inverte sua paciência — tremores estaccato, pó cinza-sebo, a luz âmbar da forja contando avidamente cada fissura.",
+                "E na sombra do canal de lava, algo imóvel permanece como testemunha: o deslizamento não é acidente. É o argumento mais antigo da cidade."
             ]
         },
         {
@@ -414,10 +414,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057708.jpg",
             "filename": "frames_starlightguardians_nu/frame0057708.jpg",
             "overlay_texts": [
-                "Wo drei Wüstenwege ihre Standfestigkeit verlieren und zu einem Platz werden.",
-                "Keine Mauern. Kein Mandat. Nur der alte Drift-Gruß — Handflächen offen, nichts verborgen.",
-                "Der Sandpriester atmet. Der Sprecher gestikuliert. Der Heiler schwitzt Smaragd.",
-                "Emberveil lädt dich nicht ein. Es macht sich einfach unbeschreiblich lesbar."
+                "Onde três caminhos desérticos perdem a coragem e se tornam uma praça.",
+                "Sem muros. Sem mandado. Apenas a antiga saudação Drift — palmas abertas, nada oculto.",
+                "O Sacerdote da Areia respira. O orador gesticula. A curandeira sua esmeralda.",
+                "Emberveil não te convida para dentro. Simplesmente se torna indescritivelmente legível."
             ]
         },
         {
@@ -428,9 +428,9 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057632.jpg",
             "filename": "frames_starlightguardians_nu/frame0057632.jpg",
             "overlay_texts": [
-                "Der Markt in der Morgenröte — verrostetes Rumpfmetall, Sand, Wind, karminrot leuchtende Finger, die zerfurchte Gewissheit des Händlers.",
-                "Keine Katastrophe. Nur das exakte Gewicht der Dinge.",
-                "Dies ist die Arbeit, auf der Gipfel errichtet werden. Präsenz, nicht Geschwindigkeit. Zeugnis, nicht Spektakel."
+                "O mercado ao amanhecer — metal de casco enferrujado, areia, vento, dedos brilhando em carmesim, a certeza desgastada do vendedor.",
+                "Sem catástrofe. Apenas o peso exato das coisas.",
+                "Este é o trabalho sobre o qual os picos são construídos. Presença, não velocidade. Testemunha, não espetáculo."
             ]
         },
         {
@@ -441,10 +441,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057509.jpg",
             "filename": "frames_starlightguardians_nu/frame0057509.jpg",
             "overlay_texts": [
-                "Das Rot findet alles.",
-                "Der Zorn färbt die Leere arterienrot — das uralte Summen der Zitadelle zur Todesrächel reduziert, ihre Dynastien in Rost zerfallend.",
-                "Schattenklaue kauert am Rand des Labyrinths. Atairukh breitet seinen Mantel aus. Selbst die Schattenorb erstarrt, ihr blauer Nebel erkennt ihren Zorn, bevor sie ihn selbst erkennt.",
-                "Eve hat noch nicht gesprochen."
+                "O vermelho encontra tudo.",
+                "A fúria tingue o vazio de arterial — o zumbido antigo da Cidadela reduzido a um estertor de morte, seus dinastias se dissolvendo em ferrugem.",
+                "Garra-Sombra agacha-se à beira do labirinto. Atairukh se envolve. Até o Orbe da Sombra empalidece, sua névoa roxeada reconhecendo sua ira antes dela própria.",
+                "Eva ainda não falou."
             ]
         },
         {
@@ -455,10 +455,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0059347.jpg",
             "filename": "frames_starlightguardians_nu/frame0059347.jpg",
             "overlay_texts": [
-                "Eine scharlachrote Narbe durch heiligen Grund — der Momentum-Kern kümmert sich nicht um Wurzeln.",
-                "Die Handflächen der Verwalterin drücken noch immer in die Erde. Ihre Knochen lesen den Streit: Bewahrung gegen Gewinn, gestern&#039;s Dürre gegen morgen&#039;s Verderben.",
-                "Getreidehalme beben. Vitalis trennt, entzündet neu — gespenstisch geduldig, der Boden fordert zurück, was der Handel kurzzeitig verlegte.",
-                "Bei der Ernte heilt die Lichtspur. Emberveil besteht, wie es immer bestand — vermittelt durch die Rücksichtslosigkeit notwendiger Dinge."
+                "Uma cicatriz escarlate através de solo sagrado — o núcleo de Momentum não se importa com raízes.",
+                "As palmas do mordomo ainda pressionam a terra. Seus ossos lêem o argumento: preservação contra lucro, a seca de ontem contra o desperdício de amanhã.",
+                "Caules de grão tremem. Vitalis secciona, reacende — pacientemente macabra, o solo reclama o que o comércio brevemente deslocou.",
+                "Na colheita, o rastro de luz cicatriza. Emberveil perdura, como sempre perdurou — mediado pela velocidade ilegítima das coisas necessárias."
             ]
         }
     ],
@@ -485,17 +485,17 @@ const episodeData = {
             {
                 "title": "SG TAC",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059935.jpg",
-                "url": "../index_mag_de.html"
+                "url": "../index_mag_pt.html"
             },
             {
                 "title": "EMILY",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
-                "url": "../index_emag_de.html"
+                "url": "../index_emag_pt.html"
             },
             {
                 "title": "NARRSEQ TEST01",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0058191.jpg",
-                "url": "../index_stillwater_de.html"
+                "url": "../index_stillwater_pt.html"
             }
         ]
     },
@@ -504,5 +504,5 @@ const episodeData = {
         "de",
         "pt"
     ],
-    "current_lang": "de"
+    "current_lang": "pt"
 };

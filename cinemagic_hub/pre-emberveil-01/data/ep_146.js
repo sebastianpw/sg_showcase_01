@@ -462,8 +462,8 @@ const episodeData = {
             ]
         }
     ],
-    "meta_kw": "",
-    "meta_desc": "",
+    "meta_kw": "Emberveil city preview, five natures district, Kethara basalt, Dulran corridors, Boiling Gates, Probabilis Drift, original fantasy world, Anima Chronicles lore, Starlight Guardians Emberveil, animated world preview",
+    "meta_desc": "Five natures. Five districts. The daily, stubbornly renewed agreement to keep living despite every elemental argument against it. A preview of Emberveil — the city at the crossroads of fire, cold, cohesion, flow, and probability. Starlight Guardians world-building.",
     "social_links": [
         {
             "type": "instagram",
@@ -472,6 +472,10 @@ const episodeData = {
         {
             "type": "youtube",
             "url": "https://www.youtube.com/@starlightguardianscom"
+        },
+        {
+            "type": "newsletter",
+            "url": "https://petersebring.com/newsletter.php"
         }
     ],
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
@@ -497,7 +501,8 @@ const episodeData = {
     },
     "available_langs": [
         "en",
-        "de"
+        "de",
+        "pt"
     ],
     "current_lang": "en"
 };
