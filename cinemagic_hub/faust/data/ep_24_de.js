@@ -11,60 +11,80 @@ const episodeData = {
             "id": 21,
             "name": "Kapitel I: Die Welt vor dem Fall",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":300,\"frame_id\":363},{\"sketch_id\":301,\"frame_id\":364},{\"sketch_id\":302,\"frame_id\":365},{\"sketch_id\":303,\"frame_id\":366},{\"sketch_id\":304,\"frame_id\":367},{\"sketch_id\":305,\"frame_id\":368}]",
             "url": "ep_21_de.html"
         },
         {
             "id": 22,
             "name": "Kapitel II: Der Teufel betritt die Menschenwelt",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":306,\"frame_id\":369},{\"sketch_id\":307,\"frame_id\":370},{\"sketch_id\":308,\"frame_id\":371},{\"sketch_id\":309,\"frame_id\":372},{\"sketch_id\":310,\"frame_id\":373},{\"sketch_id\":311,\"frame_id\":374},{\"sketch_id\":312,\"frame_id\":375},{\"sketch_id\":313,\"frame_id\":376}]",
             "url": "ep_22_de.html"
         },
         {
             "id": 23,
             "name": "Kapitel III: Gretchens Fall",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":314,\"frame_id\":377},{\"sketch_id\":315,\"frame_id\":378},{\"sketch_id\":316,\"frame_id\":379},{\"sketch_id\":317,\"frame_id\":380},{\"sketch_id\":318,\"frame_id\":381},{\"sketch_id\":319,\"frame_id\":382},{\"sketch_id\":320,\"frame_id\":383},{\"sketch_id\":321,\"frame_id\":384},{\"sketch_id\":322,\"frame_id\":385}]",
             "url": "ep_23_de.html"
         },
         {
             "id": 24,
             "name": "Kapitel IV: Die Tragödie nimmt Gestalt an",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":323,\"frame_id\":386},{\"sketch_id\":324,\"frame_id\":387},{\"sketch_id\":325,\"frame_id\":388},{\"sketch_id\":326,\"frame_id\":389},{\"sketch_id\":327,\"frame_id\":390},{\"sketch_id\":328,\"frame_id\":391},{\"sketch_id\":329,\"frame_id\":392},{\"sketch_id\":330,\"frame_id\":393}]",
             "url": "ep_24_de.html"
         },
         {
             "id": 25,
             "name": "Kapitel V: Kerker, Verlust und der Aufbruch in Teil II",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":331,\"frame_id\":394},{\"sketch_id\":332,\"frame_id\":395},{\"sketch_id\":333,\"frame_id\":396},{\"sketch_id\":334,\"frame_id\":397},{\"sketch_id\":335,\"frame_id\":398}]",
             "url": "ep_25_de.html"
         },
         {
             "id": 26,
             "name": "Kapitel VI: Kaiserhof und öffentliche Illusion",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":336,\"frame_id\":399},{\"sketch_id\":337,\"frame_id\":400},{\"sketch_id\":338,\"frame_id\":401},{\"sketch_id\":339,\"frame_id\":402},{\"sketch_id\":340,\"frame_id\":403},{\"sketch_id\":341,\"frame_id\":404},{\"sketch_id\":342,\"frame_id\":405},{\"sketch_id\":343,\"frame_id\":406},{\"sketch_id\":344,\"frame_id\":407}]",
             "url": "ep_26_de.html"
         },
         {
             "id": 27,
             "name": "Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":345,\"frame_id\":408},{\"sketch_id\":346,\"frame_id\":409},{\"sketch_id\":347,\"frame_id\":410},{\"sketch_id\":348,\"frame_id\":411},{\"sketch_id\":349,\"frame_id\":412},{\"sketch_id\":350,\"frame_id\":413},{\"sketch_id\":351,\"frame_id\":414},{\"sketch_id\":352,\"frame_id\":415},{\"sketch_id\":353,\"frame_id\":416}]",
             "url": "ep_27_de.html"
         },
         {
             "id": 28,
             "name": "Kapitel VIII: Euphorion und der Fall des Ideals",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":354,\"frame_id\":417},{\"sketch_id\":355,\"frame_id\":418},{\"sketch_id\":356,\"frame_id\":419},{\"sketch_id\":357,\"frame_id\":420},{\"sketch_id\":358,\"frame_id\":421},{\"sketch_id\":359,\"frame_id\":422},{\"sketch_id\":360,\"frame_id\":423},{\"sketch_id\":361,\"frame_id\":424}]",
             "url": "ep_28_de.html"
         },
         {
             "id": 29,
             "name": "Kapitel IX: Land, Macht und das Wirken bis zum Ende",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":362,\"frame_id\":425},{\"sketch_id\":363,\"frame_id\":426},{\"sketch_id\":364,\"frame_id\":427},{\"sketch_id\":365,\"frame_id\":428},{\"sketch_id\":366,\"frame_id\":429},{\"sketch_id\":367,\"frame_id\":430},{\"sketch_id\":368,\"frame_id\":431}]",
             "url": "ep_29_de.html"
         },
         {
             "id": 30,
             "name": "Kapitel X: Tod, Gericht und Transzendenz",
             "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":369,\"frame_id\":432},{\"sketch_id\":370,\"frame_id\":433},{\"sketch_id\":371,\"frame_id\":434}]",
             "url": "ep_30_de.html"
         }
     ],
@@ -159,9 +179,33 @@ const episodeData = {
             ]
         }
     ],
+    "meta_kw": "Faust Chapter 4, Valentin duel death, Gretchen guilt public, Faust complicity tragedy, Gretchen breakdown, prison Faust, tragedy Goethe Part I, Faust animated chapter 4, honor and shame Faust, Gretchen fate",
+    "meta_desc": "Honor dies on a cobblestone street. Guilt becomes a public spectacle. The arithmetic of ruin reaches its terrible conclusion — what desire set in motion, consequence now completes. Chapter IV: Tragedy Takes Form.",
+    "social_links": [
+        {
+            "type": "instagram",
+            "url": "https://www.instagram.com/starlightguardianscom/"
+        },
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/@starlightguardianscom"
+        },
+        {
+            "type": "newsletter",
+            "url": "https://petersebring.com/newsletter.php"
+        }
+    ],
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000385.jpg",
+    "next_teaser": {
+        "type": "next_episode",
+        "title": "Kapitel V: Kerker, Verlust und der Aufbruch in Teil II",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000393.jpg",
+        "url": "ep_25_de.html"
+    },
     "available_langs": [
         "en",
-        "de"
+        "de",
+        "pt"
     ],
     "current_lang": "de"
 };

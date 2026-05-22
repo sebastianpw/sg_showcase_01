@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>Kapitel VIII: Euphorion und der Fall des Ideals — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 8, Euphorion Faust, fall of the ideal Goethe, Euphorion death, Helen departure Faust, synthesis destroyed, genius burns too fast, Faust animated chapter 8, Goethe ideal collapse, Euphorion symbol">
+    <meta name="description" content="From the impossible union of modern hunger and classical perfection, a child blazes into existence — and burns away, proving that the synthesis Faust sought cannot survive the atmosphere that produces it. Chapter VIII: Euphorion and the Fall of the Ideal.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,29 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +48,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +86,23 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq28_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: Kapitel VIII: Euphorion und der Fall des Ideals">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq28_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -60,7 +110,7 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">DE</span>
     </button>
-    <div class="lang-menu"><a href="ep_28.html">EN</a><a href="ep_28_de.html">DE</a></div>
+    <div class="lang-menu"><a href="ep_28.html">EN</a><a href="ep_28_de.html">DE</a><a href="ep_28_pt.html">PT</a></div>
 </div>
 <script>
 document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
@@ -77,8 +127,21 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">Kapitel VIII: Euphorion und der Fall des Ideals</h1>
         <p class="seq-desc">Aus der unmöglichen Vereinigung von modernem Hunger und klassischer Perfektion lodert ein Kind ins Dasein — und verbrennt als Beweis dafür, dass die Synthese, die Faust suchte, in der Atmosphäre, die sie hervorbringt, nicht überleben kann.</p>
     </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000416.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000416.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Der Knabe bricht ins Dasein, als wäre er dem Mythos selbst entsprungen — Euphorion, der Sohn von Faust und Helena, geboren nicht aus Fleisch, sondern aus dem eigenen Schwung der Poesie. Er ist manifestiertes, brillantes Fieber: lauter Quecksilber-Glieder und knisternder Intellekt, ein Geschöpf, das nicht stillstehen kann, weil Stillstand den Tod bedeuten würde. Seine Augen bergen die Halbsicht von etwas Größerem, als die Welt fassen kann — Ehrgeiz ohne Anker, Genie ohne Gnade. In ihm liegt Schönheit, ja, aber auch Bedrohung: die Bedrohung einer Kraft, die keine Grenze anerkennt und kein Maß achtet. Das Kind lacht, doch unter dem Lachen fließt eine Strömung, die die alten Griechen augenblicklich erkannt hätten. Eine Intensität, die so rein ist, kann nicht von Dauer sein. Ein Geist, der so unnachgiebig ist, wird unvermeidlich mit der unnachgiebigen Welt kollidieren. In diesem Moment, vor dem Fall, ist er die Apotheose — der lebende Beweis, dass Sterbliche etwas Göttliches gebären könnten. Doch Göttlichkeit war, wie die Alten wussten, nie für eine lange Verweildauer unter uns geschaffen.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000417.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Euphorion, jenes wunderbare Kind von Faust und Helena, erhebt sich — nicht langsam, nicht mit dem gefügigen Gehorsam erdgebundener Dinge, sondern mit der glühend aufsteigenden Dringlichkeit eines Geistes, der das Unbegrenzte erahnt hat und keine Fesseln dulden kann. Seine Flügel, geformt aus Verlangen und unmöglichen Träumen, lösen sich in Rauch und Asche auf. Unten sehen seine Eltern in hilfloser Erschütterung zu, wie die Schönheit ihren Bogen vollendet und am Stein zerbricht. Der Knabe, der die Verschmelzung klassischer Vollkommenheit und menschlicher Leidenschaft verkörperte, kann die extreme Polarität seiner eigenen Pracht nicht überleben. Seine Unreife als sterbliches Wesen, seine Unfähigkeit, die gewaltigen Energien zu bändigen, die ihn beseelen, verrät ihn. In der schrecklichen Klarheit des Absturzes begreift Faust: Nicht jedes Streben mündet in Transzendenz. Manche Bestrebungen verzehren sich in ihrer eigenen Brillanz und hinterlassen nur das Signal dessen, was verloren ging. Die Erde nimmt ihn auf. Stille folgt — jene schreiende Stille, die die Toten verschlingt und keine Antwort gibt.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000418.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Er schwebt nicht gen Himmel, sondern durch ihn hindurch — meisterhaft jedem Gesetz spottend, das einen sterblichen Rahmen am Boden halten würde. Ein Schauer der Transzendenz durchläuft ihn und alle, die Zeugen sind. Sein Schrei ist kein Triumph, sondern glühende Notwendigkeit: zu klettern, zu erleuchten, den kürzesten Bruchteil über den Horizont hinaus zu reichen, dem sterbliche Augen folgen können. Seine Eltern strecken sich in verzweifelter Galanterie nach oben, doch ihre Hände greifen ins Leere. Die Distanz zwischen Erde und Himmel, zwischen Bestrebung und ihrem Preis, öffnet sich wie ein Abgrund. In seinem Flug liegt die Saga jedes Künstlers, der Grenzenlosigkeit mit Freiheit verwechselte — der glaubte, das Streben selbst sei die Rettung. Der strukturelle Zusammenbruch kommt nicht von außen, sondern von innen: Genau jene Plastizität, die seine Aufwärtsbewegung ermöglichte, wird zu seinem versteinerten Gewicht. Er kann nicht herabsteigen. Er will es nicht. Die Grenze, die er sich weigert anzuerkennen, wird zu der Kraft, die ihn zu Boden schmettert. Sein Aufstieg ist unbeschreiblich schön. Und unbeschreiblich tödlich. Dies stand von Anfang an geschrieben.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000419.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Helena steht an der Schwelle, wo die klassische Form in den Mythos zerfließt. Ihre Gewänder fangen das letzte Licht ein — nicht den ekstatischen Glanz der Vereinigung, sondern das dämmrige Leuchten des notwendigen Scheidens. Faust greift nach ihr, doch seine Hand gleitet durch Luft, die bereits ihren Rückzug zu den ionischen Küsten angetreten hat. Sie wendet sich nicht in Zorn oder Trauer ab. Ihr Gesicht trägt die gelassene Akzeptanz einer Schönheit, die ihre Jahreszeit kennt. Um sie herum wird der kaiserliche Hof dünn, substanzlos — das gewaltige Übermaß sterblichen Ehrgeizes löst sich vor der älteren Ordnung auf. Ihr Fortgang ist kein Verlassen, sondern eine Wiederherstellung: Die sichtbare Welt gibt frei, was dem Mythos gehört, was nicht durch Streben oder das Bürgerrecht dieses Reiches gehalten werden kann. Faust bleibt erdgebunden zurück, vermindert, und sieht zu, wie das Unmögliche mit der Anmut der Unausweichlichkeit entschwindet. In diesem Moment wird der Preis des Sehnens klar: nicht der Verlust der Liebe, sondern der Verlust des Wahns, dass Liebe ihre eigene Natur transzendieren könnte. Helena kehrt zur Legende zurück. Faust bleibt mit der Konsequenz.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000420.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Der Fanfarenstoß von Euphorions kurzem Aufstieg ist verhallt. Faust steht allein in der Kammer, in der der Knaben-Dichter zu hell brannte und fiel — wo das Ideal selbst sich als sterblich erwies. Die Bühne ist karg, fast behelfsmäßig in ihrer Leere, eine Art archäologische Ruine des Wunders. Er bewegt sich nicht mit Dringlichkeit. Er schlendert unsicher durch den Raum, wie man durch eine Totenkammer wandelt, die man selbst geschaffen hat. Seine Hand berührt den Stein, an dem das kindliche Genie verschwand, und in der Geste liegt kein Trost — nur der belebende Schmerz, Zeuge gewesen zu sein, wie etwas Unzerstörbares verbrannte. Das Verlangen bleibt, herrlich unversehrt, doch es hat sich gewandelt. Es ist nicht mehr der Hunger nach der Sache selbst, sondern ein Hunger, der durch das Wissen um seinen Preis geschärft wurde. Er hat gelernt, was der Kosmos gestattet und was er verweigert. Dies ist schließlich die Qualität des Strebens — nicht Glückseligkeit, sondern die schreckliche, unzerstörbare Erinnerung an die Glückseligkeit.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000421.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Die Schönheit hielt ihn in der Schwebe — aber nur für einen Augenblick. Er wendet sich ab von Helenas leuchtendem Antlitz, von der sehnsuchtsvollen Gemeinschaft mit dem Vollkommenen, und schwenkt hin zur Mündung dahinter, zur groben und schlammigen Welt der Materie und des Schaffens. Er hat das Göttliche erahnt. Nun muss er bauen. Für jemanden, der strebt, gibt es kein Ruhen in der Transzendenz. Das Gerüst seines Ehrgeizes behauptet sich von neuem — nun kein intellektueller Appetit mehr, sondern etwas Roheres: der Hunger, das Dasein selbst durch Handeln umzugestalten, durch Willen, durch das technologische Erhabene des Trockenlegens von Sümpfen und des Errichtens von Städten, wo zuvor nur Weide lag. Euphorion liegt gefallen hinter ihm — ein Opfer der Kluft zwischen Vision und Fleisch. Die Laterne der Kontemplation wird trübe. Der Kampf beginnt von neuem. Faust schreitet voran, visionär und rücksichtslos, bereit, bei dem Versuch zu glänzen oder unterzugehen. Hinter ihm folgt Mephisto mit aristokratischer Haltung, die charismatische dämonische Noblesse intakt, vollkommen unbeeindruckt von alledem.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000422.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Er steht auf einer Anhöhe im Wiesenland, sein Blick schweift über eine Landschaft, in der Erde und Himmel in einem Schimmer von Möglichkeiten verschwimmen. Der kaiserliche Hof tritt in den Schatten — seine klassischen Formen sind nun nur noch Kulisse für einen neueren Hunger. Vor ihm erstreckt sich Territorium: Feuchtgebiet, Moor, geduldiger Torf, der darauf wartet, in Ordnung gebracht zu werden. Seine Hand streckt sich zum Horizont aus mit der Geste eines Mannes, der die Metapher erschöpft hat und nun materielle Konsequenz verlangt. Dies ist nicht mehr der rastlose Gelehrte, der mit unsichtbaren Kräften ringt. Dies ist Faust als Kaufmann der Verwandlung — der die Frage stellt, was die Erde hergeben könnte, wenn man sie dem Willen und der Ingenieurskunst unterwirft. Das Licht fällt grau und gleichmäßig, weder Dämmerung noch Morgen: die Illumination der Arbeit selbst, der Projekte, die den Lebenden obliegen, der monumentalen Arbeit, die über die Liebe, über das Wissen, ja sogar über den Pakt selbst hinausgeht. Der Faustische Hunger hat seine letzte, gefährlichste Form gefunden: nicht zu wissen, nicht zu besitzen, sondern den Boden unter den Füßen der Zivilisation selbst neu zu gestalten.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000423.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Karten und Pläne liegen auf dem Tisch verstreut — Gitter aus Maßen, mit Bleistift gezogene Grenzen, die Geometrie des Ehrgeizes, sichtbar gemacht und schmerzhaft wörtlich genommen. Er hat sich über den Turm des Gelehrten hinausbewegt, über die Qual des Liebhabers, hin zu einem neuen Register des Strebens: der Eroberung nicht von Seelen, sondern der Erde selbst. Das Ufer erstreckt sich unbetreten, ein Spielzeug der Natur, das auf seine Hand wartet. Es gibt hier keinen Dialog — nur das Gewicht des Befehls, das Gefühl, auf dem Penthouse der Macht zu stehen und auf das herabzublicken, was zurückgewonnen, bearbeitet und dem Willen untertan gemacht werden könnte. Die Lanzette des Vermessers markiert die Karte. Die Küstenlinie summt vor Potenzial. Fausts Gesicht trägt die besondere Schwere eines Mannes, der aufgehört hat, um Erlaubnis zu fragen, und begonnen hat, alle Hindernisse zu beseitigen. Der Rest an Zögern ist verbrannt. Nur der Hunger bleibt — vibrierend, schockierend klar, beängstigend weit. Und hinter ihm beobachtet Mephisto alles mit unheimlicher Intelligenz, gänzlich unbeeindruckt und gänzlich mitschuldig.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_29_de.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000424.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Kapitel IX: Land, Macht und das Wirken bis zum Ende</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
@@ -113,8 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>

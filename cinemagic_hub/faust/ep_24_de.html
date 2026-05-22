@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>Kapitel IV: Die Tragödie nimmt Gestalt an — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 4, Valentin duel death, Gretchen guilt public, Faust complicity tragedy, Gretchen breakdown, prison Faust, tragedy Goethe Part I, Faust animated chapter 4, honor and shame Faust, Gretchen fate">
+    <meta name="description" content="Honor dies on a cobblestone street. Guilt becomes a public spectacle. The arithmetic of ruin reaches its terrible conclusion — what desire set in motion, consequence now completes. Chapter IV: Tragedy Takes Form.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,29 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +48,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +86,23 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq24_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: Kapitel IV: Die Tragödie nimmt Gestalt an">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq24_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -60,7 +110,7 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">DE</span>
     </button>
-    <div class="lang-menu"><a href="ep_24.html">EN</a><a href="ep_24_de.html">DE</a></div>
+    <div class="lang-menu"><a href="ep_24.html">EN</a><a href="ep_24_de.html">DE</a><a href="ep_24_pt.html">PT</a></div>
 </div>
 <script>
 document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
@@ -77,8 +127,21 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">Kapitel IV: Die Tragödie nimmt Gestalt an</h1>
         <p class="seq-desc">Ehre stirbt auf dem Kopfsteinpflaster, Schuld wird zum öffentlichen Spektakel, und die Arithmetik des Ruins erreicht ihren schrecklichen Abschluss — was das Verlangen in Gang setzte, wird nun durch die Konsequenz vollendet.</p>
     </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000385.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000385.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Valentin geht dem Unvermeidlichen mit der grimmigen Sparsamkeit eines Mannes entgegen, der genug vom Krieg gesehen hat, um zu wissen, dass Zögern eine eigene Form von Feigheit ist. Die Straße drängt sich um ihn zusammen. Seine Hand ruht am Schwert mit einer Bedachtsamkeit, die keine Drohung ist, sondern Vorbereitung — der Körper richtet sich auf das aus, was der Geist bereits entschieden hat. Hinter ihm folgt Siebel mit der hilflosen Ergebenheit eines jüngeren Mannes, der Valentin zu sehr liebt, um ihn aufzuhalten, und zu wenig von der Welt weiß, um erfolgreich zu sein, wenn er es versuchte. Die Familienehre wurde in den Straßen laut ausgesprochen. In Valentins Welt — und es ist eine Welt, die Faust nie verstanden hat — hat eine solche Nennung nur eine einzige Antwort. Er denkt nicht an Gnade. Er denkt nicht an Konsequenzen. Er denkt an das Banner, an die Klinge des Morgens und an den Namen seiner Schwester.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000386.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Der Pakt zeigt seine Zähne in Blut auf einer kopfsteingepflasterten Straße. Mephistos Klinge findet Valentin mit der Präzision eines Präparators — nicht in einem Duell unter Gleichen, sondern im raschen Vollzug eines Mannes, der Gewalt zur Verfeinerung erhoben hat. Valentin fällt, wie Soldaten fallen: noch immer greifend, noch immer versuchend, der Schutzinstinkt intakt bis zum letzten Moment. Faust steht dabei und sieht zu, mitschuldig durch Schweigen, und lernt, was das Kleingedruckte seines Handels tatsächlich besagt. Er wollte Erfahrung ohne Einschränkung. Hier ist die Erfahrung: der Bruder der Frau, die er liebt, tot auf den Steinen, getötet von dem Gefährten, den sein Ehrgeiz erforderte. Der Pakt ist über die Philosophie hinausgewachsen. Er vergiesst Blut. Und das Blut lässt sich nicht abwaschen — es breitet sich durch jede folgende Szene aus, befleckt Gretchens Prozess, ihren Wahnsinn, ihre Hinrichtung, alles. Die Grenze zwischen Liebe und Zerstörung wurde hier überschritten, an diesem gewöhnlichen Abend, in dieser gewöhnlichen Straße.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000387.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Schande, wenn sie erst einmal gereift ist, wird zum Kollektiveigentum. Gretchen hatte geglaubt, ihr Vergehen sei privat — eine Last, die sie allein tragen würde. Nun begreift sie, während sie sich mit ihrer veränderten Gestalt und unter den abgewandten Blicken, die ihr wie Schatten folgen, über den Markt bewegt, dass die Privatsphäre der Sünde ein Luxus ist, den sich die Unschuldigen ausmalen und der den Schuldigen verwehrt bleibt. Die Frau des Bäckers dreht sich weg. Eine Mutter zieht ihre Tochter eng an sich. Die Augen des Priesters verengen sich in der Kirchentür. Die soziale Maschinerie, die ihr einst Schutz bot — die Ehrbarkeit ihres Familiennamens, das Wohlwollen der Nachbarn —, hat ihre Polarität umgekehrt und mahlt nun ihrer Verurteilung entgegen. Faust ist abwesend. Er ist durch ihr Leben hindurchgegangen und darüber hinaus, und hat nichts als die Konsequenzen hinterlassen. Mephisto grinst aus einem verborgenen Winkel. Und Gretchen steht allein vor dem Tribunal der gewöhnlichen Anständigkeit, die niemals — und zu keiner Zeit — besonders barmherzig war.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000388.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Sie ist an den einen Ort gekommen, der Trost spenden sollte, und findet heraus, dass er zu einem Spiegel geworden ist. Der Dom, der sie einst in der unbefangenen Wärme des ererbten Glaubens hielt, reflektiert ihr nun die präzisen Umrisse dessen zurück, was sie getan hat. Die anderen Gläubigen knien in ihrer unversehrten Hingabe, ihre Seelen unbelastet, ihre Gebete aufrichtig. Sie kniet unter ihnen und kann nicht beten. Das Kerzenlicht, das sich einst wie Gnade anfühlte, fühlt sich nun an wie eine Illumination von gnadenloser Art — jeder Schatten ein Verdikt, jede Lichtbewegung über das Gewölbe eine stumme Anklage. Ihre Finger bearbeiten die Rosenkranzperlen mit mechanischer Präzision, doch ihre Lippen formen nichts. Das Gewissen spricht in einer Sprache, die die Liturgie nicht beantworten kann. Sie kam, um Absolution zu suchen. Was sie gefunden hat, im Hause Gottes, an dem einen Ort, der dazu geschaffen wurde, die Gebrochenen aufzunehmen, ist, dass sie dort am einsamsten ist.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000389.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Dies ist es, was bleibt, wenn Philosophie in Fleisch herabsteigt. Keine Romanze. Nicht einmal schon eine Tragödie — nur die schreckliche Mathematik des Überlebens: das ungewollte Ding, das wächst, der Liebhaber, der sich in Abwesenheit aufgelöst hat, jeder Versuch, das Unverbergbare zu verbergen, scheitert vor dem Zeugnis ihres eigenen Körpers. Ihre Schönheit, einst ihre einzige Währung der Hoffnung, ist zu ihrer Anklageschrift geworden. Sie bewegt sich vermindert durch die Welt, ein Protokoll dessen, was das Begehren hinterlässt, wenn es sich genommen hat, was es wollte, und zu neuen Horizonten weitergezogen ist. Das Kind, wenn es kommt, wird der lebende Beweis dafür sein, dass Streben einen Preis hat — und dieser Preis wird in Fausts Ökonomie des Hungers immer von jenen bezahlt, die zu unschuldig sind, um für sich selbst verhandelt zu haben. Sie hat den Pakt nicht unterschrieben. Sie hat die Bedingungen nicht gewählt. Und doch haben die Bedingungen sie gewählt, mit der unparteiischen Grausamkeit von Konsequenzen, die keinen Unterschied zwischen dem Schuldigen und dem ihm Nahestehenden kennen.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000390.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Er wollte die Unschuld besitzen, ohne sie zu zerstören. Das war die fundamentale Unmöglichkeit — und erst jetzt, inmitten der Trümmer seines eigenen Tuns, beginnt er sie zu begreifen. Die Maschinerie des Paktes, sein eigener Hunger, Mephistos trügerische Arithmetik — all das ist vorangetrieben worden, und Gretchen zahlt. Er sieht es nun: Dass Verführung und Zerstörung aus demselben Faden gewebt sind, dass seine kühnsten Begierden zu ihrem schwärzesten Leid geworden sind. Und die Erkenntnis trifft ihn, wie moralische Erkenntnis in Fausts Geschichte immer eintrifft: zu spät und unvollständig. Seine Hände zittern noch von ihrer Berührung. Sein Verstand rationalisiert noch, während sein Gewissen schreit. Er hat dies gewählt — und er wählt es in jedem Augenblick neu, sogar jetzt. Mephistos Ironie ist perfekt: Der Liebhaber ist der Zerstörer, und es gibt keinen Standpunkt außerhalb dieser Verstrickung, von dem aus Faust sich selbst noch unschuldig nennen könnte.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000391.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Ihr Verstand ist zu einer Maschine der Qual geworden, die sie nicht mehr abstellen kann. Sie bewegt sich durch Räume, die sie einst in vollkommener Ordnung hielt, und findet sie fremd — anklagend, feindselig, jede gewöhnliche Oberfläche ein Zeuge dessen, was getan wurde und nicht ungeschehen gemacht werden kann. Sie erhascht ihr Spiegelbild im Glas und erkennt das Gesicht kaum wieder, das zurückblickt. Ist etwas Wesentliches daraus entwichen? Die Schuld ist kein Flüstern mehr. Sie ist eine Prozession durch ihren Schädel, unerbittlich und barock. Sie denkt an das Kind, und der Gedanke kommt ohne Gnade — immer und immer wieder, eine Übertragung, die nicht unterbrochen werden kann. Ihr Körper bewegt sich, doch ihr Wille hat ihn verlassen. Es gibt hier keinen Frieden. Keine Ataraxie. Nur das schreckliche Wissen, dass Unschuld, einmal verloren, keine Erneuerung kennt — und dass die Frau, die einst an ihrem Spinnrad sang, durch jemanden ersetzt wurde, der nie wieder singen wird.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000392.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Der Galgen wartet draußen, und sie weiß es. Sie hat alles gestanden — ihre Sünde, den Namen ihres Liebhabers, die schreckliche Arithmetik ihres Ruins — mit der Vollständigkeit von jemandem, der bereits jenseits der Hoffnung steht. Faust kommt mit Versprechungen von Flucht, beschworenen Rossen, magischem Flug in ferne Länder. Sie sieht seine Verzweiflung als einen Spiegel ihrer eigenen Machtlosigkeit und lässt sich nicht davon bewegen. Er hat sie nicht mit Bosheit, sondern mit Verlangen gebrochen — und Begehren, so erkennt sie nun mit absoluter Klarheit, ist schlichtweg Teufelei in menschlichem Antlitz. Sie wird nicht fliehen. Nicht, weil sie es nicht könnte, sondern weil die Flucht bedeuten würde, das Einzige zurückzulassen, was ihr noch bleibt: die Würde, zu dem zu stehen, was getan wurde. Manche Schulden lassen sich nicht entlaufen. Manche Schuldgefühle lassen sich nicht durch geschickte Ausgänge ersticken. Die Tür zwischen ihnen steht fest verschlossen. Ihre Unschuld war der Preis. Der Preis ist entrichtet.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_25_de.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000393.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Kapitel V: Kerker, Verlust und der Aufbruch in Teil II</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
@@ -113,8 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>

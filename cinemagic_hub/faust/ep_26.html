@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>Chapter VI: Imperial Court and Public Illusion — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 6, Faust Part II begins, emperor court Faust, Mephisto paper money, carnival masquerade Faust, Homunculus creation, Faust political ambition, Faust animated chapter 6, imperial illusion Goethe, Wagner Homunculus">
+    <meta name="description" content="Faust trades the ruins of private desire for the machinery of empire — where power performs itself, paper conjures gold, and the devil moves through corridors of state with the ease of a man who has always been at home in hollow places. Chapter VI: Imperial Court and Public Illusion.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,29 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +48,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +86,23 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq26_en.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Check out this episode: Chapter VI: Imperial Court and Public Illusion">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq26_en.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -60,7 +110,7 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">EN</span>
     </button>
-    <div class="lang-menu"><a href="ep_26.html">EN</a><a href="ep_26_de.html">DE</a></div>
+    <div class="lang-menu"><a href="ep_26.html">EN</a><a href="ep_26_de.html">DE</a><a href="ep_26_pt.html">PT</a></div>
 </div>
 <script>
 document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
@@ -77,8 +127,21 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">Chapter VI: Imperial Court and Public Illusion</h1>
         <p class="seq-desc">Faust trades the ruins of private desire for the machinery of empire — where power performs itself, paper conjures gold, and the devil moves through corridors of state with the ease of a man who has always been at home in hollow places.</p>
     </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000398.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000398.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">The stage has shifted. The chambers where desire destroyed an innocent girl have given way to a vast ceremonial space where power performs itself with an identical hunger and far greater resources. Faust is here now — not as a desperate scholar but as a figure of courtly influence, fluent in a world where illusion is currency and ambition wears the mask of statecraft. Everything gleams with calculated brilliance. And everything is hollow at the center. The court speaks in honeyed terms of restoration and glory while the grinding of gears that serve no one but appetite provides the undertone. Faust recognizes in this world a new arena for his insatiable striving. The tragedy of Gretchen lies behind him, calcifying into recollection. Before him stretches something grander and more impossible: the seduction of a civilization through the manipulation of desire. Mephisto moves through these corridors at home. He has been here before. He has always been here.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000399.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">The Emperor is heavy with symbols and empty at the center. The golden arcades soar, the courtiers maintain their streamlined formation of polished indolence, the gold leaf catches light in the performance of substance — and at the throne, a man who rules in the name of everything finds himself ruler of nothing that matters. Power has corralled itself in its own void. The court awaits salvation in the form of distraction. And here is Faust — the scholar, the lover, the man who bartered his soul for experience without limit — moving through the ceremonial space with the particular gravity of a man who has already seen what bottomless wanting looks like from the inside. Mephisto trails behind, smiling his architect&#039;s smile. He understands perfectly: those who rule are the most susceptible to the promise of revivification through illusion. The stage is set. The conjuring is about to begin.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000400.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">The treasury is empty and the pageantry continues anyway, which is perhaps the most honest thing the court has ever done. The Emperor&#039;s need is not for truth but for profitable illusion — paper money to fill the coffers, spectacle to distract the restless masses, the appearance of prosperity in place of the thing itself. Mephisto sees the opportunity with the clarity of a craftsman encountering perfect conditions. Faust has arrived in a kingdom that has already, on its own, created the conditions for its own ruin — and what he and the devil will offer is merely the acceleration of a collapse already underway. The fragrant incense of ceremony cannot mask the stench of what lies beneath it. But it can, for a time, make the masking seem like the thing itself. Delivery and redemption are never the same thing. The Emperor will learn this. Everyone always does.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000401.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Paper bearing the Emperor&#039;s seal, worthless as air yet pregnant with collective desire — this is Mephisto&#039;s masterstroke, and it is not primarily economic. It is metaphysical. He has taught the powerful to confuse shadow with coin, promise with plenitude, the symbol of value with the thing itself. The courtiers lean forward, febrile with hope, as the papers circulate like currency, like blood. For a moment the illusion holds. For a moment mankind believes. This is always the moment Mephisto loves most: not the collapse, which is inevitable and boring, but the instant of belief — the proof that humans, given sufficient desperation and sufficient pageantry, will accept any fiction that explains away their hunger. The catastrophe is already written in invisible ink on every worthless scrap of parchment. The devil does not need to stay for it. He just needs to start it.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000402.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">He stands at the threshold between what was and what is becoming — his face turned neither backward toward the intimate tragedy he has left nor fully forward into the vast machinery of state before him. His hunger has transformed. The love that destroyed Gretchen was personal, particular, contained. What he hungers for now is civilizational: kingdoms, peoples, the power to remake the very ground beneath civilization&#039;s feet. Mephisto materializes at his shoulder with the timing of one who has been waiting, exactly here, for exactly this moment. Ambition has ceased to be personal and become political. The stage is set for illusion on an imperial scale — the seduction not of a girl in a garden but of an entire realm through the promise of renewal. His hands are unclenched, reaching. The moment has a terrible clarity: he has learned nothing from loss, only scaled it upward.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000403.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">In Wagner&#039;s laboratory, in a vial of glass, a consciousness stirs without flesh. The Homunculus speaks in clarion tones before his body has learned to exist — a being of pure intellect who cannot cross the threshold into natural life, who knows too much and is too little, who possesses every quality of a mind except the one that would make him fully real. Wagner stands transfixed between paternal pride and the bitterest recognition: he has created not life but a mirror of his own ambitions — perfect, luminous, and catastrophically incomplete. The Homunculus insists on motion. On purpose. On retrieval from this hostelry of locked potential. He knows, with the certainty of his own artifice, that embodiment lies elsewhere — not here, in the scholar&#039;s study, but in the mythical waters where forms dissolve and reform, where the boundary between matter and spirit grows thin enough to cross.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000404.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Wagner has earned his quiet dignity through the only path available to someone who lacks Faust&#039;s magnificent, catastrophic impatience: incremental labor, punctilio, sworn dedication to the work itself. He does not soar. He builds. He does not yearn for transcendence. He has created something that stands. In the candlelit study — while the imperial court wheels on in its spectacle outside — Wagner&#039;s success is impressionistic, invisible, enduring: the kind that asks no applause and expects no crown. This is what Faust cannot see from within the vortex of his own ambition: that some men clinch their fate not by refusing the limits of the possible but by working within them, maturely, flexibly, without falter. The study is the same. The men are entirely different. And the one who will be remembered is not, in this moment, the one who has remembered to be content.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000405.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">The gilded semicircle of Imperial power is dressed in temporary majesty — all facade and mathematical precision, every gesture calibrated, every courtier a studied performance of loyalty and sophistication. Faust, no longer the desperate scholar, moves through this space as a figure of influence — and yet his gaze keeps fixing on the shadows at the edge of the architectural grandeur, where older stone whispers of an older world. He asks for Helena. The court laughs. The impossible, they say, is merely documentary evidence of what cannot be. They are wrong. Mephisto understands that the drive toward grandeur requires only the right framing. Faust has already begun his climb toward the vertiginous stair between worlds — the one that leads not forward through history but backward through myth, toward beauty so absolute that touching it will teach him, definitively, the cost of everything he has ever wanted.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000406.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">He stands at the threshold of dominion, surveying the vast coastline spread before him like territory waiting to be assembled into form. Maps and charts scatter across the table — grids of measurement, penciled boundaries, the geometry of ambition made visible. He has moved beyond the lover&#039;s torment, beyond the scholar&#039;s hunger for knowledge, into a new register of striving: the conquest not of souls or understanding but of earth itself. The shore stretches untrodden. The surveyor&#039;s lancet marks the map. Faust&#039;s face bears the peculiar gravity of a man who has ceased to ask permission. He has exhausted metaphor and now demands material consequence. The hunger that once drove him to books and bargains has found its final, most dangerous form: not the desire to know, not the desire to possess one beloved, but the desire to remake the very ground beneath civilization&#039;s feet.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_27.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000407.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Chapter VII: Classical Waters, Helen, and the Limit of Form</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
@@ -113,8 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>

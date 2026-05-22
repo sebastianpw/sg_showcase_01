@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>Kapitel I: Die Welt vor dem Fall — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 1, Prologue in Heaven, Faust study despair, Mephistopheles introduction, scholar crisis anime, Faust animated chapter 1, celestial wager, Easter scene Faust, human aspiration limit, Goethe Faust opening">
+    <meta name="description" content="In the celestial machinery of heaven, a wager is struck over the soul of a man who has learned everything and understands nothing. In his cramped, candlelit study, Faust rejects theology, law, medicine, and philosophy — and steps toward the absolute. Chapter I: The World Before the Fall.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,29 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +48,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +86,23 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq21_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: Kapitel I: Die Welt vor dem Fall">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq21_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -60,7 +110,7 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">DE</span>
     </button>
-    <div class="lang-menu"><a href="ep_21.html">EN</a><a href="ep_21_de.html">DE</a></div>
+    <div class="lang-menu"><a href="ep_21.html">EN</a><a href="ep_21_de.html">DE</a><a href="ep_21_pt.html">PT</a></div>
 </div>
 <script>
 document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
@@ -77,8 +127,21 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">Kapitel I: Die Welt vor dem Fall</h1>
         <p class="seq-desc">In der himmlischen Maschinerie und der erstickenden Stille einer Gelehrtengruft wird eine Wette geschlossen und ein Geist bricht auf — Fausts intellektuelle Verzweiflung wird zum Motor für alles, was folgt.</p>
     </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000362.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000362.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Noch bevor Faust in seinem Studierzimmer den ersten gequälten Atemzug tut, ist die kosmische Wette bereits besiegelt. Gott und Teufel begegnen sich nicht im Donnerhall, sondern in einem Salon der Ewigkeit — Mephisto lümmelt sich mit der Gelassenheit eines Mannes, der das menschliche Scheitern durch alle Zeitalter beobachtet hat, während die Engel ihren geduldigen wechselseitigen Lobpreis singen. Der Herr ist sich gelassen gewiss, was der Hunger des rastlosen Gelehrten letztlich offenbaren wird. In der Wette geht es nicht um Verdammnis. Es geht darum, ob das Streben selbst — blind, unappeasabel, prachtvoll — eine Form des Glaubens darstellt. Mephisto setzt auf den Ruin. Gott setzt auf das Erreichen. Der Unterschied zwischen ihnen ist nicht Macht, sondern Geduld. Faust, ahnungslos in seinem Bücherturm, ist bereits zur Bühne eines uralten Streits geworden, an dem teilzunehmen er nicht gebeten wurde. Himmel und Hölle sind sich nur in einem einig: Dass seine Seele keinem von beiden gehört — bis er selbst wählt.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000363.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Mephisto erscheint im Himmel nicht mit Feuer und Ultimaten. Er erscheint mit einem Grinsen und einem Argument — der ewige Widersacher, der Dorn, der den Rosengarten ehrlich macht. Seine Verachtung für Faust ist eine Inszenierung: Was er wahrhaft anbietet, ist eine Wette, von der er glaubt, sie längst gewonnen zu haben. Er hat tausend Gelehrte am Rad des Wissens ohne Weisheit zerbrechen sehen. Er kennt das Muster. Er kennt den Hunger. Was er nicht einkalkuliert hat — was er nicht einkalkulieren kann —, ist, dass der Hunger selbst der Kern der Sache sein könnte. Die Engel singen ungestört weiter. Der Herr hört gelassen zu. Und Mephisto, brillant und doch im Irrtum, schreitet über den Boden des Himmels wie ein Verkäufer, der kurz davor steht, den einzigen Handel zu verlieren, der jemals von Bedeutung war.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000364.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Die Bücher sind zu Mauern eines Gefängnisses geworden, das der Gefangene selbst erbaut hat. Faust hat Theologie, Philosophie, Juristerei und Medizin gemeistert — vier Königreiche ererbter Wahrheit — und steht nun vor dem angehäuften Schatz menschlichen Denkens mit der Erkenntnis, dass er nichts weiß, was von Bedeutung wäre. Die Instrumente fangen das fahle Licht ein und spotten seiner. Die Astrolabien messen Distanzen, die er nicht überwinden kann. Die Tiegel haben alles zu Asche reduziert. Dies ist der Moment vor dem Pakt, der Moment vor dem Fall: noch keine Verzweiflung, sondern etwas Schlimmeres — die luzide Einsicht, dass Wissen ohne Berührung ein schöner Leichnam ist. Er wütet nicht. Er steht inmitten seiner Bücher wie ein Mann in einem Haus, dem er entwachsen ist: Er misst die Wände und begreift endlich, dass der einzige Weg nach vorn mitten durch sie hindurchführt.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000365.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Das Feuer im Kamin hinter ihm stirbt. Die Manuskripte vor ihm sind tot. Faust steht im Trümmerhaufen eines Lebens, das er dem Streben nach Verständnis gewidmet hat, und was er gefunden hat, ist die Gestalt dessen, was er nicht erreichen kann. Er ist nicht gescheitert. Er war vollkommen erfolgreich — und genau das ist die Krise. Jede Frage, die er beantwortet hat, hat drei neue aufgeworfen, jede tiefer und unergründlicher als die letzte. Der Hunger, der ihn zu seinen Büchern trieb, wurde nur so weit gesättigt, dass er noch rasender wurde. Er verlangt nach dem Kontakt mit dem Realen — brennend, unmittelbar, von Angesicht zu Angesicht — nicht vermittelt durch den Schleier der Formel eines anderen Toten. Der Raum wirkt gequält von allem, was er nicht zu verstehen vermochte. Der Pakt, der ihn erwartet, ist noch nicht sichtbar. Doch die Bedingungen dafür sind bereits vollkommen bereitet.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000366.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Der Ostermorgen drängt sich durch die Wände eines Zimmers, das seit Jahren keinen Frühling mehr gesehen hat. Die Glocken bitten nicht um Erlaubnis. Sie bieten keinen Trost und keine Theologie an — nur die nackte, animalische Tatsache, dass sich etwas regt, dass die Welt einen weiteren Winter überlebt hat, dass grüne Dinge wieder sprießen, ganz ohne seine Hilfe oder Zustimmung. Für einen einzigen Augenblick, während er mit dem bereits bereiteten Giftbecher im versiegelten Studierzimmer steht, hört Faust die Glocken und zögert. Nicht, weil er glaubt. Sondern weil er sich erinnert, geglaubt zu haben — und in der Kluft zwischen dem Mann, der er war, und dem Mann, der er geworden ist, bricht etwas gerade weit genug auf, um Licht hereinzulassen. Er erhebt sich nicht, um sich der Prozession anzuschließen. Aber er stirbt heute nicht. Das ist genug. Dieses Zögern ist alles.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000367.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Er zieht den Kreis und ruft herbei, was er nicht zu rufen berechtigt ist. Der Erdgeist erscheint — nicht als Antwort auf seine Frage, sondern als die sichtbar gewordene Frage selbst: eine Präsenz so gewaltig, so gänzlich gleichgültig gegenüber seinem Genie, dass sein Intellekt — einst sein Stolz, seine Rüstung, seine Identität — in einem Augenblick zur Last wird. Der Geist spricht nicht zu ihm wie zu einem Gleichen. Er spricht, wie das Wetter spricht: ohne Bosheit, ohne Ansprache, ohne jede Anerkennung, dass sein Leiden von Interesse wäre. Er weicht zurück. Der Geist entschwindet. Die Bücher um ihn her wirken zum ersten Mal theatralisch — gemalte Kulissen eines Stücks, das er nicht mehr zu verstehen glaubt. Er hat etwas Reales berührt. Und was es ihn gelehrt hat, ist die unverhältnismäßige Distanz zwischen dem, was er ist, und dem, was er sein wollte.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_22_de.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000368.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Kapitel II: Der Teufel betritt die Menschenwelt</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
@@ -113,8 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>

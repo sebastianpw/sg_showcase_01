@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
     <title>Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 7, Classical Walpurgis Night, Helena Faust union, Helen of Troy Faust, classical myth anime, Faust and Helena, ancient beauty Goethe, mythic synthesis Faust, Faust animated chapter 7, Homunculus embodiment">
+    <meta name="description" content="Faust descends into the mythic depths of antiquity in pursuit of beauty itself — and finds in Helena the proof that to touch the absolute is not to be fulfilled, but to learn definitively the cost of every desire. Chapter VII: Classical Waters, Helen, and the Limit of Form.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,13 +16,29 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
-        .end-mark { margin: 60px 0 120px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -30,7 +48,23 @@
         .lang-picker.open .lang-menu { display: flex; }
         .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
         .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
         
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
         .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
         .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
         .ep-nav-toggle:hover { color: var(--nav-active); }
@@ -52,7 +86,23 @@
     </style>
 </head>
 <body class="has-ep-nav">
-<div class="top-actions"><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq27_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq27_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
     <span class="lang-label">PDF</span>
 </a><div class="lang-picker" id="lang-picker">
@@ -60,7 +110,7 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">DE</span>
     </button>
-    <div class="lang-menu"><a href="ep_27.html">EN</a><a href="ep_27_de.html">DE</a></div>
+    <div class="lang-menu"><a href="ep_27.html">EN</a><a href="ep_27_de.html">DE</a><a href="ep_27_pt.html">PT</a></div>
 </div>
 <script>
 document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
@@ -77,8 +127,21 @@ document.addEventListener('click', function(e) {
         <h1 class="seq-title">Kapitel VII: Klassische Gewässer, Helena und die Grenze der Form</h1>
         <p class="seq-desc">Faust steigt in die mythischen Tiefen der Antike hinab, auf der Suche nach der Schönheit selbst — und findet in Helena den Beweis, dass das Berühren des Absoluten keine Erfüllung bedeutet, sondern endgültig lehrt, welchen Preis jedes Verlangen fordert.</p>
     </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000407.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
     <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000407.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Er steigt hinab in Wasser, die kein Wasser sind — ein klassisches Reich, in dem die Zeit sich wie Sediment ansammelt, wo Marmorfragmente aus Tiefen auftauchen, die kein sterbliches Auge je kartografiert hat. Die Landschaft verweigert sich der herkömmlichen Geografie. Um ihn herum regen sich die frühreifen Toten. Sirenen rufen mit Stimmen, die klingen wie alles, was er jemals wollte. Die endliche Welt weicht nicht hinter ihn zurück, sondern unter ihn, versinkend wie eine Untiefe unter unergründlichen klassischen Meeren. Seine Bibliothek, seine sterblichen Ambitionen — alles geschrumpft zu winzigen Punkten. Hier wird der Gral nicht gesucht, sondern man begegnet ihm: Helena wartet im Mosaik des Mythos, unerreichbar schön, der Preis, der ihn schließlich und endgültig die Kosten des Begehrens selbst lehren wird. Die Geschichte verzeichnet diesen Moment nicht. Die Geschichte ertrinkt in ihm. Faust steht allein unter den Hütern von Göttern und Geistern, und das Versprechen der Transzendenz — weit, leuchtend, exakt das, was er immer wollte — schmeckt in dem Moment, da er danach greift, genau wie der Untergang.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000408.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">Das Wasser verdichtet sich mit Präsenzen, die älter sind als die Erinnerung. Dies ist kein narrativer Fortschritt. Dies ist der Moment, in dem das Streben auf die Grenze der Form selbst stößt — in dem der Hunger nach totaler Erfahrung auf die kalte Schönheit dessen trifft, was man nicht besitzen, sondern nur bezeugen kann. Sirenen steigen aus der Nebelhaftigkeit empor. Sphinxe bewahren ihre Rätsel-Architektur. Lamien bewegen sich mit schlangenhafter Anmut durch das Schimmern. Chiron steht als uralter Zeuge bereit. Helena bewegt sich irgendwo innerhalb der Verzerrung, erkennbar nur durch die Brechung des Mythos. Das gemeinsame Gedächtnis der Antike pulsiert um Faust in Formen, die einst verehrt wurden und nun auf Umrisse und Andeutungen reduziert sind. Er steht an der Schwelle, weder ganz eintretend noch sich zurückziehend, schwebend zwischen zwei Hungergefühlen: jenem, das ihn hierher brachte, und der Erkenntnis dessen, was es kosten wird, ihn zu stillen. Alles hier ist gleichzeitig auf seinem Höhepunkt und bereits im Begriff, zur Hülle zu werden. Die Symbole sprechen eine Sprache, die dünner ist als Worte und unerbittlicher als die Vernunft.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000409.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Der Homunculus pocht in seinem Kristallgefäß — ein Bewusstsein ohne Fleisch, ein Wille ohne Gewicht, der ultimative Traum des Gelehrten, der in seine eigene spezifische Qual umgeschlagen ist. Er ist leuchtend gewordener Intellekt, jedoch in Glas eingeschlossen. Um ihn herum steht der Apparat der Schöpfung stumm und spottet seiner mit seiner Zuverlässigkeit. Er hat sich über die Möglichkeit einer natürlichen Geburt hinausentwickelt und kann dennoch die Schwelle zum natürlichen Leben nicht überschreiten. Er spricht mit dringlicher Klarheit: Er muss ein Schicksal jenseits dieser Herberge verschlossener Potenziale finden. Er weiß mit der Gewissheit seiner eigenen Künstlichkeit, dass die Verkörperung anderswo liegt — in den mythischen Wassern, an dem Ort, wo Formen sich auflösen und neu bilden. Die Philosophen streiten am Rande. Proteus wandelt im Schatten, flüchtig und wandelbar. Und der Homunculus, leuchtend und verzweifelt, studiert das Problem, wie er aufhören kann, ein Ärgernis für die Existenz zu sein, um endlich ein Ding der Welt zu werden. Sein Leuchten wirft Schatten, die sich mit einer Absicht zu bewegen scheinen, die sie noch nicht besitzen.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000410.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Die Elemente selbst werden unruhig. Feuer pulsiert unter der Erde. Wasser steigt aus Tiefen auf, in die kein sterbliches Auge je vorgedrungen ist. Die Luft holt Atem aus der Leere. Die Erde spaltet sich, gibt nach, verwandelt sich. Die alten Formen können nicht mehr halten. Dies ist der Moment, bevor Helena in die Zeit tritt, bevor die Schönheit Fleisch annimmt — wenn die Grenze zwischen dem Mythischen und dem Sterblichen so dünn wird, dass eine einzige Berührung sie für immer zertrümmern könnte. Faust hat diese Konvergenz durch Wissen verfolgt, durch Begehren, durch die Todsünde, keine Grenze akzeptieren zu wollen. Nun antwortet das Universum. Die klassische Ordnung erzittert. Wasser und Feuer werben umeinander in der Dunkelheit. Der Homunculus zertrümmert sein Gefäß an Galateas Wagen in einem Akt der Selbstaufopferung, der zugleich Selbstvollendung ist — das Bewusstsein, das die Auflösung der ewigen Unvollständigkeit vorzieht. Etwas Gewaltiges regt sich in der Hochzeit der Gegensätze, und der Preis für dieses Zeugnis ist die Zertrümmerung dessen in einem selbst, das zu menschlich blieb, um einen solchen Anblick zu ertragen.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000411.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Sie nähert sich über klassische Wasser, und die Erinnerung selbst gewinnt Fleisch. Die Ehrfurcht in der Luft ist nicht das vulgäre Treiben des Begehrens — es ist die feierliche Anerkennung vollendeter Form, einer durch Jahrhunderte zu etwas Zeitlosem und schrecklich Realem geordneten Schönheit. Sie kommt so, wie Faust sie sich vorgestellt hat: der Quell aller ästhetischen Sehnsucht, der Wegweiser, auf den sein rastloses Streben immer hingedeutet hat. Doch in ihrer Annäherung liegt ein Paradoxon, das selbst den Triumph traurig stimmen wird: Sie ist zugleich die Antwort auf seinen Hunger und dessen unentschuldbarer Spott. Das Wasser schimmert bei ihrer Ankunft. Klassische Proportion, elfenhafte Anmut, die Textur des lebendig gewordenen Mythos — alles konvergiert in diesem Schwellenmoment. Faust erkennt, dass der Besitz einer solchen Schönheit nicht bedeutet, das Pendel des Verlangens anzuhalten, sondern in seinen tiefsten Schwung einzutreten. Schönheit, wenn sie endlich eintrifft, erfüllt den strebenden Mann nicht. Sie offenbart, wie weit das Streben ihn von jedem Ort der Ruhe weggetragen hat.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000412.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Über die Schwelle der Zeit hinweg verflechten sich zwei Welten. Helena bewegt sich mit der Beständigkeit der Legende, und doch findet ihr Blick ihn mit beunruhigender Anerkennung — als hätte sie gewartet, als wären die Jahrhunderte zwischen ihnen eine Distanz, die das Verlangen bereits überbrückt hat. Die Luft zwischen ihnen vibriert mit einem Unterton, der sowohl erotisch als auch elegisch ist: Hier ist die Vollendung jedes ästhetischen Hungers, der n-te Grad der Fleisch gewordenen Form. Doch noch während er nach ihr greift, ahnt Faust den Preis. Sie ist elysisch und gehört Zeitaltern vor und nach ihm an. Dies ist keine Verführung, sondern eine in die Offenheit vollkommener Schönheit gehüllte Falle — eine Falle, in die er bereitwillig tappt, wissend, dass das Berühren des Absoluten bedeutet, seine Verankerung im Sterblichen und Realen zu verlieren. Der Moment hängt in der Schwebe: zwei Gestalten über einen unpassierbaren Abgrund hinweg, verbunden durch nichts als Begehren und die Disziplin des Mythos. Mephistos Lachen hallt leise wider. Auch dies ist Teil des Handels.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000413.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Er steht dort, wo das Marmorgebälk auf den unverschlossenen Himmel trifft — die architektonische Strenge der Antike hinter ihm, der rastlose moderne Impuls vor ihm, noch immer hungrig, noch immer unwillig, die Grenze der Form zu akzeptieren. Helena bewegt sich zwischen diesen Gebieten wie eine Gestalt aus gestohlener Zeit, weder ganz klassisch noch gänzlich seinem Jahrhundert zugehörig. Die Luft trägt sowohl Weihrauch als auch Qualm. Der Boden fühlt sich fest und doch traumhaft an. Was hier vermählt wurde, ist keine Eroberung, sondern eine sanftere Art von Bruch — zwei Welten, vereint durch die Erkenntnis, dass jede ohne die andere unvollständig ist. Fausts Gesicht zeigt weder Triumph noch Benommenheit, nur das phänomenale Gewicht, dort zu stehen, wo Widersprüche sich nicht aufheben, sondern mit rhythmisscher Spannung vibrieren. Der Durchbruch, den er suchte, ist gekommen — nicht als Auflösung, sondern als eine neue Art des Strebens: die Vermählung grenzenlosen Appetits mit begrenzter Form, der Un-Traum, der kurzzeitig und prekär real wurde. Überall um sie herum schimmert die Luft gleichermaßen von Künstlichkeit wie von Authentizität.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000414.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Im klassischen Meridian seines Strebens steht Faust an der Schwelle zur Vollendung. Helena bewegt sich vor ihm in der sensorischen Perfektion ihrer Gestalt, und für ein Intervall, das sich wie vom Himmel gestohlen anfühlt, glaubt er, dass der endlose Hunger sein Objekt gefunden hat. Ihre Nähe löst die alte Unzufriedenheit auf. Ihre Anmut scheint etwas in ihm zu beantworten, das Gelehrsamkeit und Zauberei nicht berühren konnten. Doch selbst als er nach diesem Traum totaler Vereinigung greift, geht ein Zittern durch die Harmonie. Die klassische Ordnung, die er heraufbeschworen hat, ist frühreif, perfekt und bereits zerbrechlich. Faust, der rastlose Wanderer, spürt es: Diese Vollständigkeit kann nicht halten. Die Götter überlassen ihre Unsterblichen nicht den Händen der Sterblichen, ohne einen Preis zu fordern. Helena schimmert vor ihm — weder ganz real noch ganz sein, in ihrer Vollkommenheit bereits den Keim ihrer eigenen Auflösung tragend. Er hat wissentlich die Tiefen der Realität gegen die Verfeinerung der Form eingetauscht. Und Form, wie brillant auch immer, kann nicht von Dauer sein.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000415.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Im Augenblick des höchsten Glanzes erreicht die Karawane seines Verlangens ihren Endpunkt. Helenas Züge werden fern, blassleuchtend — als sähe man sie durch einen Gazeschleier, der mit jedem Atemzug dicker wird. Die Form, die er neu zusammengesetzt hat, das Ideal, das er aus den klassischen Tiefen hervorgeholt hat, kann nicht halten. Es war nie dazu bestimmt. Der Preis für das Berühren des Absoluten ist die Lehre, dass alle Formen — wie wunderbar auch immer, wie höfisch auch immer in ihrer Gestaltung — Durchgänge sind, keine Bestimmungsorte. Faust spürt, wie der Hunger, der ihn hierher trieb, sich als der eigentliche Motor des Verlusts offenbart. Er hat geerntet, was er gesät hat: Ekstase und ihr Zwilling, das Wissen, dass Ekstase nicht zum Beharren gezwungen werden kann. Die klassische Welt, in der Vorstellung so geordnet und ausdehnbar, erweist sich in den Händen eines Sterblichen als endlich. Schönheit lehrt, wenn man sie am heftigsten ergreift, das einzige Evangelium, das zu lernen lohnt: Dass das Streben selbst — nicht der Besitz — die Substanz eines menschlichen Lebens ist. Er sieht zu, wie die Vollendung ihren eigenen Abschied vollzieht.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_28_de.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000416.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Kapitel VIII: Euphorion und der Fall des Ideals</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
 </div>
 <nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
     <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
@@ -113,8 +176,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>

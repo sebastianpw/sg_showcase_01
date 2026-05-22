@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>Capítulo IV: A Tragédia Toma Forma — FAUST</title>
+    <meta name="keywords" content="Faust Chapter 4, Valentin duel death, Gretchen guilt public, Faust complicity tragedy, Gretchen breakdown, prison Faust, tragedy Goethe Part I, Faust animated chapter 4, honor and shame Faust, Gretchen fate">
+    <meta name="description" content="Honor dies on a cobblestone street. Guilt becomes a public spectacle. The arithmetic of ruin reaches its terrible conclusion — what desire set in motion, consequence now completes. Chapter IV: Tragedy Takes Form.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
+        
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+ 
+        
+       /* End Box Teaser & Socials */
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        
+        
+        
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Confira este episódio: Capítulo IV: A Tragédia Toma Forma">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq24_pt.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">PT</span>
+    </button>
+    <div class="lang-menu"><a href="ep_24.html">EN</a><a href="ep_24_de.html">DE</a><a href="ep_24_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST&nbsp;·&nbsp; 4 / 10</div>
+        <h1 class="seq-title">Capítulo IV: A Tragédia Toma Forma</h1>
+        <p class="seq-desc">A honra morre numa rua de paralelepípedos, a culpa se torna espetáculo público, e a aritmética da ruína atinge sua conclusão terrível — o que o desejo pôs em movimento, a consequência agora completa.</p>
+    </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000385.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000385.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Valentin caminha em direção ao que não pode ser evitado com a economia sombria de um homem que viu o bastante da guerra para saber que a hesitação é sua própria forma de covardia. A multidão da rua se estreita ao seu redor. Sua mão repousa perto da espada com uma deliberação que não é ameaça, mas preparação — o corpo se arranjando para aquilo que a mente já decidiu. Atrás dele, Siebel segue com a devoção desamparada de um homem mais jovem que ama Valentin demais para detê-lo e sabe demasiado pouco do mundo para ter sucesso caso tentasse. A honra da família foi nomeada em voz alta nas ruas. No mundo de Valentin — e é um mundo que Faust nunca compreendeu — tal nomeação tem apenas uma resposta. Ele não está pensando em misericórdia. Ele não está pensando em consequências. Ele está pensando no estandarte, e na lâmina da manhã, e no nome de sua irmã.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000386.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">O pacto mostra seus dentes em sangue numa rua de paralelepípedos. A lâmina de Mefisto encontra Valentim com precisão taxidérmica — não num duelo entre iguais, mas na rápida transação de um homem que refinou a violência em arte. Valentim cai como caem os soldados: ainda alcançando, ainda tentando, o instinto protetor intacto até o último momento. Fausto fica de pé e observa, cúmplice no silêncio, aprendendo o que a letra miúda de seu pacto realmente diz. Ele queria experiência sem contenção. Eis a experiência: o irmão da mulher que ama, morto nas pedras, morto pelo companheiro que sua ambição exigiu. O pacto transcendeu a filosofia. Extrai sangue. E o sangue não se lava — propaga-se por cada cena que segue, manchando o julgamento de Greta, sua loucura, sua execução, tudo. O litoral entre amor e destruição foi atravessado aqui, nesta noite ordinária, nesta rua ordinária.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000387.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">A vergonha, uma vez madura, torna-se propriedade coletiva. Gretchen havia acreditado que sua transgressão era privada — um peso que apenas ela carregaria. Ela compreende agora, movendo-se pelo mercado com sua silhueta alterada e os olhares desviados que a seguem como sombras, que a privacidade do pecado é um luxo que os inocentes imaginam e aos culpados é negado. A mulher do padeiro se afasta. Uma mãe abraça sua filha contra si. Os olhos do sacerdote se estreitam na porta da igreja. A maquinaria social que outrora lhe proporcionava proteção — a respeitabilidade do nome de sua família, o calor da consideração dos vizinhos — inverteu sua polaridade e agora se move em sua condenação. Fausto está ausente. Ele atravessou sua vida e além dela, deixando apenas consequência. Mefisto sorri de algum canto invisível. E Gretchen permanece sozinha diante do tribunal da decência ordinária, que nunca foi — e nunca será — particularmente misericordioso.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000388.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Ela veio ao único lugar que deveria oferecer consolo e descobriu que se tornou um espelho. A catedral, que outrora a envolvia no calor ingênuo da fé herdada, agora reflete de volta a ela os contornos precisos do que ela fez. Os outros fiéis se ajoelham em sua devoção intacta, suas almas descarregadas, suas orações genuínas. Ela se ajoelha entre eles e não consegue rezar. A luz das velas que outrora parecia graça agora parece iluminação de uma espécie mais implacável — cada sombra um veredicto, cada movimento de luz pela abóbada uma acusação silenciosa. Seus dedos percorrem os contas do rosário com precisão mecânica, mas seus lábios não formam nada. A consciência fala em uma linguagem que a liturgia não consegue responder. Ela veio buscando absolvição. O que encontrou, na casa de Deus, no único lugar destinado a receber os quebrantados, é que ela está mais sozinha do que nunca.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000389.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Isto é o que permanece quando a filosofia desce à carne. Não romance. Nem mesmo tragédia ainda — apenas a matemática terrível da sobrevivência: a coisa indesejada crescendo, o amante dissolvido em ausência, cada tentativa de ocultar o que não pode ser ocultado falhando diante da evidência de seu próprio corpo. Sua beleza, outrora sua única moeda de esperança, tornou-se sua condenação. Ela se move pelo mundo diminuída, um registro do que o desejo deixa para trás quando tomou o que queria e seguiu para novos horizontes. A criança, quando vier, será a prova viva de que o esforço tem um preço — e esse preço, na economia da fome de Fausto, é sempre pago por aqueles inocentes demais para terem negociado por si mesmos. Ela não assinou o pacto. Ela não escolheu os termos. E ainda assim os termos a escolheram, com a crueldade imparcial de consequências que não conhecem distinção entre os culpados e os adjacentes.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000390.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Ele desejava possuir a inocência sem destruí-la. Aquela era a impossibilidade fundamental — e somente agora, em pé entre os escombros de sua própria obra, começa a compreendê-la. A maquinaria do pacto, sua própria fome, a aritmética enganosa de Mefistófeles — tudo avançou, e Gretchen paga o preço. Ele vê agora: que a sedução e a destruição são tecidas do mesmo fio, que seus desejos mais audaciosos se tornaram seu sofrimento mais negro. E o reconhecimento chega, como o reconhecimento moral sempre chega na história de Fausto, demasiado tarde e incompleto. Suas mãos ainda tremem por tocá-la. Sua mente ainda racionaliza enquanto sua consciência grita. Ele escolheu isto — e escolhe novamente, momento a momento, até agora. A ironia de Mefistófeles é perfeita: o amante é o destruidor, e não há posição da qual Fausto possa se colocar fora deste emaranhado e se chamar inocente.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000391.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Sua mente tornou-se uma máquina de tormento que ela não consegue desligar. Ela se move através de cômodos que outrora mantinha em perfeita ordem e os encontra estranhos — acusadores, hostis, cada superfície ordinária uma testemunha do que foi feito e não pode ser desfeito. Ela captura seu reflexo no vidro e mal reconhece o rosto que a observa de volta. Algo essencial drenourse? A culpa não é mais um sussurro. É uma procissão através de seu crânio, implacável e barroca. Ela pensa na criança, e o pensamento chega sem piedade — repetidamente, uma transmissão que não pode ser interrompida. Seu corpo se move mas sua vontade o abandonou. Não há paz aqui. Nenhuma ataraxia. Apenas o conhecimento terrível de que a inocência, uma vez perdida, não tem renovação — e que a mulher que outrora cantava em sua roca foi substituída por alguém que nunca mais cantará.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000392.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">A forca a espera lá fora e ela o sabe. Confessou tudo — seu pecado, o nome de seu amante, a aritmética terrível de sua ruína — com a completude de quem já transcendeu a necessidade da esperança. Fausto vem com promessas de fuga, cavalos conjurados, voo mágico para terras distantes. Ela vê seu desespero como um espelho de sua própria impotência e não se deixa mover por ele. Ele a quebrou não pela malícia, mas pelo desejo — e o desejo, ela compreende agora com clareza absoluta, é simplesmente a diabrura usando um rosto humano. Ela não fugirá. Não porque não possa, mas porque a fuga significaria abandonar a única coisa que lhe resta: a dignidade de possuir o que foi feito. Algumas dívidas não podem ser ultrapassadas. Algumas culpas não podem ser asfixiadas por saídas engenhosas. A porta permanece fechada entre eles. Sua inocência foi o preço. O preço foi pago.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_25_pt.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0000393.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">Capítulo V: Prisão, Perda e a Ruptura para a Parte II</div>
+    </div>
+</a><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_23_pt.html">&#9664; Capítulo III: A Descida de Gretchen</a> <a class="ep-pn-btn" href="ep_25_pt.html">Capítulo V: Prisão, Perda e a Ruptura para a Parte II &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_21_pt.html">Capítulo I: O Mundo Antes da Queda</a><a class="ep-pill" href="ep_22_pt.html">Capítulo II: O Demónio Entra no Mundo Humano</a><a class="ep-pill" href="ep_23_pt.html">Capítulo III: A Descida de Gretchen</a><a class="ep-pill active" href="ep_24_pt.html" aria-current="page">Capítulo IV: A Tragédia Toma Forma</a><a class="ep-pill" href="ep_25_pt.html">Capítulo V: Prisão, Perda e a Ruptura para a Parte II</a><a class="ep-pill" href="ep_26_pt.html">Capítulo VI: A Corte Imperial e a Ilusão Pública</a><a class="ep-pill" href="ep_27_pt.html">Capítulo VII: Águas Clássicas, Helena, e o Limite da Forma</a><a class="ep-pill" href="ep_28_pt.html">Capítulo VIII: Euphorion e a Queda do Ideal</a><a class="ep-pill" href="ep_29_pt.html">Capítulo IX: Terra, Poder e a Construção do Fim</a><a class="ep-pill" href="ep_30_pt.html">Capítulo X: Morte, Julgamento e Transcendência</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+        }
+});
+</script>
