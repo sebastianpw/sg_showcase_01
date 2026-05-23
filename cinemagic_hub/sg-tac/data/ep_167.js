@@ -11,7 +11,7 @@ const episodeData = {
             "id": 164,
             "name": "SERIES PRE S01",
             "chapter_label": null,
-            "cover_raw": "/frames_starlightguardians_nu/frame0059046.jpg",
+            "cover_raw": "/frames_starlightguardians_nu/frame0062280.jpg",
             "seq_data_raw": "[{\"sketch_id\":10967,\"frame_id\":44131},{\"sketch_id\":11182,\"frame_id\":46481},{\"sketch_id\":7082,\"frame_id\":42884},{\"sketch_id\":11183,\"frame_id\":46482},{\"sketch_id\":8458,\"frame_id\":43335},{\"sketch_id\":1621,\"frame_id\":42863},{\"sketch_id\":11198,\"frame_id\":46852},{\"sketch_id\":11184,\"frame_id\":46483},{\"sketch_id\":8658,\"frame_id\":42798},{\"sketch_id\":11185,\"frame_id\":46484},{\"sketch_id\":1598,\"frame_id\":42273},{\"sketch_id\":9661,\"frame_id\":43390},{\"sketch_id\":6177,\"frame_id\":41761},{\"sketch_id\":8379,\"frame_id\":42764},{\"sketch_id\":1593,\"frame_id\":42272},{\"sketch_id\":11187,\"frame_id\":46486},{\"sketch_id\":11188,\"frame_id\":46487},{\"sketch_id\":2181,\"frame_id\":42597},{\"sketch_id\":8310,\"frame_id\":42756},{\"sketch_id\":1629,\"frame_id\":43307},{\"sketch_id\":2256,\"frame_id\":42607},{\"sketch_id\":11189,\"frame_id\":46488},{\"sketch_id\":9652,\"frame_id\":43137},{\"sketch_id\":9653,\"frame_id\":43138},{\"sketch_id\":2515,\"frame_id\":42625},{\"sketch_id\":8428,\"frame_id\":42774},{\"sketch_id\":9654,\"frame_id\":43139},{\"sketch_id\":1846,\"frame_id\":42278},{\"sketch_id\":2952,\"frame_id\":42697},{\"sketch_id\":9655,\"frame_id\":43140},{\"sketch_id\":9656,\"frame_id\":43141},{\"sketch_id\":2332,\"frame_id\":46417},{\"sketch_id\":2333,\"frame_id\":46418},{\"sketch_id\":2334,\"frame_id\":46419},{\"sketch_id\":2336,\"frame_id\":46422},{\"sketch_id\":2337,\"frame_id\":46425},{\"sketch_id\":9657,\"frame_id\":43142},{\"sketch_id\":8399,\"frame_id\":42769},{\"sketch_id\":1628,\"frame_id\":43299},{\"sketch_id\":2201,\"frame_id\":42599},{\"sketch_id\":2283,\"frame_id\":42615},{\"sketch_id\":9105,\"frame_id\":42801},{\"sketch_id\":9667,\"frame_id\":43152},{\"sketch_id\":2163,\"frame_id\":42593},{\"sketch_id\":9658,\"frame_id\":43143},{\"sketch_id\":1558,\"frame_id\":42561},{\"sketch_id\":9659,\"frame_id\":43144},{\"sketch_id\":2308,\"frame_id\":42616},{\"sketch_id\":9660,\"frame_id\":43145},{\"sketch_id\":9662,\"frame_id\":43147},{\"sketch_id\":9663,\"frame_id\":43148},{\"sketch_id\":9664,\"frame_id\":43149},{\"sketch_id\":9665,\"frame_id\":43150},{\"sketch_id\":8150,\"frame_id\":42747},{\"sketch_id\":8432,\"frame_id\":42776},{\"sketch_id\":8382,\"frame_id\":42766},{\"sketch_id\":9666,\"frame_id\":43151},{\"sketch_id\":8436,\"frame_id\":42777},{\"sketch_id\":2399,\"frame_id\":42626},{\"sketch_id\":9668,\"frame_id\":43153},{\"sketch_id\":9669,\"frame_id\":43154},{\"sketch_id\":9670,\"frame_id\":43155},{\"sketch_id\":9671,\"frame_id\":43156}]",
             "url": "ep_164.html"
         },
@@ -28,7 +28,7 @@ const episodeData = {
             "name": "SERIES PRE S03",
             "chapter_label": null,
             "cover_raw": "/frames_starlightguardians_nu/frame0058067.jpg",
-            "seq_data_raw": "[{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":9692,\"frame_id\":43396},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
+            "seq_data_raw": "[{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":9692,\"frame_id\":43177},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
             "url": "ep_166.html"
         },
         {
@@ -298,8 +298,8 @@ const episodeData = {
             ]
         }
     ],
-    "meta_kw": "",
-    "meta_desc": "",
+    "meta_kw": "Starlight Guardians season 4 preview, The Anima Chronicles, Noctura arc, Kaelen transformed, Hollow Resistance, war anime, planetary collapse, Crater City fracture, Anima Chronicles season 4, indie animated drama",
+    "meta_desc": "The collapse crosses the visible horizon. Kaelen merges with the system he built, the Hollow Resistance moves from aspiration to operation, and the ensemble faces a war that cannot be won through force — because the war was never about force. The Anima Chronicles Season 4 preview.",
     "social_links": [
         {
             "type": "instagram",
@@ -308,6 +308,10 @@ const episodeData = {
         {
             "type": "youtube",
             "url": "https://www.youtube.com/@starlightguardianscom"
+        },
+        {
+            "type": "newsletter",
+            "url": "https://petersebring.com/newsletter.php"
         }
     ],
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058090.jpg",
