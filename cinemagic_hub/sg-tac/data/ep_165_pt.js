@@ -300,12 +300,14 @@ const episodeData = {
         }
     ],
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058052.jpg",
+    "episode_cover_raw": "/frames_starlightguardians_nu/frame0058052.jpg",
     "next_teaser": {
         "type": "next_episode",
         "title": "SERIES PRE S03",
         "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0058067.jpg",
         "url": "ep_166_pt.html"
     },
+    "is_preview": false,
     "available_langs": [
         "en",
         "de",
