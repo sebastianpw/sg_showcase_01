@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 172,
-    "name": "FAUST COVER",
+    "name": "FAUST ",
     "description": "",
     "cinemagic": {
         "id": 4,
@@ -9,15 +9,26 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 172,
-            "name": "FAUST COVER",
+            "name": "FAUST ",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":11192,\"frame_id\":46759}]",
+            "seq_data_raw": "[{\"sketch_id\":11337,\"frame_id\":47992},{\"sketch_id\":11192,\"frame_id\":46759}]",
             "url": "ep_172_pt.html"
         }
     ],
-    "pdf_url": null,
+    "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq172_pt.pdf",
     "frames": [
+        {
+            "id": 11337,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0063017.jpg",
+            "filename": "frames_starlightguardians_nu/frame0063017.jpg",
+            "overlay_texts": [
+                "make this an elegant upright a4 book cover for the title Faust. Add a logo but no extra magazine like text. Only the small unobtrusive information that this is a reimagined version with new text and full 72 paintings edition of the original Goethe&#039;s Faust I and II"
+            ]
+        },
         {
             "id": 11192,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg",
@@ -33,13 +44,34 @@ const episodeData = {
     "meta_kw": "",
     "meta_desc": "",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
+    "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
-        "title": "More to explore: PRES01E01",
-        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pres01e01/assets/frame0057469.jpg",
-        "url": "../pres01e01/index_pres01e01_pt.html"
+        "options": [
+            {
+                "title": "SG TAC",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059935.jpg",
+                "url": "../index_mag_pt.html"
+            },
+            {
+                "title": "EMILY",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
+                "url": "../index_emag_pt.html"
+            },
+            {
+                "title": "PRE EMBERVEIL 01",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
+                "url": "../index_premberveil_pt.html"
+            },
+            {
+                "title": "RIC01 • The Ghost Fleet",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
+                "url": "../index_ric01_pt.html"
+            }
+        ]
     },
+    "is_preview": false,
     "available_langs": [
         "en",
         "de",

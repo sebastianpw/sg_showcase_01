@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
-    <title>FAUST COVER — FAUST</title>
+    <title>FAUST  — FAUST</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,8 +16,22 @@
         .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
         .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        
+        
+
+
         .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
         .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+
+
+
+        
+        
+        
+        
         .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
@@ -72,7 +86,10 @@
     </style>
 </head>
 <body>
-<div class="top-actions"><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: FAUST COVER">
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Sieh dir diese Episode an: FAUST ">
     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
     <span class="lang-label">SHARE</span>
 </button>
@@ -85,7 +102,10 @@ function shareEpisode(btn) {
         alert("Link copied!");
     }
 }
-</script><div class="lang-picker" id="lang-picker">
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/magazine_seq172_de.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
     <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
         <span class="lang-label">DE</span>
@@ -104,19 +124,41 @@ document.addEventListener('click', function(e) {
 <div class="story-container">
     <div class="seq-header observe-me visible">
         <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">FAUST</div>
-        <h1 class="seq-title">FAUST COVER</h1>
+        <h1 class="seq-title">FAUST </h1>
         
     </div>
-    <div class="ep-cover-wrapper observe-me visible"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg" class="ep-cover-img" alt="Cover"></div>
-    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">The veil parts. What remains of Fauststripped of ambition, emptied of striving, the body consigned to earthrises as essence. Faust weary obsessive scholar pale gaunt face intense searching eyes high forehead slightly unkempt dark hair shadowed temples narrow lips restless tragic dignity worn black academic coat high collar and rumpled waistcoat ascends through chiaroscuro shadow toward ascending light. Not salvation earned through merit, but grace descending like light through water. The Eternal Feminine draws upward, a magnetic pull toward wholeness that his mortal frame could never contain. Mater Gloriosa sublime celestial feminine figure radiant compassionate expression luminous face flowing light hair and magnificent celestial robes sacred serenity transcendent divine majesty descends with remote yet tender presence. Around him, the chorus speaks what he cannot: that endless yearning itself becomes the redemptive act. Una Poenitentium Gretchen Redeemed redeemed gretchen luminous spiritual young woman gentle sorrowful eyes softened face long fair hair and pure white penitential garments transcendent purity compassionate grace reaches toward him with uplifted redemption. Pater Ecstaticus ascetic mystic figure uplifted radiant face wild thinning hair ecstatic spiritual fervor luminous beard and flowing robes transcendent contemplative presence moves upward in sacred rapture. Pater Profundus solemn monklike mystic deep contemplative eyes rugged aged face long beard and heavy dark robe spiritual gravity sublime inner turmoil stands rooted in depth. Pater Seraphicus youthful saintly mystic serene luminous expression soft hair gentle face and white light monastic robe compassionate spiritual purity angelic tenderness radiates transcendent warmth. Doctor Marianus visionary theologian refined ascetic features uplifted gaze neatly kept hair trimmed beard dark scholarly robe ecstatic devotion intellectual spirituality solemn veneration presides over the ascending mystery. Archangels radiant celestial beings noble youthful faces calm powerful eyes flowing hair luminous skin and layered heavenly robes with luminous trim solemn divine harmony winged presence disciplined grace surround the ascension. Magna Peccatrix redeemed sorrowful woman graceful melancholic beauty weathered face soft eyes gently disordered hair and humble penitential clothing spiritual longing quiet repentance tender dignity gazes upward in witness. Mulier Samaritana compassionate biblical woman serene expressive face calm eyes neatly arranged hair and modest flowing robe spiritual humility redemptive warmth clear mercy and grace stands in solemn attendance. Maria Aegyptiaca ascetic redeemed woman weathered beautiful features sacred solitude dark windblown hair simple rough robe desert worn cloth mystical serenity penitent strength and inward fire kneels in reverent contemplation. All the dialectic dissolves: Mephisto&#039;s jest, the pact&#039;s dark logic, Gretchen&#039;s sufferingall transfigured into the wound through which grace enters. The celestial voices do not absolve; they receive. They do not explain; they transform. The soul, still incomplete, still reaching, finds itself held at last not by doctrine but by love older than time. The horizontal struggle ends. The vertical ascent begins. The stage empties into luminous light. Oil painterly anime cinematic chiaroscuro rich shadow contrast. Timeless german romantic atmosphere. The testimony of a life lived in contradiction becomes, at the threshold, a prayer answered by silence that speaks.</div></div></div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">make this an elegant upright a4 book cover for the title Faust. Add a logo but no extra magazine like text. Only the small unobtrusive information that this is a reimagined version with new text and full 72 paintings edition of the original Goethe&#039;s Faust I and II</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0061750.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">The veil parts. What remains of Fauststripped of ambition, emptied of striving, the body consigned to earthrises as essence. Faust weary obsessive scholar pale gaunt face intense searching eyes high forehead slightly unkempt dark hair shadowed temples narrow lips restless tragic dignity worn black academic coat high collar and rumpled waistcoat ascends through chiaroscuro shadow toward ascending light. Not salvation earned through merit, but grace descending like light through water. The Eternal Feminine draws upward, a magnetic pull toward wholeness that his mortal frame could never contain. Mater Gloriosa sublime celestial feminine figure radiant compassionate expression luminous face flowing light hair and magnificent celestial robes sacred serenity transcendent divine majesty descends with remote yet tender presence. Around him, the chorus speaks what he cannot: that endless yearning itself becomes the redemptive act. Una Poenitentium Gretchen Redeemed redeemed gretchen luminous spiritual young woman gentle sorrowful eyes softened face long fair hair and pure white penitential garments transcendent purity compassionate grace reaches toward him with uplifted redemption. Pater Ecstaticus ascetic mystic figure uplifted radiant face wild thinning hair ecstatic spiritual fervor luminous beard and flowing robes transcendent contemplative presence moves upward in sacred rapture. Pater Profundus solemn monklike mystic deep contemplative eyes rugged aged face long beard and heavy dark robe spiritual gravity sublime inner turmoil stands rooted in depth. Pater Seraphicus youthful saintly mystic serene luminous expression soft hair gentle face and white light monastic robe compassionate spiritual purity angelic tenderness radiates transcendent warmth. Doctor Marianus visionary theologian refined ascetic features uplifted gaze neatly kept hair trimmed beard dark scholarly robe ecstatic devotion intellectual spirituality solemn veneration presides over the ascending mystery. Archangels radiant celestial beings noble youthful faces calm powerful eyes flowing hair luminous skin and layered heavenly robes with luminous trim solemn divine harmony winged presence disciplined grace surround the ascension. Magna Peccatrix redeemed sorrowful woman graceful melancholic beauty weathered face soft eyes gently disordered hair and humble penitential clothing spiritual longing quiet repentance tender dignity gazes upward in witness. Mulier Samaritana compassionate biblical woman serene expressive face calm eyes neatly arranged hair and modest flowing robe spiritual humility redemptive warmth clear mercy and grace stands in solemn attendance. Maria Aegyptiaca ascetic redeemed woman weathered beautiful features sacred solitude dark windblown hair simple rough robe desert worn cloth mystical serenity penitent strength and inward fire kneels in reverent contemplation. All the dialectic dissolves: Mephisto&#039;s jest, the pact&#039;s dark logic, Gretchen&#039;s sufferingall transfigured into the wound through which grace enters. The celestial voices do not absolve; they receive. They do not explain; they transform. The soul, still incomplete, still reaching, finds itself held at last not by doctrine but by love older than time. The horizontal struggle ends. The vertical ascent begins. The stage empties into luminous light. Oil painterly anime cinematic chiaroscuro rich shadow contrast. Timeless german romantic atmosphere. The testimony of a life lived in contradiction becomes, at the threshold, a prayer answered by silence that speaks.</div></div></div>
     <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
-    <div class="ep-end-box observe-me"><a href="../narrseq-test01/index_stillwater_de.html" class="end-teaser-link">
-    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/narrseq-test01/assets/frame0058191.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="ep-end-box observe-me"><a href="#" class="end-teaser-link" id="random-teaser-link" style="display:none;">
+    <img src="" class="end-teaser-cover" id="random-teaser-cover" alt="Cover">
     <div class="end-teaser-text">
         <div class="end-teaser-pre">Also discover:</div>
-        <div class="end-teaser-title">More to explore: NARRSEQ TEST01</div>
+        <div class="end-teaser-title" id="random-teaser-title"></div>
     </div>
-</a></div>
+</a>
+<script>
+(function(){
+    var options = [{"title":"SG TAC","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059935.jpg","url":"../index_mag_de.html"},{"title":"EMILY","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg","url":"../index_emag_de.html"},{"title":"PRE EMBERVEIL 01","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg","url":"../index_premberveil_de.html"},{"title":"RIC01 \u2022 The Ghost Fleet","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg","url":"../index_ric01_de.html"}];
+    if(options && options.length > 0) {
+        var pick = options[Math.floor(Math.random() * options.length)];
+        var link = document.getElementById('random-teaser-link');
+        var cover = document.getElementById('random-teaser-cover');
+        var title = document.getElementById('random-teaser-title');
+        if(link && pick) {
+            link.href = pick.url;
+            if (pick.cover) { cover.src = pick.cover; } else { cover.style.display = 'none'; }
+            title.textContent = pick.title;
+            link.style.display = 'flex';
+        }
+    }
+})();
+</script></div>
 </div>
 
 <script>
@@ -140,8 +182,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
             }
         });
-    }
+        }
 });
 </script>
-</body>
-</html>
