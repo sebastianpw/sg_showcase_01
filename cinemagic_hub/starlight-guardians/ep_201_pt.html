@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>PRÉ-SÉRIE S01 — The Anima Chronicles • Season 1</title>
+    <meta name="keywords" content="Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation">
+    <meta name="description" content="Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Confira este episódio: PRÉ-SÉRIE S01">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq201_pt.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">PT</span>
+    </button>
+    <div class="lang-menu"><a href="ep_201.html">EN</a><a href="ep_201_de.html">DE</a><a href="ep_201_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">The Anima Chronicles • Season 1&nbsp;·&nbsp; 1 / 5</div>
+        <h1 class="seq-title">PRÉ-SÉRIE S01</h1>
+        
+    </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059046.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059046.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">Câmara 7 onde a Fusão Proibida se contorce em agonia púrpura-e-carmesim, oscilando entre o esmagamento da Gravita e o rasgar do Momentum. Sua voz se quebra: Tenho os estabilizadores termostáticos, as leituras do frasco que você precisa, as soluções simples - mas as palavras se dispersam inauditas no zumbido das barreiras de Noetica, e seus ombros tremem como se tivessem sido atingidos.</div><div class="story-text observe-me">Sua voz se quebra: Tenho os estabilizadores termostáticos, as leituras do frasco que você precisa, as soluções simples - ...</div><div class="story-text observe-me">Mas as palavras se dispersam inauditas no zumbido das barreiras de Noetica, e seus ombros tremem como se tivessem sido atingidos.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0061467.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">A Lua Presa paira imóvel 380 quilômetros acima. Uma âncora celestial titânica envolvida em correntes gravitacionais de Gravita cristalizada.</div><div class="story-text observe-me">Abaixo, a borda da cratera se curva como o lábio de uma ferida que nunca cicatrizou. A zona de crepúsculo permanente se estende por 400 quilômetros de paisagem iluminada pela sombra.</div><div class="story-text observe-me">As Espiras do Eclipse se erguem da extremidade—cerâmica negra polida e sombra violeta profunda, gravadas com fractais reativos aos UV que se assemelham às veias de um organismo adormecido.</div><div class="story-text observe-me">Elas brilham com uma elegância inegável enquanto irradiam uma wrongness silenciosa. Como se as próprias pedras recordassem o que custou para construir.</div><div class="story-text observe-me">Profunditas est Veritas. A prova absoluta de que a verdade, quando construída nesta escala imensa, torna-se indistinguível da catástrofe.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0062580.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">A Torre Chrono-Lock: três milhas de lei cósmica distorcida, mantida em pé por taumaturgia industrial e vontade obstinada.</div><div class="story-text observe-me">Em sua base, a Escória Espiritual flutua como cinza de calêndula descolorida — os restos cremados de cada espectro Chrono que ela já derrubou.</div><div class="story-text observe-me">A dez metros do casco, seus movimentos desaceleram para meia-velocidade. A dez metros de volta, o tempo retorna violentamente, ofegante.</div><div class="story-text observe-me">Acima, onde a estrutura encontra o céu, o espaço se dobra para dentro como ardósia amassada — a Lua Fixada pendurada imóvel, irrevogavelmente imutável.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063276.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Crater City nunca pergunta se você pode pagar pelo ar que respira.</div><div class="story-text observe-me">Ele tem feito a si mesmo essa pergunta todas as noites por mais tempo do que as bordas do chip conseguem contar.</div><div class="story-text observe-me">A sibila das pequenas misericórdias: uma moeda corroída entre a asfixia e outro turno.</div><div class="story-text observe-me">Ele avança para o violeta. A escuridão fecha sua boca atrás dele.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057254.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Nenhum arquiteto está aqui.</div><div class="story-text observe-me">Mas o ar carrega sua assinatura — alquímica, assombrada, precisa.</div><div class="story-text observe-me">A Anima não espera ser invocada neste lugar.</div><div class="story-text observe-me">A realidade desgasta-se. Um farol sem ninguém para lê-lo.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057758.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">O Ápice — onde o silêncio é comprado, não conquistado.</div><div class="story-text observe-me">Raízes de obsidiana agarram o nada. Gravita é quem se ajoelha.</div><div class="story-text observe-me">Abaixo, 150 mil vidas exalam vitalidade para cima, para que estes poucos respirem limpo.</div><div class="story-text observe-me">Uma figura solitária traça as veias ligadas ao Vitalis de uma folha suspensa — e não desvia o olhar do que custou.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0062572.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Cidade Cratera. Salão de Fabricação Sete.</div><div class="story-text observe-me">Percentuais de rendimento sobem. Contagens de defeitos as acompanham.</div><div class="story-text observe-me">Os braços robóticos movem-se com a consciência de uma divindade — fanáticos, sincronizados, frios.</div><div class="story-text observe-me">Nenhum calor alcança o chão. Nunca alcançou.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0062664.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">O Abismo não aprisiona.</div><div class="story-text observe-me">Apenas calcula o custo de permanecer imóvel.</div><div class="story-text observe-me">Cada respiração, um fio drenado do ledário. Cada gota, uma contagem escorrendo rumo a nenhuma renovação.</div><div class="story-text observe-me">Sob o leito rochoso, a Reverência-Térmica se agita — deífica, indiferente — e o corredor estende sua geometria árida em ambas as direções: equidistante, acerôntica, irrefragavelmente certa.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0061468.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Duas figuras convergem através da geometria colapsa de Crater City. Uma descendo da escuridão absoluta do Vazio, a outra ascendendo dos estratos sufocantes do Abismo.</div><div class="story-text observe-me">A representante da Diretoria caminha sobre obsidiana polida. Sua sombra é um inverso fantasmagórico branco-fantasma, projetado pelos Sóis Negros que já não pulsam em ritmo sincronizado.</div><div class="story-text observe-me">A saqueadora sobe através de passagens desgastadas. Seu implante de pulso deduz calorias pela luz que tomou emprestado para selar uma válvula de pressão que deveria ter estourado semanas atrás.</div><div class="story-text observe-me">Entre eles, a geometria da cidade trai seus arquitetos. Padrões de relevo mudam na visão periférica. Os Espectros governantes já não obedecem à frequência do regime.</div><div class="story-text observe-me">Quando se encontram no limiar cívico, os fractais em cada parede brilham com um violeta doentio, não autorizado. Não a geometria limpa do controle, mas a cor de algo despertando.</div></div></div><div class="panel" id="panel-9"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0062574.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 10"><div class="text-blocks"><div class="story-text observe-me">Vinte milhas de gravidade dividida. Silêncio onde deveriam ecoar gritos.</div><div class="story-text observe-me">Ela se afasta da Plataforma Cinquenta e Sete. O fluxo Gravita a captura — não com violência, mas com a indiferença cirúrgica de uma cidade que nunca aprendeu piedade.</div><div class="story-text observe-me">Abaixo: patamares mortos. A Escória Espiritual reivindicou suas cotas de energia. Acima: os Sóis Negros ardem sem desculpas — hierarquia feita espacial, valor medido em lúmens. O poço não se importa em qual direção você cai.</div></div></div><div class="panel" id="panel-10"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058231.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 11"><div class="text-blocks"><div class="story-text observe-me">Crater City não acorda. Ela se inicializa.</div><div class="story-text observe-me">847. Não é uma patente. É um resto.</div><div class="story-text observe-me">O elevador Gravita desce através de estratos do sofrimento alheio — suor âmbar, ar retorcido, calor espesso o bastante para mastigar — e cada metro é uma dívida que o distrito Apex se recusa a nomear.</div><div class="story-text observe-me">A 21°C, a armadura cerâmica se fecha com um clique. A ansiedade permanece. Ela simplesmente aprende a ser invisível.</div></div></div><div class="panel" id="panel-11"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057737.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 12"><div class="text-blocks"><div class="story-text observe-me">UM MILHÃO DE ALMAS — RESOLUTAMENTE NÃO RESSUSCITADAS.</div><div class="story-text observe-me">Nos anfiteatros de obsidiana polida, o oficialismo pronuncia seu refinamento a crianças que já conhecem a geometria do cativeiro.</div><div class="story-text observe-me">Abaixo, na escuridão em favos de mel, a verdura proibida brilha em safira e jade — uma liturgia de sobrevivência, subterrânea e concordante.</div><div class="story-text observe-me">Acima de tudo, a lua presa: hierofanta celestial do eclipse permanente. Seu cântico sobe como fumaça de uma pira invisível — &#039;Somos o eclipse encarnado.&#039;</div></div></div><div class="panel" id="panel-12"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058010.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 13"><div class="text-blocks"><div class="story-text observe-me">A DIRETORIA DA CIDADE CRATERA</div><div class="story-text observe-me">Doze operadores do anfiteatro profundo — envolvidos em autoridade de carvão, seu brasão de insígnia frio como a pedra abaixo.</div><div class="story-text observe-me">Empatia: sublimada. Resolução: absoluta.</div><div class="story-text observe-me">Aqui, o terror primordial da governança veste um rosto drenado de cada escrúpulo que um dia conheceu.</div></div></div><div class="panel" id="panel-13"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063068.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 14"><div class="text-blocks"><div class="story-text observe-me">Corpos dispostos em anéis concêntricos pelo chão negro do Teatro da Sincronização.</div><div class="story-text observe-me">Precisão superlativa.</div><div class="story-text observe-me">No Andar 16, o Laboratório do Ciclo Temporal aparece como um único ponto luminoso — o impacto da gota eterna congelado em meio-respingo — circundado por observadores cujas sombras se estendem para fora em linhas irradiantes que flutuam e se recentram com iminência enquanto a estrutura se reinicia.</div></div></div><div class="panel" id="panel-14"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0061469.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15"><div class="text-blocks"><div class="story-text observe-me">Dez mil vozes sincronizam-se na recitação. Seu hálito move-se através da UV-Grid em formação perfeita, um monumento à própria disciplina da cidade.</div><div class="story-text observe-me">Então a veia obsidiana se divide. Uma fratura capilar chora fluido de escória para baixo em uma fita densa e luminosa, brilhando com um âmbar enfermo.</div><div class="story-text observe-me">O hálito sincronizado da multidão se prende. Naquela janela de três segundos, cada cidadão testemunha a mesma verdade inescapável: a geometria perfeita da cidade está se fragmentando.</div><div class="story-text observe-me">Uma catadora ofega quando seu implante queima. Ela sente a confusão do Espectro ondular através de seu sistema nervoso—uma sensação como testemunhar a ordem desabar em estática.</div><div class="story-text observe-me">Três segundos é tudo o que leva para o sistema revelar suas fraturas.</div><div class="story-text observe-me">Sem pânico. Sem pausa. Todos continuam...</div></div></div><div class="panel" id="panel-15"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057671.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 16"><div class="text-blocks"><div class="story-text observe-me">Quinze anos de luz de leitura — e o jardim está gritando.</div><div class="story-text observe-me">Amarelo-verde doentio: o grito cromático de um bilhão de colônias se afogando.</div><div class="story-text observe-me">Seu Vitalis irrompe. Dor emprestada. A Corrente cobra seu tributo em cobre.</div><div class="story-text observe-me">O verde se atenua. Ela já está em movimento — seu corpo ultrapassando o luto que sua mente ainda não se atreveu a nomear.</div></div></div><div class="panel" id="panel-16"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0061470.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 17"><div class="text-blocks"><div class="story-text observe-me">Trinta metros abaixo da plataforma de observação, um mercador se arrasta entre cilindros de suprimentos, vendendo estabilizadores para pesquisadores cujas costas permanecem viradas.</div><div class="story-text observe-me">A Câmara 7 se contorce em agonia púrpura e carmesim. Uma Fusão Proibida cintilando entre a lente esmagadora de Gravita e a lágrima carmesim de Momentum.</div><div class="story-text observe-me">A Dra. Venn permanece rígida em sua mesa de cerâmica. Um sangramento nasal prateado pinga em sinconia com a contagem regressiva de calorias de seu implante de pulso—cada batida do coração um roubo de oxigênio.</div><div class="story-text observe-me">Dois Anima presos em conflito obsceno. Suas físicas opostas rasgam a realidade em geometrias fraturadas, precipitando entre estados com velocidade ofuscante.</div><div class="story-text observe-me">O mercador se retira para os corredores inferiores em favo de mel. Carregando suas mercadorias inúteis em direção a uma superfície em breve destinada apenas ao silêncio e à escória.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="ep_202_pt.html" class="end-teaser-link">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0062666.jpg" class="end-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Continue Reading:</div>
+        <div class="end-teaser-title">PRÉ-SÉRIE S01</div>
+    </div>
+</a></div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><span class="ep-pn-btn disabled">&#9664; Previous</span> <a class="ep-pn-btn" href="ep_202_pt.html">PRÉ-SÉRIE S01 &#9654;</a></div>
+            <div class="ep-list"><a class="ep-pill active" href="ep_201_pt.html" aria-current="page">PRÉ-SÉRIE S01</a><a class="ep-pill" href="ep_202_pt.html">PRÉ-SÉRIE S01</a><a class="ep-pill" href="ep_203_pt.html">PRÉ-SÉRIE S01</a><a class="ep-pill" href="ep_204_pt.html">PRÉ-SÉRIE S01</a><a class="ep-pill" href="ep_205_pt.html">PRÉ-SÉRIE S01</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+        }
+});
+</script>

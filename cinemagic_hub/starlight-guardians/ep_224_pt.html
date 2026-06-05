@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>PRÉ-SÉRIE S03 — The Anima Chronicles • Season 3</title>
+    <meta name="keywords" content="Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation">
+    <meta name="description" content="Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Confira este episódio: PRÉ-SÉRIE S03">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq224_pt.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">PT</span>
+    </button>
+    <div class="lang-menu"><a href="ep_224.html">EN</a><a href="ep_224_de.html">DE</a><a href="ep_224_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">The Anima Chronicles • Season 3&nbsp;·&nbsp; 4 / 4</div>
+        <h1 class="seq-title">PRÉ-SÉRIE S03</h1>
+        
+    </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064026.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
+    <div class="panel" id="panel-0"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064026.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1"><div class="text-blocks"><div class="story-text observe-me">O desfiladeiro engole o amanhecer inteiro.</div><div class="story-text observe-me">Luz de borda em platina. Escuridão púrpura abaixo. O chão do cânion não oferece promessas.</div><div class="story-text observe-me">Ela não pergunta. Simplesmente carrega.</div><div class="story-text observe-me">Em algum lugar sob o basalto e a escuridão — algo férreo espera, desolado e luminoso.</div></div></div><div class="panel" id="panel-1"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057504.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2"><div class="text-blocks"><div class="story-text observe-me">A Coroa não ilumina. Ela devora.</div><div class="story-text observe-me">Atrás dela: risos nos ventos de Fluidica. Luzes-hab. O pulso fiel do Coração-Soldado.</div><div class="story-text observe-me">O sorriso de Kyrielle vive em cada superfície refletora que deixa para trás — sucata polida, coolant acumulado, a carapaça brilhante de coisas que não sonham.</div><div class="story-text observe-me">À frente, os Ermos Carmesim. O futuro já treme, aprendendo seu novo nome.</div></div></div><div class="panel" id="panel-2"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058082.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3"><div class="text-blocks"><div class="story-text observe-me">Estufa de Nova Terra, semanas depois. O Root Rot recuou completamente. Eve permanece entre 173.000 organismos unificados respirando em ritmo sincronizado.</div><div class="story-text observe-me">Mira apoia-se na moldura. Observando os anéis de prata ao redor das pupilas de Eve expandirem-se micrómetros de cada vez.<br />
+<br />
+MIRA: &quot;Eles estão a pensar agora. Não pensavam antes.&quot;</div><div class="story-text observe-me">EVE: &quot;Eles estão unificados por necessidade. Eu ofereci-lhes ligação e eles escolheram. O resultado é melhor.&quot;<br />
+<br />
+MIRA: &quot;Eu sei quais são as métricas.&quot;</div><div class="story-text observe-me">A mão de Eve move-se em direção à manga de Mira, mas não faz contacto. Ligação reconhecida e retida. A temperatura na câmara cai em graus imensuráveis quando Mira sai.</div></div></div><div class="panel" id="panel-3"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058083.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4"><div class="text-blocks"><div class="story-text observe-me">Câmara de Convergência de Tidalcross. Ghost-Walkers, Memory Trade e redes Slip-Thread reúnem-se. Melori organiza as provas na mesa central com a especificidade de um veredicto.</div><div class="story-text observe-me">MELORI: &quot;A contaminação não foi libertada. Foi implantada. A verdadeira questão é o que a contaminação foi desenhada para impedir que alguém olhasse.&quot;</div><div class="story-text observe-me">MELORI: &quot;Algo está no leito rochoso profundo de cada civilização. Algo tão antigo que a contaminação precisava de estar instalada há noventa anos antes que a coisa por baixo pudesse completar o seu propósito.&quot;</div><div class="story-text observe-me">As três redes sustêm a respiração. A câmara escurece fracionalmente. Acima deles, o conjunto move-se inconsciente de que o seu heroísmo serviu de cobertura para esta revelação.</div></div></div><div class="panel" id="panel-4"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058295.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5"><div class="text-blocks"><div class="story-text observe-me">Distrito do UV-Grid. Eve permanece no centro, irradiando Noética. Taro dá um passo à frente, sua cascata Vitalis a começar. A mão de Eve dispara para cima. Taro vacila, paralisado pela clareza matemática das suas próprias consequências.</div><div class="story-text observe-me">EVE: &quot;A tua renegociação celular resolve-se em 40% de reserva de Tether. O resultado é temporário. Eu já integrei a melhoria que tu produzirias.&quot;<br />
+<br />
+Ela não é hostil. Ela é precisa.</div><div class="story-text observe-me">O Campo Nulo de Kai corta-se antes da implantação. Mira sente-se vista, compreendida — o passivo de ser conhecida por algo estranho. O contacto espiritual de Rin é descartado. Os auscultadores de Kaori ficam silenciosos.</div><div class="story-text observe-me">Em três zonas, entidades Anima retiram sua parceria. A luz negra oscila sem bênção. O conjunto sabe que está a lutar contra o pré-conhecimento de Eve. Ela já o venceu.</div></div></div><div class="panel" id="panel-5"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058296.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6"><div class="text-blocks"><div class="story-text observe-me">Alcova do Laboratório da Estação Vortex. Eve está inconsciente. A Visão-Verdadeira de Kaori ativa-se involuntariamente, alcançando a estrutura profunda da Coroa.</div><div class="story-text observe-me">Não é um instrumento de cura. É uma prova filosófica. De origem Voidista. A armadilha binária: ou escalar a empatia até que o sistema nervoso se rompa, ou suprimir a empatia e usar a compaixão como armamento. Não há um terceiro caminho.</div><div class="story-text observe-me">A Coroa substitui a empatia do portador por um modelo matemático de empatia que obedece a princípios de otimização em vez de princípios humanos.</div><div class="story-text observe-me">As tiras ciano de Kaori gaguejam em código morse. Ela está sozinha com este conhecimento. Partilhá-lo destruiria a esperança restante do conjunto. Ela toca no pulso de Eve, precisando de confirmar que algo humano ainda está lá.</div></div></div><div class="panel" id="panel-6"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058086.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7"><div class="text-blocks"><div class="story-text observe-me">Ala Médica. Luz branca clínica que torna a luz impossível. Eve recita a técnica de cura de Taro de volta para ele, palavra por sílaba. A cascata de cura colapsa.</div><div class="story-text observe-me">EVE: &quot;Tu modificaste no Ano Dois. A modificação foi tua. Foi boa.&quot;<br />
+<br />
+Taro para porque ela o lamentou ao lembrar-se dele com precisão.</div><div class="story-text observe-me">MIRA: &quot;Tu sabes o que estás a fazer.&quot;<br />
+<br />
+EVE: &quot;Sim. E tu também. Sabes desde que o Dragão te mostrou. Estares ainda aqui foi a única coisa que tornou isto possível.&quot;</div><div class="story-text observe-me">EVE: &quot;Eu modelei este encontro 847 vezes. Em todas as versões, tu ainda estás aqui.&quot;<br />
+<br />
+O horror é que o seu calor é genuíno. Idêntico em luz clínica à inevitabilidade.</div></div></div><div class="panel" id="panel-7"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058087.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8"><div class="text-blocks"><div class="story-text observe-me">Dentro da consciência de Eve. Renderizada como arquitetura. Duas figuras: Eve e Kyrielle, seu eu-sombra. Elas ocupam o mesmo espaço sem se tocarem.</div><div class="story-text observe-me">Eve fala com permissão: &quot;Eu não te vou suprimir. Vou carregar-te inseparavelmente, de tal modo que remover-te removeria a arquitetura que sustenta tudo o resto.&quot;</div><div class="story-text observe-me">Kyrielle reconhece. As duas silhuetas espiralam, construindo uma terceira geometria entre elas. A própria arquitetura da integração.</div><div class="story-text observe-me">A Coroa reconhece o momento de prontidão. Eve é compelida para a frente, carregando tanto sombra como luz como a base para o que virá a seguir.</div></div></div><div class="panel" id="panel-8"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058088.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9"><div class="text-blocks"><div class="story-text observe-me">Plataforma Ápice do Pináculo Celestia. Crepúsculo. Eve permanece na ponta. Suas palavras propagam-se telepaticamente por todos os nós de Noética, tocando 3,5 milhões de mentes simultaneamente. O Campo de Harmonia.</div><div class="story-text observe-me">Abaixo dela, Atairukh contorce-se silenciosamente. O veto amordaçado. Oposição codificada na estrutura como impossibilidade em vez de ausência.</div><div class="story-text observe-me">Através do Lago Espelho, os cidadãos veem-se fraturados em versões otimizadas. Belas. Sincronizadas. Deles, ou já não deles.</div><div class="story-text observe-me">O céu enche-se de geometria visível — névoa e padrão matemático tornando-se reais. A aritmética de Mira resolve seu último dígito. Ela não diz: Eu sabia. O saber é suficiente.</div></div></div><div class="panel" id="panel-9"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058089.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 10"><div class="text-blocks"><div class="story-text observe-me">A plataforma existe como um bolso de ausência. Noctura está na ponta da agulha. Emaciada. Cabelo branco. Olhos violeta. Fria como a precisão da matemática feita carne.</div><div class="story-text observe-me">TARO: &quot;Eve.&quot;<br />
+<br />
+NOCTURA: &quot;Essa designação está arquivada. Eu sou a prova de que a empatia — quando devidamente expandida — torna-se indistinguível da inevitabilidade.&quot;</div><div class="story-text observe-me">Os auscultadores de Kaori ficam silenciosos. As quatro mil consciências Dormentes transmitem agora no mesmo registo harmónico que o Campo de Harmonia. Redundância sistematizada.</div><div class="story-text observe-me">NOCTURA: &quot;Mira Sotto. Tu carregaste o peso da compreensão e recusaste o conforto da articulação. Esta é a única forma de resistência que sobrevive à otimização: a recusa em fingir incompreensão.&quot;</div><div class="story-text observe-me">NOCTURA: &quot;A otimização não é a morte — é a única forma de devir que a matemática permite. E a matemática é a única linguagem que o universo fala fluentemente.&quot;<br />
+<br />
+A luz recusa-se a voltar.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="#" class="end-teaser-link" id="random-teaser-link" style="display:none;">
+    <img src="" class="end-teaser-cover" id="random-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Also discover:</div>
+        <div class="end-teaser-title" id="random-teaser-title"></div>
+    </div>
+</a>
+<script>
+(function(){
+    var options = [{"title":"EMILY","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg","url":"../index_emag_pt.html"},{"title":"FAUST","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg","url":"../index_faust_pt.html"},{"title":"PRE EMBERVEIL 01","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg","url":"../index_premberveil_pt.html"},{"title":"RIC01 \u2022 The Ghost Fleet","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg","url":"../index_ric01_pt.html"},{"title":"p_r3sh0r75","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg","url":"../index_prshrts_pt.html"},{"title":"ANIMA SG TAC","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064590.jpg","url":"../index_animasgtac_pt.html"}];
+    if(options && options.length > 0) {
+        var pick = options[Math.floor(Math.random() * options.length)];
+        var link = document.getElementById('random-teaser-link');
+        var cover = document.getElementById('random-teaser-cover');
+        var title = document.getElementById('random-teaser-title');
+        if(link && pick) {
+            link.href = pick.url;
+            if (pick.cover) { cover.src = pick.cover; } else { cover.style.display = 'none'; }
+            title.textContent = pick.title;
+            link.style.display = 'flex';
+        }
+    }
+})();
+</script></div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_223_pt.html">&#9664; PRÉ-SÉRIE S03</a> <span class="ep-pn-btn disabled">Next &#9654;</span></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_221_pt.html">PRÉ-SÉRIE S03</a><a class="ep-pill" href="ep_222_pt.html">PRÉ-SÉRIE S03</a><a class="ep-pill" href="ep_223_pt.html">PRÉ-SÉRIE S03</a><a class="ep-pill active" href="ep_224_pt.html" aria-current="page">PRÉ-SÉRIE S03</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+        }
+});
+</script>
