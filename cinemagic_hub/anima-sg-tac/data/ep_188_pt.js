@@ -312,11 +312,6 @@ const episodeData = {
         "type": "random_series",
         "options": [
             {
-                "title": "SG TAC",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac/assets/frame0059935.jpg",
-                "url": "../index_mag_pt.html"
-            },
-            {
                 "title": "EMILY",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
                 "url": "../index_emag_pt.html"
@@ -327,11 +322,6 @@ const episodeData = {
                 "url": "../index_faust_pt.html"
             },
             {
-                "title": "PRE EMBERVEIL 01",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
-                "url": "../index_premberveil_pt.html"
-            },
-            {
                 "title": "RIC01 • The Ghost Fleet",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
                 "url": "../index_ric01_pt.html"
@@ -340,6 +330,11 @@ const episodeData = {
                 "title": "p_r3sh0r75",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg",
                 "url": "../index_prshrts_pt.html"
+            },
+            {
+                "title": "STARLIGHT GUARDIANS",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg",
+                "url": "../index_sgtac_pt.html"
             }
         ]
     },
