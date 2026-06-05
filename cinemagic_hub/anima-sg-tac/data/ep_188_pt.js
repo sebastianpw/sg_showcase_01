@@ -322,13 +322,8 @@ const episodeData = {
                 "url": "../index_faust_pt.html"
             },
             {
-                "title": "RIC01 • The Ghost Fleet",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
-                "url": "../index_ric01_pt.html"
-            },
-            {
                 "title": "p_r3sh0r75",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg",
                 "url": "../index_prshrts_pt.html"
             },
             {
