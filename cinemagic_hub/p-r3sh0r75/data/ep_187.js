@@ -4,7 +4,7 @@ const episodeData = {
     "description": "",
     "cinemagic": {
         "id": 9,
-        "name": "p_r3sh0r75_001"
+        "name": "p_r3sh0r75"
     },
     "episodes_nav": [
         {
@@ -14,6 +14,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0064221.jpg",
             "seq_data_raw": "[{\"sketch_id\":1170,\"frame_id\":48500},{\"sketch_id\":1161,\"frame_id\":48496},{\"sketch_id\":11498,\"frame_id\":49032},{\"sketch_id\":11335,\"frame_id\":47989},{\"sketch_id\":11422,\"frame_id\":48945},{\"sketch_id\":11449,\"frame_id\":48972},{\"sketch_id\":11431,\"frame_id\":48954},{\"sketch_id\":11258,\"frame_id\":48024},{\"sketch_id\":1164,\"frame_id\":48497},{\"sketch_id\":1574,\"frame_id\":48569},{\"sketch_id\":1167,\"frame_id\":48499},{\"sketch_id\":1173,\"frame_id\":48501},{\"sketch_id\":11430,\"frame_id\":48953},{\"sketch_id\":1627,\"frame_id\":48585},{\"sketch_id\":1171,\"frame_id\":48473},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9669,\"frame_id\":43154},{\"sketch_id\":11428,\"frame_id\":48951},{\"sketch_id\":11462,\"frame_id\":48985},{\"sketch_id\":11482,\"frame_id\":49005}]",
             "url": "ep_187.html"
+        },
+        {
+            "id": 361,
+            "name": "p_r3sh0r75_002",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0064073.jpg",
+            "seq_data_raw": "[{\"sketch_id\":201,\"frame_id\":49899},{\"sketch_id\":202,\"frame_id\":49903},{\"sketch_id\":183,\"frame_id\":49880},{\"sketch_id\":190,\"frame_id\":49887},{\"sketch_id\":187,\"frame_id\":49884},{\"sketch_id\":186,\"frame_id\":49883},{\"sketch_id\":189,\"frame_id\":49886},{\"sketch_id\":188,\"frame_id\":49885},{\"sketch_id\":182,\"frame_id\":49879},{\"sketch_id\":185,\"frame_id\":49882},{\"sketch_id\":194,\"frame_id\":49891},{\"sketch_id\":180,\"frame_id\":49842},{\"sketch_id\":184,\"frame_id\":49881},{\"sketch_id\":898,\"frame_id\":49868},{\"sketch_id\":191,\"frame_id\":49888},{\"sketch_id\":207,\"frame_id\":49914},{\"sketch_id\":897,\"frame_id\":49854},{\"sketch_id\":200,\"frame_id\":49897}]",
+            "url": "ep_361.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq187_en.pdf",
@@ -319,29 +327,10 @@ const episodeData = {
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064221.jpg",
     "episode_cover_raw": "/frames_starlightguardians_nu/frame0064221.jpg",
     "next_teaser": {
-        "type": "random_series",
-        "options": [
-            {
-                "title": "EMILY",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
-                "url": "../index_emag.html"
-            },
-            {
-                "title": "FAUST",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
-                "url": "../index_faust.html"
-            },
-            {
-                "title": "ANIMA SG TAC",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064823.jpg",
-                "url": "../index_animasgtac.html"
-            },
-            {
-                "title": "STARLIGHT GUARDIANS",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg",
-                "url": "../index_sgtac.html"
-            }
-        ]
+        "type": "next_episode",
+        "title": "p_r3sh0r75_002",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064073.jpg",
+        "url": "ep_361.html"
     },
     "is_preview": false,
     "available_langs": [
