@@ -38,7 +38,8 @@ const episodeData = {
                 "Die Marke eines Spatia-Wiedergängers faltet das Metall nach innen. Der Raum hier gehorcht nicht.",
                 "Void-Moos näht alte Wunden. Die Wüste rendert ihre eigene fehlerhafte Wiedergeburt.",
                 "Eine behandschuhte Hand erhebt sich. Eisenfeilspäne zeichnen das darunter begrabene Geburtsrecht — und das Sandschiff weicht zurück, bevor die Nacht beansprucht, was der Tag nicht konnte."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1161,
@@ -52,7 +53,8 @@ const episodeData = {
                 "Ihr Spiegelbild altert ihr voraus — die gewöhnliche Zehrung der Fessel für geliehenes Sehen.",
                 "Irgendwo in den Schrottdünen, geduldig wie Quarzit, beobachtet etwas zurück.",
                 "Der Erdölsee bebt. Ihr Spekters eisiger Stoß an den Schläfen sagt: noch immer dort."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11498,
@@ -66,7 +68,8 @@ const episodeData = {
                 "Irgendwo zwischen Staub und Entscheidung — eine Gestalt flimmert, halb-real, unaufgelöst.",
                 "Rins Schatten berührt den Sand. Die Zahlen beginnen.",
                 "Die Wahrscheinlichkeit wartet. Ebenso wie sie."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11335,
@@ -80,7 +83,8 @@ const episodeData = {
                 "Mira reitet den Riss. Rin wird die Stille darin.",
                 "Über ihnen destillieren kosmisches Licht und lebender Schatten ihren Pakt — Sand wird zu Glas, der Horizont faltet sich, und das Kreischen des Sturms kristallisiert sich zu etwas unsäglich Nahem, das einem Namen gleicht.",
                 "Der Drachenführer und Schattenspross schreiben ihren Bund über einen Himmel, der ihn nicht halten kann."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11422,
@@ -94,7 +98,8 @@ const episodeData = {
                 "Flüstern der Drift: verirrter Junge, klandestine Fracht, Kiefer gespannt an der Schwelle.",
                 "Zwischen ihnen hängen die Kristallgärten dürr und farblos — Glanz hinter administrativem Glas versperrt.",
                 "Rins behandschuhte Hand ruht nahe ihrer Hüfte. Sie ist mächtiger als ein Speer. Sie hat sich nicht geregt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11449,
@@ -108,7 +113,8 @@ const episodeData = {
                 "Zwei Trajektorien. Eine Abrechnung.",
                 "Zev liest die Luft wie eine Herausforderung. Whisper liest sie wie eine düstere Warnung.",
                 "Der schnellste Weg und der klügste sind nie die gleiche Straße gewesen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11431,
@@ -122,7 +128,8 @@ const episodeData = {
                 "Asche schwebt in Schwebe. Die Wüste hält den Atem an. Vier unvereinbare Wahrheiten besetzten dasselbe gefrorene Morgenrot.",
                 "Gearbit katalogisiert, was niemand zugeben wird: Maßstab ist Autorität, Glanz ist Trotz, und der Zeuge, der den Moment aufzeichnet, besitzt ihn.",
                 "Irgendwo zwischen Mentor und Chaos-Ermöglicher trifft ein Jahrzehnt unerschütterter Philosophorum auf einen einzigen Funken, der zu eigensinnig ist, um zu fallen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11258,
@@ -136,7 +143,8 @@ const episodeData = {
                 "Sieben Gestalten. Eine Sichel. Das Wrack bereits zugeteilt.",
                 "Amber Cohesiva reißt den Horizont auf. Die Erde fragt nicht um Erlaubnis.",
                 "Oblivions Grinsen vertieft sich. Er beklagte nichts. Das wahre Spiel hat begonnen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1164,
@@ -150,7 +158,8 @@ const episodeData = {
                 "Die Bergerin pflanzt ihren Stiefel dort, wo die Entropie endet — Resonantia durchwebt die Wüste Atom für Atom, kolossal und animalisch in ihrer Weigerung.",
                 "Neben ihr sendet die Synthetik ihre Herausforderung finster durch den Äther — ein Basstremor, unentzifferbar und opernhaft, das Eisen bis ins Mark erschütternd.",
                 "Die Momentum-Segel flammen karminrot auf. Die Ödnis hält den Atem an. Keiner weicht."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1574,
@@ -164,7 +173,8 @@ const episodeData = {
                 "Das Gravita-Seil beugt die Krimsonöde nach unten. Eine Flotte segelt nicht durch diese Wüste. Sie verhandelt.",
                 "Am Horizont: Probabilis und Lumina verwickelt — verzweigte Zukünfte zünden Geisterschiffe zwischen Existenz und Leere.",
                 "Kein Befehl wird gerufen. Überleben fließt durch Knochen, durch Atem, durch tausend Nomaden, die sich als eines neigen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1167,
@@ -178,7 +188,8 @@ const episodeData = {
                 "Der Kohäsiva-Gespenst zieht seine Bolzen an. Das Argument zieht alles andere mit sich.",
                 "Erbschaft. Übergriff. Die unausgesprochene Arithmetik der Territorialrechte.",
                 "Der Transporter erbebt — als würde das Chassis selbst verbieten, was als Nächstes kommt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1173,
@@ -192,7 +203,8 @@ const episodeData = {
                 "Das Momentum-Gespenst zerrt die Welt in verschwommene Nachbilder — sie allein weigerte sich nachzuschleifen.",
                 "Blut an der Schläfe. Verzückung in der Brust. Die Fessel fordert ihren Tribut immer ein.",
                 "Zehn Kilometer bis Schrott-Hafen. Unerschütterlich wie der Leuchtturm. Herrlich, unmöglich still."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11430,
@@ -206,7 +218,8 @@ const episodeData = {
                 "346 Kilometer nordöstlich. Bergungsfenster: schließt sich.",
                 "Zwei Gestalten. Ein knochenweiß Himmel. Das Wrack wartet nicht auf die Entscheidung der Stasis-Senke.",
                 "Eve gestikuliert. Die Wüste zwergt sie beide. Das Schiff schießt vor — und der Vordergrund verschlingt sie ganz."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1627,
@@ -220,7 +233,8 @@ const episodeData = {
                 "Sandschiffe krümmen sich am östlichen Horizont, Segel schwer von Momentum. Behelfsmäßige Alleen erstrecken sich westwärts, erfüllt von Tausch und dem unausgesprochenen Gewicht geteilter Knappheit.",
                 "Im Zentrum: das Weldheart — dreißig Meter gebetsverschweißter Schrott, Vitalispfade sich vertiefend durch Void-Moos, sein Gravita-Anker hält die Schar davon ab, in Auflösung zu treiben.",
                 "Keine Stadt. Keine Grenze. Ein Bund gezogen aus Fleisch und Stahl — vergänglich, undurchdringlich und allein ihr eigen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1171,
@@ -234,7 +248,8 @@ const episodeData = {
                 "Sie wird zerdrückt. Eine Ferse gegen Flugzeughülle. Bernsteinwärme in einer Faust gefangen.",
                 "Die Spatia-gebundene Fremde faltet den Horizont in Winkel, die nicht existieren sollten — niemand hält inne, niemand kann.",
                 "Das Tether zieht sich wie Draht in ihren Rippen zusammen. Eine Drehung. Die Menge treibt sie vorwärts, Trümmer in einer Strömung, die sie nicht gewählt hat."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11500,
@@ -248,7 +263,8 @@ const episodeData = {
                 "Kai. Spatia-gebunden. Das letzte warme Ding am Rand von allem.",
                 "Sie bewegt sich nicht. Stille ist der Preis. Stille ist der Beweis.",
                 "Zwei Welten teilen hier eine Grenze. Sie ist die Einzige, ehrlich genug, um darauf zu stehen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9669,
@@ -263,7 +279,8 @@ const episodeData = {
                 "Zwischen ihnen: Elara. Blind. Völlig präsent. Liest ihre Atemmuster.\n\nELARA: „Wir wählen nicht zwischen Anker oder Bewegung. Wir wählen, welchen Tod wir würdigen.“",
                 "Das Licht des Weldhearts dimmt. Kein Versagen. Authentizität, die endlich die Berüchtigtkeit verdrängt.",
                 "Der Canyon atmet. Alle fünf Fraktionsführer atmen im Einklang. Gemeinsame Sterblichkeit anerkannt. Das Schweigen ist seine eigene Form des Journalismus."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11428,
@@ -277,7 +294,8 @@ const episodeData = {
                 "Der Schlüssel landet warm in Osas Hand. Die Schuld, die er trägt, ist älter als sie beide.",
                 "Die Tidalcross-Gemeinde beobachtet ohne Beifall. Sie haben diese Wunde schon gesehen, in längeren Kriegen.",
                 "Korg geht ostwärts in den Dampf. Schlacke setzt sich ab. Verpflichtung nimmt die Gestalt an von dem, was bleibt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11462,
@@ -291,7 +309,8 @@ const episodeData = {
                 "Schmiedefeuer und Kälte. Zwei Ebenen. Eine Membran zwischen Göttlichkeit und Verderben.",
                 "Whisper liest die Korrosion durch seine Fingerspitzen — Tidalkreuz, schleichend landeinwärts. Die Kontamination kündigt sich nicht an.",
                 "Kaels Therma ächzt. Die Barriere bebt. Für einen schrecklichen, glühenden Augenblick — weder Mann noch Junge können benennen, auf welcher Seite sie stehen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11482,
@@ -305,7 +324,8 @@ const episodeData = {
                 "Drei Gestalten. Keine Worte. Nur die Gewandtheit von Körpern bereits in Bewegung.",
                 "Kaitos Fessel brennt. Chens Rüstung liest den Sturm. Rake steigt herab, kalt im Blick, stille Verwarnungen zum Dock tragend.",
                 "Bergungsleben versammelt sich im Brustkorb eines Imperiums. Sie durchschreiten es wie eine Lichtung sich an Feuer erinnert."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",

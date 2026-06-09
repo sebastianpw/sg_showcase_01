@@ -38,7 +38,8 @@ const episodeData = {
                 "A Spatia Revenant&#039;s mark folds the metal inward. Space here does not behave.",
                 "Void-Moss stitches old wounds. The desert renders its own imperfect revival.",
                 "One gloved hand rises. Iron filings trace the birthright buried beneath — and the sand-ship retreats before the night claims what the day could not."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1161,
@@ -52,7 +53,8 @@ const episodeData = {
                 "Her reflection ages ahead of her — the Tether&#039;s customary toll for borrowed sight.",
                 "Somewhere in the Scrap-Dunes, patient as quartzite, something watches back.",
                 "The petroleum pool trembles. Her Spectre&#039;s cold jolt at the temples says: still there."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11498,
@@ -66,7 +68,8 @@ const episodeData = {
                 "Somewhere between dust and decision — a shape flickers, half-real, unresolved.",
                 "Rin&#039;s shadow touches sand. The numbers begin.",
                 "Probability waits. So do they."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11335,
@@ -80,7 +83,8 @@ const episodeData = {
                 "Mira rides the fracture. Rin becomes the stillness inside it.",
                 "Above them, cosmic light and living shadow distil their treaty — sand turns to glass, the horizon folds, and the storm&#039;s shriek crystallises into something unspeakably close to a name.",
                 "The Dragon Guide and Shadownip inscribe their bond across a sky that cannot hold it."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11422,
@@ -94,7 +98,8 @@ const episodeData = {
                 "Whisper of the Drift: errant boy, clandestine cargo, jaw clenched at the threshold.",
                 "Between them, the Crystal Gardens hang sere and colorless — brilliance locked behind administrative glass.",
                 "Rin&#039;s gloved hand rests near her waist. It is mightier than a javelin. It has not moved."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11449,
@@ -108,7 +113,8 @@ const episodeData = {
                 "Two trajectories. One reckoning.",
                 "Zev reads the air like a dare. Whisper reads it like a dire warning.",
                 "The fastest path and the wisest one have never been the same road."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11431,
@@ -122,7 +128,8 @@ const episodeData = {
                 "Ash hangs suspended. The desert holds its breath. Four incompatible truths occupy the same frozen dawn.",
                 "Gearbit catalogues what no one will admit: scale is authority, radiance is defiance, and the witness that records the moment owns it.",
                 "Somewhere between mentor and chaos enabler, a decade of unshaken philosophorum meets a single spark too stubborn to fall."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11258,
@@ -136,7 +143,8 @@ const episodeData = {
                 "Seven figures. One crescent. The wreckage already spoken for.",
                 "Amber Cohesiva tears the horizon open. The earth does not ask permission.",
                 "Oblivion&#039;s smirk deepens. He bewailed nothing. The real game has begun."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1164,
@@ -150,7 +158,8 @@ const episodeData = {
                 "The salvager plants her boot where entropy stops — Resonantia threading the desert atom by atom, colossal and animalistic in her refusal.",
                 "Beside her, the synthetic broadcasts its challenge darkly through the Tether — a bass tremor, undecipherable and operatic, shaking iron to its marrow.",
                 "The Momentum sails flare crimson. The wasteland holds its breath. Neither yields."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1574,
@@ -164,7 +173,8 @@ const episodeData = {
                 "The Gravita tether bends the Crimson Wastes downward. A fleet does not sail this desert. It negotiates.",
                 "On the horizon: Probabilis and Lumina embroiled — branching futures igniting ghost-ships between existence and void.",
                 "No order is shouted. Survival flows through bone, through breath, through a thousand nomads tilting as one."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1167,
@@ -178,7 +188,8 @@ const episodeData = {
                 "The Cohesiva Spectre tightens its bolts. The argument tightens everything else.",
                 "Heredity. Trespass. The unspoken arithmetic of territory rights.",
                 "The hauler shudders — as if the chassis itself forbids what comes next."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1173,
@@ -192,7 +203,8 @@ const episodeData = {
                 "The Momentum Spectre stretched the world into smeared afterimage — she alone refused to drag.",
                 "Blood at the temple. Rapture in the chest. The Tether always collects its tithe.",
                 "Ten kilometres to Scrap-Haven. Unshakeable as the beacon. Magnificently, impossibly still."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11430,
@@ -206,7 +218,8 @@ const episodeData = {
                 "346 kilometres northeast. Salvage window: closing.",
                 "Two figures. One bone-white sky. The wreckage won&#039;t wait for the stasis-sink to decide.",
                 "Eve gestures. The desert dwarfs them both. The ship surges — and the foreground swallows them whole."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1627,
@@ -220,7 +233,8 @@ const episodeData = {
                 "Sand-ships crescent the eastern horizon, sails heavy with Momentum. Makeshift avenues sprawl westward, rife with barter and the unsaid weight of shared scarcity.",
                 "At the center: the Weldheart — thirty meters of prayer-fused scrap, Vitalis veins deepening through Void-Moss, its Gravita anchor holding the throng from drifting into dissolution.",
                 "Not a city. Not a border. A covenant drawn in flesh and steel — ephemeral, impregnable, and theirs alone."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1171,
@@ -234,7 +248,8 @@ const episodeData = {
                 "She flattens. One heel against fuselage. Amber warmth cupped in a fist.",
                 "The Spatia-bonded stranger folds the horizon into angles that shouldn&#039;t exist — no one stops, no one can.",
                 "The Tether tightens like wire in her ribs. One pivot. The throng delivers her forward, debris in a rip current she did not choose."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11500,
@@ -248,7 +263,8 @@ const episodeData = {
                 "Kai. Spatia-bound. The last warm thing at the edge of everything.",
                 "She does not move. Stillness is the price. Stillness is the proof.",
                 "Two worlds share a border here. She is the only one honest enough to stand on it."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9669,
@@ -263,7 +279,8 @@ const episodeData = {
                 "Between them: Elara. Blind. Utterly present. Reading their breathing patterns.\n\nELARA: &quot;We do not choose anchor or motion. We choose which death we dignify.&quot;",
                 "The Weldheart&#039;s light dims. Not failure. Authenticity, at last, displacing notoriety.",
                 "The canyon breathes. All five faction leads breathing in unison. Shared mortality acknowledged. The silence is its own form of journalism."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11428,
@@ -277,7 +294,8 @@ const episodeData = {
                 "The key lands warm in Osa&#039;s hand. The debt it carries is older than either of them.",
                 "The Tidalcross Community watches without applause. They have seen this wound before, in longer wars.",
                 "Korg walks east into the steam. Slag settles. Obligation takes the shape of what remains."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11462,
@@ -291,7 +309,8 @@ const episodeData = {
                 "Forge and cold. Two planes. One membrane between godhood and ruin.",
                 "Whisper reads the corrosion through his fingertips — Tidalcross, creeping inland. The contamination does not announce itself.",
                 "Kael&#039;s Therma strains. The barrier shudders. For one dire, incandescent instant — neither man nor boy can name which side they stand on."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11482,
@@ -305,7 +324,8 @@ const episodeData = {
                 "Three figures. No words. Only the agility of bodies already in motion.",
                 "Kaito&#039;s Tether burns. Chen&#039;s armor reads the storm. Rake descends, cold-eyed, bearing silent warnings toward the dock.",
                 "Salvage-life congregates in the ribcage of an empire. They pass through it like a clearing remembers fire."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",

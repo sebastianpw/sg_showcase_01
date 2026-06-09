@@ -38,6 +38,29 @@ const episodeData = {
                 "Sie erbte nicht die Stille der Wüste. Sie transmutierte sie.",
                 "Die wilden Animas waren nicht aus der leblosen Zone geflohen. Sie hatten gewartet.",
                 "Nun kauern die Forscher am Rand einer Öffnung, die sie nicht bewaffnen können — und nicht loslassen können."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 48,
+                    "sequence_id": 361,
+                    "sketch_id": 201,
+                    "element_uid": "fuki_ov55h8r8",
+                    "language_code": "de",
+                    "text_content": "Kind der Schwerkraft ",
+                    "x": 252.104,
+                    "y": 293.102,
+                    "width": 502.135,
+                    "rotation": 0,
+                    "font_family": "Bangers",
+                    "font_size": 64,
+                    "fill_color": "#ffffff",
+                    "text_align": "center",
+                    "is_bold": 0,
+                    "is_italic": 0,
+                    "is_underline": 0,
+                    "created_at": "2026-06-09 12:00:15",
+                    "updated_at": "2026-06-09 20:49:28"
+                }
             ]
         },
         {
@@ -52,6 +75,29 @@ const episodeData = {
                 "Ihr Licht biegt sich nicht mehr. Es bekennt.",
                 "Jedes Gesicht, das es berührt: entblößt. Erinnerung. Trauer. Die intimste Privatsphäre, verstreut über die Stadt wie Magnesium, das sich in offenem Wasser auflöst.",
                 "Einer nach dem anderen erwachen die Lichtträger zu Stimmen, die nicht ihre eigenen sind — und das Selbst beginnt, unverkennbar, zu versiegen."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 4,
+                    "sequence_id": 361,
+                    "sketch_id": 202,
+                    "element_uid": "fuki_mb97qgl4",
+                    "language_code": "en",
+                    "text_content": "This is it\nMore",
+                    "x": 397.648,
+                    "y": 13.6558,
+                    "width": 500.828,
+                    "rotation": 37.0041,
+                    "font_family": "Bangers",
+                    "font_size": 72,
+                    "fill_color": "#ffffff",
+                    "text_align": "left",
+                    "is_bold": 1,
+                    "is_italic": 1,
+                    "is_underline": 1,
+                    "created_at": "2026-06-08 17:49:34",
+                    "updated_at": "2026-06-08 18:26:55"
+                }
             ]
         },
         {
@@ -66,7 +112,8 @@ const episodeData = {
                 "Liora handelt mit einer Geduld, älter als der Unwille, und bietet Zukünfte Männern an, die mit Furcht Handel treiben.",
                 "Die Flüchtlinge tragen nichts Kataklysmisches — nur stille Würde, zerfetzte Rationsmarken und das Unaussprechliche der Schwere eines anderen Ortes.",
                 "Ein unerwarteter Akt der Großzügigkeit. Die Rechnung der Macht, neu geschrieben auf einer Himmelbrücke zur Mittagsstunde."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 190,
@@ -80,7 +127,8 @@ const episodeData = {
                 "Gravita verzerrt den Schwung jedes Hindernisses. Das Momentum macht die Arena persönlich.",
                 "Drei Rekruten beobachten. Ein alter Rivale höhnt. Liora hat das schon gehört — im Tiefpunkt härterer Tage.",
                 "Sie wird ihn nicht verschlingen. Sie wird einfach nur zeigen, was Barmherzigkeit kostet, um sie zu verdienen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 187,
@@ -94,7 +142,8 @@ const episodeData = {
                 "Cohesiva warnt in Bernstein. Der Stein antwortet mit Stöhnen.",
                 "Mira und ihr widerstrebender Zeuge streiten über das Risiko, während das Reich der Hitze für sie entscheidet.",
                 "Jede hier unbeantwortete Frage kostet etwas Strukturelles."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 186,
@@ -108,7 +157,8 @@ const episodeData = {
                 "Gravita verzerrt den Abstieg. Spatia biegt die Schienen in Escher-Winkel.",
                 "Ein Rivale droht. Ein anderer fleht. Liora improvisiert zwischen beiden — unbestreitbar die gefährlichste Position in einem fallenden Tunnel.",
                 "Schemazeichnungen. Sabotage. Der enger werdende Horizont eines Deals, geschlossen im freien Fall."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 189,
@@ -122,7 +172,8 @@ const episodeData = {
                 "Spatia beugt die Geometrie. Gravita beugt das Vertrauen.",
                 "Jede kollabierte Öffnung — eine drastische Abstimmung darüber, wer führt.",
                 "Jiro streitet nicht über Routen. Er streitet darüber, wer zurückgelassen wird."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 188,
@@ -136,7 +187,8 @@ const episodeData = {
                 "Kael steigt ein. Die Fracht bewegt sich. Die Debatte beginnt: sie beschatten oder zuschlagen.",
                 "Zentrifugales Chaos ist seine eigene Art von Verfluchung — Zuschauer zerstreuen sich, Alarme zerfasern die Stille.",
                 "Unter dem Prunk des gepanzerten Transits regt sich etwas Abscheuliches. Der Ring verzeiht Zögern nicht."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 182,
@@ -150,7 +202,8 @@ const episodeData = {
                 "Eine furtive Ernte bewegt sich durch das Abteil: Schaltpläne, die eine Revolution wert sind, in aller Öffentlichkeit geschmuggelt.",
                 "Kael liest die Choreographie, bevor sie beginnt — Ablenkung, flinke Hände, das Gespenst der Verhandlung.",
                 "Unter dem unheimlichen Flackern eines sterbenden Energia-Spenders wirkt Eindämmung ununterscheidbar von Zeremonie."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 185,
@@ -164,7 +217,8 @@ const episodeData = {
                 "Magnetica sickert in die Werkzeuge — jedes ein Vorboter des Untergangs, jedes ein Heilmittel.",
                 "Drei Gesellen. Eine Verhandlung. Sekunden, geerbt von einer schlechteren Entscheidung.",
                 "Arins Hände schweben an der präzisen Grenze zwischen Sieg und Zerstörung."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 194,
@@ -178,7 +232,8 @@ const episodeData = {
                 "Der Ingenieur weiß, was die Maschine tun wird. Auch Arin weiß es.",
                 "Magnetica-Spulen zünden blau auf. Lehrlinge wählen Seiten im Summen.",
                 "Ein kühner Kamerad, eine unumstößliche Wahl — abfallen oder es sprudeln lassen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 180,
@@ -192,7 +247,8 @@ const episodeData = {
                 "Lichter stolpern. Zeit, schlecht bewacht.",
                 "Arin verhandelt wie ein Dieb. Liora wie eine Juristin. Der Kurator hat den Unterschied vergessen.",
                 "Irgendwo in der Kammer bietet eine Straßengelehrte alles dar, was sie weiß — und die Chrono-Alarme haben noch nicht entschieden, ob sie es verzeihen werden."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 184,
@@ -206,7 +262,8 @@ const episodeData = {
                 "Drei Diebe in Wartungsgrau — gefälschte Namen, reine Hände, beladene Gewissen.",
                 "Die Fluidica-Schleifen verschleiern die Protokolle. Jede getauschte Datei ein Faden, gezogen aus der Schranke der Unternehmensunantastbarkeit.",
                 "Sie gehen mit den Schaltplänen. Sie gehen mit mehr."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 898,
@@ -220,7 +277,8 @@ const episodeData = {
                 "Therma liest die lebende Wärme. Cohesiva hält die Zelle zusammen. Keine wurde gerufen — beide kommen.",
                 "Ein Geisterabdruck: die seltsamste Verwandtschaft. Überirdisch und verheerend flüchtig.",
                 "Sie geht in die geothermale Dunkelheit. Er zu den gefrorenen Samen. Der Revenant, zwischen ihnen, denkwürdig wach."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 191,
@@ -234,7 +292,8 @@ const episodeData = {
                 "Vitalis regt sich in Wurzel und Stamm — die Flora antwortet Miras Ruf, smaragdgrüne Adern zeichnen jedes Blatt, das sie schützt.",
                 "Oben trinkt Energia von der Sonne. Unten erhebt sich Moos in stiller Wut.",
                 "Arin vermittelt Frieden unter Baldachinen, die wie vergessene Fabeln erglühen. Die Wilderer haben sich noch nie einem Garten gegenübergesehen, der sich wehrt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 207,
@@ -248,7 +307,8 @@ const episodeData = {
                 "Ihr Vitalis fließt smaragdgrün und gefräßig — Umwandlung ohne Zustimmung, Wachstum ohne Anweisung.",
                 "Jeder Raubtier, das sich zu ihrer Jagd entwickelt, trägt die exakte Gestalt dessen, das sie am meisten fürchtet.",
                 "Um sie zu retten, muss sie sich selbst lesbar werden."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 897,
@@ -262,7 +322,8 @@ const episodeData = {
                 "Ihr Revenants bewegt sich vor ihr — Finger gegen das dünne Eis geliehenen Denkens.",
                 "Kometenstäub in ihren Iriden. Verderben in ihrer Fassung.",
                 "Sie hält den Blick wie eine Streitaxt flach gehalten: noch kein Schlag. Nur das Gewicht davon."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 200,
@@ -276,7 +337,8 @@ const episodeData = {
                 "Ihre Chrono-Anima zerbrach in dem Moment, als sie die Verschmelzung bezeugte — goldene Ringe, die dieselbe gebrochene Stunde immer wieder nachzeichnen, sie kunstfertig in eine Schleife verstrickend, die niemand sonst spüren kann.",
                 "Sie behält alles. Den Trauer. Das Vorwissen. Die unerträgliche Wärme einer Katastrophe, die sie verhindern könnte — und nicht darf.",
                 "Manche Katastrophen sind tragend."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",

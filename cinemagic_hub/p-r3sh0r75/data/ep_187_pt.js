@@ -38,7 +38,8 @@ const episodeData = {
                 "A marca de um Reverenciado Espacial dobra o metal para dentro. O espaço aqui não se comporta.",
                 "Musgo-do-Vazio cose feridas antigas. O deserto renderiza seu próprio renascimento imperfeito.",
                 "Uma mão enluvada se ergue. Limalhas de ferro traçam o direito de nascença enterrado abaixo — e a nave-areia se retira antes que a noite reclame o que o dia não pôde."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1161,
@@ -52,7 +53,8 @@ const episodeData = {
                 "Seu reflexo envelhece adiante dela — o tributo costumeiro do Vínculo pela visão tomada de empréstimo.",
                 "Em algum lugar nas Dunas de Sucata, paciente como quartzo, algo observa de volta.",
                 "A poça de petróleo tremula. O sobressalto frio do Espectro dela nas têmporas diz: ainda ali."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11498,
@@ -66,7 +68,8 @@ const episodeData = {
                 "Em algum lugar entre o pó e a decisão — uma forma cintila, meio-real, irresoluta.",
                 "A sombra de Rin toca a areia. Os números começam.",
                 "A probabilidade aguarda. Eles também."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11335,
@@ -80,7 +83,8 @@ const episodeData = {
                 "Mira cavalga a fissura. Rin torna-se a quietude dentro dela.",
                 "Acima deles, a luz cósmica e a sombra viva destilam seu tratado — a areia transforma-se em vidro, o horizonte se dobra, e o grito da tempestade cristaliza-se em algo inefavelmente próximo a um nome.",
                 "O Guia Dragão e a Sombranip inscrevem sua aliança através de um céu que não consegue contê-la."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11422,
@@ -94,7 +98,8 @@ const episodeData = {
                 "Sussurro da Deriva: rapaz errante, carga clandestina, mandíbula cerrada no limiar.",
                 "Entre eles, os Jardins de Cristal pendem áridos e incolores — o brilho trancado atrás de vidro administrativo.",
                 "A mão enluvada de Rin repousa junto à cintura. É mais poderosa que um dardo. Não se moveu."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11449,
@@ -108,7 +113,8 @@ const episodeData = {
                 "Duas trajetórias. Um acerto de contas.",
                 "Zev lê o ar como um desafio. Whisper o lê como um aviso terrível.",
                 "O caminho mais rápido e o mais sábio nunca foram a mesma estrada."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11431,
@@ -122,7 +128,8 @@ const episodeData = {
                 "Cinza suspensa. O deserto prende a respiração. Quatro verdades incompatíveis ocupam o mesmo amanhecer congelado.",
                 "Gearbit cataloga aquilo que ninguém admitirá: escala é autoridade, radiância é desafio, e a testemunha que registra o momento o possui.",
                 "Em algum lugar entre mentor e facilitador do caos, uma década de philosophorum inabalável encontra uma única centelha demasiado teimosa para cair."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11258,
@@ -136,7 +143,8 @@ const episodeData = {
                 "Sete figuras. Um crescente. A ruína já reclamada.",
                 "Âmbar Coesiva rasga o horizonte aberto. A terra não pede permissão.",
                 "O sorriso do Esquecimento se aprofunda. Ele não lamentou nada. O verdadeiro jogo começou."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1164,
@@ -150,7 +158,8 @@ const episodeData = {
                 "A salvadora planta sua bota onde a entropia cessa — Ressonância tecendo o deserto átomo por átomo, colossal e animalesca em sua recusa.",
                 "Ao seu lado, a sintética transmite seu desafio escuramente através da Ligação — um tremor grave, indecifável e operístico, sacudindo o ferro até à medula.",
                 "As velas do Ímpeto ardem em carmesim. O páramo prende a respiração. Nenhuma cede."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1574,
@@ -164,7 +173,8 @@ const episodeData = {
                 "A amarração Gravita curva os Resíduos Carmesim para baixo. Uma frota não navega este deserto. Ela negocia.",
                 "No horizonte: Probabilis e Lumina enredadas — futuros ramificados inflamando navios-fantasma entre a existência e o vazio.",
                 "Nenhuma ordem é gritada. A sobrevivência flui através do osso, através do sopro, através de mil nômades inclinando-se como um só."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1167,
@@ -178,7 +188,8 @@ const episodeData = {
                 "O Espectro Coesivo aperta seus parafusos. O confronto aperta tudo mais.",
                 "Hereditariedade. Transgressão. A aritmética não dita dos direitos territoriais.",
                 "O transportador estremece — como se o chassis em si proibisse o que virá a seguir."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1173,
@@ -192,7 +203,8 @@ const episodeData = {
                 "O Espectro do Ímpeto estendeu o mundo em pós-imagem borrida — ela sozinha recusou-se a arrastar.",
                 "Sangue na têmpora. Êxtase no peito. O Vínculo sempre cobra seu tributo.",
                 "Dez quilômetros até Sucata-Refúgio. Tão inabalável quanto o farol. Magnificamente, impossível imóvel."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11430,
@@ -206,7 +218,8 @@ const episodeData = {
                 "346 quilómetros a nordeste. Janela de salvação: fechando.",
                 "Duas figuras. Um céu branco-osso. O destroço não esperará pela stasis-depósito decidir.",
                 "Eve gesticula. O deserto as empequeninece ambas. A nave surge — e o primeiro plano as engolem inteiras."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1627,
@@ -220,7 +233,8 @@ const episodeData = {
                 "Navios-areia crescentam o horizonte oriental, velas pesadas de Ímpeto. Avenidas improvisadas se espraiam para o ocidente, repletas de trocas e do peso inefável da escassez compartilhada.",
                 "No centro: o Coração-Soldado — trinta metros de sucata fusionada pela oração, veias de Vitalidade se aprofundando através do Musgo-Nulo, sua âncora de Gravita mantendo a multidão longe da dissolução.",
                 "Não uma cidade. Não uma fronteira. Um pacto traçado em carne e aço — efêmero, inexpugnável, e unicamente seu."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1171,
@@ -234,7 +248,8 @@ const episodeData = {
                 "Ela se achata. Um calcanhar contra a fuselagem. Calor âmbar curvado em um punho.",
                 "A estranha ligada à Spatia dobra o horizonte em ângulos que não deveriam existir — ninguém para, ninguém consegue.",
                 "A Amarração se aperta como arame em suas costelas. Um pivô. A multidão a entrega para frente, detrito em uma corrente de rasgo que ela não escolheu."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11500,
@@ -248,7 +263,8 @@ const episodeData = {
                 "Kai. Vinculada ao Espaço. A última coisa quente à beira de tudo.",
                 "Ela não se move. A imobilidade é o preço. A imobilidade é a prova.",
                 "Dois mundos compartilham uma fronteira aqui. Ela é a única honesta o suficiente para estar nela."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9669,
@@ -263,7 +279,8 @@ const episodeData = {
                 "Entre eles: Elara. Cega. Totalmente presente. Lendo seus padrões respiratórios.\n\nELARA: &quot;Não escolhemos âncora ou movimento. Escolhemos que morte dignificamos.&quot;",
                 "A luz do Weldheart apaga-se. Não é falha. Autenticidade, finalmente, deslocando a notoriedade.",
                 "O desfiladeiro respira. Todos os cinco líderes de fação respirando em uníssono. Mortalidade partilhada reconhecida. O silêncio é sua própria forma de jornalismo."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11428,
@@ -277,7 +294,8 @@ const episodeData = {
                 "A chave pousa morna na mão de Osa. A dívida que carrega é mais antiga que ambos.",
                 "A Comunidade Maré-Cruzada observa sem aplausos. Viram esta ferida antes, em guerras mais longas.",
                 "Korg caminha para leste dentro do vapor. A escória se assenta. A obrigação toma a forma do que permanece."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11462,
@@ -291,7 +309,8 @@ const episodeData = {
                 "Forja e gelo. Dois planos. Uma membrana entre divindade e ruína.",
                 "Sussurro lê a corrosão através de suas pontas de dedos — Maré-Cruzada, rastejando para o interior. A contaminação não se anuncia.",
                 "A Therma de Kael range. A barreira estremece. Por um instante terrível, incandescente — nem homem nem menino conseguem nomear de qual lado estão."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11482,
@@ -305,7 +324,8 @@ const episodeData = {
                 "Três figuras. Nenhuma palavra. Apenas a agilidade de corpos já em movimento.",
                 "A Corrente de Kaito arde. A armadura de Chen lê a tempestade. Rake desce, de olhar frio, portando avisos silenciosos rumo ao cais.",
                 "A vida de resgate congrega-se na caixa torácica de um império. Passam por ela como um clareira recorda o fogo."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",

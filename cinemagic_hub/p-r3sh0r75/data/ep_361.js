@@ -38,6 +38,29 @@ const episodeData = {
                 "She did not inherit the desert&#039;s silence. She transmuted it.",
                 "The wild animas had not fled the lifeless zone. They had been waiting.",
                 "Now the researchers crouch at the aperture of something they cannot weaponize — and cannot let go."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 6,
+                    "sequence_id": 361,
+                    "sketch_id": 201,
+                    "element_uid": "fuki_ov55h8r8",
+                    "language_code": "en",
+                    "text_content": "The gravity well child",
+                    "x": 252.104,
+                    "y": 293.102,
+                    "width": 502.135,
+                    "rotation": 0,
+                    "font_family": "Bangers",
+                    "font_size": 64,
+                    "fill_color": "#ffffff",
+                    "text_align": "center",
+                    "is_bold": 0,
+                    "is_italic": 0,
+                    "is_underline": 0,
+                    "created_at": "2026-06-08 17:54:16",
+                    "updated_at": "2026-06-09 20:48:31"
+                }
             ]
         },
         {
@@ -52,6 +75,29 @@ const episodeData = {
                 "Her light no longer bends. It confesses.",
                 "Every face it touches: laid bare. Memory. Grief. The hardest privacy, scattered across the city like magnesium dissolving in open water.",
                 "One by one, the light-bearers wake to voices not their own — and the self begins, unmistakably, to drain."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 4,
+                    "sequence_id": 361,
+                    "sketch_id": 202,
+                    "element_uid": "fuki_mb97qgl4",
+                    "language_code": "en",
+                    "text_content": "This is it\nMore",
+                    "x": 397.648,
+                    "y": 13.6558,
+                    "width": 500.828,
+                    "rotation": 37.0041,
+                    "font_family": "Bangers",
+                    "font_size": 72,
+                    "fill_color": "#ffffff",
+                    "text_align": "left",
+                    "is_bold": 1,
+                    "is_italic": 1,
+                    "is_underline": 1,
+                    "created_at": "2026-06-08 17:49:34",
+                    "updated_at": "2026-06-08 18:26:55"
+                }
             ]
         },
         {
@@ -66,7 +112,8 @@ const episodeData = {
                 "Liora bargains with patience older than indignation, offering futures to men who trade in fear.",
                 "The refugees carry nothing cataclysmic — only quiet dignity, tattered ration chips, and the unutterable weight of somewhere else.",
                 "One unexpected act of generosity. The calculus of power, rewritten on a skybridge at noontide."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 190,
@@ -80,7 +127,8 @@ const episodeData = {
                 "Gravita warps the swing of every obstacle. Momentum makes the arena personal.",
                 "Three trainees watch. An old rival taunts. Liora has heard this before — at the nadir of harder days.",
                 "She will not devour him. She will simply demonstrate what mercy costs to earn."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 187,
@@ -94,7 +142,8 @@ const episodeData = {
                 "Cohesiva warns in amber. The stone answers in groans.",
                 "Mira and her reluctant witness argue risk while the kingdom of heat decides for them.",
                 "Every unanswered question here costs something structural."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 186,
@@ -108,7 +157,8 @@ const episodeData = {
                 "Gravita warps the descent. Spatia bends the rails into Escher angles.",
                 "One rival threatens. One pleads. Liora improvises between the two — undeniably the most dangerous position in a falling tunnel.",
                 "Schematics. Sabotage. The narrowing horizon of a deal struck at terminal velocity."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 189,
@@ -122,7 +172,8 @@ const episodeData = {
                 "Spatia bends the geometry. Gravita bends the trust.",
                 "Every collapsing vent — a drastic vote on who leads.",
                 "Jiro does not argue about routes. He argues about who gets left behind."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 188,
@@ -136,7 +187,8 @@ const episodeData = {
                 "Kael boards. The cargo moves. The debate begins: shadow them, or strike.",
                 "Centrifugal chaos is its own kind of malediction — bystanders scatter, alarms unravel the calm.",
                 "Underneath the pomp of armored transit, something loathsome stirs. The ring does not forgive hesitation."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 182,
@@ -150,7 +202,8 @@ const episodeData = {
                 "A furtive harvest moves through the compartment: schematics worth a revolution, smuggled in plain sight.",
                 "Kael reads the choreography before it begins — distraction, quick hands, the ghost of negotiation.",
                 "Below the ghoulish flicker of a dying Energia feeder, containment looks indistinguishable from ceremony."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 185,
@@ -164,7 +217,8 @@ const episodeData = {
                 "Magnetica bleeds into the tools — each one a precursor to ruin, each one a remedy.",
                 "Three journeymen. One negotiation. Seconds inherited from a worse decision.",
                 "Arin&#039;s hands hover at the precise boundary between vanquish and wreck."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 194,
@@ -178,7 +232,8 @@ const episodeData = {
                 "The engineer knows what the machine will do. So does Arin.",
                 "Magnetica coils arc blue. Apprentices choose sides in the hum.",
                 "One bold comrade, one inviolate choice — defect, or let it spew."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 180,
@@ -192,7 +247,8 @@ const episodeData = {
                 "Lights stutter. Time, poorly kept.",
                 "Arin negotiates like a thief. Liora, like a jurist. The curator has forgotten the difference.",
                 "Somewhere in the chamber, a street scholar offers everything she knows — and the Chrono-alarms have not yet decided whether to forgive it."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 184,
@@ -206,7 +262,8 @@ const episodeData = {
                 "Three thieves in maintenance grey — forged names, clean hands, laden consciences.",
                 "The Fluidica loops mask the logs. Every swapped file a thread pulled from the rampart of corporate inviolability.",
                 "They leave with the schematics. They leave with more."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 898,
@@ -220,7 +277,8 @@ const episodeData = {
                 "Therma reads the living heat. Cohesiva holds the cell together. Neither was summon&#039;d — both arrive.",
                 "A ghost-print: the strangest kinship. Unearthly, and devastatingly brief.",
                 "She walks toward the geothermal dark. He toward the frozen seeds. The Revenant, between them, memorably awake."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 191,
@@ -234,7 +292,8 @@ const episodeData = {
                 "Vitalis stirs in root and stem — the flora answers Mira&#039;s call, emerald veins tracing every leaf she shields.",
                 "Overhead, Energia drinks from the sun. Below, moss rises in quiet fury.",
                 "Arin brokers peace beneath canopies that glow like forgotten fables. The poachers have never faced a garden that fights back."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 207,
@@ -248,7 +307,8 @@ const episodeData = {
                 "Her Vitalis runs emerald and ravenous — transmutation without consent, growth without instruction.",
                 "Every predator evolving to hunt her carries the exact shape of what she fears most.",
                 "To save them, she must become legible to herself."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 897,
@@ -262,7 +322,8 @@ const episodeData = {
                 "Her Revenant moves before she does — fingers against the thin ice of borrowed thought.",
                 "Comet-dust in her irises. Ruin in her composure.",
                 "She holds the gaze like a battleaxe held flat: no strike yet. Just the weight of it."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 200,
@@ -276,7 +337,8 @@ const episodeData = {
                 "Her Chrono anima fractured the moment it witnessed the merge — gold rings retracing the same broken hour, over and over, adroitly enmeshing her in a loop no one else can feel.",
                 "She retains everything. The grief. The foreknowledge. The insufferable warmth of a disaster she could prevent — and must not.",
                 "Some catastrophes are load-bearing."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",

@@ -38,6 +38,29 @@ const episodeData = {
                 "Ela não herdou o silêncio do deserto. Ela o transmutou.",
                 "Os animas selvagens não fugiram da zona sem vida. Eles estavam esperando.",
                 "Agora os pesquisadores se agacham na abertura de algo que não podem armar — e não conseguem soltar."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 51,
+                    "sequence_id": 361,
+                    "sketch_id": 201,
+                    "element_uid": "fuki_ov55h8r8",
+                    "language_code": "pt",
+                    "text_content": "Gravidas",
+                    "x": 252.104,
+                    "y": 293.102,
+                    "width": 502.135,
+                    "rotation": 0,
+                    "font_family": "Bangers",
+                    "font_size": 64,
+                    "fill_color": "#ffffff",
+                    "text_align": "center",
+                    "is_bold": 0,
+                    "is_italic": 0,
+                    "is_underline": 0,
+                    "created_at": "2026-06-09 20:49:42",
+                    "updated_at": "2026-06-09 20:49:55"
+                }
             ]
         },
         {
@@ -52,6 +75,29 @@ const episodeData = {
                 "Sua luz já não se curva. Ela confessa.",
                 "Todo rosto que toca: desvelado. Memória. Luto. A privacidade mais profunda, espalhada pela cidade como magnésio se dissolvendo em água aberta.",
                 "Um a um, os portadores de luz despertam para vozes que não lhes pertencem — e o eu começa, inegavelmente, a esvair-se."
+            ],
+            "fuki_texts": [
+                {
+                    "id": 4,
+                    "sequence_id": 361,
+                    "sketch_id": 202,
+                    "element_uid": "fuki_mb97qgl4",
+                    "language_code": "en",
+                    "text_content": "This is it\nMore",
+                    "x": 397.648,
+                    "y": 13.6558,
+                    "width": 500.828,
+                    "rotation": 37.0041,
+                    "font_family": "Bangers",
+                    "font_size": 72,
+                    "fill_color": "#ffffff",
+                    "text_align": "left",
+                    "is_bold": 1,
+                    "is_italic": 1,
+                    "is_underline": 1,
+                    "created_at": "2026-06-08 17:49:34",
+                    "updated_at": "2026-06-08 18:26:55"
+                }
             ]
         },
         {
@@ -66,7 +112,8 @@ const episodeData = {
                 "Liora negocia com paciência mais antiga que a indignação, oferecendo futuros a homens que comerciam em medo.",
                 "Os refugiados não carregam nada catastrófico — apenas dignidade silenciosa, fichas de rações esfarrapadas, e o peso inefável de outro lugar.",
                 "Um ato inesperado de generosidade. O cálculo do poder, reescrito numa ponte celeste ao meio-dia."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 190,
@@ -80,7 +127,8 @@ const episodeData = {
                 "Gravita distorce o balanço de cada obstáculo. O momentum torna a arena pessoal.",
                 "Três aprendizes observam. Uma antiga rival provoca. Liora já ouviu isto antes — no nadir de dias mais árduos.",
                 "Ela não o devorará. Ela simplesmente demonstrará o que a misericórdia custa para ser conquistada."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 187,
@@ -94,7 +142,8 @@ const episodeData = {
                 "Cohesiva avisa em âmbar. A pedra responde em gemidos.",
                 "Mira e sua testemunha relutante debatem o risco enquanto o reino do calor decide por eles.",
                 "Cada pergunta sem resposta aqui custa algo estrutural."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 186,
@@ -108,7 +157,8 @@ const episodeData = {
                 "Gravita distorce a queda. Spatia curva os trilhos em ângulos Escher.",
                 "Uma rival ameaça. Uma implora. Liora improvisa entre as duas — inegavelmente a posição mais perigosa em um túnel em colapso.",
                 "Esquemas. Sabotagem. O horizonte estreitado de um acordo selado em velocidade terminal."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 189,
@@ -122,7 +172,8 @@ const episodeData = {
                 "Spatia curva a geometria. Gravita curva a confiança.",
                 "Cada respiradouro que desaba — um voto drástico sobre quem lidera.",
                 "Jiro não discute sobre rotas. Ele discute sobre quem fica para trás."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 188,
@@ -136,7 +187,8 @@ const episodeData = {
                 "Kael embarca. A carga se move. O debate começa: segui-los nas sombras, ou atacar.",
                 "O caos centrífugo é sua própria espécie de maldição — transeuntes se dispersam, alarmes desfiando a calma.",
                 "Sob a pompa do trânsito blindado, algo repugnante se agita. O anel não perdoa a hesitação."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 182,
@@ -150,7 +202,8 @@ const episodeData = {
                 "Uma colheita furtiva move-se pelo compartimento: esquemas que valem uma revolução, contrabandeados à vista de todos.",
                 "Kael lê a coreografia antes dela começar — distração, mãos rápidas, o espectro da negociação.",
                 "Sob o cintilante espectral de um alimentador de Energia moribundo, a contenção é indistinguível da cerimônia."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 185,
@@ -164,7 +217,8 @@ const episodeData = {
                 "Magnetica sangra nas ferramentas — cada uma um precursor da ruína, cada uma um remédio.",
                 "Três aprendizes. Uma negociação. Segundos herdados de uma decisão pior.",
                 "As mãos de Arin pairam na fronteira precisa entre dominar e destruir."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 194,
@@ -178,7 +232,8 @@ const episodeData = {
                 "O engenheiro sabe o que a máquina fará. Arin também sabe.",
                 "As bobinas Magnética arco azul. Aprendizes escolhem lados no zumbido.",
                 "Um camarada audaz, uma escolha inviolável — trair, ou deixá-la vomitar."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 180,
@@ -192,7 +247,8 @@ const episodeData = {
                 "As luzes cintilam. O tempo, mal guardado.",
                 "Arin negocia como uma ladrona. Liora, como uma jurista. O curador esqueceu a diferença.",
                 "Em algum lugar da câmara, uma erudita das ruas oferece tudo o que sabe — e os alarmes Chrono ainda não decidiram se a perdoarão."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 184,
@@ -206,7 +262,8 @@ const episodeData = {
                 "Três ladrões em cinza de manutenção — nomes forjados, mãos limpas, consciências carregadas.",
                 "Os circuitos da Fluidica mascaram os registros. Cada arquivo trocado é um fio puxado do baluarte da inviolabilidade corporativa.",
                 "Partem com os esquemas. Partem com mais."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 898,
@@ -220,7 +277,8 @@ const episodeData = {
                 "Therma lê o calor vivo. Cohesiva mantém a célula coesa. Nenhuma foi invocada — ambas chegam.",
                 "Uma impressão fantasmagórica: a mais estranha das afinidades. Sobrenatural, e devastadoramente breve.",
                 "Ela caminha em direção à escuridão geotérmica. Ele em direção às sementes congeladas. O Revenant, entre ambos, memoravelmente acordado."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 191,
@@ -234,7 +292,8 @@ const episodeData = {
                 "Vitalis desperta em raiz e caule — a flora responde ao chamado de Mira, veias esmeralda traçando cada folha que ela protege.",
                 "Acima, Energia bebe do sol. Abaixo, o musgo se ergue em fúria silenciosa.",
                 "Arin negocia a paz sob dossel que brilha como fábulas esquecidas. Os caçadores nunca enfrentaram um jardim que combate."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 207,
@@ -248,7 +307,8 @@ const episodeData = {
                 "Seu Vitalis corre esmeralda e voraz — transmutação sem consentimento, crescimento sem instrução.",
                 "Cada predador que evolui para caçá-la carrega a forma exata do que ela mais teme.",
                 "Para salvá-los, ela deve tornar-se legível a si mesma."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 897,
@@ -262,7 +322,8 @@ const episodeData = {
                 "Seu Revenant move-se antes dela — dedos contra o gelo fino do pensamento tomado de empréstimo.",
                 "Pó de cometa em suas íris. Ruína em sua compostura.",
                 "Ela sustenta o olhar como um machado de batalha seguro em plano: nenhum golpe ainda. Apenas o peso dele."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 200,
@@ -276,7 +337,8 @@ const episodeData = {
                 "Seu anima Crono se fraturou no instante em que testemunhou a fusão — anéis dourados retornando à mesma hora quebrada, uma e outra vez, entrelaçando-a astutamente num ciclo que ninguém mais consegue sentir.",
                 "Ela retém tudo. O luto. O presciência. O calor insuportável de um desastre que poderia evitar — e não deve.",
                 "Algumas catástrofes são estruturantes."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "",
