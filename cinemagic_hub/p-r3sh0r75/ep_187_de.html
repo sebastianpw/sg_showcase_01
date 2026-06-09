@@ -192,6 +192,12 @@ function renderFuki(imgEl) {
             div.style.lineHeight = '1.2';
             div.style.whiteSpace = 'pre-wrap';
             div.style.wordWrap = 'break-word';
+            
+            // --- FIX: Re-enable pointer events and text selection for the text itself ---
+            div.style.pointerEvents = 'auto';
+            div.style.userSelect = 'text';
+            div.style.webkitUserSelect = 'text';
+            
             div.innerText = ft.text_content;
             layer.appendChild(div);
         });
