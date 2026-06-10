@@ -22,6 +22,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0064073.jpg",
             "seq_data_raw": "[{\"sketch_id\":201,\"frame_id\":49899},{\"sketch_id\":202,\"frame_id\":49903},{\"sketch_id\":183,\"frame_id\":49880},{\"sketch_id\":190,\"frame_id\":49887},{\"sketch_id\":187,\"frame_id\":49884},{\"sketch_id\":186,\"frame_id\":49883},{\"sketch_id\":189,\"frame_id\":49886},{\"sketch_id\":188,\"frame_id\":49885},{\"sketch_id\":182,\"frame_id\":49879},{\"sketch_id\":185,\"frame_id\":49882},{\"sketch_id\":194,\"frame_id\":49891},{\"sketch_id\":180,\"frame_id\":49842},{\"sketch_id\":184,\"frame_id\":49881},{\"sketch_id\":898,\"frame_id\":49868},{\"sketch_id\":191,\"frame_id\":49888},{\"sketch_id\":207,\"frame_id\":49914},{\"sketch_id\":897,\"frame_id\":49854},{\"sketch_id\":200,\"frame_id\":49897}]",
             "url": "ep_361_de.html"
+        },
+        {
+            "id": 362,
+            "name": "p_r3sh0r75_003",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0065690.jpg",
+            "seq_data_raw": "[{\"sketch_id\":1237,\"frame_id\":50559},{\"sketch_id\":1066,\"frame_id\":48472},{\"sketch_id\":1045,\"frame_id\":48471},{\"sketch_id\":1229,\"frame_id\":50556},{\"sketch_id\":1155,\"frame_id\":50570},{\"sketch_id\":1204,\"frame_id\":50555},{\"sketch_id\":1236,\"frame_id\":50581},{\"sketch_id\":1235,\"frame_id\":50558},{\"sketch_id\":1037,\"frame_id\":50568},{\"sketch_id\":1273,\"frame_id\":50565},{\"sketch_id\":1065,\"frame_id\":50569},{\"sketch_id\":1036,\"frame_id\":50567},{\"sketch_id\":1251,\"frame_id\":50524},{\"sketch_id\":1274,\"frame_id\":50566},{\"sketch_id\":1614,\"frame_id\":48582},{\"sketch_id\":1864,\"frame_id\":50592},{\"sketch_id\":1258,\"frame_id\":50560},{\"sketch_id\":1264,\"frame_id\":50562},{\"sketch_id\":1852,\"frame_id\":50588},{\"sketch_id\":790,\"frame_id\":50582}]",
+            "url": "ep_362_de.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq187_de.pdf",

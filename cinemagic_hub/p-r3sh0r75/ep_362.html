@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=0" />
+    <title>p_r3sh0r75_003 — p_r3sh0r75</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Oswald:wght@600;700&family=Cinzel:wght@400;600&family=Space+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #020202; --text-color: #e5e0d8; --accent-color: #cda434; --font-title: 'Cinzel', serif; --font-body: 'Lora', serif; --nav-bg: rgba(8,6,4,0.82); --nav-border: rgba(205,164,52,0.18); --nav-text: #c8b88a; --nav-active-bg: rgba(205,164,52,0.14); --nav-active: #cda434; }
+        body, html { margin: 0; padding: 0; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, #15151a 0%, #020202 60%); background-attachment: fixed; color: var(--text-color); font-family: var(--font-body); overscroll-behavior: none; -webkit-font-smoothing: antialiased; }
+        .story-container { max-width: 800px; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .seq-header { text-align: center; padding: 100px 20px 80px; width: 100%; box-sizing: border-box; }
+        .seq-title { font-family: var(--font-title); font-size: 2.5rem; font-weight: 400; margin: 0 0 20px 0; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
+        .seq-desc { font-size: 1.1rem; opacity: 0.7; line-height: 1.6; max-width: 600px; margin: 0 auto; }
+        .ep-cover-wrapper { width: 100%; display: flex; justify-content: center; margin-bottom: 60px; padding: 0 20px; box-sizing: border-box; }
+        .ep-cover-img { width: 100%; max-width: 600px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.05); }
+        .ep-scroll-indicator { width: 100%; display: flex; justify-content: center; margin-bottom: 120px; color: var(--accent-color); opacity: 0.5; }
+        .ep-scroll-indicator svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; animation: floatDown 2.5s infinite ease-in-out; }
+        @keyframes floatDown { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(10px); } }
+        .panel { width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 80px; }
+        .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
+        .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
+        .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
+        .observe-me.visible { opacity: 1; transform: translateY(0); }
+        .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
+        .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
+        .lang-picker { position: relative; }
+        .lang-toggle { background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 20px; padding: 6px 12px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+        .lang-toggle:hover { color: var(--nav-active); }
+        .lang-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-radius: 8px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); display: none; flex-direction: column; overflow: hidden; min-width: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+        .lang-picker.open .lang-menu { display: flex; }
+        .lang-menu a { padding: 10px 16px; color: var(--nav-text); text-decoration: none; font-family: var(--font-title); font-size: 0.65rem; text-align: center; transition: background 0.2s, color 0.2s; }
+        .lang-menu a:hover { background: var(--nav-active-bg); color: var(--nav-active); }
+        .ep-end-box { width: calc(100% - 40px); max-width: 500px; margin: 0 auto 120px; padding: 20px; background: rgba(10,10,14,0.6); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; backdrop-filter: blur(10px); box-sizing: border-box; }
+        .end-teaser-link { display: flex; gap: 20px; align-items: center; text-decoration: none; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.05); transition: transform 0.2s; }
+        .end-teaser-link:hover { transform: translateX(4px); }
+        .end-teaser-cover { width: 80px; aspect-ratio: 3/4; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .end-teaser-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
+        .end-teaser-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.4; }
+        .soc-wrap { display: flex; justify-content: center; gap: 16px; padding-top: 20px; }
+        .soc-icon { width: 36px; height: 36px; border-radius: 50%; background: var(--nav-bg); border: 1px solid var(--nav-border); display: flex; align-items: center; justify-content: center; color: var(--nav-text); transition: 0.2s; }
+        .soc-icon:hover { color: var(--accent-color); border-color: var(--accent-color); background: var(--nav-active-bg); transform: translateY(-2px); }
+        .soc-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+        .ep-nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; display: flex; flex-direction: column; --ep-bar-h: 44px; }
+        .ep-nav-toggle { align-self: center; margin-bottom: -1px; background: var(--nav-bg); border: 1px solid var(--nav-border); border-bottom: none; border-radius: 8px 8px 0 0; padding: 5px 18px 2px; font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--nav-text); cursor: pointer; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: color 0.2s; user-select: none; display: flex; align-items: center; gap: 8px; }
+        .ep-nav-toggle:hover { color: var(--nav-active); }
+        .ep-nav.open .ep-nav-toggle .ep-arrow { transform: rotate(180deg); }
+        .ep-nav-bar { background: var(--nav-bg); border-top: 1px solid var(--nav-border); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); overflow: hidden; max-height: 0; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .ep-nav.open .ep-nav-bar { max-height: 260px; }
+        .ep-nav-inner { padding: 10px 12px env(safe-area-inset-bottom, 0px); display: flex; flex-direction: column; gap: 6px; }
+        .ep-pn { display: flex; gap: 8px; justify-content: space-between; }
+        .ep-pn-btn { flex: 1; text-align: center; padding: 7px 10px; background: transparent; border: 1px solid var(--nav-border); border-radius: 5px; color: var(--nav-text); font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 1.5px; text-decoration: none; transition: border-color 0.2s, color 0.2s, background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .ep-pn-btn:hover { border-color: var(--nav-active); color: var(--nav-active); background: var(--nav-active-bg); }
+        .ep-pn-btn.disabled { opacity: 0.25; pointer-events: none; }
+        .ep-list { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .ep-list::-webkit-scrollbar { display: none; }
+        .ep-pill { flex-shrink: 0; padding: 5px 12px; border: 1px solid var(--nav-border); border-radius: 20px; font-family: var(--font-title); font-size: 0.55rem; letter-spacing: 1.5px; color: var(--nav-text); text-decoration: none; white-space: nowrap; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+        .ep-pill:hover { border-color: var(--nav-active); color: var(--nav-active); }
+        .ep-pill.active { border-color: var(--nav-active); background: var(--nav-active-bg); color: var(--nav-active); }
+        @media (max-width: 768px) { .seq-title { font-size: 2rem; } .story-text { font-size: 1.15rem; line-height: 1.7; padding: 0 10px; } .text-blocks { padding: 40px 10px 20px; gap: 25px; } .panel { margin-bottom: 60px; } }
+        body.has-ep-nav .story-container { padding-bottom: 80px; }
+    </style>
+</head>
+<body class="has-ep-nav">
+<div class="top-actions"><a href="https://petersebring.com/newsletter.php" class="lang-toggle" style="text-decoration:none;" target="_blank" title="Subscribe to Newsletter">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="lang-label">NEWS</span>
+</a><button class="lang-toggle" onclick="shareEpisode(this)" data-title="Check out this episode: p_r3sh0r75_003">
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+    <span class="lang-label">SHARE</span>
+</button>
+<script>
+function shareEpisode(btn) {
+    if (navigator.share) {
+        navigator.share({ title: btn.dataset.title, url: window.location.href }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied!");
+    }
+}
+</script><a href="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq362_en.pdf" class="lang-toggle" style="text-decoration:none;" download>
+    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+    <span class="lang-label">PDF</span>
+</a><div class="lang-picker" id="lang-picker">
+    <button class="lang-toggle" id="lang-toggle" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path><path d="M2 12h20"></path></svg>
+        <span class="lang-label">EN</span>
+    </button>
+    <div class="lang-menu"><a href="ep_362.html">EN</a><a href="ep_362_de.html">DE</a><a href="ep_362_pt.html">PT</a></div>
+</div>
+<script>
+document.getElementById('lang-toggle')?.addEventListener('click', function(e) {
+    e.stopPropagation(); document.getElementById('lang-picker').classList.toggle('open');
+});
+document.addEventListener('click', function(e) {
+    const p = document.getElementById('lang-picker');
+    if (p && !p.contains(e.target)) p.classList.remove('open');
+});
+</script></div>
+<div class="story-container">
+    <div class="seq-header observe-me visible">
+        <div style="font-family:var(--font-title);font-size:0.65rem;letter-spacing:3px;color:var(--accent-color);opacity:0.6;margin-bottom:14px;text-transform:uppercase;">p_r3sh0r75&nbsp;·&nbsp; 3 / 3</div>
+        <h1 class="seq-title">p_r3sh0r75_003</h1>
+        
+    </div>
+    <div class="ep-cover-wrapper observe-me visible">
+    <img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065690.jpg" class="ep-cover-img" alt="Cover">
+</div>
+<div class="ep-scroll-indicator observe-me visible">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><polyline points="17 15 12 20 7 15"/></svg>
+</div>
+    <div class="panel" id="panel-0"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065652.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 1" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The jungle does not forgive. It merely tolerates.</div><div class="story-text observe-me">Vitalis coiled at her wrist — broadcasting regret in silvery light, solemn as an old wound reaffirming itself.</div><div class="story-text observe-me">The synthetic courier arrives unhurried, chassis blotchy with earned scars. No words. Only haptic gratitude, pulse by pulse.</div><div class="story-text observe-me">One seed pod drops into her palm — warm, pagan, frighteningly sacred. Above, the canopy shudders. Not wind. Memory.</div></div></div><div class="panel" id="panel-1"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063507.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 2" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Twelve hours Tethered. One seedling. The archivist calls it maintenance.</div><div class="story-text observe-me">She recites the dead by name — two centuries of silence, unmade syllable by syllable.</div><div class="story-text observe-me">Outside, the Aura-Net broadcasts the city&#039;s categorical indignation. Inside, the rot drinks stored sunlight and grows, ingeniously, toward her chest.</div><div class="story-text observe-me">Gold-to-blue. The Vitalis margin holds. For now.</div></div></div><div class="panel" id="panel-2"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063506.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 3" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Where the Aura-Net goes deaf, confessions take root.</div><div class="story-text observe-me">A Vitalis adept — half-flesh, half-seepage — kneels at the periphery of deliberate dark.</div><div class="story-text observe-me">She catechizes the chrysanthemum. Tells it what the jungle lost. Watches the gold go grim.</div><div class="story-text observe-me">The flower soaks her remorse whole. Carrion knowledge, preserved in cellulose. The Tether takes its corollary pound.</div></div></div><div class="panel" id="panel-3"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065649.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 4" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The Sanctum of Eroding Selves</div><div class="story-text observe-me">Three souls kneel at the homestead of dissolution, dividing what remains of the corporeal world with honourable hands.</div><div class="story-text observe-me">The newest among them trembles. To reach for the cloak is to confirm what the room already knows: she is coming undone.</div><div class="story-text observe-me">Shares must be honourable. The Spectre speaks in bone. The tithe is paid not in grain or coin — but in the slow surrender of being.</div></div></div><div class="panel" id="panel-4"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065663.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 5" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The Reclamation Hangar keeps no shadows — only scale, and the smallness of those within it.</div><div class="story-text observe-me">Forty meters of electromagnetic void. Gravity forgets itself down there.</div><div class="story-text observe-me">The Spectre of Momentum does not soften the leap. It compounds it — every fraction of a second, faster.</div><div class="story-text observe-me">A child clutches a worn chart of named things. Watches the red streak refuse to fall. Begins, perhaps, to understand.</div></div></div><div class="panel" id="panel-5"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065648.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 6" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Five bodies. One breath. No words needed.</div><div class="story-text observe-me">The temporal anchor hums — and somewhere in the gold-rippled mirror, their shadows lag behind, already lost to the dilation.</div><div class="story-text observe-me">Decades of trust, foreground and reflection: hands that find each other in the dark.</div><div class="story-text observe-me">One hesitation. The whole machine stalls — and waits, like a fecund silence before the heyday of motion resumes.</div></div></div><div class="panel" id="panel-6"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065674.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 7" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Overhead, the floor reads like an ossuary of motion — condensation tracing every debt the roots have catalogued.</div><div class="story-text observe-me">She moves in counter-pattern. Assiduous. Economical. The jungle scores frequency like a potentate tallying tribute.</div><div class="story-text observe-me">The telepathic relay broadcasts its daily apology — imperishable ritual, the one boundary the Glass-Breakers still honour.</div><div class="story-text observe-me">The forest can wait centuries. She is simply the latest entry in a ledger that predates every forebear who dared call this place a lab.</div></div></div><div class="panel" id="panel-7"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065651.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 8" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The epoch does not end quietly — it tilts.</div><div class="story-text observe-me">Beneath Scar-glass vaults, a trembling hand surrenders what quicklime and geothermal stone once sealed: the first stewardship.</div><div class="story-text observe-me">Flesh to porcelain. Ancient to irreducible. The stall-keepers freeze, solicitously awestruck, as Vitalis-touched vines register what words cannot.</div><div class="story-text observe-me">The frame itself refuses to hold level — as if the moment, titanically weighted, might topple the world sideways into whatever comes next.</div></div></div><div class="panel" id="panel-8"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065661.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 9" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Festival of Revealment, Luminara understory — the Tether already collecting its debt.</div><div class="story-text observe-me">Her Spectre exhales spores that taste of ozone and regret. She does not slow.</div><div class="story-text observe-me">Behind her: a dying garden held alive by will alone. Ahead: the Root Rot, systematic, patient, rising.</div><div class="story-text observe-me">The cost of one more day is written across her ribs.</div></div></div><div class="panel" id="panel-9"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065658.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 10" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">No ceremony. No proclamation. Only hands that know the work.</div><div class="story-text observe-me">Shadow Scab techs, 73rd hour of the Silent Convocation — coaxing a half-dead machine back into deliberation with the living jungle.</div><div class="story-text observe-me">Beneath the obsidian crust, murdered groves stir. Rebirth arrives not as riot but as slow, organic reclamation.</div><div class="story-text observe-me">The Glass-Breakers groan upward. The wheat below keeps rhythm. The machinery, elusively patient, begins — at last — to remember what it was for.</div></div></div><div class="panel" id="panel-10"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065662.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 11" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Three hundred grieving strangers, one invisible collapse.</div><div class="story-text observe-me">The Tether collects its debt in copper and alkaline soil — emerald fire tracing every failing vein.</div><div class="story-text observe-me">His thumb finds the vertebra. His palm releases its calculated mercy.</div><div class="story-text observe-me">Compassion, measured in milligrams. The leash, disguised as a hand.</div></div></div><div class="panel" id="panel-11"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065660.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 12" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Symmetry of Pollen Grief.</div><div class="story-text observe-me">Twenty-three degrees apart — broodingly precise, indisputably equal in loss.</div><div class="story-text observe-me">Grief settles like gold on their shoulders. Coral branches reach at the frequency of a trembling hand.</div><div class="story-text observe-me">Behind them, the Gardens carry the root-matter of the one they both loved. The Tether burns. Neither moves.</div></div></div><div class="panel" id="panel-12"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065617.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 13" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Three shapes carved from thermal debt — negotiator, daughter, arbiter — kneeling where the jungle sends its verdict upward in heat and silver mist.</div><div class="story-text observe-me">A living contract drinks her blood. Each stroke: one season&#039;s concession, written in Vitalis-green, witnessed by eyeless sockets that see everything.</div><div class="story-text observe-me">Overhead, a Glass-Breaker root splits obsidian. Basaltic dust falls unhurried, haphazard — the Deep Roots asserting their quintessence without theatre.</div><div class="story-text observe-me">Three beats. Pause. Three beats. The daughter reads the interval, nods once. *We may stay.*</div></div></div><div class="panel" id="panel-13"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065659.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 14" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Beneath the geothermal dark, a technician bargains with patience itself.</div><div class="story-text observe-me">Three cycles of service. Immunity from the jungle&#039;s slow malignity.</div><div class="story-text observe-me">The synthetic recollects doubt — learns it from us, wears it charmingly.</div><div class="story-text observe-me">One word on its chest-screen, in Old Vitalis script: Perhaps.</div></div></div><div class="panel" id="panel-14"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063622.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 15" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Shadow Scab — Year 300 of Enforced Humility.</div><div class="story-text observe-me">Fifty thousand souls kneel beneath a guillotine wrought in emerald mercy.</div><div class="story-text observe-me">The jungle does not forgive. It calculates.</div><div class="story-text observe-me">Each harvest a treaty. Each child&#039;s laughter — collateral stoically given.</div></div></div><div class="panel" id="panel-15"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065683.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 16" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The Verdant Reconquest — five kilometers of botanical reckoning.</div><div class="story-text observe-me">Sapling by sapling, the Shadow Scab reclaims what obsidian stole.</div><div class="story-text observe-me">Seven hundred stewards abide at the frontier — not commanders, but facilitators of an older ambition.</div><div class="story-text observe-me">The jungle tolerates no monument to ruin. Only the green endures, primordially, advancing.</div></div></div><div class="panel" id="panel-16"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065653.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 17" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Dusk settles over the Scar — amber bleeding into indigo, the obsidian palimpsest of a forest that refused to stay buried.</div><div class="story-text observe-me">Three stewards move between the Glass-Breakers, harvesting sap by rote, each exhalation a small, faltering hymn to sufferance.</div><div class="story-text observe-me">One pauses. Hand to root. Receiving the jungle&#039;s wordless communion — a contract renewed, not forgiven, evermore cognizant of its betrayers&#039; lineage.</div><div class="story-text observe-me">Deep below, in the geothermal dark, lights sequence on like a distant obelisk broadcasting its pervasive refrain: We forgive you. We do not forget.</div></div></div><div class="panel" id="panel-17"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065655.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 18" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Three kilometers of primordial fury — and one fraying rail between them and the deep.</div><div class="story-text observe-me">She doesn&#039;t negotiate with gravity. She negotiates with the jungle.</div><div class="story-text observe-me">Emerald veins flare. A glass-breaker root contorts, fearsomely obedient, and catches what it could have crushed.</div><div class="story-text observe-me">The forest remembers every betrayal. Today, reluctantly, it chooses to cradle rather than reclaim.</div></div></div><div class="panel" id="panel-18"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065680.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 19" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">Sixty-two years of siege fought with kindness — twelve towers, one frequency, no silence.</div><div class="story-text observe-me">The glyphs read: *we forgive you, come home.*</div><div class="story-text observe-me">A woman&#039;s voice from before the abandonment. Her words still land. They still choke.</div><div class="story-text observe-me">On the northern horizon, the floating city holds its position — and says nothing back.</div></div></div><div class="panel" id="panel-19"><div class="panel-img-wrapper" style="position:relative; width:100%; display:flex; justify-content:center;"><div style="position:relative; width:100%; max-width:600px;"><img src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0065675.jpg" class="panel-img observe-me" loading="lazy" alt="Frame 20" data-fuki="[]" onload="if(typeof renderFuki === 'function') renderFuki(this);"><div class="fuki-layer" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;"></div></div></div><div class="text-blocks"><div class="story-text observe-me">The Scab does not forgive smallness — yet here she is.</div><div class="story-text observe-me">A scout. Embodiment of a pledge no senate ratified.</div><div class="story-text observe-me">In her fist: one amber shard, fulgent against the dearth of everything.</div><div class="story-text observe-me">The hearth flame — wan, exigent, stubbornly unswallowed by the ridge&#039;s long dark.</div><div class="story-text observe-me">Seed of life.</div></div></div>
+    <div class="end-mark observe-me">&#10086; FIN &#10086;</div>
+    <div class="ep-end-box observe-me"><a href="#" class="end-teaser-link" id="random-teaser-link" style="display:none;">
+    <img src="" class="end-teaser-cover" id="random-teaser-cover" alt="Cover">
+    <div class="end-teaser-text">
+        <div class="end-teaser-pre">Also discover:</div>
+        <div class="end-teaser-title" id="random-teaser-title"></div>
+    </div>
+</a>
+<script>
+(function(){
+    var options = [{"title":"EMILY","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg","url":"../index_emag.html"},{"title":"FAUST","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg","url":"../index_faust.html"},{"title":"ANIMA SG TAC","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064890.jpg","url":"../index_animasgtac.html"},{"title":"STARLIGHT GUARDIANS","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg","url":"../index_sgtac.html"}];
+    if(options && options.length > 0) {
+        var pick = options[Math.floor(Math.random() * options.length)];
+        var link = document.getElementById('random-teaser-link');
+        var cover = document.getElementById('random-teaser-cover');
+        var title = document.getElementById('random-teaser-title');
+        if(link && pick) {
+            link.href = pick.url;
+            if (pick.cover) { cover.src = pick.cover; } else { cover.style.display = 'none'; }
+            title.textContent = pick.title;
+            link.style.display = 'flex';
+        }
+    }
+})();
+</script><div class="soc-wrap"><a href="https://www.instagram.com/starlightguardianscom/" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a><a href="https://www.youtube.com/@starlightguardianscom" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a><a href="https://petersebring.com/newsletter.php" class="soc-icon" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></div></div>
+</div>
+<nav class="ep-nav" id="ep-nav" aria-label="Episode Navigation">
+    <button class="ep-nav-toggle" id="ep-nav-toggle" aria-expanded="false" aria-controls="ep-nav-bar">
+        <span>Episodes</span>
+        <span class="ep-arrow">&#9650;</span>
+    </button>
+    <div class="ep-nav-bar" id="ep-nav-bar" role="region">
+        <div class="ep-nav-inner">
+            <div class="ep-pn"><a class="ep-pn-btn" href="ep_361.html">&#9664; p_r3sh0r75_002</a> <span class="ep-pn-btn disabled">Next &#9654;</span></div>
+            <div class="ep-list"><a class="ep-pill" href="ep_187.html">p_r3sh0r75_001</a><a class="ep-pill" href="ep_361.html">p_r3sh0r75_002</a><a class="ep-pill active" href="ep_362.html" aria-current="page">p_r3sh0r75_003</a></div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+        });
+    }, { root: null, rootMargin: '0px 0px -15% 0px', threshold: 0 });
+    document.querySelectorAll('.observe-me').forEach(el => observer.observe(el));
+    const nav    = document.getElementById('ep-nav');
+    const toggle = document.getElementById('ep-nav-toggle');
+    if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', isOpen);
+        });
+        nav.addEventListener('transitionend', () => {
+            if (nav.classList.contains('open')) {
+                const active = nav.querySelector('.ep-pill.active');
+                if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+            }
+        });
+    }
+});
+
+function renderFuki(imgEl) {
+    try {
+        const fukiData = JSON.parse(imgEl.getAttribute('data-fuki') || '[]');
+        if (!fukiData.length) return;
+        const layer = imgEl.nextElementSibling;
+        if (!layer || !layer.classList.contains('fuki-layer')) return;
+        const natW = imgEl.naturalWidth || imgEl.getAttribute('width');
+        if (!natW) return;
+        const scale = imgEl.clientWidth / natW;
+        layer.innerHTML = '';
+        fukiData.forEach(ft => {
+            const div = document.createElement('div');
+            div.style.position = 'absolute';
+            div.style.left = (ft.x * scale) + 'px';
+            div.style.top = (ft.y * scale) + 'px';
+            div.style.width = (ft.width * scale) + 'px';
+            div.style.transform = `rotate(${ft.rotation}deg)`;
+            div.style.transformOrigin = 'top left';
+            div.style.color = ft.fill_color;
+            div.style.textAlign = ft.text_align;
+            div.style.fontFamily = `"${ft.font_family}", sans-serif`;
+            div.style.fontSize = (ft.font_size * scale) + 'px';
+            div.style.fontWeight = ft.is_bold == 1 ? 'bold' : 'normal';
+            div.style.fontStyle = ft.is_italic == 1 ? 'italic' : 'normal';
+            div.style.textDecoration = ft.is_underline == 1 ? 'underline' : 'none';
+            div.style.lineHeight = '1.2';
+            div.style.whiteSpace = 'pre-wrap';
+            div.style.wordWrap = 'break-word';
+            
+            // --- FIX: Re-enable pointer events and text selection for the text itself ---
+            div.style.pointerEvents = 'auto';
+            div.style.userSelect = 'text';
+            div.style.webkitUserSelect = 'text';
+            
+            div.innerText = ft.text_content;
+            layer.appendChild(div);
+        });
+    } catch(e) { console.error('Fuki render error', e); }
+}
+window.addEventListener('resize', () => {
+    document.querySelectorAll('.panel-img[data-fuki]').forEach(img => {
+        if (img.complete && img.naturalWidth > 0) renderFuki(img);
+    });
+});
+</script>
