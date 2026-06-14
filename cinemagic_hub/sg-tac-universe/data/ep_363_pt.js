@@ -12,7 +12,7 @@ const episodeData = {
             "name": "SG TAC CAST",
             "chapter_label": null,
             "cover_raw": "/frames_starlightguardians_nu/frame0065818.jpg",
-            "seq_data_raw": "[{\"sketch_id\":11563,\"frame_id\":50707},{\"sketch_id\":11565,\"frame_id\":50711},{\"sketch_id\":11558,\"frame_id\":50704},{\"sketch_id\":11555,\"frame_id\":50729},{\"sketch_id\":11564,\"frame_id\":50709},{\"sketch_id\":11557,\"frame_id\":50703},{\"sketch_id\":11556,\"frame_id\":50702},{\"sketch_id\":11550,\"frame_id\":50696},{\"sketch_id\":11553,\"frame_id\":50699},{\"sketch_id\":11566,\"frame_id\":50719},{\"sketch_id\":11549,\"frame_id\":50695},{\"sketch_id\":11548,\"frame_id\":50694},{\"sketch_id\":11551,\"frame_id\":50697},{\"sketch_id\":11552,\"frame_id\":50698},{\"sketch_id\":11554,\"frame_id\":50700}]",
+            "seq_data_raw": "[{\"sketch_id\":11563,\"frame_id\":50707},{\"sketch_id\":11565,\"frame_id\":50711},{\"sketch_id\":11558,\"frame_id\":50704},{\"sketch_id\":11555,\"frame_id\":50729},{\"sketch_id\":11564,\"frame_id\":50709},{\"sketch_id\":11557,\"frame_id\":50703},{\"sketch_id\":11556,\"frame_id\":50702},{\"sketch_id\":11550,\"frame_id\":50696},{\"sketch_id\":11553,\"frame_id\":50699},{\"sketch_id\":11566,\"frame_id\":50719},{\"sketch_id\":11549,\"frame_id\":50695},{\"sketch_id\":11548,\"frame_id\":50694},{\"sketch_id\":11551,\"frame_id\":50697},{\"sketch_id\":11744,\"frame_id\":51481},{\"sketch_id\":11552,\"frame_id\":50698},{\"sketch_id\":11554,\"frame_id\":50700},{\"sketch_id\":11743,\"frame_id\":51480},{\"sketch_id\":11745,\"frame_id\":51482},{\"sketch_id\":11606,\"frame_id\":50838}]",
             "url": "ep_363_pt.html"
         }
     ],
@@ -175,6 +175,18 @@ const episodeData = {
             "fuki_texts": []
         },
         {
+            "id": 11744,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066543.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066543.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066543.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066543.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066543.jpg",
+            "overlay_texts": [
+                "Keira Sanzyd"
+            ],
+            "fuki_texts": []
+        },
+        {
             "id": 11552,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0065777.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0065777.jpg",
@@ -195,6 +207,42 @@ const episodeData = {
             "filename": "frames_starlightguardians_nu/frame0065764.jpg",
             "overlay_texts": [
                 "Empress Noctura"
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11743,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066542.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066542.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066542.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066542.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066542.jpg",
+            "overlay_texts": [
+                "CC Guard Captain"
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11745,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066544.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066544.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0066544.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066544.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066544.jpg",
+            "overlay_texts": [
+                "Octarion"
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11606,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0065942.png",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0065942.png",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0065942.png",
+            "original_filename": "frames_starlightguardians_nu/frame0065942.png",
+            "filename": "frames_starlightguardians_nu/frame0065942.png",
+            "overlay_texts": [
+                "Mother Murk"
             ],
             "fuki_texts": []
         }
