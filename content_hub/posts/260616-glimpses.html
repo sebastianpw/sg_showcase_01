@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>260616 Glimpses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0a0a0a; color: #e4e4e4; line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 auto; background-color: #000; min-height: 100vh; }
+        .header { padding: 12px 16px; border-bottom: 1px solid #262626; display: flex; align-items: center; justify-content: space-between; }
+        .header h1 { font-size: 16px; font-weight: 600; }
+        .image-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; background-color: #000; aspect-ratio: 1; }
+        .image-item { position: relative; overflow: hidden; cursor: pointer; background-color: #1a1a1a; }
+        .image-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.3s ease; }
+        .image-item:hover img { transform: scale(1.05); }
+        .actions { padding: 12px 16px; display: flex; gap: 16px; border-bottom: 1px solid #262626; }
+        .action-btn { background: none; border: none; cursor: pointer; padding: 0; display: flex; align-items: center; gap: 6px; color: #e4e4e4; font-size: 14px; transition: opacity 0.2s; }
+        .action-btn:hover { opacity: 0.7; }
+        .action-btn svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 2; }
+        .content { padding: 16px; }
+        .content p { margin-bottom: 12px; white-space: pre-line; }
+        .content strong { color: #fff; display: block; margin-bottom: 8px; font-size: 15px; }
+        .content ul { list-style: none; margin: 12px 0; }
+        .content ul li { margin-bottom: 8px; padding-left: 0; }
+        .links { margin-top: 16px; padding-top: 16px; border-top: 1px solid #262626; }
+        .links a { color: #3b82f6; text-decoration: none; }
+        .links a:hover { text-decoration: underline; }
+        .hashtags { margin-top: 16px; color: #3b82f6; font-size: 14px; line-height: 1.5; }
+        @media (max-width: 600px) { .container { max-width: 100%; } }
+        .pswp__img { object-fit: contain; }
+        .back-row { display: flex; align-items: center; gap: 10px; }
+        .back-link { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; min-width: 40px; border-radius: 8px; background: transparent; border: 1px solid rgba(255,255,255,0.04); color: #e6eef8; text-decoration: none; transition: background .15s ease, transform .12s ease, box-shadow .12s ease; }
+        .back-link:hover { background: rgba(255,255,255,0.03); transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,0.55); }
+        .back-link:focus { outline: 3px solid rgba(59,130,246,0.25); outline-offset: 2px; }
+        .back-icon { width: 18px; height: 18px; display: block; stroke: currentColor; fill: none; stroke-width: 1.5; }
+        .post-title { font-size: 16px; color: #fff; font-weight: 600; line-height: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        @media (max-width:420px){ .back-link { width:44px; height:44px; } .back-icon { width:20px; height:20px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-row">
+            <a class="back-link" href="../index.html" id="backToGrid" title="Back to gallery" aria-label="Back to gallery">
+                <svg class="back-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.2"/><rect x="14" y="3" width="7" height="7" rx="1.2"/><rect x="3" y="14" width="7" height="7" rx="1.2"/><rect x="14" y="14" width="7" height="7" rx="1.2"/></svg>
+            </a>
+            <div class="header">
+                <h1 class="post-title">260616 Glimpses</h1>
+            </div>
+        </div>
+
+        <div class="image-grid" id="gallery">
+            <!-- This part will be populated by PhotoSwipe based on the JS array -->
+        </div>
+
+        <div class="actions">
+            <button class="action-btn" id="shareBtn">
+                <svg viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                <span>Share</span>
+            </button>
+        </div>
+
+        <div class="content">
+            
+        </div>
+    </div>
+
+    <script type="module">
+        import PhotoSwipeLightbox from 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js';
+        import PhotoSwipe from 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js';
+
+        const images = [{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066750.jpg","alt":"The Phantom Partner Blooms II","id":"51627","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066750.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066157.jpg","alt":"frame0066157","id":"51059","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066157.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066682.jpg","alt":"frame0066682","id":"51535","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066682.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066174.jpg","alt":"frame0066174","id":"51075","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066174.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066684.jpg","alt":"frame0066684","id":"51538","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066684.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0065989.jpg","alt":"frame0065989","id":"50880","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0065989.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066380.jpg","alt":"frame0066380","id":"51282","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066380.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066681.jpg","alt":"The Dimming Reaches Deep","id":"51537","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066681.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066439.jpg","alt":"frame0066439","id":"51309","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066439.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0065912.jpg","alt":"frame0065912","id":"50808","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0065912.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066476.jpg","alt":"frame0066476","id":"51334","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066476.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0065856.jpg","alt":"frame0065856","id":"50779","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0065856.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066422.jpg","alt":"frame0066422","id":"51300","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066422.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066688.jpg","alt":"frame0066688","id":"51542","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066688.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066271.jpg","alt":"frame0066271","id":"51173","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066271.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066172.jpg","alt":"frame0066172","id":"51073","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066172.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0063682.jpg","alt":"frame0063682","id":"48643","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0063682.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066201.jpg","alt":"New Composites 1781202790","id":"51102","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066201.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066249.jpg","alt":"frame0066249","id":"51151","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066249.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066426.jpg","alt":"frame0066426","id":"51303","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066426.jpg"},{"src":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/content_hub/posts/post29/frame0066680.jpg","alt":"frame0066680","id":"51531","thumb":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/","original_src":"/frames_starlightguardians_nu/frame0066680.jpg"}];
+
+        // Dynamically create grid items from the images array
+        const gallery = document.getElementById('gallery');
+        images.forEach((img, index) => {
+            const item = document.createElement('div');
+            item.className = 'image-item';
+            item.dataset.index = index;
+            const imageEl = document.createElement('img');
+            imageEl.src = img.src;
+            imageEl.alt = img.alt || `Image ${index + 1}`;
+            item.appendChild(imageEl);
+            gallery.appendChild(item);
+        });
+
+        const lightbox = new PhotoSwipeLightbox({
+            dataSource: images,
+            pswpModule: PhotoSwipe,
+            bgOpacity: 0.95,
+            spacing: 0.1
+        });
+
+        lightbox.init();
+
+        document.querySelectorAll('.image-item').forEach((item, index) => {
+            item.addEventListener('click', () => {
+                lightbox.loadAndOpen(index);
+            });
+        });
+
+        document.getElementById('shareBtn').addEventListener('click', async () => {
+            const shareData = {
+                title: '260616 Glimpses',
+                text: document.querySelector('.content p')?.textContent || 'Check this out!',
+                url: window.location.href
+            };
+
+            try {
+                if (navigator.share) {
+                    await navigator.share(shareData);
+                } else {
+                    await navigator.clipboard.writeText(shareData.url);
+                    alert('Link copied to clipboard!');
+                }
+            } catch (err) {
+                console.log('Share failed:', err);
+            }
+        });
+    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SBSTRVS0NR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SBSTRVS0NR');
+</script>
+</body>
+</html>
+
