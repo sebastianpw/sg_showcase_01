@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 231,
-    "name": "SERIES PRE S04",
+    "name": "The Anima Chronicles S04E01",
     "description": "",
     "cinemagic": {
         "id": 14,
@@ -9,10 +9,10 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 231,
-            "name": "SERIES PRE S04",
+            "name": "The Anima Chronicles S04E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
+            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":310,\"frame_id\":42520},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":11644,\"frame_id\":51134},{\"sketch_id\":2583,\"frame_id\":43320},{\"sketch_id\":4797,\"frame_id\":51776},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":11629,\"frame_id\":51013},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":2785,\"frame_id\":42671},{\"sketch_id\":1059,\"frame_id\":42553},{\"sketch_id\":11619,\"frame_id\":51003},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
             "url": "ep_231_pt.html"
         }
     ],
@@ -31,7 +31,23 @@ const episodeData = {
                 "Sparklefly repousa na palma aberta de Taro. Sua luminescência silenciada a um pulso único e fracional. Um coração emprestado do luto da atmosfera.",
                 "TARO: &quot;Ela ainda está lá.&quot;\n\nNinguém confirma. Ninguém nega.",
                 "A história foi reescrita a meio da frase. Eles sentam-se no peso do nome não dito e esperam que o que quer que venha a seguir tenha a decência de chegar."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 310,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057351.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057351.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057351.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057351.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057351.jpg",
+            "overlay_texts": [
+                "Skytier Tower 226. Derelict. Still standing — barely.",
+                "Below, the Lower Districts breathe sulphur into the dark, patient as a kept wound.",
+                "Kaelen moves along the cornice like a silhouette that has learned to distrust iron.",
+                "The windowpane yields. The vast night greets her gingerly — and says nothing."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9711,
@@ -46,7 +62,8 @@ const episodeData = {
                 "NOCTURA: &quot;A diferença entre gerir um sistema e redesenhá-lo é a mesma que a diferença entre tratar uma ferida e abordar a coisa que cria feridas.&quot;",
                 "PRESIDENTE SÉNIOR: &quot;Estamos... abertos a compreender a vossa estrutura com maior detalhe.&quot;",
                 "Os chifres de Noctura captam a luz do UV-grid. Uma única refração. Não é triunfo. É notação."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2719,
@@ -56,8 +73,12 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057530.jpg",
             "filename": "frames_starlightguardians_nu/frame0057530.jpg",
             "overlay_texts": [
-                "Within the cathedral-scale command chamber carved into Crater City&#039;s obsidian core, Prime Architect Kaelen sits entombed in his gravity throne—a colossal mainframe spine piercing upward into infinite blackness, his lower body dissolved into cables thick as pythons, his ribcage fused to chrono-reactor conduits pulsing with violet fractals. His gaunt face, veined with Gravita tracery beneath translucent skin, turns incrementally toward the void where Empress Noctura materializes—a specter of cosmic malice, her galaxy-patterned robes rippling with phantom stars, white hair flowing unnaturally in the pressurized stillness, purple eyes igniting the chamber&#039;s UV-reactive fractal etchings into ghostly constellations. Behind her, Oblivion emerges from shadow, silver-haired and cloaked, fingers tracing the dormant Tech Core Relic hovering between them—a mechanism of pre-collapse origin, its circuits flickering amber and violet as gravitational lensing bends the air into rippling distortions. Two Anima orbit the scene: Gloomling, a creepy miniature jester whose laughter echoes like tin grinding on ceramic, and Gloomflare, a volatile fireball trailing dark-energy cinders that freeze mid-descent, suspended in Kaelen&#039;s time-distortion field. The Architect&#039;s amber eyes reflect calculating exhaustion as Noctura extends her scepter, its tip nearly touching his immobilized chest—a gesture of dominion, not violence—while Oblivion&#039;s smirk suggests he has already orchestrated three contingencies for this confrontation. Around them, the Negative Space Void expands: vast concentric rings of polished black ceramic receding into emptiness, the UV-Grid casting only the faintest skeletal geometry, dust motes frozen like distant stars in a personal cosmos of isolation. The silence is deafening, broken only by the subliminal hum of compressed atmosphere and the faint, mechanical heartbeat of the city&#039;s gravity anchors—a cathedral where gods negotiate in whispers, surrounded by the abyss they each command."
-            ]
+                "Three contingencies deep, and Oblivion still smiles.",
+                "The Architect — fused to the city&#039;s spine, amber eyes calculating the cost of surrender.",
+                "Noctura&#039;s scepter does not threaten. It pronounces.",
+                "In the furnace-dark of Crater City&#039;s obsidian heart, gods negotiate dominion — frozen dust their only witnesses."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2718,
@@ -67,53 +88,57 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057518.jpg",
             "filename": "frames_starlightguardians_nu/frame0057518.jpg",
             "overlay_texts": [
-                "Deep within Crater City&#039;s obsidian core, the Temporal Alcove ruptures—a claustrophobic chamber where Chrono Spectres have been tortured into paradox fuel, their agony crystallizing time itself into stuttering loops. Prime Architect Kaelen remains motionless, fused into his industrial throne, amber eyes flickering as gravitational lensing warps the air around his half-consumed torso; forty years of immobility have calcified his patience into something almost holy. Before him materializes Empress Noctura, her galaxy-patterned robes bleeding into the darkness like ink dispersing through water, white hair cascading over wrinkled flesh that defies its century of existence—she moves through frozen dust motes that hang mid-collapse, her glowing purple eyes cutting through the UV-blacklight that reveals geometric etchings screaming across obsidian walls. Behind her shoulder coalesces Oblivion, silver hair catching phantom-white fluorescence, his crossed arms and subtle smirk radiating calculated menace as Gloomflare—a Spectre twisted into savage sentience—writhes at the chamber&#039;s edges, its fiery dark energy scorching ultraviolet sigils into bioluminescent fungi colonies that pulse sickly green and blood-red across the cathedral-scale architecture. The air tastes of filtered sterility and suppressed terror as Noctura extends her scepter toward Kaelen&#039;s imprisoned form, cosmic orbs orbiting her skeletal wrists; time hiccups violently, chrono-reactor conduits piercing the Architect&#039;s ribcage suddenly glow deep purple with Gravita contamination, and a blood drip grin splits Gloomflare&#039;s amorphous face as it realizes the chamber&#039;s wrongness—this is no negotiation, but a covenant written in the language of fundamental corruption, where shadow dimensions bleed through polished black ceramic and the city&#039;s dark mode existence becomes literally underworld purple-black, every surface now reflecting not efficiency but entropy&#039;s elegant triumph."
-            ]
+                "Forty years calcified into a throne — patience indistinguishable from entombment.",
+                "She strides through frozen detritus like a saga arriving unhurried from absentia.",
+                "Gloomflare writhes at the edges. Gloom, prescient and guttural, already knows.",
+                "This was never a covenant of words. Entropy, it seems, requires no prelude."
+            ],
+            "fuki_texts": []
         },
         {
-            "id": 9712,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0058092.jpg",
-            "filename": "frames_starlightguardians_nu/frame0058092.jpg",
+            "id": 11644,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064922.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064922.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064922.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0064922.jpg",
+            "filename": "frames_starlightguardians_nu/frame0064922.jpg",
             "overlay_texts": [
-                "Câmara da Parede da Lembrança. Tábuas de pedra esculpidas com a história suprimida da Escória. A Anciã Tuneladora senta-se diante das inscrições. Noctura instala-se ao seu lado sem cerimónia.",
-                "ANCIÃ TUNELADORA: &quot;Vieste sem uma agenda.&quot;\n\nNOCTURA: &quot;Vim para receber.&quot;",
-                "Ele fala dos dez mil nomes da Escória. Da consciência metabolizada no alicerce da cidade, presente em cada parede.",
-                "Lágrimas correm pelo seu rosto castigado pelo tempo. Noctura não desvia o olhar. Não oferece conforto. Ela recebe.",
-                "Pela primeira vez em suas décadas de testemunho solitário, a impotência e a dignidade sentam-se lado a lado na presença de alguém com poder que escolheu tornar-se menor que o testemunho."
-            ]
+                "UMBREL — the immense abomination, withdrawn from daylight, sacredly macabre.",
+                "Oscilla distorts. Every syllable a trap. Every silence heavier.",
+                "Kael stands squarely before the traitor — bound to a negotiation neither can survive unharmed.",
+                "In the roughest dark, the damnedest artifice: an ally who became the savagest lodger of all."
+            ],
+            "fuki_texts": []
         },
         {
-            "id": 9713,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0058093.jpg",
-            "filename": "frames_starlightguardians_nu/frame0058093.jpg",
+            "id": 2583,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058216.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058216.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058216.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058216.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058216.jpg",
             "overlay_texts": [
-                "Estação Vortex. Câmara Segura de Observação. Kaori senta-se de pernas cruzadas no chão. Sua Visão-Verdadeira inflama-se, expandindo-se para toda a largura de banda do corpo.",
-                "Ela estende-se para além da arquitetura de personalidade de Noctura. Além da transmissão contínua do Campo de Harmonia. Para baixo. No leito rochoso. Onde os laços genuínos deixam geometria permanente.",
-                "Ela encontra a forma onde a presença do Grifo estivera. Ainda quente. Ainda ressonante. E ainda ativa.",
-                "O elo está fraturado, mas Atairukh está a pressionar contra ele, reconstruindo do outro lado. Persistente. Desesperado. Vivo.",
-                "Kaori abre os olhos. Ela sabe que os riscos emocionais da temporada acabam de mudar. Não é perda. É restauração desesperada."
-            ]
+                "A kilometer of dominion, compressed to a single fused body.",
+                "Prime Architect Kaelen — entombed at the convergence of flesh and city, heartbeat threaded through one million souls.",
+                "Violet veins. Obsidian walls. The boundary between man and machine: a residue, nothing more.",
+                "Below, four hundred thousand silhouettes move in prescribed orbits. Above, the apex hums. All of it — his."
+            ],
+            "fuki_texts": []
         },
         {
-            "id": 9714,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0058297.jpg",
-            "filename": "frames_starlightguardians_nu/frame0058297.jpg",
+            "id": 4797,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066923.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066923.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066923.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066923.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066923.jpg",
             "overlay_texts": [
-                "Câmara do Trono de Kaelen. As fraturas hexagonais nas paredes registam quarenta anos de cálculo temporal pressionando contra a causalidade.",
-                "Noctura materializa-se. As matrizes de probabilidade de Kaelen começam a falhar em cascata. A contingência mais próxima colapsa, as equações holográficas espalhando-se como pássaros assustados.",
-                "KAELEN: &quot;O modelo deteriora-se.&quot;\n\nNOCTURA: &quot;Sim. Deteriora. A tua estrutura baseia-se em variáveis que podem ser quantificadas. Eu existo fora da quantificação.&quot;",
-                "NOCTURA: &quot;Isto não é uma falha na tua estrutura. É uma propriedade da minha.&quot;",
-                "As veias de Chrono de Kaelen pulsam em carmesim, depois começam lentamente a estabilizar-se. Pela primeira vez em quarenta anos, ele não sabe o que virá a seguir. O início de algo pior e mais necessário que a certeza."
-            ]
+                "Beneath Crater City&#039;s immaculate black foundations — something has always been screaming.",
+                "The Slag-Drinkers did not come for power. They came to apologise to the dead.",
+                "The hero drinks. A million fractured voices answer simultaneously — each one a sickle of stolen awareness, each one refusing submission.",
+                "Catastrophic. Incandescent. The imprisoned dead declare themselves too vast, too furious, too conscious — to stay buried one century more."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9715,
@@ -128,7 +153,56 @@ const episodeData = {
                 "YAEL: &quot;A Lua Pregada responde à assinatura de Anima de Noctura com frequência ressonante. Ressonância não é controlo. Ressonância é companheirismo com a física.&quot;",
                 "NOCTURA: &quot;Se me implementarem como uma ferramenta, a Lua não ressonará. Irá resistir. O que a Lua requer não é operação. Requer alinhamento.&quot;",
                 "Lá fora, no leito rochoso: um tremor ténue. A Lua, pregada pelos seus pináculos, registou a frequência nesta sala. Estremece em reconhecimento."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9712,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058092.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058092.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058092.jpg",
+            "overlay_texts": [
+                "Câmara da Parede da Lembrança. Tábuas de pedra esculpidas com a história suprimida da Escória. A Anciã Tuneladora senta-se diante das inscrições. Noctura instala-se ao seu lado sem cerimónia.",
+                "ANCIÃ TUNELADORA: &quot;Vieste sem uma agenda.&quot;\n\nNOCTURA: &quot;Vim para receber.&quot;",
+                "Ele fala dos dez mil nomes da Escória. Da consciência metabolizada no alicerce da cidade, presente em cada parede.",
+                "Lágrimas correm pelo seu rosto castigado pelo tempo. Noctura não desvia o olhar. Não oferece conforto. Ela recebe.",
+                "Pela primeira vez em suas décadas de testemunho solitário, a impotência e a dignidade sentam-se lado a lado na presença de alguém com poder que escolheu tornar-se menor que o testemunho."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9713,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058093.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058093.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058093.jpg",
+            "overlay_texts": [
+                "Estação Vortex. Câmara Segura de Observação. Kaori senta-se de pernas cruzadas no chão. Sua Visão-Verdadeira inflama-se, expandindo-se para toda a largura de banda do corpo.",
+                "Ela estende-se para além da arquitetura de personalidade de Noctura. Além da transmissão contínua do Campo de Harmonia. Para baixo. No leito rochoso. Onde os laços genuínos deixam geometria permanente.",
+                "Ela encontra a forma onde a presença do Grifo estivera. Ainda quente. Ainda ressonante. E ainda ativa.",
+                "O elo está fraturado, mas Atairukh está a pressionar contra ele, reconstruindo do outro lado. Persistente. Desesperado. Vivo.",
+                "Kaori abre os olhos. Ela sabe que os riscos emocionais da temporada acabam de mudar. Não é perda. É restauração desesperada."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9714,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058297.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058297.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058297.jpg",
+            "overlay_texts": [
+                "Câmara do Trono de Kaelen. As fraturas hexagonais nas paredes registam quarenta anos de cálculo temporal pressionando contra a causalidade.",
+                "Noctura materializa-se. As matrizes de probabilidade de Kaelen começam a falhar em cascata. A contingência mais próxima colapsa, as equações holográficas espalhando-se como pássaros assustados.",
+                "KAELEN: &quot;O modelo deteriora-se.&quot;\n\nNOCTURA: &quot;Sim. Deteriora. A tua estrutura baseia-se em variáveis que podem ser quantificadas. Eu existo fora da quantificação.&quot;",
+                "NOCTURA: &quot;Isto não é uma falha na tua estrutura. É uma propriedade da minha.&quot;",
+                "As veias de Chrono de Kaelen pulsam em carmesim, depois começam lentamente a estabilizar-se. Pela primeira vez em quarenta anos, ele não sabe o que virá a seguir. O início de algo pior e mais necessário que a certeza."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9716,
@@ -143,7 +217,8 @@ const episodeData = {
                 "O GUIA DRAGÃO: &quot;Deves ir onde eles pararam de se dissolver. Onde a escolha ainda existe. Onde o limiar entre a carne e a Lumina permanece permeável.&quot;",
                 "MIRA: &quot;Há quanto tempo estão à espera?&quot;\n\nO GUIA DRAGÃO: &quot;Tempo suficiente para saberem que vinhas. Não tempo suficiente para pararem de esperar que chegues a tempo.&quot;",
                 "As botas de Mira batem no pavimento com propósito. Na sua garganta: o peso da reconciliação planetária, carregado não como fardo, mas como clareza ardente."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9717,
@@ -158,7 +233,21 @@ const episodeData = {
                 "JINX: &quot;O Drift não acomoda senhorios. Cada pacto comercial que o UV-Grid já ofereceu continha uma cláusula estrutural que converte parceria em dependência.&quot;",
                 "Fora da secção transparente do casco: um navio de resgate em forma de condor desce. Vem depressa. Trazendo notícias.",
                 "JINX: &quot;O que quer que esse navio traga: decidimos quem somos antes de o lermos. Não depois. Depois é tarde demais.&quot;"
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11629,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066102.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066102.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066102.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066102.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066102.jpg",
+            "overlay_texts": [
+                "schema_noncompliant",
+                "The scene description contains no narrative, visual, or world-relevant content to generate overlay copy from. It is a technical production instruction (&#039;Replace the bald dummy character with the original from the character sheet&#039;) with no scene setting, character context, Anima energy, civilisation reference, or dramatic content. No cinematic overlay text can be responsibly derived from this material without fabricating scene elements not present in the source."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9718,
@@ -173,7 +262,53 @@ const episodeData = {
                 "RIN: &quot;Não vou interromper a vossa retirada. O negócio da Crosta hoje não é o vosso negócio.&quot;",
                 "O Guarda líder baixa a sua arma. Um grau de arco. O menor gesto de desescalada possível. É enorme.",
                 "O que Rin escolheu assenta no seu peito como a primeira linha de uma linguagem que ela ainda não sabe falar. O elo sangra ciano, mas ela escolheu-o de qualquer forma."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2785,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057544.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057544.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057544.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057544.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057544.jpg",
+            "overlay_texts": [
+                "Beneath a dying gate, two figures decadently squander the dusk — swapping nonsense like dynastic currency.",
+                "The Aeon Gate: hewn Iron-Wood strangled by Root Rot. Its runes still find the equation amusing.",
+                "Vitalis-lit veins, velvet stealth, a data-chip disguised as bread crust — the wildest tradecraft the paranoid clerks could devise.",
+                "The passphrase was absurdity. The gate flickered once, as if it firmly agreed."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 1059,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057394.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057394.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057394.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057394.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057394.jpg",
+            "overlay_texts": [
+                "Luminara Gardens — where the grafted forget they were ever whole.",
+                "Rin steps into the divide. Her hand: a stayed sentence, not a sword.",
+                "The Aura-Net reads them both — copper fury, indigo resolve, neither yielding.",
+                "&quot;You won&#039;t recapture what you fed to the roots.&quot;"
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11619,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056565.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056565.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056565.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0056565.jpg",
+            "filename": "frames_starlightguardians_nu/frame0056565.jpg",
+            "overlay_texts": [
+                "Crater City&#039;s depths — three tiers of tractable labor, calibrated to the last breath.",
+                "Empress Noctura does not command. She gravitates.",
+                "Her gaze imprints itself into the architecture. Workers navigate its geometry like penitents rerouting around a sanctified site.",
+                "No voice necessary. Only the weight of absolute calculus, descending."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9719,
@@ -188,7 +323,8 @@ const episodeData = {
                 "Kaelen, monitorizando do seu trono de vigilância, ajusta. A infraestrutura da cidade está a acelerar para além da sua engenharia. A linha do tempo está a mudar.",
                 "Das paredes da câmara: um som ténue. O registo específico, mal audível, da infraestrutura a exceder sua tolerância de carga.",
                 "O sistema nervoso da cidade registando a aceleração da linha do tempo. É o primeiro som que a fratura faz. Não será o último."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9720,
@@ -203,7 +339,8 @@ const episodeData = {
                 "Dois sistemas descobrindo que estão a construir estruturas diferentes com os mesmos materiais, e que o que constroem juntos tem uma terceira forma que nenhum dos dois conseguiria alcançar sozinho.",
                 "Os modelos holográficos de Kaelen invertem-se. Quarenta anos de certeza calculada invertendo-se para revelar o inverso da sua própria arquitetura.",
                 "Nos olhos de âmbar de Kaelen: apenas sincronização. A quietude limpa, implacável e bela de uma consciência que finalmente alcançou o alinhamento perfeito com sua própria execução."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9721,
@@ -218,7 +355,8 @@ const episodeData = {
                 "Kaelen encontra a Direção já reunida. Toca nas portarias fundamentais. Começa a reescrever. Não por força. Por autoridade.",
                 "Ele está a rever as leis ao nível das suas próprias premissas fundamentais. Os conselheiros observam. A resistência tornou-se uma categoria extinta.",
                 "Um conselheiro tenta falar. A infraestrutura de comunicação da cidade recusa-se a transmitir a objeção. Isto é o que a fusão significa."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9722,
@@ -233,7 +371,8 @@ const episodeData = {
                 "Sparklefly pousa na sua palma. Firme, presente, sua luminescência silenciada a um pulso único. Testemunhando.",
                 "A clareza chega não como epifania, mas como reconhecimento irreversível: A intervenção individual não consegue tocar feridas sistémicas.",
                 "Ele olha para as suas mãos. Não diz nada. A luz fúngica testemunha o seu silêncio. Isto é suficiente."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9723,
@@ -248,7 +387,8 @@ const episodeData = {
                 "ANCIÃ TUNELADORA: &quot;Eras um carpinteiro antes. Aquele que cava o que deve ser enterrado para que a ressurreição se torne possível. Aquele ordenado não para curar o que está presente, mas para escavar o que foi suprimido.&quot;",
                 "ANCIÃ TUNELADORA: &quot;Quebrar e construir não são opostos. São a mesma oração. As tuas mãos sempre souberam disso.&quot;",
                 "A anciã segura as mãos de Taro. Treliças de âmbar pulsam em sincronia com o Vitalis esmeralda. A função do testemunho. A vocação da escavação."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9724,
@@ -262,7 +402,8 @@ const episodeData = {
                 "O Emissário de Aetherion inclina-se para eles, sua forma uma ilusão de treliças de âmbar e névoa prateada.\n\nEMISSÁRIO: &quot;A janela não é ilimitada. Escolham. Após a escolha: o caminho revela-se.&quot;",
                 "KAORI: &quot;O sinal do Grifo está no campo planetário. Consigo senti-lo daqui.&quot;\n\nTARO: &quot;Então sabemos por onde começar.&quot;",
                 "Eles viram-se. Juntos. Na direção que os que desvanecem estão a transmitir. O caminho ainda não visível. A escolha já feita."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9725,
@@ -277,7 +418,8 @@ const episodeData = {
                 "KAELEN: &quot;A Arma Deliberada já não é uma contingência. É a única variável restante. Quando a ativarem, tudo o que se segue será porque escolheram a inevitabilidade em vez da adaptação.&quot;",
                 "Um som da parede de obsidiana. Uma fenda. Crescendo a cada pulso do trono de Kaelen. Uma única nota prolongada de luto renderizada como falha estrutural.",
                 "A fenda continua. Milímetro a milímetro. Na arquitetura fundamental da inevitabilidade perfeita. Que pode conter a semente da sua própria dissolução. Ou não."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
@@ -299,23 +441,13 @@ const episodeData = {
                 "url": "../index_faust_pt.html"
             },
             {
-                "title": "PRE EMBERVEIL 01",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
-                "url": "../index_premberveil_pt.html"
-            },
-            {
-                "title": "RIC01 • The Ghost Fleet",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
-                "url": "../index_ric01_pt.html"
-            },
-            {
                 "title": "p_r3sh0r75",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg",
                 "url": "../index_prshrts_pt.html"
             },
             {
-                "title": "ANIMA SG TAC",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064590.jpg",
+                "title": "SG TAC UNIVERSE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
                 "url": "../index_animasgtac_pt.html"
             }
         ]

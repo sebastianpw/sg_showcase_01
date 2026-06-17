@@ -14,10 +14,6 @@
         .cover-img { width: 100%; max-width: 500px; height: auto; border-radius: 4px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); margin-bottom: 40px; border: 1px solid rgba(255,255,255,0.05); }
         .series-title { font-family: var(--font-title); font-size: 2.8rem; font-weight: 400; margin: 0 0 20px; color: var(--accent-color); line-height: 1.2; letter-spacing: 2px; }
         .series-desc { font-size: 1.15rem; opacity: 0.8; line-height: 1.7; max-width: 650px; margin: 0 auto 60px; }
-        .toc { width: 100%; max-width: 600px; text-align: left; }
-        .season-hdr { font-family: var(--font-title); font-size: 1rem; color: #888; letter-spacing: 2px; text-transform: uppercase; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin: 30px 0 16px; }
-        .ep-link { display: block; color: var(--text-color); text-decoration: none; font-size: 1.1rem; padding: 8px 0; transition: color 0.2s, transform 0.2s; }
-        .ep-link:hover { color: var(--accent-color); transform: translateX(6px); }
         
         .top-actions { position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 8px; align-items: flex-start; }
         .lang-picker { position: relative; }
@@ -35,10 +31,10 @@
         .cm-info { display: flex; flex-direction: column; flex: 1; }
         .cm-pre { font-family: var(--font-title); font-size: 0.6rem; letter-spacing: 2px; color: var(--accent-color); opacity: 0.7; text-transform: uppercase; margin-bottom: 6px; }
         .cm-title { font-family: var(--font-body); font-size: 1.2rem; color: var(--text-color); line-height: 1.3; margin-bottom: 8px; }
-        .cm-ep-list { display: flex; flex-direction: column; gap: 2px; margin-left: 20px; }
+        .cm-ep-list { display: flex; flex-direction: column; gap: 8px; }
         .ep-link { display: inline-flex; align-items: flex-start; gap: 8px; color: var(--text-color); opacity: 0.85; text-decoration: none; font-size: 0.95rem; transition: color 0.2s, transform 0.2s, opacity 0.2s; line-height: 1; margin-bottom: 0px; }
-        .ep-link:hover { color: var(--accent-color); opacity: 1; transform: translateX(4px); }
-        .ep-link::before { content: '▶'; font-size: 0.6rem; color: var(--accent-color); opacity: 0.6; margin-top: 3px; }
+.ep-link:hover { color: var(--accent-color); opacity: 1; transform: translateX(4px); }
+        .ep-link::before { content: '▶'; font-size: 0.6rem; color: var(--accent-color); opacity: 0.6; margin-top: 6px; }
         
         @media (max-width: 768px) { .series-title { font-size: 2.2rem; } }
     </style>
@@ -71,7 +67,7 @@ document.addEventListener('click', function(e) {
         <div class="cm-pre">Cinemagic Collection</div>
         <div class="cm-title">The Anima Chronicles • Season 1</div>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_201_pt.html'>PRÉ-SÉRIE S01</a><a class='ep-link' href='ep_202_pt.html'>PRÉ-SÉRIE S01</a><a class='ep-link' href='ep_203_pt.html'>PRÉ-SÉRIE S01</a><a class='ep-link' href='ep_204_pt.html'>PRÉ-SÉRIE S01</a><a class='ep-link' href='ep_205_pt.html'>PRÉ-SÉRIE S01</a>
+            <a class='ep-link' href='ep_201_pt.html'>The Anima Chronicles S01E01</a><a class='ep-link' href='ep_202_pt.html'>The Anima Chronicles S01E02</a><a class='ep-link' href='ep_203_pt.html'>The Anima Chronicles S01E03</a><a class='ep-link' href='ep_204_pt.html'>The Anima Chronicles S01E04</a><a class='ep-link' href='ep_205_pt.html'>The Anima Chronicles S01E05</a><a class='ep-link' href='ep_206_pt.html'>The Anima Chronicles S01E06</a>
         </div>
     </div>
 </div><div class="cm-block">
@@ -80,7 +76,7 @@ document.addEventListener('click', function(e) {
         <div class="cm-pre">Cinemagic Collection</div>
         <div class="cm-title">The Anima Chronicles • Season 2</div>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_211_pt.html'>PRELÚDIO DA SÉRIE — TEMPORADA 2</a><a class='ep-link' href='ep_213_pt.html'>PRELÚDIO DA SÉRIE — TEMPORADA 2</a><a class='ep-link' href='ep_212_pt.html'>PRELÚDIO DA SÉRIE — TEMPORADA 2</a><a class='ep-link' href='ep_214_pt.html'>PRELÚDIO DA SÉRIE — TEMPORADA 2</a>
+            <a class='ep-link' href='ep_211_pt.html'>The Anima Chronicles S02E01</a><a class='ep-link' href='ep_212_pt.html'>The Anima Chronicles S02E02</a><a class='ep-link' href='ep_213_pt.html'>The Anima Chronicles S02E03</a><a class='ep-link' href='ep_214_pt.html'>The Anima Chronicles S02E04</a>
         </div>
     </div>
 </div><div class="cm-block">
@@ -89,7 +85,7 @@ document.addEventListener('click', function(e) {
         <div class="cm-pre">Cinemagic Collection</div>
         <div class="cm-title">The Anima Chronicles • Season 3</div>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_221_pt.html'>PRÉ-SÉRIE S03</a><a class='ep-link' href='ep_222_pt.html'>PRÉ-SÉRIE S03</a><a class='ep-link' href='ep_223_pt.html'>PRÉ-SÉRIE S03</a><a class='ep-link' href='ep_224_pt.html'>PRÉ-SÉRIE S03</a>
+            <a class='ep-link' href='ep_221_pt.html'>The Anima Chronicles S03E01</a><a class='ep-link' href='ep_222_pt.html'>The Anima Chronicles S03E02</a><a class='ep-link' href='ep_223_pt.html'>The Anima Chronicles S03E03</a><a class='ep-link' href='ep_224_pt.html'>The Anima Chronicles S03E04</a>
         </div>
     </div>
 </div><div class="cm-block">
@@ -98,7 +94,7 @@ document.addEventListener('click', function(e) {
         <div class="cm-pre">Cinemagic Collection</div>
         <div class="cm-title">The Anima Chronicles • Season 4</div>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_231_pt.html'>SERIES PRE S04</a>
+            <a class='ep-link' href='ep_231_pt.html'>The Anima Chronicles S04E01</a>
         </div>
     </div>
 </div><div class="cm-block">
@@ -116,7 +112,7 @@ document.addEventListener('click', function(e) {
         <div class="cm-pre">Cinemagic Collection</div>
         <div class="cm-title">The Anima Chronicles • Season 6</div>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_251_pt.html'>SERIES PRE S06</a>
+            <a class='ep-link' href='ep_251_pt.html'>The Anima Chronicles S06E01</a>
         </div>
     </div>
 </div></div>

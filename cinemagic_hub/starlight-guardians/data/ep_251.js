@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 251,
-    "name": "SERIES PRE S06",
+    "name": "The Anima Chronicles S06E01",
     "description": "",
     "cinemagic": {
         "id": 16,
@@ -9,15 +9,45 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 251,
-            "name": "SERIES PRE S06",
+            "name": "The Anima Chronicles S06E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9747,\"frame_id\":43410},{\"sketch_id\":9748,\"frame_id\":43233},{\"sketch_id\":9749,\"frame_id\":43411},{\"sketch_id\":9750,\"frame_id\":43412},{\"sketch_id\":9751,\"frame_id\":43236},{\"sketch_id\":9752,\"frame_id\":43237},{\"sketch_id\":9753,\"frame_id\":43413},{\"sketch_id\":9754,\"frame_id\":43414},{\"sketch_id\":9755,\"frame_id\":43240},{\"sketch_id\":9756,\"frame_id\":43241},{\"sketch_id\":9757,\"frame_id\":43415},{\"sketch_id\":9758,\"frame_id\":43243},{\"sketch_id\":9759,\"frame_id\":43244},{\"sketch_id\":9760,\"frame_id\":43416},{\"sketch_id\":9761,\"frame_id\":43246},{\"sketch_id\":9762,\"frame_id\":43247},{\"sketch_id\":9763,\"frame_id\":43417},{\"sketch_id\":9764,\"frame_id\":43418},{\"sketch_id\":9765,\"frame_id\":43250},{\"sketch_id\":9766,\"frame_id\":43251},{\"sketch_id\":9767,\"frame_id\":43252},{\"sketch_id\":9768,\"frame_id\":43253},{\"sketch_id\":9769,\"frame_id\":43254}]",
+            "seq_data_raw": "[{\"sketch_id\":4519,\"frame_id\":51538},{\"sketch_id\":4498,\"frame_id\":51531},{\"sketch_id\":9747,\"frame_id\":43410},{\"sketch_id\":9748,\"frame_id\":43233},{\"sketch_id\":9749,\"frame_id\":43411},{\"sketch_id\":9751,\"frame_id\":43236},{\"sketch_id\":9750,\"frame_id\":43412},{\"sketch_id\":11620,\"frame_id\":51004},{\"sketch_id\":11618,\"frame_id\":51002},{\"sketch_id\":9752,\"frame_id\":43237},{\"sketch_id\":9753,\"frame_id\":43413},{\"sketch_id\":11747,\"frame_id\":51534},{\"sketch_id\":9754,\"frame_id\":43414},{\"sketch_id\":9134,\"frame_id\":42812},{\"sketch_id\":9134,\"frame_id\":42813},{\"sketch_id\":9755,\"frame_id\":43240},{\"sketch_id\":9756,\"frame_id\":43241},{\"sketch_id\":9757,\"frame_id\":43415},{\"sketch_id\":9758,\"frame_id\":43243},{\"sketch_id\":9759,\"frame_id\":43244},{\"sketch_id\":9760,\"frame_id\":43416},{\"sketch_id\":9761,\"frame_id\":43246},{\"sketch_id\":9762,\"frame_id\":43247},{\"sketch_id\":9763,\"frame_id\":43417},{\"sketch_id\":9764,\"frame_id\":43418},{\"sketch_id\":9765,\"frame_id\":43250},{\"sketch_id\":9766,\"frame_id\":43251},{\"sketch_id\":9767,\"frame_id\":43252},{\"sketch_id\":9768,\"frame_id\":43253},{\"sketch_id\":9769,\"frame_id\":43254}]",
             "url": "ep_251.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq251_en.pdf",
     "frames": [
+        {
+            "id": 4519,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066684.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066684.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066684.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066684.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066684.jpg",
+            "overlay_texts": [
+                "Three centuries of institutional erasure — spoken aloud, name by name.",
+                "3,847 voices. Thirty seconds each. The Foundry touches earth for the first time.",
+                "A spiral of the living, flowering around the counted dead.",
+                "At the center: a child born during the naming. The first witness of a world without forgetting."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 4498,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066680.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066680.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066680.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066680.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066680.jpg",
+            "overlay_texts": [
+                "One hundred and fifty years of borrowed life — and the debt comes due in a single breath.",
+                "An elder&#039;s voice, stealthy at first, plunging through the Aura-Net like an argosy adrift in open water.",
+                "Two hundred minds. One atrocity. The silence they were anoint to keep — shattered from within.",
+                "Resistance does not announce itself. It arrives the moment truth finds a throat willing to carry it."
+            ],
+            "fuki_texts": []
+        },
         {
             "id": 9747,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058306.jpg",
@@ -31,7 +61,8 @@ const episodeData = {
                 "She exhales, and her breath condenses into silver mist; the Chrono-ring on her wrist flickers gold-to-black. Below, forty thousand devotees of the Green Root Cult feel the summons.",
                 "The Ark—Nova Terra&#039;s crystallized heart—begins to shudder as root-threads, patient and implacable, cinch around its foundation.",
                 "In the chaos of moisture and foam, Kael whispers to the Vitalis entity wrapped around her spine: &quot;This is not destruction. This is revision.&quot; And the hardiest roots begin their fatal climb."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9748,
@@ -46,7 +77,8 @@ const episodeData = {
                 "Citizens feel it instantaneously through the Aura-Net—a collective wistful ache, then a surge of something ancient and wronged demanding return: the jungle&#039;s compressed memory screaming across the tether.",
                 "A Vitalis-bonded elder staggers against a viewing panel, her moss-hair withering to brown as the connection reverses, draining her reserves to fuel the uprising below.",
                 "The Guardians move not in attack formation but in pilgrimage, their pale bodies glowing with green phosphorescence. A juggernaut of gratitude and uprising, finally reaching home."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9749,
@@ -61,22 +93,8 @@ const episodeData = {
                 "Vex&#039;s eyes brighten with terrible understanding: the ecosystem overhead isn&#039;t healing despite the three-century regrowth; it&#039;s healing because the underground knows the mathematics of its own poisoning.",
                 "VEX: &quot;Then the cure isn&#039;t extraction. It&#039;s teaching both halves to breathe the same air.&quot;",
                 "The map between them flares: two wounds recognizing they are, at last, being read by those who understand the full extent of the injury."
-            ]
-        },
-        {
-            "id": 9750,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0058308.jpg",
-            "filename": "frames_starlightguardians_nu/frame0058308.jpg",
-            "overlay_texts": [
-                "Kaori&#039;s eyes flare silver-white as her True-Sight pierces through the layered deceptions—down to the bedrock where Atairukh&#039;s bond-signature pulses like an ancient heartbeat beneath abyssal pressure.",
-                "The Griffin&#039;s presence is unmistakable: not dominion, but a tenacious, unflinching connexion. Still negotiating, still there, patient as stone.",
-                "Noctura&#039;s violet eyes flicker—a momentary convulsive twitch of surprise. Kaori&#039;s glowing strips tessellate into a pattern of recognition: the bond is real, and consensual.",
-                "KAORI: &quot;You thought you&#039;d severed it. But Atairukh chose. And it&#039;s still choosing.&quot;",
-                "Noctura&#039;s horns gleam as she turns away, the processional facade of her capture cracking to expose what lies beneath: not nihil, but loss. Eve is retrievable."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9751,
@@ -91,7 +109,54 @@ const episodeData = {
                 "Taro&#039;s Noetica-bonded mind registers both the mercy and the manacle simultaneously, each one real, each one crushing.",
                 "He does not reach across that space; instead, he plants himself at the furthest edge where reaching remains possible, his hazel eyes locked to hers without flinching.",
                 "His breath remains steady despite the Tether-burn. Taro bears witness to what love looks like when it has learned to survive annihilation."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9750,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058308.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0058308.jpg",
+            "filename": "frames_starlightguardians_nu/frame0058308.jpg",
+            "overlay_texts": [
+                "Kaori&#039;s eyes flare silver-white as her True-Sight pierces through the layered deceptions—down to the bedrock where Atairukh&#039;s bond-signature pulses like an ancient heartbeat beneath abyssal pressure.",
+                "The Griffin&#039;s presence is unmistakable: not dominion, but a tenacious, unflinching connexion. Still negotiating, still there, patient as stone.",
+                "Noctura&#039;s violet eyes flicker—a momentary convulsive twitch of surprise. Kaori&#039;s glowing strips tessellate into a pattern of recognition: the bond is real, and consensual.",
+                "KAORI: &quot;You thought you&#039;d severed it. But Atairukh chose. And it&#039;s still choosing.&quot;",
+                "Noctura&#039;s horns gleam as she turns away, the processional facade of her capture cracking to expose what lies beneath: not nihil, but loss. Eve is retrievable."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11620,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056567.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056567.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056567.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0056567.jpg",
+            "filename": "frames_starlightguardians_nu/frame0056567.jpg",
+            "overlay_texts": [
+                "She entered the forge as Eve.",
+                "Noctura emerges — adamantine, absolute, nocturnal geometry made flesh.",
+                "Where warmth once canalized shadow into mercy, cold violet geometry now scorches ambiguity from the air.",
+                "Prime Architect Kaelen rejoices. The griffin screams. Order has reached its zenith — and it is ghastly."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11618,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056574.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056574.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056574.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0056574.jpg",
+            "filename": "frames_starlightguardians_nu/frame0056574.jpg",
+            "overlay_texts": [
+                "The machine breathes. The battle breathes with it.",
+                "Oblivion&#039;s mist bends corners, dissolves certainty — sight becomes a liability.",
+                "Kaori splits the walls open in ghost-white and violet. Taro pours aquamarine repair-light into fractured armor. Rin becomes the shadow the pistons cast.",
+                "Muscle memory against the Void&#039;s suffocating perfection. Every healed fracture a defiant answer."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9752,
@@ -106,7 +171,8 @@ const episodeData = {
                 "Every Anima practitioner feels the tremor: the Trench Singer surfacing, broadcasting not in sound but in pressure, a planetary heartbeat made perceptible.",
                 "She raises one gloved hand, not toward the creature but toward the space between them. Asking the impossible thing to unmake itself, to reconsider its own trajectory.",
                 "The Dragon Guide simply witnesses, as if to say: this is the ask at maximum scale. The ocean wobbles at the boundary between obedience and catastrophe."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9753,
@@ -121,7 +187,23 @@ const episodeData = {
                 "Where its form touches the jagged geological breaks, the fractured rock begins to flow like linen cloth, buckling inward with urgency and truthful purpose.",
                 "The pressure itself becomes conscious, sealing each cicatrice in the seabed with a buoyancy that defies the bitterest physics.",
                 "Above, the inquisitors watch the sensor grids light up with rapturously sanguine confirmation: the world speaks and the world listens. The contamination&#039;s damage is being unmade, stone by stone."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11747,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057740.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057740.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057740.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057740.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057740.jpg",
+            "overlay_texts": [
+                "They do not transmit. They grieve.",
+                "Graviton harvesters, adrift — each arc a mournful frequency older than any charted star.",
+                "Deep-space miners call them the Howl Nodes. Prolonged exposure unravels the boundary between memory and constellation.",
+                "Something conscious settled here. Something that has not yet chosen to abate."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9754,
@@ -136,7 +218,38 @@ const episodeData = {
                 "RIN: &quot;I was built to be the hammer. I know the taste of justification. I know how it coats your teeth.&quot;",
                 "RIN: &quot;But Moon&#039;s Fall tonight kills the people in Tide District who depend on that tower&#039;s water pumps. The people who had nothing to do with what was done to us.&quot;",
                 "RIN: &quot;I am asking you to be radically patient. Not because justice can wait. Because cruelty never really stops once it starts, and you are not murderers yet. Do not become them tonight.&quot;"
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9134,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057685.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057685.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057685.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057685.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057685.jpg",
+            "overlay_texts": [
+                "Level 44. The machines measure everything — except absence.",
+                "Arin reads the vats like scripture: cabbalistic grooves wrought in amber and violet, a language the engineers buried in the walls.",
+                "One flicker of Vitalis. The somnambulist monitors turn toward the wound she made in the light.",
+                "Behind her, the clinical scour continues. She is already becoming the space between what is seen and what is chosen."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9134,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057686.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057686.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057686.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057686.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057686.jpg",
+            "overlay_texts": [
+                "Level 44. The machines measure everything — except absence.",
+                "Arin reads the vats like scripture: cabbalistic grooves wrought in amber and violet, a language the engineers buried in the walls.",
+                "One flicker of Vitalis. The somnambulist monitors turn toward the wound she made in the light.",
+                "Behind her, the clinical scour continues. She is already becoming the space between what is seen and what is chosen."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9755,
@@ -151,7 +264,8 @@ const episodeData = {
                 "The old man&#039;s mechanical fingers unclench from the armrests, a movement so deliberate it costs him—his auric veins darken to burgundy with the effort of relinquishing control.",
                 "KAELEN: &quot;I cannot preserve what needs to dissolve. The numbers show only one path forward. Partnership. Help me see what I&#039;ve refused to see.&quot;",
                 "Taro steps forward. The threshold between master and supplicant collapses. The throne&#039;s cables go quiet—not powerless, but listening. The possibility of genuine joy becomes visible: not as conquest, but as concession."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9756,
@@ -166,7 +280,8 @@ const episodeData = {
                 "Her assistant hands her a handwritten item on recycled composite—a list of 242 personnel who had opened their sector locks in the past hour, each signature a small resurrection of choice.",
                 "Sylviu unclips her uniform, letting the black fabric fall to the polished floor like drapery abandoned. Behind her, the shaft doors groaned open one by one.",
                 "The Directorate didn&#039;t fall in one apoplectic collapse; it was recarved from within by a thousand small acts of refusal, each person choosing, at last, to move."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9757,
@@ -181,7 +296,8 @@ const episodeData = {
                 "The Scarred practitioners feel the jungle&#039;s inexhaustible exhale moving through them like a conversation finally permitted: we will hold, but you must ask.",
                 "On the regrown surface, the glass-vines begin to luminesce in shades of moonstruck silver and sage green, pulsing in syncopation with the Ark&#039;s contained consciousness.",
                 "It is a provisional peace struck between a dying god-machine and the territory it tried to consume, mediated by those willing to dwell in the space between them and ask rather than demand."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9758,
@@ -196,7 +312,8 @@ const episodeData = {
                 "Shadownip is silent—unmitigatedly, bewilderingly silent—coiled in a shipping container, finally at rest without the necessity of persuasion.",
                 "At the ocean&#039;s edge where Mira stands, the Dragon Guide&#039;s vast presence hovers—patient, an aspect of something too large for singular form.",
                 "Deep in that quiet, Atairukh remains bonded, still trying within the silence where Eve&#039;s consciousness dwells. The five seasons of parallel work converge as acknowledgment: they have managed to stay together."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9759,
@@ -211,7 +328,8 @@ const episodeData = {
                 "Below, the UV-Grid pulses its geometric patterns—but the light is stuttering. The Spectres are refusing coordination.",
                 "Noctura&#039;s Tether feels different: not the sharp clarity of control-through-cost, but the dull ache of exhaustion recognizing itself. The air tastes of copper and unfinished business.",
                 "For the first time since her ascension, Noctura does not reach for the Spectres to reshape what she sees. She simply stands, watching the empire she built refuse to stay built."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9760,
@@ -226,7 +344,8 @@ const episodeData = {
                 "ELARA: &quot;The water remembers. It tells me the pressure breaks. Not because we legislate it away. Because the ground chooses to live again.&quot;",
                 "Her water-sense broadcasts through the Noetica haze. The Drift does not settle into stasis, does not accept the substitute peace of stillness. It perseveres in motion.",
                 "The five flagship captains exchange glances. They begin the ritual of Tether-release. The Drift remains alive. It simply chooses this moment, this departure, rather than facing one it cannot refuse."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9761,
@@ -241,7 +360,8 @@ const episodeData = {
                 "OBADIAH: &quot;And what it sang was a warning: the fracture between surface and deep is not natural—it was engineered.&quot;",
                 "The corrugation of the chamber&#039;s support ribs flickers with sympathetic vibration from a thousand held breaths. The implication settles: you cannot unknow this.",
                 "The Deep Folk are not refugees. The Surface Folk are not hosts. Both were designed to be separate, and now that separation was collapsing."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9762,
@@ -256,7 +376,8 @@ const episodeData = {
                 "Rin&#039;s platinum cornrows catch the garish undertone of emergency lighting. She alone remains unsearchable, her dark bodysuit absorbing queries.",
                 "Within the intact vaults, Kaori&#039;s fingers race to supplant cryptography. The cure&#039;s missing pieces glow with a slight, wickedly blue radiance: invariable, essential, waiting.",
                 "No one speaks. The dead weight of what they&#039;ve traded sits astride their shoulders as they work, comprehensive and final."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9763,
@@ -271,7 +392,8 @@ const episodeData = {
                 "The transmission unfurls instantaneously across the planetary Anima-Net: Crater City&#039;s contamination warfare schema blooming in every inhabited stratum simultaneously.",
                 "The Admiral&#039;s form merges partially with the station&#039;s quantum core, radiating disapproval. The old calculus of strategic advantage has been obliterated by Chen&#039;s refusal to gatekeep.",
                 "Oxygen scrubbers resume their grinding chorus as the cost settles. Prudent concealment has been replaced by the gastronomic saturation of absolute transparency."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9764,
@@ -286,7 +408,8 @@ const episodeData = {
                 "The silence is absolute. The surveillance apparatus falls quiet for the first time since 1934, its thousand feeds going dark as if the universe itself has exhaled.",
                 "KAELEN: &quot;I was always meant to discover what I cannot prevent.&quot;\n\nHis amber eyes flare one final time.",
                 "In that moment, Kaelen—the obsessive genealogist of probability itself—finally refutes his own existence."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9765,
@@ -301,7 +424,8 @@ const episodeData = {
                 "In Crater City&#039;s obsidian depths, UV-reactive fractal patterns suddenly shift. The practitioners there moving with newfound clarity, their surveillance systems now documenting healing.",
                 "Forty years of Anima degradation begins its reversal. The golden luminescence deepens and steadies. The Aurora Shields pulse with firmer resolve. The water remembers its clarity.",
                 "A hundred mouths open in simultaneous exhalation. The field clears. The trajectory has shifted: the world is no longer dying. It is remembering how to heal."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9766,
@@ -316,7 +440,8 @@ const episodeData = {
                 "Taro shifts his weight but does not draw. Mira&#039;s insignia patches dim in deference. Kai&#039;s exosuit vents a soft pneumatic wheeze. Rin&#039;s cloak unfurls slightly.",
                 "The fiercest truth persists in the silence: Eve chose this. Somewhere beneath Noctura&#039;s otherworldly geometry, that choice remains.",
                 "Noctura&#039;s violet eyes flicker, tremblingly aware that she is seen not as a mistake to consolidate away, but as something that deserves continuous acknowledgment. The moment halts, waiting."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9767,
@@ -331,7 +456,8 @@ const episodeData = {
                 "The Tunnelers emerge blinking into day, pale skin acquiring sensation after generations of darkness. Fortitude worn thin but unbroken.",
                 "Octarion stands at the planetary threshold—bare torso glistening with condensed starlight, maintaining the sentinel faith that holds this fragile providence together.",
                 "At -10,000 meters, the Trench Singer does not sing; the silence is the song now. Here, in this single frame outside time, the world reclaims, sweetly, what it thought forever lost."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9768,
@@ -346,7 +472,8 @@ const episodeData = {
                 "Taro&#039;s breath comes measured—he is not here to offer healing but to ask what it costs to build systems that do not perpetuate the wounds.",
                 "He listens the way he has learned across these seasons—not translating suffering into solutions, but letting the specific pain of one broken thing teach him how structures break a thousand.",
                 "The Hall breathes around them, stone acknowledging stone, two figures in vigil. What Taro carries forward is the terrible clarity that some wounds must be witnessed entire before any true repair can germinate."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9769,
@@ -361,13 +488,14 @@ const episodeData = {
                 "She pauses at a vertical shaft where three Sleepers—bewildered, gravely disoriented—descend. Noctura&#039;s horns catch the phantom-white light as she tilts to regard them with congeniality.",
                 "Below, a tumorous growth of the old regime&#039;s propaganda is being carved away. Noctura feels it like an unguent applied to a burn that will take centuries to cool.",
                 "She is here to witness the work, not to perform it, and in that refusal to conquer lies the first true act of healing."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
     "meta_desc": "Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058306.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066684.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
@@ -383,23 +511,13 @@ const episodeData = {
                 "url": "../index_faust.html"
             },
             {
-                "title": "PRE EMBERVEIL 01",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
-                "url": "../index_premberveil.html"
-            },
-            {
-                "title": "RIC01 • The Ghost Fleet",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
-                "url": "../index_ric01.html"
-            },
-            {
                 "title": "p_r3sh0r75",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg",
                 "url": "../index_prshrts.html"
             },
             {
-                "title": "ANIMA SG TAC",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064590.jpg",
+                "title": "SG TAC UNIVERSE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
                 "url": "../index_animasgtac.html"
             }
         ]

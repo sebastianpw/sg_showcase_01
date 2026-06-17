@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 204,
-    "name": "SERIEN-VORSPIEL S01",
+    "name": "The Anima Chronicles S01E04",
     "description": "",
     "cinemagic": {
         "id": 11,
@@ -9,43 +9,51 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 201,
-            "name": "SERIEN-VORSPIEL S01",
+            "name": "The Anima Chronicles S01E01",
             "chapter_label": null,
-            "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":10967,\"frame_id\":44131},{\"sketch_id\":11182,\"frame_id\":46481},{\"sketch_id\":1511,\"frame_id\":47531},{\"sketch_id\":11338,\"frame_id\":48245},{\"sketch_id\":11242,\"frame_id\":47864},{\"sketch_id\":7082,\"frame_id\":42884},{\"sketch_id\":1507,\"frame_id\":47523},{\"sketch_id\":11223,\"frame_id\":47616},{\"sketch_id\":11183,\"frame_id\":46482},{\"sketch_id\":1508,\"frame_id\":47525},{\"sketch_id\":8458,\"frame_id\":43335},{\"sketch_id\":1621,\"frame_id\":42863},{\"sketch_id\":11198,\"frame_id\":46852},{\"sketch_id\":11301,\"frame_id\":48043},{\"sketch_id\":11184,\"frame_id\":46483},{\"sketch_id\":8658,\"frame_id\":42798},{\"sketch_id\":11185,\"frame_id\":46484}]",
+            "cover_raw": "/frames_starlightguardians_nu/frame0062280.jpg",
+            "seq_data_raw": "[{\"sketch_id\":10967,\"frame_id\":44131},{\"sketch_id\":9641,\"frame_id\":51173},{\"sketch_id\":1506,\"frame_id\":47522},{\"sketch_id\":11338,\"frame_id\":48245},{\"sketch_id\":11242,\"frame_id\":47864},{\"sketch_id\":2387,\"frame_id\":51153},{\"sketch_id\":1507,\"frame_id\":47523},{\"sketch_id\":11646,\"frame_id\":51259},{\"sketch_id\":2402,\"frame_id\":48696},{\"sketch_id\":1508,\"frame_id\":47525},{\"sketch_id\":7082,\"frame_id\":42884},{\"sketch_id\":11647,\"frame_id\":51256},{\"sketch_id\":42,\"frame_id\":51989},{\"sketch_id\":11183,\"frame_id\":46482},{\"sketch_id\":1621,\"frame_id\":51169},{\"sketch_id\":1621,\"frame_id\":42863},{\"sketch_id\":11198,\"frame_id\":46852},{\"sketch_id\":11301,\"frame_id\":48043},{\"sketch_id\":11184,\"frame_id\":46483},{\"sketch_id\":11648,\"frame_id\":51257},{\"sketch_id\":1746,\"frame_id\":51151},{\"sketch_id\":8658,\"frame_id\":42798},{\"sketch_id\":11185,\"frame_id\":46484}]",
             "url": "ep_201_de.html"
         },
         {
             "id": 202,
-            "name": "SERIEN-VORSPIEL S01",
+            "name": "The Anima Chronicles S01E02",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":11225,\"frame_id\":47618},{\"sketch_id\":1598,\"frame_id\":42273},{\"sketch_id\":1590,\"frame_id\":48574},{\"sketch_id\":9661,\"frame_id\":43390},{\"sketch_id\":8399,\"frame_id\":42769},{\"sketch_id\":1628,\"frame_id\":43299},{\"sketch_id\":1574,\"frame_id\":48569},{\"sketch_id\":2201,\"frame_id\":42599},{\"sketch_id\":2283,\"frame_id\":42615},{\"sketch_id\":9105,\"frame_id\":42801},{\"sketch_id\":8237,\"frame_id\":49471},{\"sketch_id\":9667,\"frame_id\":43152},{\"sketch_id\":2163,\"frame_id\":42593},{\"sketch_id\":9658,\"frame_id\":43143},{\"sketch_id\":6177,\"frame_id\":41761},{\"sketch_id\":8379,\"frame_id\":42764},{\"sketch_id\":1594,\"frame_id\":48575},{\"sketch_id\":1558,\"frame_id\":42561},{\"sketch_id\":1593,\"frame_id\":42272},{\"sketch_id\":1579,\"frame_id\":48572},{\"sketch_id\":1616,\"frame_id\":48583},{\"sketch_id\":11187,\"frame_id\":46486},{\"sketch_id\":9503,\"frame_id\":49614},{\"sketch_id\":9511,\"frame_id\":49619},{\"sketch_id\":9513,\"frame_id\":49625},{\"sketch_id\":11188,\"frame_id\":46487}]",
+            "seq_data_raw": "[{\"sketch_id\":11225,\"frame_id\":47618},{\"sketch_id\":9661,\"frame_id\":43390},{\"sketch_id\":8399,\"frame_id\":42769},{\"sketch_id\":1628,\"frame_id\":43299},{\"sketch_id\":2201,\"frame_id\":42599},{\"sketch_id\":2283,\"frame_id\":42615},{\"sketch_id\":9105,\"frame_id\":42801},{\"sketch_id\":8237,\"frame_id\":49471},{\"sketch_id\":9667,\"frame_id\":43152},{\"sketch_id\":2163,\"frame_id\":42593},{\"sketch_id\":9658,\"frame_id\":50653},{\"sketch_id\":2728,\"frame_id\":42654},{\"sketch_id\":1258,\"frame_id\":50560},{\"sketch_id\":11727,\"frame_id\":51319},{\"sketch_id\":11605,\"frame_id\":50817},{\"sketch_id\":11653,\"frame_id\":51333},{\"sketch_id\":3828,\"frame_id\":50811},{\"sketch_id\":11654,\"frame_id\":51334},{\"sketch_id\":11721,\"frame_id\":51367},{\"sketch_id\":2128,\"frame_id\":42578},{\"sketch_id\":444,\"frame_id\":42532},{\"sketch_id\":444,\"frame_id\":42533},{\"sketch_id\":2159,\"frame_id\":42591},{\"sketch_id\":2240,\"frame_id\":42602},{\"sketch_id\":325,\"frame_id\":42524},{\"sketch_id\":2156,\"frame_id\":42590},{\"sketch_id\":2161,\"frame_id\":42592},{\"sketch_id\":1273,\"frame_id\":50565},{\"sketch_id\":8379,\"frame_id\":42764},{\"sketch_id\":1264,\"frame_id\":50562},{\"sketch_id\":1594,\"frame_id\":48575},{\"sketch_id\":1558,\"frame_id\":42561},{\"sketch_id\":1593,\"frame_id\":42272},{\"sketch_id\":1579,\"frame_id\":48572},{\"sketch_id\":1616,\"frame_id\":48583},{\"sketch_id\":11187,\"frame_id\":46486},{\"sketch_id\":9503,\"frame_id\":49614},{\"sketch_id\":9511,\"frame_id\":49619},{\"sketch_id\":4500,\"frame_id\":43297},{\"sketch_id\":138,\"frame_id\":51994},{\"sketch_id\":9524,\"frame_id\":41934},{\"sketch_id\":9513,\"frame_id\":49625},{\"sketch_id\":11188,\"frame_id\":46487}]",
             "url": "ep_202_de.html"
         },
         {
             "id": 203,
-            "name": "SERIEN-VORSPIEL S01",
+            "name": "The Anima Chronicles S01E03",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":1629,\"frame_id\":43307},{\"sketch_id\":11230,\"frame_id\":47685},{\"sketch_id\":7915,\"frame_id\":43295},{\"sketch_id\":1524,\"frame_id\":47559},{\"sketch_id\":2678,\"frame_id\":42283},{\"sketch_id\":2380,\"frame_id\":42867},{\"sketch_id\":1925,\"frame_id\":48642},{\"sketch_id\":1523,\"frame_id\":47557},{\"sketch_id\":2109,\"frame_id\":48657},{\"sketch_id\":7676,\"frame_id\":49681},{\"sketch_id\":1522,\"frame_id\":47555},{\"sketch_id\":8310,\"frame_id\":42756},{\"sketch_id\":1588,\"frame_id\":19722},{\"sketch_id\":5540,\"frame_id\":42868},{\"sketch_id\":9517,\"frame_id\":49634},{\"sketch_id\":4088,\"frame_id\":42717},{\"sketch_id\":2257,\"frame_id\":42608},{\"sketch_id\":2263,\"frame_id\":48664},{\"sketch_id\":2256,\"frame_id\":42607},{\"sketch_id\":2262,\"frame_id\":48663},{\"sketch_id\":11189,\"frame_id\":46488},{\"sketch_id\":2906,\"frame_id\":23059}]",
+            "seq_data_raw": "[{\"sketch_id\":1629,\"frame_id\":43307},{\"sketch_id\":11230,\"frame_id\":47685},{\"sketch_id\":7915,\"frame_id\":43295},{\"sketch_id\":1524,\"frame_id\":47559},{\"sketch_id\":2678,\"frame_id\":42283},{\"sketch_id\":2380,\"frame_id\":42867},{\"sketch_id\":1925,\"frame_id\":48642},{\"sketch_id\":1523,\"frame_id\":47557},{\"sketch_id\":2109,\"frame_id\":48657},{\"sketch_id\":7676,\"frame_id\":49681},{\"sketch_id\":1522,\"frame_id\":47555},{\"sketch_id\":8310,\"frame_id\":42756},{\"sketch_id\":11607,\"frame_id\":50880},{\"sketch_id\":1588,\"frame_id\":19722},{\"sketch_id\":5540,\"frame_id\":42868},{\"sketch_id\":9517,\"frame_id\":49634},{\"sketch_id\":4088,\"frame_id\":42717},{\"sketch_id\":4115,\"frame_id\":51059},{\"sketch_id\":11568,\"frame_id\":50774},{\"sketch_id\":2257,\"frame_id\":42608},{\"sketch_id\":2263,\"frame_id\":48664},{\"sketch_id\":2365,\"frame_id\":42620},{\"sketch_id\":11569,\"frame_id\":50775},{\"sketch_id\":11571,\"frame_id\":50777},{\"sketch_id\":9402,\"frame_id\":42510},{\"sketch_id\":11574,\"frame_id\":50814},{\"sketch_id\":11570,\"frame_id\":50776},{\"sketch_id\":2256,\"frame_id\":42607},{\"sketch_id\":11572,\"frame_id\":50778},{\"sketch_id\":2262,\"frame_id\":48663},{\"sketch_id\":11189,\"frame_id\":50819},{\"sketch_id\":11573,\"frame_id\":50779},{\"sketch_id\":9156,\"frame_id\":42821},{\"sketch_id\":340,\"frame_id\":42528},{\"sketch_id\":2906,\"frame_id\":23059},{\"sketch_id\":11575,\"frame_id\":50781}]",
             "url": "ep_203_de.html"
         },
         {
             "id": 204,
-            "name": "SERIEN-VORSPIEL S01",
+            "name": "The Anima Chronicles S01E04",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":1509,\"frame_id\":47527},{\"sketch_id\":5278,\"frame_id\":42734},{\"sketch_id\":9652,\"frame_id\":43137},{\"sketch_id\":9653,\"frame_id\":43138},{\"sketch_id\":3302,\"frame_id\":42710},{\"sketch_id\":2515,\"frame_id\":42625},{\"sketch_id\":8428,\"frame_id\":42774},{\"sketch_id\":9654,\"frame_id\":43139},{\"sketch_id\":1846,\"frame_id\":42278},{\"sketch_id\":2952,\"frame_id\":42697},{\"sketch_id\":9655,\"frame_id\":43140},{\"sketch_id\":9656,\"frame_id\":43141},{\"sketch_id\":2332,\"frame_id\":46417},{\"sketch_id\":2333,\"frame_id\":46418},{\"sketch_id\":2334,\"frame_id\":46419},{\"sketch_id\":2336,\"frame_id\":46422},{\"sketch_id\":2337,\"frame_id\":46425},{\"sketch_id\":9657,\"frame_id\":43142},{\"sketch_id\":11298,\"frame_id\":48040}]",
+            "seq_data_raw": "[{\"sketch_id\":1509,\"frame_id\":47527},{\"sketch_id\":128,\"frame_id\":51992},{\"sketch_id\":5278,\"frame_id\":42734},{\"sketch_id\":9652,\"frame_id\":43137},{\"sketch_id\":9653,\"frame_id\":43138},{\"sketch_id\":3302,\"frame_id\":42710},{\"sketch_id\":2515,\"frame_id\":42625},{\"sketch_id\":8428,\"frame_id\":42774},{\"sketch_id\":9654,\"frame_id\":43139},{\"sketch_id\":1846,\"frame_id\":42278},{\"sketch_id\":2952,\"frame_id\":42697},{\"sketch_id\":9655,\"frame_id\":43140},{\"sketch_id\":9535,\"frame_id\":42893},{\"sketch_id\":9656,\"frame_id\":43141},{\"sketch_id\":2332,\"frame_id\":46417},{\"sketch_id\":2333,\"frame_id\":46418},{\"sketch_id\":2334,\"frame_id\":46419},{\"sketch_id\":2336,\"frame_id\":46422},{\"sketch_id\":2337,\"frame_id\":46425},{\"sketch_id\":9657,\"frame_id\":43142},{\"sketch_id\":662,\"frame_id\":48469},{\"sketch_id\":11298,\"frame_id\":48040},{\"sketch_id\":611,\"frame_id\":42543},{\"sketch_id\":535,\"frame_id\":42541}]",
             "url": "ep_204_de.html"
         },
         {
             "id": 205,
-            "name": "SERIEN-VORSPIEL S01",
+            "name": "The Anima Chronicles S01E05",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":11247,\"frame_id\":47900},{\"sketch_id\":2353,\"frame_id\":48693},{\"sketch_id\":11254,\"frame_id\":47919},{\"sketch_id\":1098,\"frame_id\":42349},{\"sketch_id\":11252,\"frame_id\":47915},{\"sketch_id\":1903,\"frame_id\":48641},{\"sketch_id\":11249,\"frame_id\":47912},{\"sketch_id\":2247,\"frame_id\":48687},{\"sketch_id\":2627,\"frame_id\":47879},{\"sketch_id\":1585,\"frame_id\":47405},{\"sketch_id\":9663,\"frame_id\":43148},{\"sketch_id\":1892,\"frame_id\":42563},{\"sketch_id\":11203,\"frame_id\":47393},{\"sketch_id\":3452,\"frame_id\":42874},{\"sketch_id\":2050,\"frame_id\":48648},{\"sketch_id\":979,\"frame_id\":44065},{\"sketch_id\":1133,\"frame_id\":42269},{\"sketch_id\":1096,\"frame_id\":42348},{\"sketch_id\":11202,\"frame_id\":47398},{\"sketch_id\":2358,\"frame_id\":42857},{\"sketch_id\":9659,\"frame_id\":43144},{\"sketch_id\":1645,\"frame_id\":48588},{\"sketch_id\":9426,\"frame_id\":41606},{\"sketch_id\":2341,\"frame_id\":48692},{\"sketch_id\":9501,\"frame_id\":49612},{\"sketch_id\":2308,\"frame_id\":42616},{\"sketch_id\":9665,\"frame_id\":43150},{\"sketch_id\":2308,\"frame_id\":48678},{\"sketch_id\":8150,\"frame_id\":42747},{\"sketch_id\":8432,\"frame_id\":42776},{\"sketch_id\":11328,\"frame_id\":47972},{\"sketch_id\":9664,\"frame_id\":43149},{\"sketch_id\":9671,\"frame_id\":43156},{\"sketch_id\":9660,\"frame_id\":43145},{\"sketch_id\":9670,\"frame_id\":43155},{\"sketch_id\":2244,\"frame_id\":48661},{\"sketch_id\":11499,\"frame_id\":49033},{\"sketch_id\":9666,\"frame_id\":43151},{\"sketch_id\":8436,\"frame_id\":42777},{\"sketch_id\":2399,\"frame_id\":42626},{\"sketch_id\":11240,\"frame_id\":47862}]",
+            "seq_data_raw": "[{\"sketch_id\":11247,\"frame_id\":47900},{\"sketch_id\":2353,\"frame_id\":48693},{\"sketch_id\":1693,\"frame_id\":42275},{\"sketch_id\":11254,\"frame_id\":47919},{\"sketch_id\":1098,\"frame_id\":42349},{\"sketch_id\":11252,\"frame_id\":47915},{\"sketch_id\":1903,\"frame_id\":48641},{\"sketch_id\":11249,\"frame_id\":47912},{\"sketch_id\":2247,\"frame_id\":48687},{\"sketch_id\":11017,\"frame_id\":44404},{\"sketch_id\":2627,\"frame_id\":47879},{\"sketch_id\":1585,\"frame_id\":47405},{\"sketch_id\":4994,\"frame_id\":41883},{\"sketch_id\":9663,\"frame_id\":43148},{\"sketch_id\":2185,\"frame_id\":42598},{\"sketch_id\":1892,\"frame_id\":42563},{\"sketch_id\":8441,\"frame_id\":43332},{\"sketch_id\":11203,\"frame_id\":47393},{\"sketch_id\":3452,\"frame_id\":42874},{\"sketch_id\":2050,\"frame_id\":48648},{\"sketch_id\":979,\"frame_id\":44065},{\"sketch_id\":1133,\"frame_id\":42269},{\"sketch_id\":1096,\"frame_id\":42348},{\"sketch_id\":11202,\"frame_id\":47398},{\"sketch_id\":11685,\"frame_id\":51374},{\"sketch_id\":2358,\"frame_id\":42857}]",
             "url": "ep_205_de.html"
+        },
+        {
+            "id": 206,
+            "name": "The Anima Chronicles S01E06",
+            "chapter_label": null,
+            "cover_raw": "",
+            "seq_data_raw": "[{\"sketch_id\":9659,\"frame_id\":43144},{\"sketch_id\":1615,\"frame_id\":50639},{\"sketch_id\":1645,\"frame_id\":48588},{\"sketch_id\":9426,\"frame_id\":41606},{\"sketch_id\":2341,\"frame_id\":48692},{\"sketch_id\":9501,\"frame_id\":49612},{\"sketch_id\":2308,\"frame_id\":42616},{\"sketch_id\":9665,\"frame_id\":43150},{\"sketch_id\":4572,\"frame_id\":51543},{\"sketch_id\":4564,\"frame_id\":51542},{\"sketch_id\":2308,\"frame_id\":48678},{\"sketch_id\":8432,\"frame_id\":42776},{\"sketch_id\":11613,\"frame_id\":50956},{\"sketch_id\":8150,\"frame_id\":42747},{\"sketch_id\":319,\"frame_id\":42522},{\"sketch_id\":11328,\"frame_id\":47972},{\"sketch_id\":11614,\"frame_id\":50957},{\"sketch_id\":11617,\"frame_id\":50971},{\"sketch_id\":9664,\"frame_id\":43149},{\"sketch_id\":11617,\"frame_id\":50970},{\"sketch_id\":11615,\"frame_id\":50969},{\"sketch_id\":2913,\"frame_id\":42692},{\"sketch_id\":11616,\"frame_id\":50958},{\"sketch_id\":9671,\"frame_id\":43156},{\"sketch_id\":321,\"frame_id\":43313},{\"sketch_id\":2129,\"frame_id\":42579},{\"sketch_id\":9670,\"frame_id\":43155},{\"sketch_id\":191,\"frame_id\":42518},{\"sketch_id\":898,\"frame_id\":49868},{\"sketch_id\":11748,\"frame_id\":51537},{\"sketch_id\":4460,\"frame_id\":43294},{\"sketch_id\":4538,\"frame_id\":51541},{\"sketch_id\":4517,\"frame_id\":51535},{\"sketch_id\":9080,\"frame_id\":48840},{\"sketch_id\":3195,\"frame_id\":50642},{\"sketch_id\":2244,\"frame_id\":48661},{\"sketch_id\":11499,\"frame_id\":49033},{\"sketch_id\":9666,\"frame_id\":43151},{\"sketch_id\":8436,\"frame_id\":42777},{\"sketch_id\":2399,\"frame_id\":42626},{\"sketch_id\":11240,\"frame_id\":47862}]",
+            "url": "ep_206_de.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq204_de.pdf",
@@ -62,7 +70,23 @@ const episodeData = {
                 "Verbotene Schemata loddern in der Dunkelheit auf — jede violette Linie eine stille Gleichung der Rebellion.",
                 "Ozon und glühende Keramik. Der Duft von Dingen, die ohne Erlaubnis neu erschaffen werden.",
                 "Für einen Herzschlag hält die Geometrie stand. Dann treiben die Teile auseinander — himmlische Körper, die ihre eigene Umlaufbahn verleugnen."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 128,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067142.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067142.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067142.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0067142.jpg",
+            "filename": "frames_starlightguardians_nu/frame0067142.jpg",
+            "overlay_texts": [
+                "Keine Lizenz. Keine Gnade. Kein Betäubungsmittel zu verschenken.",
+                "Der Chirurg streitet über die Dosis. Der Leibwächter streitet über den Ausweg. Der Patient streitet über alles.",
+                "In den Gossen von Crater City ist selbst dein Nervensystem verhandelbar.",
+                "Vitalität, Bissen für Bissen verkauft — kathartisch für niemanden."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 5278,
@@ -76,7 +100,8 @@ const episodeData = {
                 "Hesperische Glyphen in die Verbannung geritzt. Der Exoanzug erhält, was das Selbst nicht kann.",
                 "Jedes Obsidian-Fragment: ein anderes Grab, eine andere Verlassenheit, zusammengestürzt in einen kalten Augenblick.",
                 "Zugehörigkeit — das unwahrscheinlichste Gewicht. Er trägt es. Standhaft. Ohne Gnade für sich selbst."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9652,
@@ -91,7 +116,8 @@ const episodeData = {
                 "TARO (Intern): „Verhandlung des zellulären Gedächtnisses. Standard-Kontaminationswunde, Darstellung auf Sub-Ebene. Fahre fort mit Bindungsprotokoll sieben.“",
                 "Doch etwas in ihm ist verstummt. Das Skript, das ihn zwei Jahre lang getragen hat – die interne Choreografie des Zwecks – stoppt einfach. Mitten im Wort. Mitten in der Geste.",
                 "Er geht auf den dunklen Korridor zu, in dem die Tiefenbewohner schlafen. Seine rote Jacke fängt kein Licht ein. Er wird bereits zu einer weiteren leblosen Sache in dieser Stadt der sorgfältigen Unsichtbarkeit."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9653,
@@ -105,7 +131,8 @@ const episodeData = {
                 "Auf seiner Schulter: Sparklefly. Ihr Chaos-Licht flackert zwischen Purpur und Aschegrau und wirft differenzielle Schatten, die sich nicht beruhigen wollen. Keiner von beiden spricht.",
                 "Sparklefly lehnt sich eng an sein Ohr. Ihr Licht schärft sich zu etwas einzigartig Loyalem. (Übertragene Empfindung): „Der Morgen kommt, ob wir ihn willkommen heißen oder nicht.“",
                 "Taro sagt nichts. Er geht weiter. Hinter ihnen verblasst die sterile Effizienz der oberen Ebenen zur Erinnerung. Vor ihnen: etwas Uraltes."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 3302,
@@ -119,7 +146,8 @@ const episodeData = {
                 "Kein Echo. Kein Schatten. Kein Zeuge — nur die langsam glimmende Glut des Fadens dort, wo Lumina gerufen und verbraucht wurde.",
                 "Jeder Kopfstein identisch. Jeder Atemzug ein kleiner, unwillkürlicher Akt der Treue gegenüber einem Körper, der sich noch nicht einverstanden erklärt hat, hier zu sein.",
                 "Irgendwo unter dieser ungefassten Finsternis wächst der Dschungel erneut. Er wartet nicht. Er kennt seinen Namen nicht."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2515,
@@ -133,7 +161,8 @@ const episodeData = {
                 "Die Schwarze Sonne ruft ihr Abrechnung — gleichmäßig, ohne Gnade.",
                 "Gravita siedet hinaus. Regen beugt sich. Stein verschluckt den Schall.",
                 "Trauer. Zorn. Entschlossenheit. Das Violett macht keinen Unterschied."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 8428,
@@ -147,7 +176,8 @@ const episodeData = {
                 "Durchscheinende, verzweifelte Hände kratzen sich aus der brodelnden Masse empor. Jede eine Spur eines Spekters, gefangen in einer ewigen Schleife aus Wiederherstellung und Zusammenbruch.",
                 "Der Teer greift nach dem Helden, sehnsüchtig. Die Grundwahrheit von Crater City wird unausweichlich.",
                 "Die Tether brennt kalt in ihrer Brust. Dies ist nicht industrieller Müll. Es ist Leid, das zur Struktur gemacht wurde, und ein Monument systematischer Auslöschung."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9654,
@@ -162,7 +192,8 @@ const episodeData = {
                 "Er blickt zum Mond auf. Er versteht. Nicht im Denken. Im Instinkt. Wie das Erkennen eines Hungers, den er schon immer in sich trug – einen, den er für seinen eigenen hielt. Der Mond will nicht bleiben.",
                 "Jeder Bürger von Crater City atmet nur deshalb, weil Tausende von Gravita-gebundenen Operatoren in absoluter Wachsamkeit stehen, während ihre Lebenskraft als unsichtbarer Tribut an den Himmel nach oben sickert.",
                 "Er hat sein ganzes Leben im Schatten des Mondes verbracht, ohne jemals zu wissen, dass er sich unter der Erde befand."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 1846,
@@ -176,7 +207,8 @@ const episodeData = {
                 "Achtzig Kilometer versteinerter Qual. Jede Kante ein Denkmal. Jeder Schatten, absolut.",
                 "Unter dem verglasten Blätterdach verhandeln fünftausend Seelen jeden Schritt — mit einem Gelände, das schneidet, Kälte, die tötet, und einem Dschungel-Bewusstsein, das jede Schuld zählt.",
                 "Die smaragdgrünen Risse heilen nicht. Sie rechnen ab."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2952,
@@ -190,7 +222,8 @@ const episodeData = {
                 "Das Kosmische Prisma schlägt fehl — Gravita beugt Licht in Verderben, Beton erhebt sich gegen sein eigenes Gewicht.",
                 "Kai 1758160399. Unzweifelhaft erschüttert. Noch immer kalkulierend.",
                 "Ein Körper an seiner Verwirkungsgrenze. Ein Geist, der noch nicht gestrauchelt ist."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9655,
@@ -205,7 +238,23 @@ const episodeData = {
                 "Kai kniet nieder. Kontakt: sein Panzerhandschuh auf Taros Handgelenk. Empfindungen kaskadieren. Kai spürt die ehrwürdigen Wurzeln, die *durch* Taros Körper greifen und ihn testen. Halbtransparente Glasreben-Ranken fädeln sich in Richtung seines Atemsystems.",
                 "Der Dschungel entscheidet gerade, ob er weitermachen darf oder im Boden versinkt. Kais Vitalis-Bindung flammt golden an den Schläfen auf. Ein Einwand des Kreuzritters, stoisch dargeboten.",
                 "Für einen unmöglich gespannten Moment: Der Dschungel überlegt. Dann – langsam, widerwillig – ziehen sich die Reben aus Taros Lungen zurück."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9535,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057788.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057788.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057788.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057788.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057788.jpg",
+            "overlay_texts": [
+                "Die Erinnernden Haine verzeihen keinen Frevel — sie verhandeln ihn.",
+                "Kai kniet. Seine Vitalis-Bindung flammt golden an den Schläfen auf: der Einwand eines Kreuzritters, stoisch dargeboten.",
+                "Unter Taros Haut erproben ehrwürdige Wurzeln die Frage, die der Dschungel den Menschen schon immer gestellt hat — Hüter oder Erde.",
+                "Unfassbar gespannt, erwägt der Hain. Dann gibt er, widerwillig, nach."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9656,
@@ -219,7 +268,8 @@ const episodeData = {
                 "Der Arm, der Taros Oberkörper stützt, trägt nicht nur – er *hält*. Da gibt es einen Unterschied. Der Exosuit weiß es. Seine Hydraulik führt es aus.",
                 "Kein Dialog. Keine Erklärung gefordert. Nur die wortlose Architektur von jemandem, der Schutz über Protokoll wählt.",
                 "Sparkleflys hektische Kreise werden allmählich langsamer. Sie erkennt den Unterschied zur Grausamkeit und beginnt zu begreifen, dass die Rettung manchmal in kalter Rüstung gekleidet eintrifft, wissend gleichgültig gegenüber jeglicher Philosophie."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2332,
@@ -234,7 +284,8 @@ const episodeData = {
                 "Taro liegt bäuchlings am Rand des Baches. Seine Finger immer noch gekrümmt um das Wasser, das er nie zu trinken beendete.",
                 "Die Funkelfliege umkreist fieberhaft den Himmel. Chaotische Lichtmuster durchlaufen besorgtes Purpur und Gold—Anima, die die Logik bittet, sich der Gnade zu unterwerfen.",
                 "Kais Kiefermuskel spannt sich hinter spiegelnden Gläsern an. Ein erbarmungsloses HUD quantifiziert den Konflikt zwischen Missionseffizienz und dem viszeralen Zug des Mitgefühls."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2333,
@@ -249,7 +300,8 @@ const episodeData = {
                 "Kai kniet über Taro, seine methodischen Finger wickeln Verbandstoff um klaffende Wunden. Sein HUD flackert mit Vitalwerten.",
                 "Chipster projiziert ein matter werdendes holografisches Inventar. Schwindende medizinische Vorräte und Jodampullen verteilen sich über zersprungenes Fundamentgestein.",
                 "Kais Void-Aura unterdrückt das umgebende Vitalis-Schimmern. Der Dschungel&#039;s bewusster Glanz verblasst ehrfürchtig und erkennt an, dass die Arbeit des Heilers Stille verlangt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2334,
@@ -264,7 +316,8 @@ const episodeData = {
                 "Im Zentrum des Kreises steht ihre Anführerin. Ihr Stab gekrönt von einem knolligen Symbionten, der im Takt ihres Betengesang pulsiert.",
                 "Kai erhebt sich zwischen dieser sich zuziehenenden Formation und Taro. Die Servos ihres Mechasuits verriegeln sich mit absoluter mechanischer Feindseligkeit.",
                 "Der Durchmesser der Lichtung kollabiert. Das geübte Ritual drängt der Gewalt entgegen, umhüllt in Sakralität."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2336,
@@ -279,7 +332,8 @@ const episodeData = {
                 "Kai schießt vertikal empor—eine violette Kondensstreifen brennt aufwärts durch hundert Meter hohe Baumstämme. Unten erstarren zwölf Kultisten mid-Ritual, ihre religiöse Gewißheit zerfällt in Ehrfurcht.",
                 "Polarität auf dem Scheitelpunkt umgekehrt, die Gravitation kehrt um. Kai stürzt abwärts mit kontrollierter Beschleunigung, sein Arm hakt Taros Taille in einem einzigen Griff.",
                 "Mech-Triebwerke zünden in stakkato Stößen. Sie weben ein dreidimensionales Ausweichungsmuster, das kein bodengebundener Schütze vorhersagen kann, verschwimmend vorbei am uralten Blätterdach."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2337,
@@ -294,7 +348,8 @@ const episodeData = {
                 "Kai sitzt zusammengesunken gegen eine korrodierte Bank gelehnt. Seine Gravitationsstiefel daneben strahlen noch immer Hitzeverzerrung von der Überanstrengung aus.",
                 "Taro kniet eine Armlänge entfernt. Seine Hände gleiten langsam über seinen blauen Oberkörper und katalogisieren Beschädigungen mit mechanischer Präzision.",
                 "Sparklefly ruht auf einem intakten Spektrometer. Sein chaotischer Puls reduziert sich zu einem schwachen Herzrhythmus. Ein neutraler Ort, wo Mechaniker und Heiler endlich zusammenbrechen können, ohne Angst."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9657,
@@ -309,7 +364,23 @@ const episodeData = {
                 "Taro taucht in Richtung Bewusstsein auf, sein roter Lederkragen fängt das Aufflackern des Lichts ein. Er steht regungslos da und schätzt ab, ob dieser Fremde in Rüstung eine Bedrohung oder Rettung ist.",
                 "Zwischen ihnen: die unverkennbare Spannung zweier Männer, die spüren, dass sie denselben Schwerpunkt umkreisen, ihn aber noch nicht benennen können. Ihr Schweigen ist beredter als jede Erklärung.",
                 "Draußen hält der Dschungel den Atem an. Ein 300 Meter langer Schatten kreuzt die Öffnung des Unterschlupfs. Für eine gedehnte Sekunde erkennen alle vier Präsenzen, dass sie von etwas weit Älterem beurteilt werden."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 662,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063504.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063504.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063504.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0063504.jpg",
+            "filename": "frames_starlightguardians_nu/frame0063504.jpg",
+            "overlay_texts": [
+                "Der Wald verbirgt ihn nicht — er *wählt* ihn.",
+                "Wurzel und Rune. Unvergängliches Vitalis, erweckt durch die Gewissheit einer Handfläche.",
+                "Wächter durchbrechen das Blätterdach. Das Blätterdach antwortet.",
+                "Kael Arin, versunken und elementar — verschlungen von der Grünen Flut."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11298,
@@ -320,10 +391,38 @@ const episodeData = {
             "filename": "frames_starlightguardians_nu/frame0063065.jpg",
             "overlay_texts": [
                 "Der Ruf fragt nicht zweimal.",
-                "Darunter: Wrackfelder, wo Phosphoreszenz von Dingen geerntet wird, die nicht existieren sollten. Darüber: Kaltfeuer-Lumina aus einer Zitadel, die seinen Namen vergessen hat.",
                 "Kai hält zwei Finger zur Tiefe — die kühnste, unverschämteste Geometrie, die ein sterbender Seal rahmen kann.",
                 "Der Nebel nimmt alles unterhalb der Hüfte. Die Hartnäckigkeit bleibt."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 611,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057374.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057374.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057374.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057374.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057374.jpg",
+            "overlay_texts": [
+                "Die Blüten lassen zuerst los. Das tun sie immer.",
+                "Taros Vitalis-Mal flammte auf — nicht aus Trotz, sondern in gestaltloser Verbundenheit mit dem Sterbenden.",
+                "Unten tagträumten Kinder zwischen synthetischen Flügeln, unerschütterlich. Oben faltete sich der Garten zu wie eine Vaterschaft, die niemand prophezeit hatte."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 535,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057372.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057372.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057372.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057372.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057372.jpg",
+            "overlay_texts": [
+                "Taro liest das mit 872-Provocat markierte Dokument — jedes Wort eine Vorahnung des ungebauten Horizonts.",
+                "Sehnige Bäume thronen wie aus Stein gehauene Schrift. Die alte Maschine summt ihre unheimlich beredte Wache.",
+                "&quot;Wach bleiben&quot;, sagt er. Die Morgendämmerung über dem Schorf antwortet nicht — doch sie schimmert, wunderbar, wie eine Epiphanie, zu vorsichtig, um zu erscheinen."
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
@@ -333,7 +432,7 @@ const episodeData = {
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "next_episode",
-        "title": "SERIEN-VORSPIEL S01",
+        "title": "The Anima Chronicles S01E05",
         "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057090.jpg",
         "url": "ep_205_de.html"
     },

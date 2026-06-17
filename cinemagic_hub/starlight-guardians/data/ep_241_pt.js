@@ -12,12 +12,57 @@ const episodeData = {
             "name": "The Anima Chronicles S05E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
+            "seq_data_raw": "[{\"sketch_id\":273,\"frame_id\":14632},{\"sketch_id\":273,\"frame_id\":10335},{\"sketch_id\":273,\"frame_id\":48690},{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":5110,\"frame_id\":42725},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9172,\"frame_id\":42824},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":11329,\"frame_id\":50994},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
             "url": "ep_241_pt.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq241_pt.pdf",
     "frames": [
+        {
+            "id": 273,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0018202.jpg",
+            "filename": "frames_starlightguardians_nu/frame0018202.jpg",
+            "overlay_texts": [
+                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
+                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
+                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
+                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 273,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0013608.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0013608.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0013608.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0013608.jpg",
+            "filename": "frames_starlightguardians_nu/frame0013608.jpg",
+            "overlay_texts": [
+                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
+                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
+                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
+                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 273,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063729.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063729.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063729.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0063729.jpg",
+            "filename": "frames_starlightguardians_nu/frame0063729.jpg",
+            "overlay_texts": [
+                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
+                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
+                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
+                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+            ],
+            "fuki_texts": []
+        },
         {
             "id": 9726,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058106.jpg",
@@ -29,7 +74,8 @@ const episodeData = {
                 "Aetherion. Um antigo pátio de gelo ao amanhecer não-terrestre. O Escudo Aurora projeta luz diáfana sobre superfícies translúcidas. Os cidadãos quase dissolvidos passam flutuando como clima senciente.",
                 "Uma figura — mais ausência luminosa do que presença — cruza sua formação. Falando sem palavras: &quot;A resistência em Octarion reúne-se. Vocês têm semanas. O escudo termina a síntese.&quot;",
                 "A serenidade do pátio sufoca-os com a compreensão implícita: ficar significa dissolver-se na falta de forma. Sair significa aceitar o ímpeto maníaco da Convergência."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9727,
@@ -42,7 +88,23 @@ const episodeData = {
                 "Noctura permanece na borda mais distante do pátio, uma silhueta desenhada em espaço negativo. O cidadão mais dissolvido de Aetherion aproxima-se, oferecendo um contacto Anima-a-Anima que não requer tradução.",
                 "Algures no ruído branco da fragmentação de Eve, a assinatura de elo de Atairukh ressoa: um breve brilho acrobático. Um ténue fio dourado captando luz que ainda não deveria perceber.",
                 "Os chifres de Noctura captam o clarão bioluminescente e mantêm-no firme. O silêncio informativo entre eles fala: Tu ainda estás aí dentro, e eu vejo-te."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 5110,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057598.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057598.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057598.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057598.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057598.jpg",
+            "overlay_texts": [
+                "Two instruments of ruin, poised at the glass threshold.",
+                "Oblivion withdraws — unhurried, surgical, already elsewhere.",
+                "Noctura does not watch him go. She marks him.",
+                "Above, the sun collapses to a wound. Below, the steersman&#039;s bargain ends without ceremony."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9728,
@@ -55,7 +117,8 @@ const episodeData = {
                 "A Zona de Penumbra. Uma paisagem de treliça de sombras cruzadas. Mira corre, seus dreadlocks vermelhos chicoteando como cordas de harpão. Rin move-se à frente com precisão eurítmica, evitando placas de pressão.",
                 "Sparklefly e Chipster trabalham em sinfonia delirante, espalhando falsas assinaturas de calor pela zona como sopa derramada sobre um manuscrito. Confundindo o nexo de vigilância.",
                 "O conjunto escreve sua história na evasão. Deslizando sob um casco capotado, seu manifesto escrito nas migalhas de pão queimadas que deixam para trás."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9729,
@@ -68,7 +131,8 @@ const episodeData = {
                 "A Cidade Sem Cor não se anuncia. Simplesmente torna-se presente. 500 albinos, uma civilização que integrou a lógica e o sentimento numa única faculdade.",
                 "Octarion permanece imóvel na fronteira externa invisível, seus olhos vermelhos rastreando a aproximação do conjunto. Seu arnês de corrente dourada não capta luz.",
                 "Taro caminha para a frente, seu couro vermelho captando a tarde cinzenta como uma afronta. O momento estende-se — equidistante do acolhimento e da negação — enquanto Octarion decide baixar o escudo."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11110,
@@ -78,8 +142,27 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0062979.jpg",
             "filename": "frames_starlightguardians_nu/frame0062979.jpg",
             "overlay_texts": [
-                "Dean Helios&#039;s white-gold chamber throbs with Lumina so fierce it bleaches color from thought itself, and when Selia crosses the thresholdher muted armor suddenly broadcasting heat like a stone in sunlightshe finds Rake already there, chitinous exosuit clicking soft harmonic pulses that the prism-walls bend into visible sound, their cold blue eyes fixed on the knothole in the living architecture where Mother Aria&#039;s forbidden samples breathe behind leaf-gaps, emerald veins pulsing with scarred Vitalis that bears the wound of Nova Terra&#039;s founding theft. Rin stands at the balcony&#039;s edge, her platinum cornrows catching the refracted stellar light, her calm aloof expression fixed downward at the regrowth spreading across Shadow-Scab like slow green remorse, while behind them allmanifestly disagreeable in his ornate golden harness and white-slicked crownOctarion mutters appraisingly, his red eyes tracing the geometry of privilege, his baroque chest piece catching each prismatic flare as he formulates some supposition about the cost of teaching Anima in rooms where the air itself has forgotten how to breathe normally. The heartbeat of Vitalis echoes through the wallsrustling leaves trapped in crystalline lattice, a breathing that sounds like remorse and renewal fused into one soundand Selia feels the Tether already burning at her temples, her empathy unspool against the density of so much concentrated power, her perceptive mind struggling to encourage equilibrium in a space where Dean Helios has quite insanely made every shadow impossible, every reflection a supposition about who should be allowed to remain. SCENE. White-gold prismatic chamber with living architectural walls of crystalline lattice and trapped rustling leaves. Emerald veins pulse through scarred Vitalis beneath leaf-gaps. Intense refracted Lumina bleaches all color and shadow. Prism-walls bend sound into visible harmonic geometry. Balcony overlooks regrowth spreading across Shadow-Scab in slow green patterns. Heartbeat of Vitalis resonates through crystalline structure creating breathing rhythm. Every reflection impossible every shadow supposition about presence and absence. ACTION. Selia enters at threshold her muted armor suddenly broadcasting heat against Lumina intensity. Rake stands alert chitinous exosuit clicking modulated harmonic pulses visible as bent light through prism-walls. Their iridescent scales shimmer beneath the bleaching Lumina. Cold blue eyes track the forbidden samples breathing behind architectural leaf-gaps. Rin holds position at balcony edge observing the regrowth below with calm serious aloof gaze. Octarion moves through the chamber behind them appraising the geometry of privilege tracing power through space. His red eyes survey the cost of Anima teaching in this impossible room. Selia feels Tether burning at temples empathy unspool against concentrated power. SPATIAL. Selia positioned at chamber threshold recently crossed into intense Lumina wash. Rake stationed at the living knothole architectural detail their elongated limbs poised alert. Iridescent scales catch refracted light. Rin placed at balcony edge elevated above Shadow-Scab regrowth looking downward her platinum cornrows backlit by stellar refraction. Octarion positioned behind and elevated relative to Selia and Rake his presence manifestly disagreeable ornate form dominating midground. The forbidden samples breathing in the architectural knothole as focal point of convergence. CAMERA. Expansive interior establishing view capturing the white-gold chamber&#039;s full prismatic depth. Camera positioned to include all four figures within the impossible geometry of light and shadow. Lens feels wide cinematic capturing the scale of concentrated power. Angle slightly elevated to register Octarion&#039;s regal menace and Rin&#039;s balcony observation simultaneously. Depth of field preserved to show crystalline walls living architecture and background regrowth detail. Framing captures the relentless unsettling symmetry of a space where Dean Helios has eliminated natural shadow. COMPOSITION. Four figures distributed asymmetrically across chamber creating visual tension rather than alignment. Selia foreground left entering with heat-broadcast armor. Rake midground center at architectural detail their scaled form catching prismatic geometry. Rin elevated right at balcony edge silhouetted against stellar light. Octarion positioned back center-right his ornate form creating visual weight and menace. Forbidden samples and leaf-gap knothole form invisible vertical axis of power. Composition maintains cinematic imbalance. Environmental richness dominates character placement. LIGHTING. Bleaching Lumina so fierce it removes color gradation from thought. Prismatic refraction creates visible sound geometry bending light through crystalline walls. Stellar refraction catches Rin&#039;s platinum cornrows at balcony edge creating bright accent. Selia&#039;s muted armor broadcasts heat-like glow against bleaching light creating warm tension. Rake&#039;s iridescent scales shimmer with prismatic bend. Octarion&#039;s gold harness and baroque chest piece catch every prismatic flare creating ornate glint. Emerald veins glow beneath scarred Vitalis. Every shadow impossible eliminated by Dean Helios&#039;s architecture. CHARACTERS. Selia 42 years old healer and scout. Muted armor with light pieces. Perceptive and empathetic. Discreet movement. Her awareness suddenly amplified by Tether burning at temples. Face shows subtle strain as empathy unspools against concentrated power. Rake. Iridescent scale-shimmer skin. Elongated graceful limbs marked by zero-gravity adaptation. Chitinous exosuit etched with symbols from lost civilizations. Cold blue eyes alert to danger. Modulated harmonic pulses clicking soft sounds the prism-walls bend into visible geometry. Haunted past readable in every gesture. Rin. Tall very slim Black woman dark brown skin sharp elegant features. Platinum-white cornrows tightly braided from scalp down shoulders and back. Medium long braid topology clean precise. Calm serious slightly aloof expression. Confident posture. Dark charcoal-to-black fitted leather-like bodysuit with subtle paneling vertical seams. Flowing black cloak asymmetrically draped fastened at shoulders with circular clasps. Cloak flares outward near calves. Simple belt with circular metal buckle. Dark form-fitting leggings. Sturdy black ankle boots minimal practical design. Hands relaxed at side suggesting quiet authority. Octarion. Anime style muscular male. Pale white skin. Red glowing eyes. Sharp angular facial features menacing smirk. Pointed ears. White hair slicked back. Ornate golden crown with blue gemstones and tall spikes. White flowing cape with high collar. Gold circular brooch clasps on shoulders. Bare muscular torso with defined six-pack abs. Intricate gold chain harness across chest. Ornate gold baroque chest piece centerpiece. Gold belt with blue gemstone medallion. Gold bracelets on wrists. White lower garments. Regal fantasy king aesthetic. Confident powerful stance reading appraising calculation. STYLE. Cinematic interior scene blending speculative fantasy architecture with character illustration fidelity. Prismatic light refraction rendered with translucent geometric precision. Living crystalline architecture detailed with rustling leaf-gap specificity. Anime cell-shading applied to Octarion creating dramatic stylistic contrast against naturalistic treatment of chamber and other figures. High contrast between pale skin tones iridescent scales and Rin&#039;s dark skin against bleaching Lumina. Digital illustration with detailed linework and atmospheric depth. Trembling between realism and fantastical worldbuilding. LOCK. Preserve original scene energy action tension and visual drama absolutely. Preserve impossible geometry of eliminated shadow and refracted light as dominant spatial logic. Preserve Vitalis heartbeat breathing through crystalline walls. Preserve four characters naturally distributed across chamber in asymmetrical composition. Selia at threshold with heat-broadcast armor. Rake at knothole with cold blue alert eyes. Rin at balcony edge observing regrowth. Octarion elevated positioned behind appraising the cost of privilege. Environmental richness dominates character visibility. Cinematic composition outranks posed alignment. All four figures must remain visually distinct without forced portrait framing or lineup staging. Preserve Tether burning at Selia&#039;s temples empathy unspooling against concentrated power as emotional anchor. Forbidden samples breathing in leaf-gaps as invisible focal convergence. Chamber&#039;s bleaching Lumina and impossible shadow elimination as primary visual constraint overriding all character positioning. Preserve the supposition about who should be allowed to remain as underlying dread through composition light and spatial tension."
-            ]
+                "Dean Helios has made every shadow impossible — and still the questions breathe.",
+                "Scarred Vitalis. Stolen ground. The furnace of godhood with the air scrubbed clean of mercy.",
+                "Selia feels the Tether ignite. Rake reads the knothole. Rin watches remorse gallop slow and green across Shadow-Scab.",
+                "Octarion, alone at the precipice of tact, formulates the cost of teaching in a room that has already decided who belongs."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9172,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057697.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057697.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057697.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057697.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057697.jpg",
+            "overlay_texts": [
+                "The ice palace does not invite — it indicts.",
+                "Two figures, insignificant beneath a ribcage of frozen grandeur, each exhaling Therma fractals into the vaulted dark.",
+                "One hand finds the ring. A nervous litany. The photograph&#039;s edge, barely visible — a vestige of something worth protecting.",
+                "The cathedral remembers its builder. It has no interest in the living."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9730,
@@ -92,7 +175,8 @@ const episodeData = {
                 "O Vazio. O santuário de escuridão absoluta de Octarion. O afro prata-lavanda de Kaori capta luz fantasma, suas tiras ciano brilhando como um coração visível.",
                 "Ela pede — não exige, não explica — para partilhar o que tem carregado através do Tether. Os olhos vermelhos de Octarion permanecem fixos, sentindo a resposta fisiológica ao ser questionado.",
                 "Quando ele diz sim, a permissão ondula para fora como uma fenda na obsidiana. Os dedos de Kaori alcançam o espaço entre eles. O brilho quântico começa."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9731,
@@ -105,7 +189,23 @@ const episodeData = {
                 "A Rotunda respira. A Visão-Verdadeira de Kaori desenrola-se pelo espaço — quatro mil mentes organizadas num friso de luminescência interligada. O Coletivo Dormente.",
                 "Os olhos vermelhos de Octarion diminuem para brasas. Gänsehaut sobe pelos seus ombros nus — a prova pela qual ele manteve a fé já está aqui, florescendo sem hierarquia ou vaidade.",
                 "Sua capa aquieta-se. O campo planetário remodela-se dentro dele. A maior evidência contra tudo o que ele construiu está à sua frente na forma de uma jovem mulher documentando o futuro."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11329,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056557.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056557.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0056557.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0056557.jpg",
+            "filename": "frames_starlightguardians_nu/frame0056557.jpg",
+            "overlay_texts": [
+                "THE WHITE HALL DOES NOT ECHO.",
+                "Seventeen faceless witnesses. One breathless ascension. Gearbit&#039;s rage, impotent against the siege of merging minds.",
+                "Kaori kneels — not in genuflection, but in dissolution. Her eyes bleach void. Her body becomes infrastructure.",
+                "Octarion broadcasts the Ascension Hymn directly into her skull. No air. No ceremony. Only the insatiable hymn of two dynasties becoming one."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9732,
@@ -118,7 +218,8 @@ const episodeData = {
                 "A Câmara do Nordeste. Octarion permanece sozinho. A evidência de Kaori — um panfleto de diagramas espectrais — repousa na sua palma como um peso de balança que ele carregou durante todo o seu reinado.",
                 "Seus olhos vermelhos diminuem para um carmesim cuidadoso. O campo planetário estremece com a recorrência — uma recuperação lenta que nada lhe pede senão presença.",
                 "Ele era um Guardião, não um construtor. Mantendo a proporção sem força. As chamadas de megafone da guerra que assombravam os territórios do norte calam-se. O propósito encontra seu consolo na recusa."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9733,
@@ -131,7 +232,8 @@ const episodeData = {
                 "Estação Vortex. Ala de Criogenia 4. Quatro mil rostos adormecidos suspensos em fluido de estase de âmbar. Kaori e Dr. Chen aproximam-se deles não como pacientes, mas como parceiros no seu próprio despertar.",
                 "O Pedido foi transmitido. Uma cascata de pequenos indicadores de estado transita do âmbar dormente para o rosa despertante. O fluido drena em sequência perfeita.",
                 "A primeira cápsula abre-se com um silvo. Um homem idoso faz sua primeira respiração em três séculos, ofegando como se estivesse debaixo de água por algo que finalmente, misericordiosamente, o soltou."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9734,
@@ -144,7 +246,8 @@ const episodeData = {
                 "Arquivo mais alto de Crater City. Alcuin, uma zeladora na Estação Helios no Ano Zero, começa seu testemunho. Lembrando-se dos sistemas de arrefecimento a ferver, do script encriptado.",
                 "Sua voz é factualmente limpa: os cálculos orbitais mostravam precedência para a Bacia de Kanara três dias antes da expedição oficial. O manifesto já estava escrito.",
                 "Ao seu redor sentam-se outros — um cozinheiro, um tratador de escorpiões, um porqueiro — radiantemente pacientes. A realidade falha nas bordas como se o próprio passado resistisse ao apagamento."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9735,
@@ -157,7 +260,8 @@ const episodeData = {
                 "A voz da Anciã Tuneladora recita a nomenclatura dos mortos: 287 Espectros conscientes reduzidos a polpa, seus nomes um registo postal dos assassinados.",
                 "A Visão-Verdadeira de Kaori fixa-se na relíquia da concha. Suas tiras ciano piscam em simpatia. A relíquia transpira fluido opalescente.",
                 "Ela compreende: isto não foi compulsão, mas escolha, orquestrada por aqueles que saltaram para o poder através da tribulação. A mentira mais sangrenta da era, entregue através da boca dos silenciados."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9736,
@@ -170,7 +274,8 @@ const episodeData = {
                 "Estação Última Luz. -10.000 metros abaixo de Tidalcross. Paredes de aço chacoalham enquanto o conjunto sísmico grita. O Avatar de Fluidica — o Grabensänger — acorda no abismo.",
                 "Um corpo de Fluidica pura que move a própria água como carne. Com cada exalação, a pressão cai em cascata para cima em pulsos sincronizados que não carregam malícia, apenas testemunho.",
                 "A Diretora Karesh transmite através da sua parceria de Noética: &quot;Abdicámos da custódia. Agora ouvimos.&quot; O tsunami que se forma acima deles não é castigo. É linguagem."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9737,
@@ -183,7 +288,8 @@ const episodeData = {
                 "Mesa vulcânica de tufo. O Guia Dragão paira ao lado de Mira, transmitindo a tradução para o seu tronco cerebral. A voz do Grabensänger tornada visível como uma treliça espectroscópica de frequências.",
                 "MIRA: &quot;Não está a morrer. Tem tentado falar há trezentos anos. O planeta não está a quebrar. Está a falar.&quot;\n\nTaro perde o fôlego. Os auscultadores de Kaori pulsam em sincronia com o tremor do abismo.",
                 "Rin permanece imóvel, mão estendida com a palma para cima em escuta suplicante. Compreendendo que o reconhecimento é a primeira negociação honesta com um mundo que tem falado o tempo todo."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9738,
@@ -196,7 +302,23 @@ const episodeData = {
                 "Drift Flagship Velocity. A Grande Almirante Jinx recebe a atribuição de contaminação através dos canais Ghost-Walker. O envenenamento deliberado de cada recipiente de água atingível.",
                 "Fractais azul elétrico saltam entre seus nós dos dedos. Ela abre a boca e o Juramento do Vento emerge: um encantamento ritualístico convocando cada nómada, cada sucateiro a erguer-se.",
                 "Através do horizonte, velas massivas inclinam-se em direção a um único ponto de convergência. O Drift não assenta. Mas hoje, o Drift move-se como um só."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 11500,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064078.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064078.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064078.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0064078.jpg",
+            "filename": "frames_starlightguardians_nu/frame0064078.jpg",
+            "overlay_texts": [
+                "A Torre Celestia ao amanhecer — onde as velas solares elegem seu navio.",
+                "Kai. Vinculada ao Espaço. A última coisa quente à beira de tudo.",
+                "Ela não se move. A imobilidade é o preço. A imobilidade é a prova.",
+                "Dois mundos compartilham uma fronteira aqui. Ela é a única honesta o suficiente para estar nela."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9739,
@@ -207,7 +329,8 @@ const episodeData = {
             "filename": "frames_starlightguardians_nu/frame0058119.jpg",
             "overlay_texts": [
                 "Salão dos Ancestrais da Crosta. A Guardiã-Chefe recebe uma declaração formal de Nova Terra: reconhecimento da Ascensão, a palavra &quot;desculpa&quot; dita 313 anos tarde demais."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9740,
@@ -222,7 +345,8 @@ const episodeData = {
                 "A voz de Kaelen chega encharcada de contenção de regulamento, mas até este controlo começa a desmoronar. Algo não vislumbrado nos seus olhos cor de laranja alcança Taro.",
                 "Os dedos cibernéticos de Kaelen curvam-se contra o apoio de braço do trono — um gesto tão inconsciente, tão simplesmente humano, que se torna a coisa mais honesta dita na sala.",
                 "Os dedos cibernéticos de Kaelen curvam-se contra o apoio de braço do trono — um gesto tão inconsciente, tão simplesmente humano, que se torna a coisa mais honesta dita na sala."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9741,
@@ -235,7 +359,8 @@ const episodeData = {
                 "Os modelos preditivos de Kaelen caem para zero. Sparklefly dardeja através da câmara monástica, seu caos manifestando-se como pequenos fogos que se recusam a seguir a lei gravitacional.",
                 "Move-se sem padrão porque é livre. Sua liberdade testemunha contra tudo o que Kaelen sistematizou em ferro.",
                 "Um tremor percorre a subestrutura do trono. Pela primeira vez em quatro décadas, Kaelen experimenta a atração gravitacional do que recusou tornar-se."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9742,
@@ -248,7 +373,8 @@ const episodeData = {
                 "Espaço de manutenção. Rin senta-se de pernas cruzadas enquanto Petra despeja as plantas arquitetónicas da Operação Queda da Lua. &quot;794 almas morreram na Extração.&quot;",
                 "Rin deixa a agonia total da convicção herdada infiltrar-se no seu peito. Suas mãos permanecem abertas sobre os joelhos: Eu ouço o preço. Agora mostra-me o custo.",
                 "Shadownip cristaliza ligeiramente. Os três sentam-se enredados no escuro, onde o ato mais vivo de resistência é sentar-se com a pergunta até que a resposta se torne inegável."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9743,
@@ -261,7 +387,8 @@ const episodeData = {
                 "Câmara de guerra de obsidiana. O Diretorado vota o envio da munição Anti-Anima contra Tidalcross. O implante de pulso do Diretor Voss exibe a contagem: 12 sim, 3 não.",
                 "Os três dissidentes recusam-se a erguer-se. Reconhecendo a dívida irreversível que esta travessia exige.",
                 "Um membro mais jovem sussurra uma única palavra para o ar pressurizado: &quot;doravante.&quot; Significando que tudo depois deste voto vive num mundo diferente. A arma permanece não disparada."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9744,
@@ -274,7 +401,8 @@ const episodeData = {
                 "Salão dos Ancestrais. A Anciã Tuneladora permanece imóvel. As paredes começam a chorar descarga mineral, cada gota carregando a marca da transgressão de Noctura.",
                 "Noctura materializa-se. Seus olhos brilhantes projetam escuridão, uma radiância invertida. A bochecha da anciã treme — a rutura fisiológica da traição viajando através dos elos mais profundos.",
                 "O chão de obsidiana fratura-se em novas configurações que se recusam a gravar o que transpirou. Os Tuneladores preservam o terrível absurdo: Noctura permanece intocada. In-assinável."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9745,
@@ -287,7 +415,8 @@ const episodeData = {
                 "Jardins Luminara de Nova Terra. Praticantes de Vitalis transmitem não ordens mas pedidos à consciência desconhecida de Root Rot. &quot;Não agarramos. Pedimos.&quot;",
                 "A corrupção começa a branquear, membrana por membrana, como se tocada por um contrapeso de graça.",
                 "No Drift, uma Tecelã de Nuvens sustém a respiração enquanto o orvalho da manhã se reúne, o rendimento atingindo 98%. O Anima não mudou. A humanidade finalmente mudou. A alegria lúgubre viaja pela Aura-Net."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9746,
@@ -300,13 +429,14 @@ const episodeData = {
                 "Câmara do noroeste. Kaori e Octarion. Kaori levanta uma mão, palma aberta: &quot;Posso tocar no que tu és?&quot;",
                 "Octarion estremece, gänsehaut subindo pelo arnês de corrente dourada. Ele acena, unânime no seu próprio consentimento. Duas inteligências unindo-se não em conflito, mas no alívio flutuante de ser verdadeiramente visto.",
                 "A maquinaria de suporte de vida da cidade muda de tom. A resolução que constroem juntos vibra através de cada corredor de obsidiana, reescrevendo a tolerância na arquitetura mais profunda do sistema."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
     "meta_desc": "Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0058106.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
@@ -322,23 +452,13 @@ const episodeData = {
                 "url": "../index_faust_pt.html"
             },
             {
-                "title": "PRE EMBERVEIL 01",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/pre-emberveil-01/assets/frame0056396.jpg",
-                "url": "../index_premberveil_pt.html"
-            },
-            {
-                "title": "RIC01 • The Ghost Fleet",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/ric01-the-ghost-fleet/assets/frame0062631.jpg",
-                "url": "../index_ric01_pt.html"
-            },
-            {
                 "title": "p_r3sh0r75",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0063978.jpg",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg",
                 "url": "../index_prshrts_pt.html"
             },
             {
-                "title": "ANIMA SG TAC",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anima-sg-tac/assets/frame0064590.jpg",
+                "title": "SG TAC UNIVERSE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
                 "url": "../index_animasgtac_pt.html"
             }
         ]

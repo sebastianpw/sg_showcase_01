@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 222,
-    "name": "SERIES PRE S03",
+    "name": "The Anima Chronicles S03E02",
     "description": "",
     "cinemagic": {
         "id": 13,
@@ -9,34 +9,34 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 221,
-            "name": "SERIES PRE S03",
+            "name": "The Anima Chronicles S03E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":1641,\"frame_id\":48587},{\"sketch_id\":2298,\"frame_id\":48674},{\"sketch_id\":1536,\"frame_id\":47574},{\"sketch_id\":1801,\"frame_id\":48636},{\"sketch_id\":1543,\"frame_id\":47581},{\"sketch_id\":1990,\"frame_id\":42864},{\"sketch_id\":1571,\"frame_id\":48568},{\"sketch_id\":2084,\"frame_id\":48651},{\"sketch_id\":1985,\"frame_id\":48646},{\"sketch_id\":1530,\"frame_id\":47569},{\"sketch_id\":9502,\"frame_id\":49613},{\"sketch_id\":1554,\"frame_id\":42560},{\"sketch_id\":1529,\"frame_id\":47568},{\"sketch_id\":1528,\"frame_id\":47567},{\"sketch_id\":9500,\"frame_id\":49611},{\"sketch_id\":1823,\"frame_id\":48639},{\"sketch_id\":1822,\"frame_id\":48638},{\"sketch_id\":1882,\"frame_id\":48640},{\"sketch_id\":1818,\"frame_id\":48637},{\"sketch_id\":1972,\"frame_id\":48645},{\"sketch_id\":2093,\"frame_id\":48655},{\"sketch_id\":1943,\"frame_id\":48643},{\"sketch_id\":8260,\"frame_id\":49669},{\"sketch_id\":1545,\"frame_id\":47587},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":2096,\"frame_id\":48656},{\"sketch_id\":2103,\"frame_id\":42572},{\"sketch_id\":2107,\"frame_id\":42573},{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9515,\"frame_id\":49632},{\"sketch_id\":5409,\"frame_id\":42354},{\"sketch_id\":5409,\"frame_id\":42355},{\"sketch_id\":11218,\"frame_id\":47550},{\"sketch_id\":10699,\"frame_id\":43634},{\"sketch_id\":11219,\"frame_id\":47552},{\"sketch_id\":2112,\"frame_id\":42574},{\"sketch_id\":8183,\"frame_id\":47920},{\"sketch_id\":10701,\"frame_id\":43813},{\"sketch_id\":10704,\"frame_id\":43816},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":11310,\"frame_id\":48052},{\"sketch_id\":11299,\"frame_id\":48041},{\"sketch_id\":11031,\"frame_id\":44561},{\"sketch_id\":11494,\"frame_id\":49027}]",
+            "seq_data_raw": "[{\"sketch_id\":1641,\"frame_id\":48587},{\"sketch_id\":2298,\"frame_id\":48674},{\"sketch_id\":1536,\"frame_id\":47574},{\"sketch_id\":1801,\"frame_id\":48636},{\"sketch_id\":1543,\"frame_id\":47581},{\"sketch_id\":1990,\"frame_id\":42864},{\"sketch_id\":1571,\"frame_id\":48568},{\"sketch_id\":2084,\"frame_id\":48651},{\"sketch_id\":1985,\"frame_id\":48646},{\"sketch_id\":1530,\"frame_id\":47569},{\"sketch_id\":9502,\"frame_id\":49613},{\"sketch_id\":1554,\"frame_id\":50473},{\"sketch_id\":1529,\"frame_id\":47568},{\"sketch_id\":1528,\"frame_id\":47567},{\"sketch_id\":1538,\"frame_id\":47576},{\"sketch_id\":4138,\"frame_id\":43293},{\"sketch_id\":9500,\"frame_id\":49611},{\"sketch_id\":1823,\"frame_id\":48639},{\"sketch_id\":1822,\"frame_id\":48638},{\"sketch_id\":1882,\"frame_id\":48640},{\"sketch_id\":1818,\"frame_id\":48637},{\"sketch_id\":1972,\"frame_id\":48645},{\"sketch_id\":2093,\"frame_id\":48655},{\"sketch_id\":1943,\"frame_id\":48643},{\"sketch_id\":8260,\"frame_id\":49669},{\"sketch_id\":1545,\"frame_id\":47587},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":2096,\"frame_id\":48656},{\"sketch_id\":2103,\"frame_id\":42572},{\"sketch_id\":2107,\"frame_id\":42573},{\"sketch_id\":303,\"frame_id\":42519},{\"sketch_id\":158,\"frame_id\":42514},{\"sketch_id\":158,\"frame_id\":42515},{\"sketch_id\":158,\"frame_id\":51075},{\"sketch_id\":136,\"frame_id\":50883},{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9515,\"frame_id\":51074},{\"sketch_id\":5409,\"frame_id\":42354},{\"sketch_id\":5409,\"frame_id\":42355},{\"sketch_id\":11218,\"frame_id\":47550},{\"sketch_id\":10699,\"frame_id\":50839},{\"sketch_id\":11189,\"frame_id\":50816},{\"sketch_id\":11219,\"frame_id\":47552},{\"sketch_id\":2112,\"frame_id\":50882},{\"sketch_id\":2112,\"frame_id\":50881},{\"sketch_id\":2112,\"frame_id\":50870},{\"sketch_id\":8183,\"frame_id\":47920},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":11584,\"frame_id\":50808},{\"sketch_id\":11577,\"frame_id\":50782},{\"sketch_id\":9527,\"frame_id\":41868},{\"sketch_id\":9510,\"frame_id\":49618},{\"sketch_id\":5426,\"frame_id\":50752},{\"sketch_id\":5550,\"frame_id\":50753},{\"sketch_id\":11578,\"frame_id\":50783},{\"sketch_id\":11642,\"frame_id\":51062},{\"sketch_id\":11641,\"frame_id\":51051},{\"sketch_id\":11643,\"frame_id\":51102},{\"sketch_id\":11641,\"frame_id\":51056},{\"sketch_id\":11637,\"frame_id\":51039},{\"sketch_id\":11586,\"frame_id\":50789},{\"sketch_id\":11585,\"frame_id\":50806},{\"sketch_id\":11031,\"frame_id\":51073},{\"sketch_id\":11587,\"frame_id\":50790},{\"sketch_id\":11579,\"frame_id\":50784},{\"sketch_id\":11588,\"frame_id\":50791},{\"sketch_id\":11494,\"frame_id\":49027},{\"sketch_id\":11299,\"frame_id\":48041},{\"sketch_id\":11602,\"frame_id\":50803},{\"sketch_id\":11310,\"frame_id\":48052}]",
             "url": "ep_221_de.html"
         },
         {
             "id": 222,
-            "name": "SERIES PRE S03",
+            "name": "The Anima Chronicles S03E02",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9692,\"frame_id\":43177},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":11234,\"frame_id\":47839},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":11237,\"frame_id\":47840},{\"sketch_id\":11238,\"frame_id\":47841},{\"sketch_id\":8578,\"frame_id\":42795},{\"sketch_id\":11323,\"frame_id\":48065},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":2057,\"frame_id\":42567},{\"sketch_id\":11348,\"frame_id\":48699},{\"sketch_id\":2895,\"frame_id\":42691},{\"sketch_id\":11205,\"frame_id\":47526},{\"sketch_id\":11460,\"frame_id\":48983},{\"sketch_id\":9685,\"frame_id\":43170},{\"sketch_id\":11302,\"frame_id\":48044},{\"sketch_id\":8339,\"frame_id\":49072},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":11488,\"frame_id\":49019},{\"sketch_id\":2402,\"frame_id\":48696},{\"sketch_id\":11324,\"frame_id\":48066},{\"sketch_id\":11300,\"frame_id\":48042},{\"sketch_id\":11464,\"frame_id\":48987},{\"sketch_id\":11426,\"frame_id\":48949},{\"sketch_id\":11457,\"frame_id\":48980},{\"sketch_id\":11458,\"frame_id\":48981},{\"sketch_id\":11477,\"frame_id\":49000},{\"sketch_id\":11455,\"frame_id\":48978}]",
+            "seq_data_raw": "[{\"sketch_id\":9692,\"frame_id\":43177},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":11234,\"frame_id\":47839},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":11237,\"frame_id\":47840},{\"sketch_id\":11238,\"frame_id\":47841},{\"sketch_id\":8578,\"frame_id\":42795},{\"sketch_id\":11323,\"frame_id\":48065},{\"sketch_id\":2579,\"frame_id\":42633},{\"sketch_id\":2577,\"frame_id\":42632},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":2053,\"frame_id\":48650},{\"sketch_id\":1448,\"frame_id\":51147},{\"sketch_id\":2852,\"frame_id\":51154},{\"sketch_id\":2582,\"frame_id\":42636},{\"sketch_id\":2057,\"frame_id\":42567},{\"sketch_id\":11348,\"frame_id\":48699},{\"sketch_id\":2895,\"frame_id\":42691},{\"sketch_id\":2606,\"frame_id\":42642},{\"sketch_id\":2606,\"frame_id\":42643},{\"sketch_id\":11205,\"frame_id\":47526},{\"sketch_id\":307,\"frame_id\":51145},{\"sketch_id\":9685,\"frame_id\":43170},{\"sketch_id\":11302,\"frame_id\":48044},{\"sketch_id\":1446,\"frame_id\":51146},{\"sketch_id\":8339,\"frame_id\":49072},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":1466,\"frame_id\":51150},{\"sketch_id\":11488,\"frame_id\":49019},{\"sketch_id\":2402,\"frame_id\":48696},{\"sketch_id\":11324,\"frame_id\":48066},{\"sketch_id\":11300,\"frame_id\":48042},{\"sketch_id\":11464,\"frame_id\":48987},{\"sketch_id\":2818,\"frame_id\":42681},{\"sketch_id\":11426,\"frame_id\":48949},{\"sketch_id\":11457,\"frame_id\":48980},{\"sketch_id\":11458,\"frame_id\":48981},{\"sketch_id\":11477,\"frame_id\":49000},{\"sketch_id\":11455,\"frame_id\":48978}]",
             "url": "ep_222_de.html"
         },
         {
             "id": 223,
-            "name": "SERIES PRE S03",
+            "name": "The Anima Chronicles S03E03",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":8339,\"frame_id\":49072},{\"sketch_id\":11451,\"frame_id\":48974},{\"sketch_id\":11429,\"frame_id\":48952},{\"sketch_id\":5123,\"frame_id\":48864},{\"sketch_id\":11142,\"frame_id\":48885},{\"sketch_id\":2165,\"frame_id\":42594},{\"sketch_id\":11438,\"frame_id\":48961},{\"sketch_id\":11404,\"frame_id\":48926},{\"sketch_id\":246,\"frame_id\":48688},{\"sketch_id\":2753,\"frame_id\":48901},{\"sketch_id\":11409,\"frame_id\":48931},{\"sketch_id\":11399,\"frame_id\":48921},{\"sketch_id\":11392,\"frame_id\":48914},{\"sketch_id\":11413,\"frame_id\":48936},{\"sketch_id\":11396,\"frame_id\":48918},{\"sketch_id\":11287,\"frame_id\":48070},{\"sketch_id\":11415,\"frame_id\":48938},{\"sketch_id\":11436,\"frame_id\":48959},{\"sketch_id\":11419,\"frame_id\":48942},{\"sketch_id\":2053,\"frame_id\":48650},{\"sketch_id\":11271,\"frame_id\":48026},{\"sketch_id\":11158,\"frame_id\":45846},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":2136,\"frame_id\":42583},{\"sketch_id\":11420,\"frame_id\":48943},{\"sketch_id\":11320,\"frame_id\":48062},{\"sketch_id\":11529,\"frame_id\":49390},{\"sketch_id\":11525,\"frame_id\":49277},{\"sketch_id\":11416,\"frame_id\":48939},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":2702,\"frame_id\":42284},{\"sketch_id\":11371,\"frame_id\":48826},{\"sketch_id\":11394,\"frame_id\":48916},{\"sketch_id\":2170,\"frame_id\":48658},{\"sketch_id\":2233,\"frame_id\":48660},{\"sketch_id\":2301,\"frame_id\":48677}]",
+            "seq_data_raw": "[{\"sketch_id\":2815,\"frame_id\":42680},{\"sketch_id\":2362,\"frame_id\":42617},{\"sketch_id\":50,\"frame_id\":51990},{\"sketch_id\":11429,\"frame_id\":48952},{\"sketch_id\":5123,\"frame_id\":48864},{\"sketch_id\":11142,\"frame_id\":48885},{\"sketch_id\":11438,\"frame_id\":48961},{\"sketch_id\":11404,\"frame_id\":48926},{\"sketch_id\":11409,\"frame_id\":48931},{\"sketch_id\":8385,\"frame_id\":51157},{\"sketch_id\":11460,\"frame_id\":48983},{\"sketch_id\":682,\"frame_id\":42546},{\"sketch_id\":661,\"frame_id\":42545},{\"sketch_id\":2165,\"frame_id\":42594},{\"sketch_id\":11757,\"frame_id\":51817},{\"sketch_id\":246,\"frame_id\":48688},{\"sketch_id\":2753,\"frame_id\":48901},{\"sketch_id\":19,\"frame_id\":42511},{\"sketch_id\":11399,\"frame_id\":48921},{\"sketch_id\":11392,\"frame_id\":48914},{\"sketch_id\":11413,\"frame_id\":48936},{\"sketch_id\":11396,\"frame_id\":48918},{\"sketch_id\":11287,\"frame_id\":48070},{\"sketch_id\":11415,\"frame_id\":48938},{\"sketch_id\":11436,\"frame_id\":48959},{\"sketch_id\":11419,\"frame_id\":48942},{\"sketch_id\":11271,\"frame_id\":48026},{\"sketch_id\":11158,\"frame_id\":45846},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":2136,\"frame_id\":42583},{\"sketch_id\":11420,\"frame_id\":48943},{\"sketch_id\":1464,\"frame_id\":51149},{\"sketch_id\":11320,\"frame_id\":48062},{\"sketch_id\":1461,\"frame_id\":51148},{\"sketch_id\":11529,\"frame_id\":49390},{\"sketch_id\":11525,\"frame_id\":49277},{\"sketch_id\":11416,\"frame_id\":48939},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":2702,\"frame_id\":42284},{\"sketch_id\":11371,\"frame_id\":48826},{\"sketch_id\":11394,\"frame_id\":48916},{\"sketch_id\":2170,\"frame_id\":48658},{\"sketch_id\":2233,\"frame_id\":48660},{\"sketch_id\":2301,\"frame_id\":48677}]",
             "url": "ep_223_de.html"
         },
         {
             "id": 224,
-            "name": "SERIES PRE S03",
+            "name": "The Anima Chronicles S03E04",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":11459,\"frame_id\":48982},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
+            "seq_data_raw": "[{\"sketch_id\":11459,\"frame_id\":48982},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":2804,\"frame_id\":50917},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
             "url": "ep_224_de.html"
         }
     ],
@@ -55,7 +55,8 @@ const episodeData = {
                 "In The Drift empfangen Ghost-Walker Flüstern von Stase. In der Vortex-Station kalkuliert das Bewusstsein des Admirals Orbitaloxygen-Reserven als Währung.",
                 "Jeder Anführer wacht zur gleichen Offenbarung auf: Ihr Wohlstand war eine vorübergehende Fiktion. Die Zahlung ist fällig, gemessen in plötzlichem Schweigen.",
                 "Chaos, gleichmäßig verteilt, ist das Nächste zur Deckung, das die Mathematik für die Infiltration des Ensembles bieten kann."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9693,
@@ -70,7 +71,8 @@ const episodeData = {
                 "Ihre cyan Streifen flackern in mitfühlender Resonanz. Gearbit verfällt in absolute Starre—konfrontiert mit einer Wahrheit, die eine andere Art der Verarbeitung verlangt als Daten.",
                 "KAORI: &quot;Was bedeutet es, sich selbst in Einheit zu verzeihen?&quot;",
                 "Die Membran-Decke bebt einmal. Erkenntnis. Das Wissen verbrennt Kalorien, die sie nicht besitzt, aber sie glaubt, es lohnt sich."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9694,
@@ -84,7 +86,8 @@ const episodeData = {
                 "Sie kehrt zur Gruppe zurück und findet Eve. Miras Blick verweilt, messend. Berechnend, ohne ihre Lippen zu bewegen. Eve spürt es und erkennt es nicht an.",
                 "Miras wohlwollende Maske rutscht für einen Moment der Unachtsamkeit ab. Eves Hand bewegt sich zu Miras Ärmel, berührt ihn aber nicht. Verbindung bestätigt und vorenthalten.",
                 "Was der Drachenführer Mira zeigte: die besondere Qualität, unabweisbare Information zu empfangen. Ihr Schweigen hat jetzt Gewicht. Die Last der Voraussicht, lodernde und unverdünnte."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9695,
@@ -99,7 +102,8 @@ const episodeData = {
                 "Melori benennt, was sie eintreiben wird. Kais nächsten Bergungszug. Miras Lehnstreue in einem noch nicht offengelegten Feldzug. Rins Wort, eher unterzugehen, als die Treue zu brechen.",
                 "MELORI (zu Taro): „Deine Flugbahn danach. Wohin sie auch führen mag. Ich muss wissen, dass man sie abrufen kann.“",
                 "Sie nicken. Im Wissen, dass in diesem Raum Allianzen nicht versprochen, sondern bepreist werden – und der Preis ist das Versprechen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9696,
@@ -113,7 +117,8 @@ const episodeData = {
                 "KAORI: „Die Frequenzen sind keine Alarmsignaturen. Sie sind navigatorisch. Wir werden geführt.“\n\nMIRA: „Die Frage ist, ob die Führung wohlwollend ist.“",
                 "Kais Servorüstung knistert vor Magnetica-Feedback. Die Schlackenadern werden geometrisch. Beinahe gemustert. Die Kontamination lernt, sich selbst zu verschönern.",
                 "Taro atmet durch die Nase. Seine Hände sind kälter, als sie sein sollten. Er sagt nichts."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11234,
@@ -127,7 +132,8 @@ const episodeData = {
                 "Unter ihnen: zwölf Kilometer polierten Obsidians, hinabsteigend ins violette Halbdunkel — eine Wunde, die ihre eigene Geometrie erlernt hat.",
                 "Die Eclipse Spires erheben sich vom Kraterrand. Schwarze Keramik. Geisterweise Gravuren. Ein Brustkorb, der niemals etwas Gnädiges beherbergte.",
                 "Sie steigen hinab — unsicher ergeben, jeder tragend den verschlagenen Verdacht, dass das, was unten wartet, nie erforscht werden sollte."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9697,
@@ -141,7 +147,8 @@ const episodeData = {
                 "Er hat sein ganzes Leben in diesen unter Druck stehenden Tiefen verbracht und es nie von außen gesehen. Es löst etwas in seiner Brust auf. Eine unumkehrbare Anerkennung der Geschichte.",
                 "Taro streckt seine Hand nach hinten aus. Er berührt Kais Rüstung, Kaoris Schulter, Miras Arm. Eine Bestätigungsberührung, die sagt: Ich muss wissen, dass ihr hier seid.",
                 "Niemand spricht. Sprache würde nur das Gewicht der Erkenntnis mindern. Taro tritt vom Abgrund zurück und steigt hinab."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11237,
@@ -155,7 +162,8 @@ const episodeData = {
                 "Sechs von ihnen. Ein Krater. Die Geometrie eines äußerst törichtenPlans.",
                 "Die Eklipse-Spitzen erheben sich wie ein Brustkorb um die Wunde.",
                 "Violettes Licht findet ihre Gesichter. Entschlossenheit ist von dieser Perspektive kaum von Unvorsichtigkeit zu unterscheiden."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11238,
@@ -169,7 +177,8 @@ const episodeData = {
                 "Schatten geschworen. Nähe bewahrt.",
                 "Hinter der roten Jacke — ein Wächter, oder ein Turm, begehrlich nach seiner Königin.",
                 "Der Brustkorb senkt sich. Die Prozession hält ihre Form."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 8578,
@@ -183,7 +192,8 @@ const episodeData = {
                 "Das Summen fragt nicht um Erlaubnis — es dringt durch Knochen, danach jeden Herzschlag als sein eigen fordernd.",
                 "Sie nennen es heilige Pflicht. Ihr Skelett nennt es anders.",
                 "Zwölf Nadeln. Ein Mond, reglos gehalten. Eine Maschine so vollendet, dass Grausen und Schönheit dasselbe Gesicht tragen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11323,
@@ -197,7 +207,38 @@ const episodeData = {
                 "Er wurde zum Rückgrat der Stadt, damit vierzig Millionen Seelen aufrecht über ihm stehen könnten — ohne es je zu wissen.",
                 "Die Zeit treibt hier sichtbar, halbflüssig, brennend: goldene Ringe, die zwischen dem Was-war und dem Was-bleibt oszillieren.",
                 "An der Grenzlinie, ein Stiefel erhoben — Pilgerfahrt oder Aufstand. Kaelens Blick verfolgt sie ohne Gnade, ohne Bewegung."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2579,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057491.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057491.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057491.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057491.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057491.jpg",
+            "overlay_texts": [
+                "Eine Million Leben, auf Variablen reduziert.",
+                "Vom Apex-Stratum aus liest Kai Crater City, wie ein Chirurg eine Wunde liest — mit Präzision, ohne Schmerz.",
+                "Leerzonen öffnen sich dort, wo der Einfluss der Spectres kollabiert: tote Luft, schwarzes Leuchten, die chirurgische Stille unterdrückten Widerspruchs.",
+                "Ein Kilometer vertikale Herrschaft. Ein vom Leben gezeichnetes Gesicht. Die Gleichung kennt keinen Term für Hoffnung."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2577,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057490.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057490.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057490.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057490.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057490.jpg",
+            "overlay_texts": [
+                "Eine Million Leben, verdichtet zu vertikaler Unendlichkeit — jedes ein Vektor, jeder Vektor ein Gewicht.",
+                "Kyrielle liest die Menge, wie ein Savant die Ruine liest: mit Bedacht, ohne Erbarmen.",
+                "Unter ihren Händen kreisen Keramikscherben wie die Toten um eine Schwerkraft, die sie nicht benennen können.",
+                "Die Brücke ächzt. Der Strom wankt. Die Masse gehorcht, achtlos, als hätte sie es immer so gemeint."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9698,
@@ -211,7 +252,68 @@ const episodeData = {
                 "Der künstlich erzeugte Alarm verbreitet sich wie eine Seuche. Obsidian-Wacheinheiten zersplittern. Die Oberfläche in konstruiertem Chaos. Die tiefen Ebenen in konstruierter Stille.",
                 "Rin bewegt sich durch die druckfest versiegelten Kammern. Ihr Umhang absorbiert das Schwarzlicht. Sie gleitet mit bewusster Präzision zwischen den Sensordurchläufen hindurch.",
                 "RIN: „Ich bin durch.“\n\nKais Finger verharren auf dem Interface. Die erste Schwelle des Raubzugs: überschritten."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2053,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063689.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063689.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063689.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0063689.jpg",
+            "filename": "frames_starlightguardians_nu/frame0063689.jpg",
+            "overlay_texts": [
+                "Kraterstadt belohnt keine Zögerlichkeit.",
+                "Kaori und Kai — ringside am Rande des Gravitationsversagens.",
+                "Keine Tirade. Keine Zeremonie. Nur die präzise, aufrichtige Arbeit zweier Geister, die das Chaos zurück in Ordnung verwandeln.",
+                "Die Warnungen erlöschen eine nach der anderen. Das Schweigen, das folgt, ist keine Erleichterung — es ist das nächste Problem, bereits im Anflug."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 1448,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066245.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066245.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066245.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066245.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066245.jpg",
+            "overlay_texts": [
+                "DER SKYWELL-SCHACHT — dreißig Kilometer kontrollierter Entropie.",
+                "Gravita treibt abwärts. Die Wände wölben sich nach außen. Jeder Maßstab weigert sich, sich zu fassen.",
+                "Auf halbem Weg ins Nichts: ein Ingenieur. Eine Fackel. Geisterweiße Glyphen, eingemeißelt für jene, die allein am Echo navigieren.",
+                "Tief unten — smaragdgrüner Trotz. Die Glowstone-Höhlen, unnachgiebig in der Dunkelheit."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2852,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066252.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066252.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066252.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066252.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066252.jpg",
+            "overlay_texts": [
+                "Siebzehn Verfolgungsbögen. Ein Wirbelschaft. Die Geometrie von Crater City verzeiht keine Abweichung.",
+                "Sie stößt gegen den Strebenbalken — ein Brechungsstoß schreibt die Parabeln neu — Rauch meißelt seine flüchtigen Monumente und zerfällt.",
+                "Darunter heben die Arbeiter der Tiefe ihre Gesichter dem verbotenen Chaos über ihnen entgegen: etwas, endlich, das das erstickende Mosaik der Gleichförmigkeit zerbricht.",
+                "Chippewa Cobalt fällt nicht. Sie berechnet den Abstieg."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2582,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057494.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057494.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057494.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057494.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057494.jpg",
+            "overlay_texts": [
+                "Crater City, Terrasse der mittleren Schichten — vierhundertfünfzigtausend Seelen im disziplinierten Transit.",
+                "Rin steht am Rand des Abstiegs: barfuß, militärisch straff, geladene Regungslosigkeit.",
+                "Unter ihr, vierhunderttausend Leben in Dunkelheit. Über ihr, einhundertfünfzigtausend im geisterweißen, fraktalen Licht.",
+                "Das Schattengras zieht sich fest an ihrer Ferse zusammen — und die Stadt hält, im Wahnsinn, den Atem an."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2057,
@@ -225,7 +327,8 @@ const episodeData = {
                 "Zwei Grad. Ein Bruchteil an Gewicht. Ein Atem, rau von Beklemmung.",
                 "Rin errät nicht. Sie verschlingt die Geometrie des Scheiterns.",
                 "Der Raum verriegelt. Die Beute ist bereits genommen."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11348,
@@ -239,7 +342,8 @@ const episodeData = {
                 "Sie gebiert Kapitäne.",
                 "Sie hat diesen Posten durch siebzehn Regimewechsel behauptet — unerschüttert, nichts erwartend, sich keinem verpflichtet außer dem Krater selbst.",
                 "Die Epiphanie des Kommandos: Leere dort, wo einst Gefühl wohnte, poliert zu Schwarz und Geisterweiss, so vollständig und undurchschaubar wie die Stadt unter ihren Stiefeln."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2895,
@@ -253,7 +357,38 @@ const episodeData = {
                 "Vierzig Jahre unbeugsamen Dienstes — und ein Kurier, erschaffen aus etwas Schlummerdem, Herrlichem und Widernatürlichem.",
                 "Sie weicht nicht der Ergebenheit. Gewöhnlich nicht.",
                 "Der Kondensator bleibt gezogen. Die Passage, gewährt. Der Preis — wunderbar verschleiert."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2606,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057500.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057500.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057500.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057500.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057500.jpg",
+            "overlay_texts": [
+                "Crater City hält den Atem an unter dem UV-Gitter.",
+                "Nicht Spektakel. Zweck.",
+                "Jeder Schlag ätzt sich wie ein Eid in den Obsidian — ihr Schattengriff bewegt sich als flüssige Entschlossenheit hinter ihr, Wirbel und Wille zu einem geworden.",
+                "Die Stille der Menge ist keine Ehrfurcht. Es ist Wiedererkennen."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2606,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057501.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057501.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057501.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057501.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057501.jpg",
+            "overlay_texts": [
+                "Crater City hält den Atem an unter dem UV-Gitter.",
+                "Nicht Spektakel. Zweck.",
+                "Jeder Schlag ätzt sich wie ein Eid in den Obsidian — ihr Schattengriff bewegt sich als flüssige Entschlossenheit hinter ihr, Wirbel und Wille zu einem geworden.",
+                "Die Stille der Menge ist keine Ehrfurcht. Es ist Wiedererkennen."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11205,
@@ -267,21 +402,23 @@ const episodeData = {
                 "Drei Wahrheiten hinab: Soldat, Navigator, Ökoträger — jeder Atemzug eine Verhandlung mit Therma, jeder Schritt eine psychische Wunde, die der Boden sich zu merken weigert.",
                 "Meredith liest die zersplitterte Knotenpunkt wie eine düstere Prophezeiung, eingemeißelt in erkaltendem Runengefüge. Die neue Agentin kartographiert die Fraktionierenden Pflanzen darunter, wo Resonantia ihr Letztes in Schlacke schreit.",
                 "Das Ofenrot wirft keine Gnade. Nur zersplitterte Silhouetten gegen einen Abgrund ihrer eigenen Schöpfung."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
-            "id": 11460,
-            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064027.jpg",
-            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064027.jpg",
-            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064027.jpg",
-            "original_filename": "frames_starlightguardians_nu/frame0064027.jpg",
-            "filename": "frames_starlightguardians_nu/frame0064027.jpg",
+            "id": 307,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066243.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066243.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066243.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066243.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066243.jpg",
             "overlay_texts": [
-                "Der Pass lügt nicht. Der Mann, der ihn hält, tut es.",
-                "Kohäsiva-Siegel zersplittern. Jede Ruptur blutet rot — Wut-kodiert, Waffen-kodiert, unwiderruflich.",
-                "Die Stimme beharrt darauf: Routine. Unschuldig. Zufall.",
-                "In der fernen Ecke neigt Noel seinen Kopf — geduldig, reglos, lauschend, wie die Evidenz sich selbst erklärt."
-            ]
+                "Tief eingraviert — ein Mechanismus älter als jede lebende Zunge ihn je benennen könnte.",
+                "Jax berührte ihn mit Vorsicht. Der Berg antwortete.",
+                "Heliotropes Licht sickerte durch die obsidianne Dunkelheit empor, unverkennbar glühend — der Beweis einer aufgebrochenen multimillennialen Rast.",
+                "Die Glyphen hatten gewartet. Sie waren nicht länger geduldig."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9685,
@@ -296,7 +433,8 @@ const episodeData = {
                 "TUNNEL-ÄLTESTE: „Die Wand zeigt uns nicht, was sie bewahrt hat. Sie zeigt uns, was kommt.“",
                 "TUNNEL-ÄLTESTE: „Das Schlackengedächtnis zeigt etwas Aufsteigendes. Drei Tiefenebenen in den letzten 72 Stunden. Konstante Geschwindigkeit. Etwas mit Absicht steigt zum Apex-Tresor auf.“",
                 "TUNNEL-ÄLTESTE: „Ruft den Rat zusammen.“\n\nZwölf Generationen Tiefenwissen haben sie auf diese Ankündigung vorbereitet. Auf das, was da aufsteigt, hat es sie nicht vorbereitet."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11302,
@@ -309,7 +447,23 @@ const episodeData = {
                 "Die Kratervoid hält den Atem an — Dringlichkeit trifft auf Tiefe Geduld am Rande des Abgrunds.",
                 "Atairukhs bernsteingeladene Augen senken sich herab. Seine Lumina verblasst. Tausend Jahre Erinnerung, in Stille angeordnet.",
                 "Der Älteste liest die Nicht-Antwort wie Braille — Hände offen, streichend durch die Luft, wo Worte sich weigern zu gehen."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 1446,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066244.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066244.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066244.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066244.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066244.jpg",
+            "overlay_texts": [
+                "Der Skywell stürzt zwanzig Meilen hinab in technisch gezähmte Stille.",
+                "Fraktale Karten atmen an Obsidianwänden entlang — Koordinaten für die Tollkühnen, Epitaphe für die Verlorenen.",
+                "Irgendwo darunter zeichnet glaziales Grün die Glowstone-Höhlen nach: Zuflucht, oder der älteste Schwindel des Kraters.",
+                "Ein Arbeiter. Magnetstiefel. Ein zischender Beweis dafür, dass Leben fortbesteht in diesem Denkmal methodischer Auslöschung."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 8339,
@@ -323,7 +477,8 @@ const episodeData = {
                 "Ältester Vek spricht das Urteil in Trommelsprache — versiegelt die Schlackenfall, übergebt die Tiefenminen.",
                 "Der Hüter beginnt das Tiefenlied. Worte älter als Worte. Der Stein atmet.",
                 "Weit unter Ebene 85, in der unbefestigten Finsternis, antwortet etwas."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 9699,
@@ -337,7 +492,23 @@ const episodeData = {
                 "Taro legt seine Handflächen dagegen. Zum ersten Mal in seinem Leben bittet er seine Heilmagie, Schaden zuzufügen. Das Smaragdgrün entweicht zu Aschegrau. Die Tresortür öffnet sich.",
                 "Die Kosten setzen sich zuerst in seinen Händen fest. Eine Kälte, die keine Temperatur hat. Der Frost, sein tiefstes Selbst zu bitten, zu seinem Gegenteil zu werden. Sein weißblaues Haar gefriert an den Spitzen.",
                 "Er überschreitet die Schwelle allein. Er legt die Kosten im selben internen Fach ab, in dem er alles aufbewahrt, was er sich nicht leisten kann zu verteilen."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 1466,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066248.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066248.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066248.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066248.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066248.jpg",
+            "overlay_texts": [
+                "Einwanderungskorridor der Kraterstadt — der Raum hält den Atem an wie ein Detektor, gespannt auf Blasphemie.",
+                "Ein Schwerkraft-Spektralwesen regt sich unter dem Boden des Kontrollpunkts. Der zentrale Operative schwankt. Das Protokoll sieht das nicht vor.",
+                "Ein einziger Schlag des Schwarze-Sonne-Emitters — und die sechzehntausend formelhaften Zellen der Decke treten aus der Dunkelheit hervor wie ein erinnerter Spruch des Gerichts.",
+                "Zu seinen Füßen sickert schwefelgelb aus gesprungenem Dichtstoff hervor: die einzige Farbe, die die Kathedrale der Effizienz zu verbieten vergaß."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11488,
@@ -351,7 +522,8 @@ const episodeData = {
                 "Mira und Jinx waren vierzig Sekunden lang im Inneren gewesen.",
                 "Unter der Chromatischen Forschungsanlage leckt Energia nicht — sie entkommt.",
                 "Die Mauer brach nicht. Sie bekannte sich schuldig."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 2402,
@@ -365,7 +537,8 @@ const episodeData = {
                 "Zweihundert Meter recycelter Atem. Fünfhundert Ingenieure, die genau wissen, wie das Scheitern klingt.",
                 "Spatia faltet die Luft: zehn Meter Schacht halten hundert Meter Hunger. Die Stadt atmet aus durch eine Geometrie, die sie selbst nicht vollständig zu sehen vermag.",
                 "Nicht Ruhm. Nicht Eroberung. Nur die trostlose Arithmetik des Nicht-Sterbens in der Finsternis."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11324,
@@ -379,7 +552,8 @@ const episodeData = {
                 "Vex geht nicht. Er kalkuliert.",
                 "Zweihundert Meter darüber wendet sich der Gravita-Wächter — massiv, vorsintflutlich, absolut — seine zerquetschende violette Linse dreht sich langsam wie geologische Zeit, verzerrt das Nichts wie verdichtetes Erbe.",
                 "Darunter erklimmen Chipster und Sparklefly unmögliche Winkel, die nur wie Chaos wirken. Der zeremonielle Schlüssel summt silbern in Vex&#039; Faust. Er wartet — schlank, leuchtend vor Präzision, erdrückt von Unermesslichkeit — vertrauend darauf, dass das Unvorhersehbare die Schwachstelle findet, die massive Kraft niemals kommen sieht."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11300,
@@ -393,7 +567,8 @@ const episodeData = {
                 "Die Tether brennt. Ihr Atem verrät nichts. Das Obsidian beobachtet trotzdem.",
                 "Crater City verwechselt Ordnung mit Sicherheit. Sie ist hier, um die Kosten dieses Irrtums zu bestätigen.",
                 "Im Mittelgrund: ein Kind, unhastig. In den Schatten: eine, die das zerfranste Netz hört. An der Schwelle: eine Handwerkerin eleganten Terrors, die sich wie metabolisches Feuer ausgibt — und jeden Preis wert ist."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11464,
@@ -407,7 +582,23 @@ const episodeData = {
                 "Lavendeldoktrin, gerendert in Silhouette und bloßen Füßen.",
                 "Hinter ihrer Schulter: Chipster, unbarmherzig geometrisch, die Ruhe sprengend.",
                 "Drinnen findet eine zitternde Hand die Schreibtischkante — und versteht."
-            ]
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2818,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057554.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057554.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057554.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057554.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057554.jpg",
+            "overlay_texts": [
+                "Dort, wo Chrono und Lumina einst vor der Dissonanz verschmolzen — wartet noch immer etwas.",
+                "Kaelen bittet nicht um Erlaubnis. Sie treten in die Helligkeit ein, die für Erbarmen keinen Namen hat.",
+                "Drei Herzschläge. Drei Echos eines Selbst, das hätte sein können.",
+                "Die Narbe bewahrt das Souvenir. Die Spirale bewahrt den Beweis."
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11426,
@@ -421,7 +612,8 @@ const episodeData = {
                 "Er weigert sich einfach loszulassen.",
                 "Hinter ihm sendet Chipster verzückt in ihre Noetica-Bindung aus — *der Dschungel SIEHT uns* — während Taro die schwerere Arbeit verrichtet: An einer Schwelle stehend, die bereits ihren Tribut gefordert hat, Knöchel wund, Atem schwer, die Kalorienschuld der Vitalis, über ihre zulässige Grenze hinausgetrieben, setzt sich in seinen Knochen wie kaltes Eisen ab.",
                 "Das Amulett an seiner Brust fängt zersplittertes Smaragdlicht ein. Ein Duellant, der den Rhythmus des Dschungels zu einem Unentschieden gezwungen hat — und weiß, dass der Dschungel noch immer zählt."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11457,
@@ -435,7 +627,8 @@ const episodeData = {
                 "Kaori verhandelt. Der vernarbte Vitalis brüllt zurück, golden gleichgültig gegen ihr Zittern.",
                 "Zev beobachtet von der Schwelle aus, Kiefer angespannt, grenzenlos unwürdig dessen, was er bezeugt.",
                 "Krava liest die seismische Wahrheit durch die Rüstung. Der Preis wird, wenn er kommt, erheblich sein."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11458,
@@ -449,7 +642,8 @@ const episodeData = {
                 "nur für jene, denen man Schulden schuldet.",
                 "Oben: Der Flieger sinkt durch tote Kanäle, gleichgültig wie eine Klinge.",
                 "Unten: zwei Gestalten brüten in Stille, gehüllt in der düsteren Maschinerie der Stadt — Vorboten, die die Menge längst vergessen hat."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11477,
@@ -463,7 +657,8 @@ const episodeData = {
                 "Sie errichtet Kathedralen — und wartet, bis du deine Sünden bekennst.",
                 "Kaori hat den Kurs gewechselt. Die Lehrerschaft war schon immer ein Käfig.",
                 "Zwischen zwei Kriegsinstrumenten: ein Kühlmitteltropfen, sich ausbreitend wie ein Urteil."
-            ]
+            ],
+            "fuki_texts": []
         },
         {
             "id": 11455,
@@ -477,7 +672,8 @@ const episodeData = {
                 "Dekanin Maelis — dort, wo Probabilis, Momentum und Oscilla in einem hageren, hungrigen Körper zusammenlaufen.",
                 "Die Journale wissen es. Die Wände wissen es. Der zitternde Schüler beginnt es erst zu verstehen.",
                 "Sie schwebt nicht herab. Sie wartet — Finger gespannt, das Schicksal bereits berechnet, die nächste Auflösung gelassen erreichbar."
-            ]
+            ],
+            "fuki_texts": []
         }
     ],
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
@@ -487,8 +683,8 @@ const episodeData = {
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "next_episode",
-        "title": "SERIES PRE S03",
-        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0064116.jpg",
+        "title": "The Anima Chronicles S03E03",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057553.jpg",
         "url": "ep_223_de.html"
     },
     "is_preview": false,
