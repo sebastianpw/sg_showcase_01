@@ -30,6 +30,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0065690.jpg",
             "seq_data_raw": "[{\"sketch_id\":1237,\"frame_id\":50559},{\"sketch_id\":1066,\"frame_id\":48472},{\"sketch_id\":1045,\"frame_id\":48471},{\"sketch_id\":1229,\"frame_id\":50556},{\"sketch_id\":1155,\"frame_id\":50570},{\"sketch_id\":1204,\"frame_id\":50555},{\"sketch_id\":1236,\"frame_id\":50581},{\"sketch_id\":1235,\"frame_id\":50558},{\"sketch_id\":1037,\"frame_id\":50568},{\"sketch_id\":1273,\"frame_id\":50565},{\"sketch_id\":1065,\"frame_id\":50569},{\"sketch_id\":1036,\"frame_id\":50567},{\"sketch_id\":1251,\"frame_id\":50524},{\"sketch_id\":1274,\"frame_id\":50566},{\"sketch_id\":1614,\"frame_id\":48582},{\"sketch_id\":1864,\"frame_id\":50592},{\"sketch_id\":1258,\"frame_id\":50560},{\"sketch_id\":1264,\"frame_id\":50562},{\"sketch_id\":1852,\"frame_id\":50588},{\"sketch_id\":790,\"frame_id\":50582}]",
             "url": "ep_362.html"
+        },
+        {
+            "id": 364,
+            "name": "p_r3sh0r75_004",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0067349.jpg",
+            "seq_data_raw": "[{\"sketch_id\":1542,\"frame_id\":47579},{\"sketch_id\":1547,\"frame_id\":47595},{\"sketch_id\":1521,\"frame_id\":47553},{\"sketch_id\":9492,\"frame_id\":49607},{\"sketch_id\":4080,\"frame_id\":51025},{\"sketch_id\":1793,\"frame_id\":44619},{\"sketch_id\":1708,\"frame_id\":48593},{\"sketch_id\":1597,\"frame_id\":48576},{\"sketch_id\":1539,\"frame_id\":47577},{\"sketch_id\":1531,\"frame_id\":47570},{\"sketch_id\":4089,\"frame_id\":46148},{\"sketch_id\":2292,\"frame_id\":48669},{\"sketch_id\":4115,\"frame_id\":51057},{\"sketch_id\":1541,\"frame_id\":47489},{\"sketch_id\":11018,\"frame_id\":44405},{\"sketch_id\":10693,\"frame_id\":43628},{\"sketch_id\":9509,\"frame_id\":49617},{\"sketch_id\":10984,\"frame_id\":44148}]",
+            "url": "ep_364.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq361_en.pdf",
@@ -297,9 +305,9 @@ const episodeData = {
             "filename": "frames_starlightguardians_nu/frame0064948.jpg",
             "overlay_texts": [
                 "The dome holds its breath.",
-                "Vitalis stirs in root and stem — the flora answers Mira&#039;s call, emerald veins tracing every leaf she shields.",
+                "Vitalis stirs in root and stem — the flora answers Eve&#039;s call, emerald veins tracing every leaf she shields.",
                 "Overhead, Energia drinks from the sun. Below, moss rises in quiet fury.",
-                "Arin brokers peace beneath canopies that glow like forgotten fables. The poachers have never faced a garden that fights back."
+                "Taro brokers peace beneath canopies that glow like forgotten fables. The poachers have never faced a garden that fights back."
             ],
             "fuki_texts": []
         },

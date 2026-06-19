@@ -30,6 +30,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0065690.jpg",
             "seq_data_raw": "[{\"sketch_id\":1237,\"frame_id\":50559},{\"sketch_id\":1066,\"frame_id\":48472},{\"sketch_id\":1045,\"frame_id\":48471},{\"sketch_id\":1229,\"frame_id\":50556},{\"sketch_id\":1155,\"frame_id\":50570},{\"sketch_id\":1204,\"frame_id\":50555},{\"sketch_id\":1236,\"frame_id\":50581},{\"sketch_id\":1235,\"frame_id\":50558},{\"sketch_id\":1037,\"frame_id\":50568},{\"sketch_id\":1273,\"frame_id\":50565},{\"sketch_id\":1065,\"frame_id\":50569},{\"sketch_id\":1036,\"frame_id\":50567},{\"sketch_id\":1251,\"frame_id\":50524},{\"sketch_id\":1274,\"frame_id\":50566},{\"sketch_id\":1614,\"frame_id\":48582},{\"sketch_id\":1864,\"frame_id\":50592},{\"sketch_id\":1258,\"frame_id\":50560},{\"sketch_id\":1264,\"frame_id\":50562},{\"sketch_id\":1852,\"frame_id\":50588},{\"sketch_id\":790,\"frame_id\":50582}]",
             "url": "ep_362.html"
+        },
+        {
+            "id": 364,
+            "name": "p_r3sh0r75_004",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0067349.jpg",
+            "seq_data_raw": "[{\"sketch_id\":1542,\"frame_id\":47579},{\"sketch_id\":1547,\"frame_id\":47595},{\"sketch_id\":1521,\"frame_id\":47553},{\"sketch_id\":9492,\"frame_id\":49607},{\"sketch_id\":4080,\"frame_id\":51025},{\"sketch_id\":1793,\"frame_id\":44619},{\"sketch_id\":1708,\"frame_id\":48593},{\"sketch_id\":1597,\"frame_id\":48576},{\"sketch_id\":1539,\"frame_id\":47577},{\"sketch_id\":1531,\"frame_id\":47570},{\"sketch_id\":4089,\"frame_id\":46148},{\"sketch_id\":2292,\"frame_id\":48669},{\"sketch_id\":4115,\"frame_id\":51057},{\"sketch_id\":1541,\"frame_id\":47489},{\"sketch_id\":11018,\"frame_id\":44405},{\"sketch_id\":10693,\"frame_id\":43628},{\"sketch_id\":9509,\"frame_id\":49617},{\"sketch_id\":10984,\"frame_id\":44148}]",
+            "url": "ep_364.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq187_en.pdf",
@@ -162,7 +170,6 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0063532.jpg",
             "filename": "frames_starlightguardians_nu/frame0063532.jpg",
             "overlay_texts": [
-                "Two outlanders. One graveyard of stars swallowed by dunes.",
                 "The salvager plants her boot where entropy stops — Resonantia threading the desert atom by atom, colossal and animalistic in her refusal.",
                 "Beside her, the synthetic broadcasts its challenge darkly through the Tether — a bass tremor, undecipherable and operatic, shaking iron to its marrow.",
                 "The Momentum sails flare crimson. The wasteland holds its breath. Neither yields."
@@ -207,7 +214,7 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0063536.jpg",
             "filename": "frames_starlightguardians_nu/frame0063536.jpg",
             "overlay_texts": [
-                "Thirty souls. One prow. Crimson Wastes at terminal measure.",
+                "Crimson Wastes at terminal measure.",
                 "The Momentum Spectre stretched the world into smeared afterimage — she alone refused to drag.",
                 "Blood at the temple. Rapture in the chest. The Tether always collects its tithe.",
                 "Ten kilometres to Scrap-Haven. Unshakeable as the beacon. Magnificently, impossibly still."
@@ -267,8 +274,8 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0064078.jpg",
             "filename": "frames_starlightguardians_nu/frame0064078.jpg",
             "overlay_texts": [
-                "The Celestia Spire at dawn — where solar sails elect their vessel.",
-                "Kai. Spatia-bound. The last warm thing at the edge of everything.",
+                "Where solar sails elect their vessel.",
+                "Spatia-bound. The last warm thing at the edge of everything.",
                 "She does not move. Stillness is the price. Stillness is the proof.",
                 "Two worlds share a border here. She is the only one honest enough to stand on it."
             ],
