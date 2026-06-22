@@ -38,6 +38,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0067349.jpg",
             "seq_data_raw": "[{\"sketch_id\":1542,\"frame_id\":47579},{\"sketch_id\":1547,\"frame_id\":47595},{\"sketch_id\":1521,\"frame_id\":47553},{\"sketch_id\":9492,\"frame_id\":49607},{\"sketch_id\":4080,\"frame_id\":51025},{\"sketch_id\":1793,\"frame_id\":44619},{\"sketch_id\":1708,\"frame_id\":48593},{\"sketch_id\":1597,\"frame_id\":48576},{\"sketch_id\":1539,\"frame_id\":47577},{\"sketch_id\":1531,\"frame_id\":47570},{\"sketch_id\":4089,\"frame_id\":46148},{\"sketch_id\":2292,\"frame_id\":48669},{\"sketch_id\":4115,\"frame_id\":51057},{\"sketch_id\":1541,\"frame_id\":47489},{\"sketch_id\":11018,\"frame_id\":44405},{\"sketch_id\":10693,\"frame_id\":43628},{\"sketch_id\":9509,\"frame_id\":49617},{\"sketch_id\":10984,\"frame_id\":44148}]",
             "url": "ep_364_pt.html"
+        },
+        {
+            "id": 388,
+            "name": "p_r3sh0r75_005",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0067864.jpg",
+            "seq_data_raw": "[{\"sketch_id\":11835,\"frame_id\":52689},{\"sketch_id\":11836,\"frame_id\":52690},{\"sketch_id\":11858,\"frame_id\":52666},{\"sketch_id\":11825,\"frame_id\":52691},{\"sketch_id\":11826,\"frame_id\":52692},{\"sketch_id\":11827,\"frame_id\":52693},{\"sketch_id\":11828,\"frame_id\":52694},{\"sketch_id\":11859,\"frame_id\":52671},{\"sketch_id\":11819,\"frame_id\":52695},{\"sketch_id\":11862,\"frame_id\":52677},{\"sketch_id\":11820,\"frame_id\":52696},{\"sketch_id\":11866,\"frame_id\":52697},{\"sketch_id\":11829,\"frame_id\":52698},{\"sketch_id\":11856,\"frame_id\":52658},{\"sketch_id\":11831,\"frame_id\":52699},{\"sketch_id\":11863,\"frame_id\":52705},{\"sketch_id\":11832,\"frame_id\":52700},{\"sketch_id\":11861,\"frame_id\":52675},{\"sketch_id\":11855,\"frame_id\":52657},{\"sketch_id\":11817,\"frame_id\":52701},{\"sketch_id\":11815,\"frame_id\":52702},{\"sketch_id\":11816,\"frame_id\":52703},{\"sketch_id\":11814,\"frame_id\":52704},{\"sketch_id\":11823,\"frame_id\":52630},{\"sketch_id\":11822,\"frame_id\":52629},{\"sketch_id\":11824,\"frame_id\":52631},{\"sketch_id\":11850,\"frame_id\":52664},{\"sketch_id\":11851,\"frame_id\":52665}]",
+            "url": "ep_388_pt.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/magazine_seq364_pt.pdf",
@@ -330,29 +338,10 @@ const episodeData = {
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0067349.jpg",
     "episode_cover_raw": "/frames_starlightguardians_nu/frame0067349.jpg",
     "next_teaser": {
-        "type": "random_series",
-        "options": [
-            {
-                "title": "EMILY",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
-                "url": "../index_emag_pt.html"
-            },
-            {
-                "title": "FAUST",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
-                "url": "../index_faust_pt.html"
-            },
-            {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_pt.html"
-            },
-            {
-                "title": "STARLIGHT GUARDIANS",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg",
-                "url": "../index_sgtac_pt.html"
-            }
-        ]
+        "type": "next_episode",
+        "title": "p_r3sh0r75_005",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0067864.jpg",
+        "url": "ep_388_pt.html"
     },
     "is_preview": false,
     "available_langs": [
