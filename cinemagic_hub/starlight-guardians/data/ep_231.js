@@ -12,7 +12,7 @@ const episodeData = {
             "name": "The Anima Chronicles S04E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":310,\"frame_id\":42520},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":11644,\"frame_id\":51134},{\"sketch_id\":2583,\"frame_id\":43320},{\"sketch_id\":4797,\"frame_id\":51776},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":11629,\"frame_id\":51013},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":2785,\"frame_id\":42671},{\"sketch_id\":1059,\"frame_id\":42553},{\"sketch_id\":11619,\"frame_id\":51003},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
+            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":310,\"frame_id\":42520},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":11644,\"frame_id\":51134},{\"sketch_id\":2583,\"frame_id\":43320},{\"sketch_id\":4797,\"frame_id\":51776},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":8494,\"frame_id\":42792},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":11629,\"frame_id\":51013},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":2785,\"frame_id\":42671},{\"sketch_id\":1059,\"frame_id\":42553},{\"sketch_id\":11619,\"frame_id\":51003},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
             "url": "ep_231.html"
         }
     ],
@@ -169,6 +169,21 @@ const episodeData = {
                 "He speaks of the Slag&#039;s ten thousand names. Of consciousness metabolized into the city&#039;s foundation, present in every wall.",
                 "Tears move down his weathered face. Noctura does not look away. She does not offer comfort. She receives.",
                 "For the first time in his decades of solitary witness, powerlessness and dignity sit side by side in the presence of someone with power who has chosen to make herself smaller than the testimony."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 8494,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057665.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057665.jpg",
+            "overlay_texts": [
+                "Reality folds. The body refuses.",
+                "Spatia tears through—indifferent, sovereign, burning neurons for transit.",
+                "Gate-Sickness: the price written in phantom limbs and dimensional scars.",
+                "The folds wait. They always wait. Like storm-ache in the bones."
             ],
             "fuki_texts": []
         },
@@ -446,9 +461,24 @@ const episodeData = {
                 "url": "../index_prshrts.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt.html"
             }
         ]
     },

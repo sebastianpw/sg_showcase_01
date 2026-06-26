@@ -12,7 +12,7 @@ const episodeData = {
             "name": "The Anima Chronicles S04E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":310,\"frame_id\":42520},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":11644,\"frame_id\":51134},{\"sketch_id\":2583,\"frame_id\":43320},{\"sketch_id\":4797,\"frame_id\":51776},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":11629,\"frame_id\":51013},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":2785,\"frame_id\":42671},{\"sketch_id\":1059,\"frame_id\":42553},{\"sketch_id\":11619,\"frame_id\":51003},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
+            "seq_data_raw": "[{\"sketch_id\":9710,\"frame_id\":43195},{\"sketch_id\":310,\"frame_id\":42520},{\"sketch_id\":9711,\"frame_id\":43196},{\"sketch_id\":2719,\"frame_id\":42660},{\"sketch_id\":2718,\"frame_id\":42652},{\"sketch_id\":11644,\"frame_id\":51134},{\"sketch_id\":2583,\"frame_id\":43320},{\"sketch_id\":4797,\"frame_id\":51776},{\"sketch_id\":9715,\"frame_id\":43402},{\"sketch_id\":9712,\"frame_id\":43197},{\"sketch_id\":8494,\"frame_id\":42792},{\"sketch_id\":9713,\"frame_id\":43198},{\"sketch_id\":9714,\"frame_id\":43401},{\"sketch_id\":9716,\"frame_id\":43201},{\"sketch_id\":9717,\"frame_id\":43403},{\"sketch_id\":11629,\"frame_id\":51013},{\"sketch_id\":9718,\"frame_id\":43203},{\"sketch_id\":2785,\"frame_id\":42671},{\"sketch_id\":1059,\"frame_id\":42553},{\"sketch_id\":11619,\"frame_id\":51003},{\"sketch_id\":9719,\"frame_id\":43204},{\"sketch_id\":9720,\"frame_id\":43205},{\"sketch_id\":9721,\"frame_id\":43404},{\"sketch_id\":9722,\"frame_id\":43207},{\"sketch_id\":9723,\"frame_id\":43208},{\"sketch_id\":9724,\"frame_id\":43209},{\"sketch_id\":9725,\"frame_id\":43210}]",
             "url": "ep_231_pt.html"
         }
     ],
@@ -42,10 +42,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057351.jpg",
             "filename": "frames_starlightguardians_nu/frame0057351.jpg",
             "overlay_texts": [
-                "Skytier Tower 226. Derelict. Still standing — barely.",
-                "Below, the Lower Districts breathe sulphur into the dark, patient as a kept wound.",
-                "Kaelen moves along the cornice like a silhouette that has learned to distrust iron.",
-                "The windowpane yields. The vast night greets her gingerly — and says nothing."
+                "Torre Skytier 226. Abandonada. Ainda de pé — mal.",
+                "Lá em baixo, os Distritos Inferiores respiram enxofre para a escuridão, pacientes como uma ferida mantida fechada.",
+                "Kaelen move-se ao longo da cornija como uma silhueta que aprendeu a desconfiar do ferro.",
+                "O vidro da janela cede. A vastidão da noite recebe-a com cautela — e não diz nada."
             ],
             "fuki_texts": []
         },
@@ -73,10 +73,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057530.jpg",
             "filename": "frames_starlightguardians_nu/frame0057530.jpg",
             "overlay_texts": [
-                "Three contingencies deep, and Oblivion still smiles.",
-                "The Architect — fused to the city&#039;s spine, amber eyes calculating the cost of surrender.",
-                "Noctura&#039;s scepter does not threaten. It pronounces.",
-                "In the furnace-dark of Crater City&#039;s obsidian heart, gods negotiate dominion — frozen dust their only witnesses."
+                "Três contingências abaixo, e o Oblívio ainda sorri.",
+                "O Arquiteto — fundido à espinha dorsal da cidade, olhos âmbar calculando o preço da rendição.",
+                "O cetro de Noctura não ameaça. Ele proclama.",
+                "Na escuridão de fornalha do coração obsidiano da Cidade da Cratera, deuses negociam domínio — pó congelado, suas únicas testemunhas."
             ],
             "fuki_texts": []
         },
@@ -88,10 +88,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057518.jpg",
             "filename": "frames_starlightguardians_nu/frame0057518.jpg",
             "overlay_texts": [
-                "Forty years calcified into a throne — patience indistinguishable from entombment.",
-                "She strides through frozen detritus like a saga arriving unhurried from absentia.",
-                "Gloomflare writhes at the edges. Gloom, prescient and guttural, already knows.",
-                "This was never a covenant of words. Entropy, it seems, requires no prelude."
+                "Quarenta anos calcificados num trono — paciência indistinguível de sepultamento.",
+                "Ela avança por entre a detritos congelados como uma saga que chega, sem pressa, da ausência.",
+                "Gloomflare contorce-se nas bordas. A treva, premonitória e gutural, já sabe.",
+                "Isto nunca foi um pacto de palavras. A entropia, ao que parece, não requer prelúdio."
             ],
             "fuki_texts": []
         },
@@ -103,10 +103,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0064922.jpg",
             "filename": "frames_starlightguardians_nu/frame0064922.jpg",
             "overlay_texts": [
-                "UMBREL — the immense abomination, withdrawn from daylight, sacredly macabre.",
-                "Oscilla distorts. Every syllable a trap. Every silence heavier.",
-                "Kael stands squarely before the traitor — bound to a negotiation neither can survive unharmed.",
-                "In the roughest dark, the damnedest artifice: an ally who became the savagest lodger of all."
+                "UMBREL — a imensa abominação, retirada da luz do dia, sagradamente macabra.",
+                "Oscilla distorce. Cada sílaba, uma armadilha. Cada silêncio, mais pesado.",
+                "Kael mantém-se firme diante do traidor — preso a uma negociação da qual nenhum dos dois poderá sair ileso.",
+                "No escuro mais áspero, a mais amaldiçoada artimanha: um aliado que se tornou o mais feroz dos inquilinos."
             ],
             "fuki_texts": []
         },
@@ -118,10 +118,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0058216.jpg",
             "filename": "frames_starlightguardians_nu/frame0058216.jpg",
             "overlay_texts": [
-                "A kilometer of dominion, compressed to a single fused body.",
-                "Prime Architect Kaelen — entombed at the convergence of flesh and city, heartbeat threaded through one million souls.",
-                "Violet veins. Obsidian walls. The boundary between man and machine: a residue, nothing more.",
-                "Below, four hundred thousand silhouettes move in prescribed orbits. Above, the apex hums. All of it — his."
+                "Um quilómetro de domínio, comprimido num único corpo fundido.",
+                "Arquitecto Primordial Kaelen — enterrado na convergência de carne e cidade, o batimento cardíaco entrelaçado com um milhão de almas.",
+                "Veias violetas. Muros de obsidiana. A fronteira entre homem e máquina: um resíduo, nada mais.",
+                "Abaixo, quatrocentas mil silhuetas movem-se em órbitas prescritas. Acima, o ápice vibra. Tudo isto — seu."
             ],
             "fuki_texts": []
         },
@@ -133,10 +133,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066923.jpg",
             "filename": "frames_starlightguardians_nu/frame0066923.jpg",
             "overlay_texts": [
-                "Beneath Crater City&#039;s immaculate black foundations — something has always been screaming.",
-                "The Slag-Drinkers did not come for power. They came to apologise to the dead.",
-                "The hero drinks. A million fractured voices answer simultaneously — each one a sickle of stolen awareness, each one refusing submission.",
-                "Catastrophic. Incandescent. The imprisoned dead declare themselves too vast, too furious, too conscious — to stay buried one century more."
+                "Sob as fundações negras e imaculadas da Cidade da Cratera — sempre houve algo a gritar.",
+                "Os Bebedores de Escória não vieram pelo poder. Vieram pedir perdão aos mortos.",
+                "O herói bebe. Um milhão de vozes fracturadas respondem em simultâneo — cada uma uma foice de consciência roubada, cada uma recusando a submissão.",
+                "Catastrófico. Incandescente. Os mortos aprisionados declaram-se demasiado vastos, demasiado furiosos, demasiado conscientes — para permanecerem sepultados por mais um século."
             ],
             "fuki_texts": []
         },
@@ -169,6 +169,21 @@ const episodeData = {
                 "Ele fala dos dez mil nomes da Escória. Da consciência metabolizada no alicerce da cidade, presente em cada parede.",
                 "Lágrimas correm pelo seu rosto castigado pelo tempo. Noctura não desvia o olhar. Não oferece conforto. Ela recebe.",
                 "Pela primeira vez em suas décadas de testemunho solitário, a impotência e a dignidade sentam-se lado a lado na presença de alguém com poder que escolheu tornar-se menor que o testemunho."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 8494,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057665.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057665.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057665.jpg",
+            "overlay_texts": [
+                "Reality folds. The body refuses.",
+                "Spatia tears through—indifferent, sovereign, burning neurons for transit.",
+                "Gate-Sickness: the price written in phantom limbs and dimensional scars.",
+                "The folds wait. They always wait. Like storm-ache in the bones."
             ],
             "fuki_texts": []
         },
@@ -245,7 +260,7 @@ const episodeData = {
             "filename": "frames_starlightguardians_nu/frame0066102.jpg",
             "overlay_texts": [
                 "schema_noncompliant",
-                "The scene description contains no narrative, visual, or world-relevant content to generate overlay copy from. It is a technical production instruction (&#039;Replace the bald dummy character with the original from the character sheet&#039;) with no scene setting, character context, Anima energy, civilisation reference, or dramatic content. No cinematic overlay text can be responsibly derived from this material without fabricating scene elements not present in the source."
+                "schema_noncompliant"
             ],
             "fuki_texts": []
         },
@@ -273,10 +288,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057544.jpg",
             "filename": "frames_starlightguardians_nu/frame0057544.jpg",
             "overlay_texts": [
-                "Beneath a dying gate, two figures decadently squander the dusk — swapping nonsense like dynastic currency.",
-                "The Aeon Gate: hewn Iron-Wood strangled by Root Rot. Its runes still find the equation amusing.",
-                "Vitalis-lit veins, velvet stealth, a data-chip disguised as bread crust — the wildest tradecraft the paranoid clerks could devise.",
-                "The passphrase was absurdity. The gate flickered once, as if it firmly agreed."
+                "Sob um portão agonizante, duas figuras esbanjam o crepúsculo com decadência — trocando disparates como moeda dinástica.",
+                "O Portão do Éon: Madeira-Ferro talhada, estrangulada pela Podridão de Raiz. Suas runas ainda acham a equação divertida.",
+                "Veias iluminadas por Vitalis, furtividade aveludada, um chip de dados disfarçado de crosta de pão — a mais selvagem arte de infiltração que os escribas paranoicos poderiam conceber.",
+                "A senha era o absurdo. O portão cintilou uma vez, como se concordasse firmemente."
             ],
             "fuki_texts": []
         },
@@ -288,10 +303,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057394.jpg",
             "filename": "frames_starlightguardians_nu/frame0057394.jpg",
             "overlay_texts": [
-                "Luminara Gardens — where the grafted forget they were ever whole.",
-                "Rin steps into the divide. Her hand: a stayed sentence, not a sword.",
-                "The Aura-Net reads them both — copper fury, indigo resolve, neither yielding.",
-                "&quot;You won&#039;t recapture what you fed to the roots.&quot;"
+                "Jardins de Luminara — onde os enxertados se esquecem de alguma vez terem sido inteiros.",
+                "Rin entra na brecha. A sua mão: uma frase contida, não uma espada.",
+                "A Rede de Aura lê ambos — fúria de cobre, determinação índigo, nenhum cedendo.",
+                "&quot;Não vais recuperar o que entregaste às raízes.&quot;"
             ],
             "fuki_texts": []
         },
@@ -303,10 +318,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0056565.jpg",
             "filename": "frames_starlightguardians_nu/frame0056565.jpg",
             "overlay_texts": [
-                "Crater City&#039;s depths — three tiers of tractable labor, calibrated to the last breath.",
-                "Empress Noctura does not command. She gravitates.",
-                "Her gaze imprints itself into the architecture. Workers navigate its geometry like penitents rerouting around a sanctified site.",
-                "No voice necessary. Only the weight of absolute calculus, descending."
+                "As profundezas da Cidade da Cratera — três níveis de labor dócil, calibrados até ao último suspiro.",
+                "A Imperatriz Noctura não comanda. Ela gravita.",
+                "O seu olhar imprime-se na arquitetura. Os trabalhadores navegam pela sua geometria como penitentes, desviando-se em torno de um lugar santificado.",
+                "Nenhuma voz é necessária. Apenas o peso do cálculo absoluto, em descida."
             ],
             "fuki_texts": []
         },
@@ -446,9 +461,24 @@ const episodeData = {
                 "url": "../index_prshrts_pt.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_pt.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro_pt.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school_pt.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp_pt.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt_pt.html"
             }
         ]
     },

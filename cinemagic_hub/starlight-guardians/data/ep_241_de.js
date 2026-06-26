@@ -12,12 +12,24 @@ const episodeData = {
             "name": "The Anima Chronicles S05E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":273,\"frame_id\":14632},{\"sketch_id\":273,\"frame_id\":10335},{\"sketch_id\":273,\"frame_id\":48690},{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":5110,\"frame_id\":42725},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9172,\"frame_id\":42824},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":11329,\"frame_id\":50994},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
+            "seq_data_raw": "[{\"sketch_id\":5089,\"frame_id\":52121},{\"sketch_id\":273,\"frame_id\":14632},{\"sketch_id\":273,\"frame_id\":10335},{\"sketch_id\":273,\"frame_id\":48690},{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":5110,\"frame_id\":42725},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9172,\"frame_id\":42824},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":11329,\"frame_id\":50994},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
             "url": "ep_241_de.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq241_de.pdf",
     "frames": [
+        {
+            "id": 5089,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0067293.jpg",
+            "filename": "frames_starlightguardians_nu/frame0067293.jpg",
+            "overlay_texts": [
+                "An assembly of gargantuan, semi-sentient resonant organs stacked like cathedral towers; each pipe is a carved fossil that sings tectonic hymns. Their combined chorus fractures rock and bends storms; sound-waves condense into physical constructs—ivory spires, tidal razors, spectral choristers that peel away the will of those who listen. The Choir&#039;s leader is a throat of living basalt that breathes oceanic silence."
+            ],
+            "fuki_texts": []
+        },
         {
             "id": 273,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
@@ -436,7 +448,7 @@ const episodeData = {
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
     "meta_desc": "Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
@@ -457,9 +469,24 @@ const episodeData = {
                 "url": "../index_prshrts_de.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_de.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro_de.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school_de.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp_de.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt_de.html"
             }
         ]
     },

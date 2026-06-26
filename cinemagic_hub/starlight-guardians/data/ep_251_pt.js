@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 251,
-    "name": "The Anima Chronicles S06E01",
+    "name": "The Anima Chronicles T06E01",
     "description": "",
     "cinemagic": {
         "id": 16,
@@ -9,7 +9,7 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 251,
-            "name": "The Anima Chronicles S06E01",
+            "name": "The Anima Chronicles T06E01",
             "chapter_label": null,
             "cover_raw": "",
             "seq_data_raw": "[{\"sketch_id\":4519,\"frame_id\":51538},{\"sketch_id\":4498,\"frame_id\":51531},{\"sketch_id\":9747,\"frame_id\":43410},{\"sketch_id\":9748,\"frame_id\":43233},{\"sketch_id\":9749,\"frame_id\":43411},{\"sketch_id\":9751,\"frame_id\":43236},{\"sketch_id\":9750,\"frame_id\":43412},{\"sketch_id\":11620,\"frame_id\":51004},{\"sketch_id\":11618,\"frame_id\":51002},{\"sketch_id\":9752,\"frame_id\":43237},{\"sketch_id\":9753,\"frame_id\":43413},{\"sketch_id\":11747,\"frame_id\":51534},{\"sketch_id\":9754,\"frame_id\":43414},{\"sketch_id\":9134,\"frame_id\":42812},{\"sketch_id\":9134,\"frame_id\":42813},{\"sketch_id\":9755,\"frame_id\":43240},{\"sketch_id\":9756,\"frame_id\":43241},{\"sketch_id\":9757,\"frame_id\":43415},{\"sketch_id\":9758,\"frame_id\":43243},{\"sketch_id\":9759,\"frame_id\":43244},{\"sketch_id\":9760,\"frame_id\":43416},{\"sketch_id\":9761,\"frame_id\":43246},{\"sketch_id\":9762,\"frame_id\":43247},{\"sketch_id\":9763,\"frame_id\":43417},{\"sketch_id\":9764,\"frame_id\":43418},{\"sketch_id\":9765,\"frame_id\":43250},{\"sketch_id\":9766,\"frame_id\":43251},{\"sketch_id\":9767,\"frame_id\":43252},{\"sketch_id\":9768,\"frame_id\":43253},{\"sketch_id\":9769,\"frame_id\":43254}]",
@@ -26,10 +26,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066684.jpg",
             "filename": "frames_starlightguardians_nu/frame0066684.jpg",
             "overlay_texts": [
-                "Three centuries of institutional erasure — spoken aloud, name by name.",
-                "3,847 voices. Thirty seconds each. The Foundry touches earth for the first time.",
-                "A spiral of the living, flowering around the counted dead.",
-                "At the center: a child born during the naming. The first witness of a world without forgetting."
+                "Três séculos de apagamento institucional — pronunciados em voz alta, nome por nome.",
+                "3.847 vozes. Trinta segundos cada. A Fundição toca a terra pela primeira vez.",
+                "Uma espiral dos vivos, florindo em torno dos mortos contados.",
+                "No centro: uma criança nascida durante a nomeação. A primeira testemunha de um mundo sem esquecimento."
             ],
             "fuki_texts": []
         },
@@ -41,10 +41,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066680.jpg",
             "filename": "frames_starlightguardians_nu/frame0066680.jpg",
             "overlay_texts": [
-                "One hundred and fifty years of borrowed life — and the debt comes due in a single breath.",
-                "An elder&#039;s voice, stealthy at first, plunging through the Aura-Net like an argosy adrift in open water.",
-                "Two hundred minds. One atrocity. The silence they were anoint to keep — shattered from within.",
-                "Resistance does not announce itself. It arrives the moment truth finds a throat willing to carry it."
+                "Cento e cinquenta anos de vida emprestada — e a dívida vence-se num único sopro.",
+                "Uma voz de ancião, furtiva no início, mergulhando pela Aura-Rede como um navio de carga à deriva em mar aberto.",
+                "Duzentas mentes. Uma atrocidade. O silêncio que lhes foi conferido para guardar — despedaçado a partir de dentro.",
+                "A resistência não se anuncia. Ela chega no instante em que a verdade encontra uma garganta disposta a conduzi-la."
             ],
             "fuki_texts": []
         },
@@ -136,10 +136,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0056567.jpg",
             "filename": "frames_starlightguardians_nu/frame0056567.jpg",
             "overlay_texts": [
-                "She entered the forge as Eve.",
-                "Noctura emerges — adamantine, absolute, nocturnal geometry made flesh.",
-                "Where warmth once canalized shadow into mercy, cold violet geometry now scorches ambiguity from the air.",
-                "Prime Architect Kaelen rejoices. The griffin screams. Order has reached its zenith — and it is ghastly."
+                "Ela entrou na forja como Eva.",
+                "Noctura emerge — geometria adamantina, absoluta, noturna, feita carne.",
+                "Onde o calor outrora canalizava a sombra em misericórdia, agora a fria geometria violeta carboniza do ar toda ambiguidade.",
+                "O Arquiteto Primordial Kaelen rejubila. O grifo grita. A ordem alcançou o seu zénite — e é horrenda."
             ],
             "fuki_texts": []
         },
@@ -151,10 +151,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0056574.jpg",
             "filename": "frames_starlightguardians_nu/frame0056574.jpg",
             "overlay_texts": [
-                "The machine breathes. The battle breathes with it.",
-                "Oblivion&#039;s mist bends corners, dissolves certainty — sight becomes a liability.",
-                "Kaori splits the walls open in ghost-white and violet. Taro pours aquamarine repair-light into fractured armor. Rin becomes the shadow the pistons cast.",
-                "Muscle memory against the Void&#039;s suffocating perfection. Every healed fracture a defiant answer."
+                "A máquina respira. A batalha respira com ela.",
+                "A névoa do Oblívio curva os cantos, dissolve a certeza — a visão torna-se um risco.",
+                "Kaori rasga as paredes em branco-fantasma e violeta. Taro derrama luz de reparo aquamarina na armadura fraturada. Rin torna-se a sombra que os pistões projetam.",
+                "Memória muscular contra a perfeição sufocante do Vazio. Cada fratura curada, uma resposta de desafio."
             ],
             "fuki_texts": []
         },
@@ -198,10 +198,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057740.jpg",
             "filename": "frames_starlightguardians_nu/frame0057740.jpg",
             "overlay_texts": [
-                "They do not transmit. They grieve.",
-                "Graviton harvesters, adrift — each arc a mournful frequency older than any charted star.",
-                "Deep-space miners call them the Howl Nodes. Prolonged exposure unravels the boundary between memory and constellation.",
-                "Something conscious settled here. Something that has not yet chosen to abate."
+                "Eles não transmitem. Entristecem.",
+                "Colhedores de gravitões, à deriva — cada arco uma frequência lamentosa, mais antiga do que qualquer estrela cartografada.",
+                "Os mineiros do espaço profundo chamam-lhes os Nós do Uivo. A exposição prolongada desfaz a fronteira entre memória e constelação.",
+                "Algo consciente assentou aqui. Algo que ainda não escolheu abrandar."
             ],
             "fuki_texts": []
         },
@@ -229,10 +229,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057685.jpg",
             "filename": "frames_starlightguardians_nu/frame0057685.jpg",
             "overlay_texts": [
-                "Level 44. The machines measure everything — except absence.",
-                "Arin reads the vats like scripture: cabbalistic grooves wrought in amber and violet, a language the engineers buried in the walls.",
-                "One flicker of Vitalis. The somnambulist monitors turn toward the wound she made in the light.",
-                "Behind her, the clinical scour continues. She is already becoming the space between what is seen and what is chosen."
+                "Nível 44. As máquinas medem tudo — exceto a ausência.",
+                "Arin lê os tanques como escritura: sulcos cabalísticos forjados em âmbar e violeta, uma linguagem que os engenheiros sepultaram nas paredes.",
+                "Um único tremor de Vitalis. Os monitores sonâmbulos voltam-se para a ferida que ela abriu na luz.",
+                "Atrás dela, a devassa clínica prossegue. Ela já está a tornar-se o espaço entre o que é visto e o que é escolhido."
             ],
             "fuki_texts": []
         },
@@ -244,10 +244,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057686.jpg",
             "filename": "frames_starlightguardians_nu/frame0057686.jpg",
             "overlay_texts": [
-                "Level 44. The machines measure everything — except absence.",
-                "Arin reads the vats like scripture: cabbalistic grooves wrought in amber and violet, a language the engineers buried in the walls.",
-                "One flicker of Vitalis. The somnambulist monitors turn toward the wound she made in the light.",
-                "Behind her, the clinical scour continues. She is already becoming the space between what is seen and what is chosen."
+                "Nível 44. As máquinas medem tudo — exceto a ausência.",
+                "Arin lê os tanques como escritura: sulcos cabalísticos forjados em âmbar e violeta, uma linguagem que os engenheiros sepultaram nas paredes.",
+                "Um único tremor de Vitalis. Os monitores sonâmbulos voltam-se para a ferida que ela abriu na luz.",
+                "Atrás dela, a devassa clínica prossegue. Ela já está a tornar-se o espaço entre o que é visto e o que é escolhido."
             ],
             "fuki_texts": []
         },
@@ -516,9 +516,24 @@ const episodeData = {
                 "url": "../index_prshrts_pt.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_pt.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro_pt.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school_pt.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp_pt.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt_pt.html"
             }
         ]
     },

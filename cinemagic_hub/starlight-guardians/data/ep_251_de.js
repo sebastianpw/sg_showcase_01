@@ -516,9 +516,24 @@ const episodeData = {
                 "url": "../index_prshrts_de.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_de.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro_de.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school_de.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp_de.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt_de.html"
             }
         ]
     },

@@ -12,12 +12,24 @@ const episodeData = {
             "name": "The Anima Chronicles S05E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":273,\"frame_id\":14632},{\"sketch_id\":273,\"frame_id\":10335},{\"sketch_id\":273,\"frame_id\":48690},{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":5110,\"frame_id\":42725},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9172,\"frame_id\":42824},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":11329,\"frame_id\":50994},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
+            "seq_data_raw": "[{\"sketch_id\":5089,\"frame_id\":52121},{\"sketch_id\":273,\"frame_id\":14632},{\"sketch_id\":273,\"frame_id\":10335},{\"sketch_id\":273,\"frame_id\":48690},{\"sketch_id\":9726,\"frame_id\":43211},{\"sketch_id\":9727,\"frame_id\":43212},{\"sketch_id\":5110,\"frame_id\":42725},{\"sketch_id\":9728,\"frame_id\":43213},{\"sketch_id\":9729,\"frame_id\":43214},{\"sketch_id\":11110,\"frame_id\":47942},{\"sketch_id\":9172,\"frame_id\":42824},{\"sketch_id\":9730,\"frame_id\":43215},{\"sketch_id\":9731,\"frame_id\":43216},{\"sketch_id\":11329,\"frame_id\":50994},{\"sketch_id\":9732,\"frame_id\":43217},{\"sketch_id\":9733,\"frame_id\":43218},{\"sketch_id\":9734,\"frame_id\":43219},{\"sketch_id\":9735,\"frame_id\":43405},{\"sketch_id\":9736,\"frame_id\":43221},{\"sketch_id\":9737,\"frame_id\":43406},{\"sketch_id\":9738,\"frame_id\":43407},{\"sketch_id\":11500,\"frame_id\":49034},{\"sketch_id\":9739,\"frame_id\":43224},{\"sketch_id\":9740,\"frame_id\":43225},{\"sketch_id\":9741,\"frame_id\":43226},{\"sketch_id\":9742,\"frame_id\":43227},{\"sketch_id\":9743,\"frame_id\":43228},{\"sketch_id\":9744,\"frame_id\":43229},{\"sketch_id\":9745,\"frame_id\":43408},{\"sketch_id\":9746,\"frame_id\":43409}]",
             "url": "ep_241_pt.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/magazine_seq241_pt.pdf",
     "frames": [
+        {
+            "id": 5089,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0067293.jpg",
+            "filename": "frames_starlightguardians_nu/frame0067293.jpg",
+            "overlay_texts": [
+                "An assembly of gargantuan, semi-sentient resonant organs stacked like cathedral towers; each pipe is a carved fossil that sings tectonic hymns. Their combined chorus fractures rock and bends storms; sound-waves condense into physical constructs—ivory spires, tidal razors, spectral choristers that peel away the will of those who listen. The Choir&#039;s leader is a throat of living basalt that breathes oceanic silence."
+            ],
+            "fuki_texts": []
+        },
         {
             "id": 273,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
@@ -26,10 +38,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0018202.jpg",
             "filename": "frames_starlightguardians_nu/frame0018202.jpg",
             "overlay_texts": [
-                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
-                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
-                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
-                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+                "Uma cidade imutavelmente estrangeira — a sua geometria jurada a ângulos que nenhuma mente orgânica inventou.",
+                "Imaculada ao ponto de represália. Cada superfície, uma revisão do calor; cada corredor, uma erradicação frontal do ordinário.",
+                "As máquinas atendem às suas fórmulas sem ímpeto, sem pausa — karma robótico, difuso e frio.",
+                "Aqui, o transcendente é insípido. Eficiência é o único provérbio que a luz conhece."
             ],
             "fuki_texts": []
         },
@@ -41,10 +53,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0013608.jpg",
             "filename": "frames_starlightguardians_nu/frame0013608.jpg",
             "overlay_texts": [
-                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
-                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
-                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
-                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+                "Uma cidade imutavelmente estrangeira — a sua geometria jurada a ângulos que nenhuma mente orgânica inventou.",
+                "Imaculada ao ponto de represália. Cada superfície, uma revisão do calor; cada corredor, uma erradicação frontal do ordinário.",
+                "As máquinas atendem às suas fórmulas sem ímpeto, sem pausa — karma robótico, difuso e frio.",
+                "Aqui, o transcendente é insípido. Eficiência é o único provérbio que a luz conhece."
             ],
             "fuki_texts": []
         },
@@ -56,10 +68,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0063729.jpg",
             "filename": "frames_starlightguardians_nu/frame0063729.jpg",
             "overlay_texts": [
-                "A city immutably foreign — its geometry sworn to angles no organic mind invented.",
-                "Pristine to the point of reprisal. Every surface a revision of warmth, every corridor a frontal erasure of the ordinary.",
-                "Machines attend to their formulae without outburst, without pause — robotic karma, diffusive and cold.",
-                "Here, the transcendent is insipid. Efficiency is the only proverb the light knows."
+                "Uma cidade imutavelmente estrangeira — a sua geometria jurada a ângulos que nenhuma mente orgânica inventou.",
+                "Imaculada ao ponto de represália. Cada superfície, uma revisão do calor; cada corredor, uma erradicação frontal do ordinário.",
+                "As máquinas atendem às suas fórmulas sem ímpeto, sem pausa — karma robótico, difuso e frio.",
+                "Aqui, o transcendente é insípido. Eficiência é o único provérbio que a luz conhece."
             ],
             "fuki_texts": []
         },
@@ -99,10 +111,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057598.jpg",
             "filename": "frames_starlightguardians_nu/frame0057598.jpg",
             "overlay_texts": [
-                "Two instruments of ruin, poised at the glass threshold.",
-                "Oblivion withdraws — unhurried, surgical, already elsewhere.",
-                "Noctura does not watch him go. She marks him.",
-                "Above, the sun collapses to a wound. Below, the steersman&#039;s bargain ends without ceremony."
+                "Dois instrumentos da ruína, suspensos no limiar de vidro.",
+                "O Esquecimento recua — sem pressa, cirúrgico, já noutro lugar.",
+                "Noctura não o vê partir. Ela marca-o.",
+                "Lá em cima, o sol colapsa numa ferida. Lá em baixo, a barganha do timoneiro termina sem cerimónia."
             ],
             "fuki_texts": []
         },
@@ -142,10 +154,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0062979.jpg",
             "filename": "frames_starlightguardians_nu/frame0062979.jpg",
             "overlay_texts": [
-                "Dean Helios has made every shadow impossible — and still the questions breathe.",
-                "Scarred Vitalis. Stolen ground. The furnace of godhood with the air scrubbed clean of mercy.",
-                "Selia feels the Tether ignite. Rake reads the knothole. Rin watches remorse gallop slow and green across Shadow-Scab.",
-                "Octarion, alone at the precipice of tact, formulates the cost of teaching in a room that has already decided who belongs."
+                "Dean Helios tornou impossível cada sombra — e ainda assim as perguntas respiram.",
+                "Vitalis marcado por cicatrizes. Terra roubada. A forja da divindade com o ar depurado de misericórdia.",
+                "Selia sente o Tether incendiar-se. Rake lê o orifício do nó. Rin observa o remorso galopar, lento e verde, sobre Shadow-Scab.",
+                "Octarion, sozinho no precipício do tacto, formula o preço de ensinar numa sala que já decidiu quem pertence."
             ],
             "fuki_texts": []
         },
@@ -157,10 +169,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057697.jpg",
             "filename": "frames_starlightguardians_nu/frame0057697.jpg",
             "overlay_texts": [
-                "The ice palace does not invite — it indicts.",
-                "Two figures, insignificant beneath a ribcage of frozen grandeur, each exhaling Therma fractals into the vaulted dark.",
-                "One hand finds the ring. A nervous litany. The photograph&#039;s edge, barely visible — a vestige of something worth protecting.",
-                "The cathedral remembers its builder. It has no interest in the living."
+                "O palácio de gelo não convida — acusa.",
+                "Duas figuras, insignificantes sob uma caixa torácica de grandeza congelada, cada uma exalando fractais de Therma para a escuridão abobadada.",
+                "Uma mão encontra o anel. Uma ladainha nervosa. A borda da fotografia, mal visível — um vestígio de algo que vale a pena proteger.",
+                "A catedral lembra-se do seu construtor. Não tem interesse nos vivos."
             ],
             "fuki_texts": []
         },
@@ -200,10 +212,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0056557.jpg",
             "filename": "frames_starlightguardians_nu/frame0056557.jpg",
             "overlay_texts": [
-                "THE WHITE HALL DOES NOT ECHO.",
-                "Seventeen faceless witnesses. One breathless ascension. Gearbit&#039;s rage, impotent against the siege of merging minds.",
-                "Kaori kneels — not in genuflection, but in dissolution. Her eyes bleach void. Her body becomes infrastructure.",
-                "Octarion broadcasts the Ascension Hymn directly into her skull. No air. No ceremony. Only the insatiable hymn of two dynasties becoming one."
+                "O SALÃO BRANCO NÃO ECOA.",
+                "Dezessete testemunhas sem rosto. Uma ascensão sem fôlego. A fúria de Gearbit, impotente contra o cerco de mentes em fusão.",
+                "Kaori ajoelha-se — não em genuflexão, mas em dissolução. Os seus olhos embranquecem até ao vazio. O seu corpo torna-se infraestrutura.",
+                "Octarion transmite o Hino da Ascensão diretamente para o seu crânio. Sem ar. Sem cerimónia. Apenas o hino insaciável de duas dinastias a tornar-se uma só."
             ],
             "fuki_texts": []
         },
@@ -436,7 +448,7 @@ const episodeData = {
     "meta_kw": "Starlight Guardians, The Anima Chronicles, original anime series, sci-fi fantasy anime, animated comic series, indie anime, webtoon science fiction, original animated universe, Anima magic system, Crater City, Shadow-Scab, Drift Coalition, Nova Terra, Tidalcross, Emberveil, Vortex Station, partnership versus force, anime worldbuilding, independent animation",
     "meta_desc": "Starlight Guardians: The Anima Chronicles is an original science fiction and fantasy animated series spanning five seasons across seven civilizations. A story about what it costs to stop performing compliance — and what becomes possible when a world learns to ask before it takes.",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0018202.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067293.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
@@ -457,9 +469,24 @@ const episodeData = {
                 "url": "../index_prshrts_pt.html"
             },
             {
-                "title": "SG TAC UNIVERSE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg",
-                "url": "../index_animasgtac_pt.html"
+                "title": "Anime Comic Production",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
+                "url": "../index_anicopro_pt.html"
+            },
+            {
+                "title": "SCHOOL LIFE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg",
+                "url": "../index_school_pt.html"
+            },
+            {
+                "title": "SOWP",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
+                "url": "../index_sowp_pt.html"
+            },
+            {
+                "title": "ASPHALT ATTITUDE",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
+                "url": "../index_asphalt_pt.html"
             }
         ]
     },

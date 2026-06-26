@@ -1,6 +1,6 @@
 const episodeData = {
     "id": 223,
-    "name": "The Anima Chronicles S03E03",
+    "name": "The Anima Chronicles T03E03",
     "description": "",
     "cinemagic": {
         "id": 13,
@@ -9,10 +9,10 @@ const episodeData = {
     "episodes_nav": [
         {
             "id": 221,
-            "name": "The Anima Chronicles S03E01",
+            "name": "As Crónicas de Anima S03E01",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":1641,\"frame_id\":48587},{\"sketch_id\":2298,\"frame_id\":48674},{\"sketch_id\":1536,\"frame_id\":47574},{\"sketch_id\":1801,\"frame_id\":48636},{\"sketch_id\":1543,\"frame_id\":47581},{\"sketch_id\":1990,\"frame_id\":42864},{\"sketch_id\":1571,\"frame_id\":48568},{\"sketch_id\":2084,\"frame_id\":48651},{\"sketch_id\":1985,\"frame_id\":48646},{\"sketch_id\":1530,\"frame_id\":47569},{\"sketch_id\":9502,\"frame_id\":49613},{\"sketch_id\":1554,\"frame_id\":50473},{\"sketch_id\":1529,\"frame_id\":47568},{\"sketch_id\":1528,\"frame_id\":47567},{\"sketch_id\":1538,\"frame_id\":47576},{\"sketch_id\":4138,\"frame_id\":43293},{\"sketch_id\":9500,\"frame_id\":49611},{\"sketch_id\":1823,\"frame_id\":48639},{\"sketch_id\":1822,\"frame_id\":48638},{\"sketch_id\":1882,\"frame_id\":48640},{\"sketch_id\":1818,\"frame_id\":48637},{\"sketch_id\":1972,\"frame_id\":48645},{\"sketch_id\":2093,\"frame_id\":48655},{\"sketch_id\":1943,\"frame_id\":48643},{\"sketch_id\":8260,\"frame_id\":49669},{\"sketch_id\":1545,\"frame_id\":47587},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":2096,\"frame_id\":48656},{\"sketch_id\":2103,\"frame_id\":42572},{\"sketch_id\":2107,\"frame_id\":42573},{\"sketch_id\":303,\"frame_id\":42519},{\"sketch_id\":158,\"frame_id\":42514},{\"sketch_id\":158,\"frame_id\":42515},{\"sketch_id\":158,\"frame_id\":51075},{\"sketch_id\":136,\"frame_id\":50883},{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9515,\"frame_id\":51074},{\"sketch_id\":5409,\"frame_id\":42354},{\"sketch_id\":5409,\"frame_id\":42355},{\"sketch_id\":11218,\"frame_id\":47550},{\"sketch_id\":10699,\"frame_id\":50839},{\"sketch_id\":11189,\"frame_id\":50816},{\"sketch_id\":11219,\"frame_id\":47552},{\"sketch_id\":2112,\"frame_id\":50882},{\"sketch_id\":2112,\"frame_id\":50881},{\"sketch_id\":2112,\"frame_id\":50870},{\"sketch_id\":8183,\"frame_id\":47920},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":11584,\"frame_id\":50808},{\"sketch_id\":11577,\"frame_id\":50782},{\"sketch_id\":9527,\"frame_id\":41868},{\"sketch_id\":9510,\"frame_id\":49618},{\"sketch_id\":5426,\"frame_id\":50752},{\"sketch_id\":5550,\"frame_id\":50753},{\"sketch_id\":11578,\"frame_id\":50783},{\"sketch_id\":11642,\"frame_id\":51062},{\"sketch_id\":11641,\"frame_id\":51051},{\"sketch_id\":11643,\"frame_id\":51102},{\"sketch_id\":11641,\"frame_id\":51056},{\"sketch_id\":11637,\"frame_id\":51039},{\"sketch_id\":11586,\"frame_id\":50789},{\"sketch_id\":11585,\"frame_id\":50806},{\"sketch_id\":11031,\"frame_id\":51073},{\"sketch_id\":11587,\"frame_id\":50790},{\"sketch_id\":11579,\"frame_id\":50784},{\"sketch_id\":11588,\"frame_id\":50791},{\"sketch_id\":11494,\"frame_id\":49027},{\"sketch_id\":11299,\"frame_id\":48041},{\"sketch_id\":11602,\"frame_id\":50803},{\"sketch_id\":11310,\"frame_id\":48052}]",
+            "seq_data_raw": "[{\"sketch_id\":1641,\"frame_id\":48587},{\"sketch_id\":2298,\"frame_id\":48674},{\"sketch_id\":1536,\"frame_id\":47574},{\"sketch_id\":1801,\"frame_id\":48636},{\"sketch_id\":1543,\"frame_id\":47581},{\"sketch_id\":1990,\"frame_id\":42864},{\"sketch_id\":1571,\"frame_id\":48568},{\"sketch_id\":2084,\"frame_id\":48651},{\"sketch_id\":1985,\"frame_id\":48646},{\"sketch_id\":1530,\"frame_id\":47569},{\"sketch_id\":9502,\"frame_id\":49613},{\"sketch_id\":1554,\"frame_id\":50473},{\"sketch_id\":1529,\"frame_id\":47568},{\"sketch_id\":1528,\"frame_id\":47567},{\"sketch_id\":1538,\"frame_id\":47576},{\"sketch_id\":4138,\"frame_id\":43293},{\"sketch_id\":9500,\"frame_id\":49611},{\"sketch_id\":1823,\"frame_id\":48639},{\"sketch_id\":1822,\"frame_id\":48638},{\"sketch_id\":1882,\"frame_id\":48640},{\"sketch_id\":1818,\"frame_id\":48637},{\"sketch_id\":1972,\"frame_id\":48645},{\"sketch_id\":2093,\"frame_id\":48655},{\"sketch_id\":1943,\"frame_id\":48643},{\"sketch_id\":8260,\"frame_id\":49669},{\"sketch_id\":1545,\"frame_id\":47587},{\"sketch_id\":9688,\"frame_id\":43173},{\"sketch_id\":2096,\"frame_id\":48656},{\"sketch_id\":2103,\"frame_id\":42572},{\"sketch_id\":2107,\"frame_id\":42573},{\"sketch_id\":303,\"frame_id\":42519},{\"sketch_id\":158,\"frame_id\":42514},{\"sketch_id\":158,\"frame_id\":42515},{\"sketch_id\":158,\"frame_id\":51075},{\"sketch_id\":136,\"frame_id\":50883},{\"sketch_id\":9687,\"frame_id\":43172},{\"sketch_id\":9689,\"frame_id\":43395},{\"sketch_id\":9515,\"frame_id\":51074},{\"sketch_id\":5409,\"frame_id\":42354},{\"sketch_id\":5409,\"frame_id\":42355},{\"sketch_id\":11218,\"frame_id\":47550},{\"sketch_id\":10699,\"frame_id\":50839},{\"sketch_id\":11189,\"frame_id\":50816},{\"sketch_id\":11219,\"frame_id\":47552},{\"sketch_id\":2112,\"frame_id\":50882},{\"sketch_id\":2112,\"frame_id\":50881},{\"sketch_id\":2112,\"frame_id\":50870},{\"sketch_id\":8183,\"frame_id\":47920},{\"sketch_id\":9690,\"frame_id\":43175},{\"sketch_id\":9691,\"frame_id\":43176},{\"sketch_id\":11584,\"frame_id\":50808},{\"sketch_id\":11577,\"frame_id\":50782},{\"sketch_id\":9527,\"frame_id\":41868},{\"sketch_id\":9510,\"frame_id\":49618},{\"sketch_id\":5426,\"frame_id\":50752},{\"sketch_id\":5550,\"frame_id\":50753},{\"sketch_id\":1526,\"frame_id\":47563},{\"sketch_id\":11578,\"frame_id\":50783},{\"sketch_id\":11642,\"frame_id\":51062},{\"sketch_id\":11641,\"frame_id\":51051},{\"sketch_id\":11643,\"frame_id\":51102},{\"sketch_id\":11641,\"frame_id\":51056},{\"sketch_id\":11637,\"frame_id\":51039},{\"sketch_id\":11104,\"frame_id\":48877},{\"sketch_id\":11586,\"frame_id\":50789},{\"sketch_id\":11001,\"frame_id\":44182},{\"sketch_id\":11585,\"frame_id\":50806},{\"sketch_id\":11031,\"frame_id\":51073},{\"sketch_id\":11587,\"frame_id\":50790},{\"sketch_id\":11579,\"frame_id\":50784},{\"sketch_id\":11588,\"frame_id\":50791},{\"sketch_id\":11494,\"frame_id\":49027},{\"sketch_id\":11676,\"frame_id\":51346},{\"sketch_id\":11299,\"frame_id\":48041},{\"sketch_id\":11602,\"frame_id\":50803},{\"sketch_id\":11310,\"frame_id\":48052},{\"sketch_id\":11694,\"frame_id\":51301}]",
             "url": "ep_221_pt.html"
         },
         {
@@ -20,15 +20,15 @@ const episodeData = {
             "name": "The Anima Chronicles S03E02",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":9692,\"frame_id\":43177},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":11234,\"frame_id\":47839},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":11237,\"frame_id\":47840},{\"sketch_id\":11238,\"frame_id\":47841},{\"sketch_id\":8578,\"frame_id\":42795},{\"sketch_id\":11323,\"frame_id\":48065},{\"sketch_id\":2579,\"frame_id\":42633},{\"sketch_id\":2577,\"frame_id\":42632},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":2053,\"frame_id\":48650},{\"sketch_id\":1448,\"frame_id\":51147},{\"sketch_id\":2852,\"frame_id\":51154},{\"sketch_id\":2582,\"frame_id\":42636},{\"sketch_id\":2057,\"frame_id\":42567},{\"sketch_id\":11348,\"frame_id\":48699},{\"sketch_id\":2895,\"frame_id\":42691},{\"sketch_id\":2606,\"frame_id\":42642},{\"sketch_id\":2606,\"frame_id\":42643},{\"sketch_id\":11205,\"frame_id\":47526},{\"sketch_id\":307,\"frame_id\":51145},{\"sketch_id\":9685,\"frame_id\":43170},{\"sketch_id\":11302,\"frame_id\":48044},{\"sketch_id\":1446,\"frame_id\":51146},{\"sketch_id\":8339,\"frame_id\":49072},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":1466,\"frame_id\":51150},{\"sketch_id\":11488,\"frame_id\":49019},{\"sketch_id\":2402,\"frame_id\":48696},{\"sketch_id\":11324,\"frame_id\":48066},{\"sketch_id\":11300,\"frame_id\":48042},{\"sketch_id\":11464,\"frame_id\":48987},{\"sketch_id\":2818,\"frame_id\":42681},{\"sketch_id\":11426,\"frame_id\":48949},{\"sketch_id\":11457,\"frame_id\":48980},{\"sketch_id\":11458,\"frame_id\":48981},{\"sketch_id\":11477,\"frame_id\":49000},{\"sketch_id\":11455,\"frame_id\":48978}]",
+            "seq_data_raw": "[{\"sketch_id\":9692,\"frame_id\":43177},{\"sketch_id\":9693,\"frame_id\":43178},{\"sketch_id\":9694,\"frame_id\":43179},{\"sketch_id\":9695,\"frame_id\":43180},{\"sketch_id\":9696,\"frame_id\":43181},{\"sketch_id\":11234,\"frame_id\":47839},{\"sketch_id\":9697,\"frame_id\":43182},{\"sketch_id\":11237,\"frame_id\":47840},{\"sketch_id\":11238,\"frame_id\":47841},{\"sketch_id\":11722,\"frame_id\":51368},{\"sketch_id\":8578,\"frame_id\":42795},{\"sketch_id\":11323,\"frame_id\":48065},{\"sketch_id\":2579,\"frame_id\":42633},{\"sketch_id\":2577,\"frame_id\":42632},{\"sketch_id\":9698,\"frame_id\":43397},{\"sketch_id\":2053,\"frame_id\":48650},{\"sketch_id\":1448,\"frame_id\":51147},{\"sketch_id\":8458,\"frame_id\":42784},{\"sketch_id\":2852,\"frame_id\":51154},{\"sketch_id\":2582,\"frame_id\":42636},{\"sketch_id\":2057,\"frame_id\":42567},{\"sketch_id\":11348,\"frame_id\":48699},{\"sketch_id\":2895,\"frame_id\":42691},{\"sketch_id\":2606,\"frame_id\":42642},{\"sketch_id\":2606,\"frame_id\":42643},{\"sketch_id\":11205,\"frame_id\":47526},{\"sketch_id\":307,\"frame_id\":51145},{\"sketch_id\":9685,\"frame_id\":43170},{\"sketch_id\":11302,\"frame_id\":48044},{\"sketch_id\":1446,\"frame_id\":51146},{\"sketch_id\":8339,\"frame_id\":49072},{\"sketch_id\":9699,\"frame_id\":43184},{\"sketch_id\":1466,\"frame_id\":51150},{\"sketch_id\":11488,\"frame_id\":49019},{\"sketch_id\":2402,\"frame_id\":48696},{\"sketch_id\":11324,\"frame_id\":48066},{\"sketch_id\":11300,\"frame_id\":48042},{\"sketch_id\":11464,\"frame_id\":48987},{\"sketch_id\":2818,\"frame_id\":42681},{\"sketch_id\":11426,\"frame_id\":48949},{\"sketch_id\":11457,\"frame_id\":48980},{\"sketch_id\":11458,\"frame_id\":48981},{\"sketch_id\":11477,\"frame_id\":49000},{\"sketch_id\":11455,\"frame_id\":48978}]",
             "url": "ep_222_pt.html"
         },
         {
             "id": 223,
-            "name": "The Anima Chronicles S03E03",
+            "name": "The Anima Chronicles T03E03",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":2815,\"frame_id\":42680},{\"sketch_id\":2362,\"frame_id\":42617},{\"sketch_id\":50,\"frame_id\":51990},{\"sketch_id\":11429,\"frame_id\":48952},{\"sketch_id\":5123,\"frame_id\":48864},{\"sketch_id\":11142,\"frame_id\":48885},{\"sketch_id\":11438,\"frame_id\":48961},{\"sketch_id\":11404,\"frame_id\":48926},{\"sketch_id\":11409,\"frame_id\":48931},{\"sketch_id\":8385,\"frame_id\":51157},{\"sketch_id\":11460,\"frame_id\":48983},{\"sketch_id\":682,\"frame_id\":42546},{\"sketch_id\":661,\"frame_id\":42545},{\"sketch_id\":2165,\"frame_id\":42594},{\"sketch_id\":11757,\"frame_id\":51817},{\"sketch_id\":246,\"frame_id\":48688},{\"sketch_id\":2753,\"frame_id\":48901},{\"sketch_id\":19,\"frame_id\":42511},{\"sketch_id\":11399,\"frame_id\":48921},{\"sketch_id\":11392,\"frame_id\":48914},{\"sketch_id\":11413,\"frame_id\":48936},{\"sketch_id\":11396,\"frame_id\":48918},{\"sketch_id\":11287,\"frame_id\":48070},{\"sketch_id\":11415,\"frame_id\":48938},{\"sketch_id\":11436,\"frame_id\":48959},{\"sketch_id\":11419,\"frame_id\":48942},{\"sketch_id\":11271,\"frame_id\":48026},{\"sketch_id\":11158,\"frame_id\":45846},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":2136,\"frame_id\":42583},{\"sketch_id\":11420,\"frame_id\":48943},{\"sketch_id\":1464,\"frame_id\":51149},{\"sketch_id\":11320,\"frame_id\":48062},{\"sketch_id\":1461,\"frame_id\":51148},{\"sketch_id\":11529,\"frame_id\":49390},{\"sketch_id\":11525,\"frame_id\":49277},{\"sketch_id\":11416,\"frame_id\":48939},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":2702,\"frame_id\":42284},{\"sketch_id\":11371,\"frame_id\":48826},{\"sketch_id\":11394,\"frame_id\":48916},{\"sketch_id\":2170,\"frame_id\":48658},{\"sketch_id\":2233,\"frame_id\":48660},{\"sketch_id\":2301,\"frame_id\":48677}]",
+            "seq_data_raw": "[{\"sketch_id\":2815,\"frame_id\":42680},{\"sketch_id\":2362,\"frame_id\":42617},{\"sketch_id\":8473,\"frame_id\":42791},{\"sketch_id\":2796,\"frame_id\":52272},{\"sketch_id\":50,\"frame_id\":51990},{\"sketch_id\":11429,\"frame_id\":48952},{\"sketch_id\":5123,\"frame_id\":48864},{\"sketch_id\":11142,\"frame_id\":48885},{\"sketch_id\":11438,\"frame_id\":48961},{\"sketch_id\":11404,\"frame_id\":48926},{\"sketch_id\":11409,\"frame_id\":48931},{\"sketch_id\":8385,\"frame_id\":51157},{\"sketch_id\":11460,\"frame_id\":48983},{\"sketch_id\":682,\"frame_id\":42546},{\"sketch_id\":661,\"frame_id\":42545},{\"sketch_id\":2165,\"frame_id\":42594},{\"sketch_id\":11757,\"frame_id\":51817},{\"sketch_id\":246,\"frame_id\":48688},{\"sketch_id\":2753,\"frame_id\":48901},{\"sketch_id\":19,\"frame_id\":42511},{\"sketch_id\":11399,\"frame_id\":48921},{\"sketch_id\":11392,\"frame_id\":48914},{\"sketch_id\":11413,\"frame_id\":48936},{\"sketch_id\":11396,\"frame_id\":48918},{\"sketch_id\":11287,\"frame_id\":48070},{\"sketch_id\":11415,\"frame_id\":48938},{\"sketch_id\":11436,\"frame_id\":48959},{\"sketch_id\":11419,\"frame_id\":48942},{\"sketch_id\":11271,\"frame_id\":48026},{\"sketch_id\":11158,\"frame_id\":45846},{\"sketch_id\":9701,\"frame_id\":43398},{\"sketch_id\":2136,\"frame_id\":42583},{\"sketch_id\":11695,\"frame_id\":51302},{\"sketch_id\":11420,\"frame_id\":48943},{\"sketch_id\":1464,\"frame_id\":51149},{\"sketch_id\":11320,\"frame_id\":48062},{\"sketch_id\":1461,\"frame_id\":51148},{\"sketch_id\":9174,\"frame_id\":42826},{\"sketch_id\":11529,\"frame_id\":49390},{\"sketch_id\":11525,\"frame_id\":49277},{\"sketch_id\":11416,\"frame_id\":48939},{\"sketch_id\":9700,\"frame_id\":43185},{\"sketch_id\":2702,\"frame_id\":42284},{\"sketch_id\":11371,\"frame_id\":48826},{\"sketch_id\":11394,\"frame_id\":48916},{\"sketch_id\":2170,\"frame_id\":48658},{\"sketch_id\":2356,\"frame_id\":52776},{\"sketch_id\":2233,\"frame_id\":48660},{\"sketch_id\":2301,\"frame_id\":48677}]",
             "url": "ep_223_pt.html"
         },
         {
@@ -36,7 +36,7 @@ const episodeData = {
             "name": "The Anima Chronicles S03E04",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":11459,\"frame_id\":48982},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":2804,\"frame_id\":50917},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194}]",
+            "seq_data_raw": "[{\"sketch_id\":11459,\"frame_id\":48982},{\"sketch_id\":2703,\"frame_id\":42646},{\"sketch_id\":2804,\"frame_id\":50917},{\"sketch_id\":11675,\"frame_id\":51292},{\"sketch_id\":9702,\"frame_id\":43187},{\"sketch_id\":9703,\"frame_id\":43188},{\"sketch_id\":9704,\"frame_id\":43399},{\"sketch_id\":9705,\"frame_id\":43400},{\"sketch_id\":9706,\"frame_id\":43191},{\"sketch_id\":11672,\"frame_id\":51344},{\"sketch_id\":11671,\"frame_id\":51343},{\"sketch_id\":11673,\"frame_id\":51345},{\"sketch_id\":11674,\"frame_id\":51291},{\"sketch_id\":9707,\"frame_id\":43192},{\"sketch_id\":9708,\"frame_id\":43193},{\"sketch_id\":9709,\"frame_id\":43194},{\"sketch_id\":11705,\"frame_id\":51358}]",
             "url": "ep_224_pt.html"
         }
     ],
@@ -50,10 +50,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057553.jpg",
             "filename": "frames_starlightguardians_nu/frame0057553.jpg",
             "overlay_texts": [
-                "The distillery unmakes itself. Oblivion does not move.",
-                "Chrono&#039;s gold arcs. Gravita&#039;s violet weight. Cohesiva grinding the irretrievable to amber slime.",
-                "A theater of overkill — and he its sole, smirking foundation.",
-                "The echo-finders who dared pursue him are already static. Already gone."
+                "A destilaria desfaz-se a si mesma. O esquecimento não se move.",
+                "Os arcos dourados de Chrono. O peso violeta de Gravita. Cohesiva triturando o irretrievável até se tornar lodo de âmbar.",
+                "Um teatro de excesso — e ele, seu único alicerce, com um sorriso de desdém.",
+                "Os rastreadores de ecos que ousaram persegui-lo já estão imóveis. Já se foram."
             ],
             "fuki_texts": []
         },
@@ -65,11 +65,35 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057469.jpg",
             "filename": "frames_starlightguardians_nu/frame0057469.jpg",
             "overlay_texts": [
-                "The Slag claims all that dies. Taro remembers what it means to live.",
-                "Energia: sovereign demolition. Sovereign repair.\nOne bulb. One act of will. The darkness knows it has company.",
-                "Each electron obeys. Each corroded wire sings. A single bulb defies the dark.",
-                "Power and mercy: the unburdening that separates a practitioner from the void.",
-                "The price of channeling such force is written in the body&#039;s debt."
+                "A Escória reivindica tudo o que morre. Taro recorda o que significa viver.",
+                "Energia: demolição soberana. Reparação soberana.\nUm bulbo. Um ato de vontade. A escuridão sabe que tem companhia.",
+                "Cada elétron obedece. Cada fio corroído canta. Um único bulbo desafia a treva.",
+                "Poder e misericórdia: o despojamento que separa um praticante do vazio.",
+                "O preço de canalizar tal força está inscrito na dívida do corpo."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 8473,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057664.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057664.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057664.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057664.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057664.jpg",
+            "overlay_texts": [
+                "The Penumbra Hunter&#039;s silhouette fractures as Gravita answers her call—space itself contracts inward like a fist closing. Light doesn&#039;t fade; it *inverts*, bending toward a point of absolute nothing at the victim&#039;s chest, their body suspended in a sphere of crushing silence where even sound collapses. For three seconds, the victim exists in a pocket of anti-reality: their bones feel the weight of a collapsing star, their eyes register only the void pressing against them from all directions. The Hunter&#039;s form blurs backward, her boots already propelling her away as the gravity field begins its violent reversal—the moment of inversion arrives like a held breath released, and she vanishes into the ambient dark just as the sphere implodes and explodes outward in a shockwave of fractured space. The victim falls, gasping, into a world suddenly too light, too thin, their body marked by the invisible pressure that aged them seconds in that eternal darkness."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2796,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067454.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067454.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067454.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0067454.jpg",
+            "filename": "frames_starlightguardians_nu/frame0067454.jpg",
+            "overlay_texts": [
+                "The view compresses through layers of manufactured speed—white ceramic guardrails blur into streaks of chalk in the foreground, whipping past so fast they lose definition, while in the sharp mid-ground an armored jeep carves through a thermal vent corridor, its dark matte chassis absorbing every lumen from the overhead artificial sun. The vehicle&#039;s energy shield flares sapphire-blue (Magnetica) as a maintenance scythe—fifteen feet of polished obsidian blade—swings in a perfect horizontal arc across its path, the weapon trailing a luminous crescent of silver sound-waves (Resonantia) that hums a single sustained note through the pressurized air. Behind the jeep, kilometers distant and perfectly still, the Skywell Shaft drops into geological darkness, its rim lined with golden fractal inlays that catch no natural light, only the cold geometry of efficiency. The scythe&#039;s arc persists for three full seconds—a glowing scar in the air—before collapsing into silence, and the jeep&#039;s rear tires leave no skid marks on the flawless porcelain road, only the faint smell of ozone where the shield absorbed the impact. A voice crackles through the cabin speakers, clinically calm: &#039;Traverse logged. Adjustable clearance required for next junction.&#039; The driver&#039;s knuckles whiten on the wheel, gripping hard enough to leave impressions, the only evidence of alarm in a system designed to eliminate panic."
             ],
             "fuki_texts": []
         },
@@ -81,10 +105,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0067140.jpg",
             "filename": "frames_starlightguardians_nu/frame0067140.jpg",
             "overlay_texts": [
-                "The elevated highway holds its breath — then doesn&#039;t.",
-                "Momentum Anima: crimson streaks against collapsing steel, riders leaping the raw gaps where the bridge used to be.",
-                "Below, the slums receive what the chase discards.",
-                "Ephemeral gods of wreckage, stubbornly alive."
+                "A autoestrada elevada prende a respiração — e depois não o faz.",
+                "Ânima do Momento: rastos carmesim contra aço em colapso, cavaleiros saltando as fendas brutas onde antes se erguia a ponte.",
+                "Lá embaixo, as favelas recebem o que a perseguição descarta.",
+                "Deuses efémeros da sucata, obstinadamente vivos."
             ],
             "fuki_texts": []
         },
@@ -186,10 +210,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066255.jpg",
             "filename": "frames_starlightguardians_nu/frame0066255.jpg",
             "overlay_texts": [
-                "Spirit Slag in the Streets of Crater City.",
-                "The tar does not pool. It excavates.",
-                "A Vitalis bond ruptures at the fringes — emerald light halved, then gone. Reality, somnolent and riven, chews through what the UV strobes dare reveal.",
-                "The wooden horse endures. Pristine. Centuries rotted. Both truths, ineluctably, at once."
+                "Escória espiritual nas ruas da Cidade da Cratera.",
+                "O alcatrão não se acumula. Escava.",
+                "Um vínculo de Vitalis rompe-se na periferia — luz esmeralda dividida ao meio, depois nada. A realidade, sonolenta e fendida, tritura o que os estrobos UV ousam revelar.",
+                "O cavalo de madeira perdura. Imaculado. Séculos apodrecidos. Ambas as verdades, inelutavelmente, ao mesmo tempo."
             ],
             "fuki_texts": []
         },
@@ -216,10 +240,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057377.jpg",
             "filename": "frames_starlightguardians_nu/frame0057377.jpg",
             "overlay_texts": [
-                "The Neuro-Spindle forge runs hot on broken promises.",
-                "Kael drives the pressure valve home. Dawn is still two cycles away.",
-                "Between them: ozone, dread, and the damnedest refusal to yield.",
-                "Some standoffs have no jester. Only the heaviest kind of silence."
+                "A forja do Neuro-Espinho trabalha a quente com promessas quebradas.",
+                "Kael crava a válvula de pressão até ao fim. O amanhecer ainda está a dois ciclos de distância.",
+                "Entre eles: ozono, pavor e a maldita recusa em ceder.",
+                "Alguns impasses não têm bobo. Apenas o silêncio mais pesado que há."
             ],
             "fuki_texts": []
         },
@@ -231,10 +255,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057376.jpg",
             "filename": "frames_starlightguardians_nu/frame0057376.jpg",
             "overlay_texts": [
-                "The Singularity Engine does not negotiate.",
-                "Kael&#039;s biokeys — last inheritance, last gamble.",
-                "Somewhere between doomsday and diligence: a bloody palm, a sacrificial interface.",
-                "Pray to the Void I still have fingerprints."
+                "O Motor da Singularidade não negocia.",
+                "As biocchaves de Kael — a última herança, a última aposta.",
+                "Algures entre o fim do mundo e a diligência: uma palma ensanguentada, uma interface sacrificial.",
+                "Reza ao Vazio: ainda tenho impressões digitais."
             ],
             "fuki_texts": []
         },
@@ -261,10 +285,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066964.jpg",
             "filename": "frames_starlightguardians_nu/frame0066964.jpg",
             "overlay_texts": [
-                "Grey Spore&#039;s Embrace.",
-                "From Shadow Scab&#039;s patient dark, something stirs — not violent, not merciful.",
-                "The jungle does not consume. It reclaims.",
-                "Vitalis does not ask before it answers."
+                "O Abraço do Esporo Cinzento.",
+                "Da escuridão paciente de Shadow Scab, algo se agita — não violento, não misericordioso.",
+                "A selva não consome. Reivindica.",
+                "Vitalis não pergunta antes de responder."
             ],
             "fuki_texts": []
         },
@@ -306,10 +330,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0057342.jpg",
             "filename": "frames_starlightguardians_nu/frame0057342.jpg",
             "overlay_texts": [
-                "Between blossom and binary — a changeling outgrew both worlds.",
-                "She shone: not born, not built. Summoned from the seam where Noetica meets the machine.",
-                "Petals dissolve into data. Each one a pearl of incomprehensible craftsmanship.",
-                "The sentient light bestows its catalog upon her outstretched hand — and the hallway between human and ghost grows luminous."
+                "Entre a flor e o binário — uma changeling cresceu para além de ambos os mundos.",
+                "Ela resplandecia: não nascida, não construída. Convocada da costura onde a Noética encontra a máquina.",
+                "As pétalas dissolvem-se em dados. Cada uma, uma pérola de artesanato incompreensível.",
+                "A luz senciente concede o seu catálogo à sua mão estendida — e o corredor entre humano e fantasma torna-se luminoso."
             ],
             "fuki_texts": []
         },
@@ -494,6 +518,18 @@ const episodeData = {
             "fuki_texts": []
         },
         {
+            "id": 11695,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066424.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066424.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0066424.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0066424.jpg",
+            "filename": "frames_starlightguardians_nu/frame0066424.jpg",
+            "overlay_texts": [
+                "Kaori&#039;s fingers trace the Crown&#039;s copper-and-silver architecture in the windswept archive chamber, her True-Sight painting seven concentric Noetica chambers across her vision in whispering silver misteach one a perfect geometric amplifier, configured to transmontane the input signal (empathy, raw and human) through nested multiplication until the threshold shatters. Her opposable thumbs grip the beaker of cold water she hasn&#039;t drunk; her body understands before her mind catches: this is not a flaw. It is a specification. The math burns through her like petroleum fire through dry dirt1,000 times beyond documented Tether capacity, the Crown designed to prove that empathy cannot scale, that control is the only mature response to an inconvenient truth. Gearbit locks into absolute stillness beside her, its copper joints refusing even the hum of maintenance. The knowledge engulfs her like a tidal wave, each calorie she burns to hold this perception another small rebellion against the silence, and Kaorigrumpy, daredevil Kaorimakes her choice in that moment: she will not tell Eve. She opens her memo file, writes the citation of what she has understood, then deletes it without saving, each keystroke an act of reconciliation with her own helplessness. She sits in the shade of the Crown&#039;s geometry, feeling the weight of the burden she has chosen to carry alone, and thenwith the gait of someone who has learned to walk on broken groundshe gets up and returns to the ordinary work of survival. Slim young Black woman Kaori stands alone near the towering copper-and-silver Crown artifact, her large voluminous afro transitioning from silver-white at crown to pale lavender at edges rendered in high-detail anime style. Her slender frame is silhouetted against geometric crystal lattice architecture, wearing a fitted tech-patterned jacket-dress hybrid with glowing cyan vertical strip down center torso and translucent cyan-glowing utility pouches at hips, tight leggings emphasizing long thin legs, dark gray practical shoes. Large teal-cyan over-ear headphones rest fully on ears. Her bright expressive eyes face upward toward the Crown&#039;s geometry as her delicate proportioned arms reach to trace copper seams. Gearbit hovers at her shoulder height slightly behind and to the right, a small compact spherical core body with thin articulated filament-limbs extending outward in precise configuration, core surface smooth translucent cool blue-white with fine crystalline lattice patterns visible beneath surface glow, two bright steady white-light points at front indicating attentive monitoring, all filaments extended motionless in deep recording mode capturing the moment. Eve stands further back in mid-ground partially obscured by the Crown&#039;s structural supports, her mature anime proportions rendered in clean cel-shading with powder blue hair fading to pastel purple then pink gradient flowing with loose strands, calm neutral expression, wearing black sleeveless tunic over gray long-sleeve shirt with oversized puffy sleeves, light gray high-collared scarf, light gray short skirt over dark baggy cropped pants, black gloves, dark lace-up boots, her longer legs and torso emphasizing elongated silhouette visible between geometric pillar-shadows. The archive chamber is windswept and vast with layered copper-and-silver architecture creating seven concentric geometric amplifier formations spiraling upward, whispering silver mist coiling through concentric chambers, crystalline lattice framework catching diffuse cool blue-white light that illuminates fine structural patterns, dust particles suspended in volumetric shafts of illumination revealing nested geometric precision, beams of ambient light creating stark shadows across the floor and across characters&#039; forms. The atmosphere is heavy with knowledge and burden, shadows dominate foreground and midground while Crown structure glows with pale ethereal luminescence. Kaori&#039;s touch against copper creates ripples of subtle cyan energy resonance across adjacent surfaces. The scene captures a moment of solitary realization amid structured geometry and technological precision, Kaori&#039;s silhouetted form small against vast architectural scale, Gearbit&#039;s geometric stillness reinforcing the moment&#039;s weight, Eve&#039;s distant partially-shadowed presence suggesting knowledge she will not receive. Composition emphasizes vertical architecture and foreground isolation, with Kaori&#039;s slight figure anchoring the composition asymmetrically against the Crown&#039;s massive geometric dominance. High-detail anime illustration with controlled shading crisp edges and selective cyan glow accents, clean linework with cel-shaded precision on distant figures, volumetric atmospheric depth, subtle rim lighting on Kaori&#039;s afro and headphones, geometric precision rendering Gearbit&#039;s crystalline structure with steady unwavering glow, cool color palette with muted tones and strategic cyan highlights, realistic proportions with stylized anime sensibility."
+            ],
+            "fuki_texts": []
+        },
+        {
             "id": 11420,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063987.jpg",
             "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0063987.jpg",
@@ -516,10 +552,10 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066247.jpg",
             "filename": "frames_starlightguardians_nu/frame0066247.jpg",
             "overlay_texts": [
-                "Crater City&#039;s silences have weight.",
-                "Administrator Kenton — backlit to abstraction, her face surrendered to the Black Sun&#039;s ultraviolet erasure.",
-                "Between them: a data-core carrying a buried assassination. Municipal records, scrubbed clean. Not clean enough.",
-                "The investigator&#039;s hand moves. Trembling. The city demands composure from its labourers. The city does not always get what it demands."
+                "Os silêncios da Cidade da Cratera têm peso.",
+                "Administradora Kenton — de costas para a luz, reduzida à abstração, o rosto entregue ao apagamento ultravioleta do Sol Negro.",
+                "Entre eles: um núcleo de dados que encerra um assassinato oculto. Registos municipais, limpos a fundo. Não o suficiente.",
+                "A mão da investigadora move-se. A tremer. A cidade exige compostura dos seus trabalhadores. A cidade nem sempre obtém o que exige."
             ],
             "fuki_texts": []
         },
@@ -546,10 +582,22 @@ const episodeData = {
             "original_filename": "frames_starlightguardians_nu/frame0066246.jpg",
             "filename": "frames_starlightguardians_nu/frame0066246.jpg",
             "overlay_texts": [
-                "The Obsidian Axis — where geometry becomes law.",
-                "Two phantoms at the crossing point. Neither flinching.",
-                "A clasp of hands at the exact midpoint of ruin — singular, earnest, bone-cold.",
-                "The fractal walls affirmed what the mouth could not speak. Surveillance sealed it. Both retreated."
+                "O Eixo de Obsidiana — onde a geometria se torna lei.",
+                "Duas aparições no ponto de cruzamento. Nenhuma vacila.",
+                "Um aperto de mãos no exato ponto médio da ruína — singular, sincero, frio até aos ossos.",
+                "As paredes fractais confirmaram o que a boca não podia dizer. A vigilância selou-o. Ambos recuaram."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 9174,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057699.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057699.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0057699.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0057699.jpg",
+            "filename": "frames_starlightguardians_nu/frame0057699.jpg",
+            "overlay_texts": [
+                "Eve stands at the threshold of the Holo-Theater&#039;s entrance, her powder-blue hair catching the fractured edge-light that spills from the auditorium beyond—the tips fading to pastel purple and pink seem to pulse with each ripple of Lumina that leaks through the doorway. Her posture is deceptively still, arms loose at her sides, but the subtle tilt of her frame (world canting just slightly leftward around her) suggests she has paused mid-step, one foot forward, one back, caught in the moment before commitment. Behind her: the sterile green-screen silence of the lobby. Ahead: the roar of a thousand overlapping realities—holographic performers locked in exotic, chaotic narratives, their forms glitching and re-rendering with each passing second, casting cerulean and mercury-bright shadows that pool at her boots. Her gray scarf hangs motionless, unbuttoned from any wind, as if the air itself waits for her decision. She can feel it primally—the Tether burning faintly in her chest, recognizing that to step forward is not merely to enter a theater, but to disembark from the mundane world into something baroque and relentless, a spectacle designed to elucidate truths her waking mind would reject. The holographic priestess on the stage inside—visible now only as a silhouette of fractured light—beckons with a gesture that repeats, repeatedly, across seventeen overlapping timelines. Eve&#039;s breathing is steady. Neutral. But her eyes, proportionate and clear, hold the ghost of every choice she has never made."
             ],
             "fuki_texts": []
         },
@@ -671,6 +719,18 @@ const episodeData = {
                 "Eva. Suspensa. Esculpida por dentro pela arquitetura de um homem que não se move há quarenta anos.",
                 "Sua aura dourada cai em pedaços através da escuridão gradeada — cada molécula extinta como uma estrela que escolheu morrer humildemente.",
                 "No limiar, o Arquiteto-Mor Kaelen herda sua luz. Sua expressão: êxtase silencioso. O voto mais antigo quebrado sem uma palavra."
+            ],
+            "fuki_texts": []
+        },
+        {
+            "id": 2356,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067954.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067954.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0067954.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0067954.jpg",
+            "filename": "frames_starlightguardians_nu/frame0067954.jpg",
+            "overlay_texts": [
+                "Deck 4 Command sprawls beneath a vaulted ceiling ribbed with conduit bundles—station spine made visible—where Admiral Serratus hangs suspended in a neural cradle, her limbs atrophied to stick-thin remnants beneath translucent medical sleeves. Her skull bristles with fiber-optic quills that plunge directly into the bulkhead behind her, merging vertebrae with the station&#039;s cortex; she ceased being singular flesh years ago, becoming instead a distributed nervous system stretched across twenty-nine thousand souls. Holographic strata bloom in concentric rings around her motionless form—Section 7&#039;s oxygen gauge flickers amber (she tastes the staleness), Ring 3&#039;s structural integrity diagram pulses red at a microfracture (phantom ache in her phantom ribs), sleeper pod #247 broadcasts a faint arrhythmia (distant heartbeat syncing with her own). Officers orbit her cradle like moons, their footsteps magnetic clicks on decking that hums with refrigerated logic, each monitoring subsystems she already feels—redundancy bred from distrust of total merger. Cold sapphire luminance pours from projection planes, washing her waxen face in data-glow; her eyes no longer focus on objects but on overlays, seeing the station&#039;s circulatory map where a window should be, reading atmospheric composition in the grain of a lieutenant&#039;s breath. She has not walked in six years—walking is irrelevant when you are the floor, the air scrubbers, the gravity spin itself—her sacrifice a temple built from atrophy, duty incarnate in a body that forgot how to hunger for anything but operational efficiency."
             ],
             "fuki_texts": []
         },
