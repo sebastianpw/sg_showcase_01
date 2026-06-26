@@ -25,6 +25,11 @@
         .panel-img { width: 100%; height: auto; display: block; margin: 0; box-shadow: 0 4px 40px rgba(0,0,0,0.8); border-radius: 2px; }
         .text-blocks { width: 100%; padding: 50px 20px 30px; box-sizing: border-box; display: flex; flex-direction: column; gap: 35px; align-items: center; }
         .story-text { font-size: 1.25rem; line-height: 1.8; font-weight: 400; text-align: center; max-width: 650px; color: var(--text-color); letter-spacing: 0.5px; text-shadow: 0 2px 6px rgba(0,0,0,0.9); }
+        
+        /* MD Bullet List Fix */
+        .story-text ul { display: inline-block; text-align: left; padding-left: 20px; margin: 10px auto; }
+        .story-text li { margin-bottom: 6px; }
+
         .observe-me { opacity: 0; transform: translateY(25px); transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1); }
         .observe-me.visible { opacity: 1; transform: translateY(0); }
         .end-mark { margin: 60px 0 30px; font-family: var(--font-title); color: var(--accent-color); font-size: 1.5rem; letter-spacing: 4px; opacity: 0.4; text-align: center; }
@@ -110,7 +115,7 @@ function shareEpisode(btn) {
 </a>
 <script>
 (function(){
-    var options = [{"title":"EMILY","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg","url":"../index_emag.html"},{"title":"FAUST","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg","url":"../index_faust.html"},{"title":"p_r3sh0r75","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg","url":"../index_prshrts.html"},{"title":"SG TAC UNIVERSE","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sg-tac-universe/assets/frame0064890.jpg","url":"../index_animasgtac.html"},{"title":"STARLIGHT GUARDIANS","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg","url":"../index_sgtac.html"},{"title":"Anime Comic Production","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg","url":"../index_anicopro.html"}];
+    var options = [{"title":"EMILY","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg","url":"../index_emag.html"},{"title":"FAUST","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg","url":"../index_faust.html"},{"title":"p_r3sh0r75","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg","url":"../index_prshrts.html"},{"title":"STARLIGHT GUARDIANS","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg","url":"../index_sgtac.html"},{"title":"Anime Comic Production","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg","url":"../index_anicopro.html"},{"title":"SOWP","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg","url":"../index_sowp.html"},{"title":"ASPHALT ATTITUDE","cover":"https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg","url":"../index_asphalt.html"}];
     if(options && options.length > 0) {
         var pick = options[Math.floor(Math.random() * options.length)];
         var link = document.getElementById('random-teaser-link');
