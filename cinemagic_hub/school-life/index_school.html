@@ -35,6 +35,14 @@
         .ep-link { display: inline-flex; align-items: flex-start; gap: 8px; color: var(--text-color); opacity: 0.85; text-decoration: none; font-size: 0.95rem; transition: color 0.2s, transform 0.2s, opacity 0.2s; line-height: 1; margin-bottom: 0px; }
 .ep-link:hover { color: var(--accent-color); opacity: 1; transform: translateX(4px); }
         .ep-link::before { content: '▶'; font-size: 0.6rem; color: var(--accent-color); opacity: 0.6; margin-top: 6px; }
+        .cf-trigger { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-title); font-size: 0.65rem; color: var(--accent-color); text-transform: uppercase; letter-spacing: 2px; text-decoration: none; margin-bottom: 16px; opacity: 0.8; transition: opacity 0.2s, transform 0.2s; }
+        .cf-trigger:hover { opacity: 1; transform: translateX(4px); }
+        .cf-trigger span { font-size: 0.8rem; }
+        .cf-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 9999; display: flex; flex-direction: column; opacity: 0; pointer-events: none; transition: opacity 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .cf-modal.active { opacity: 1; pointer-events: auto; }
+        .cf-modal-close { position: absolute; top: 20px; right: 20px; background: transparent; border: none; color: #fff; font-size: 2rem; cursor: pointer; z-index: 10001; line-height: 1; opacity: 0.7; transition: opacity 0.2s; }
+        .cf-modal-close:hover { opacity: 1; }
+        .cf-iframe { width: 100%; height: 100%; border: none; flex: 1; background: transparent; }
         
         @media (max-width: 768px) { .series-title { font-size: 2.2rem; } }
     </style>
@@ -43,20 +51,59 @@
     
     
     <div class="content">
-        <a href='ep_394.html'><img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0068496.jpg' class='cover-img' alt='Cover'></a>
+        <a href='ep_431.html'><img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0069620.jpg' class='cover-img' alt='Cover'></a>
         <h1 class="series-title">SCHOOL LIFE</h1>
         <p class="series-desc"></p>
-        <div class="toc"><div class="cm-block">
-    
+        <div class="toc"><h2 class='super-season-hdr'>Season I</h2><div class="cm-block">
+    <img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0069597.jpg' class='cm-cover' alt='Cover' loading='lazy'>
     <div class="cm-info">
         <div class="cm-pre">Cinemagic Collection</div>
-        <div class="cm-title">BEAP COPY NOTE</div>
+        <div class="cm-title">SCHOOL LIFE</div>
+        <a class='cf-trigger' href='#' data-src='coverflow_19.html' onclick='openCoverflow(event, this)'><span>&#10022;</span> Browse in 3D Coverflow</a>
         <div class="cm-ep-list">
-            <a class='ep-link' href='ep_394.html'>SCHOOL LIFE EP01</a>
+            <a class='ep-link' href='ep_431.html'>SCHOOL LIFE EP01</a><a class='ep-link' href='ep_432.html'>SCHOOL LIFE EP02</a><a class='ep-link' href='ep_447.html'>SCHOOL LIFE EP03</a><a class='ep-link' href='ep_448.html'>SCHOOL LIFE EP04</a><a class='ep-link' href='ep_449.html'>SCHOOL LIFE EP05</a><a class='ep-link' href='ep_450.html'>SCHOOL LIFE EP06</a><a class='ep-link' href='ep_451.html'>SCHOOL LIFE EP07</a><a class='ep-link' href='ep_452.html'>SCHOOL LIFE EP08</a><a class='ep-link' href='ep_453.html'>SCHOOL LIFE EP09</a><a class='ep-link' href='ep_454.html'>SCHOOL LIFE EP10</a><a class='ep-link' href='ep_455.html'>SCHOOL LIFE EP11</a><a class='ep-link' href='ep_456.html'>SCHOOL LIFE EP12</a>
+        </div>
+    </div>
+</div><h2 class='super-season-hdr'>Season II</h2><div class="cm-block">
+    <img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0069599.jpg' class='cm-cover' alt='Cover' loading='lazy'>
+    <div class="cm-info">
+        <div class="cm-pre">Cinemagic Collection</div>
+        <div class="cm-title">SCHOOL LIFE S2</div>
+        <a class='cf-trigger' href='#' data-src='coverflow_22.html' onclick='openCoverflow(event, this)'><span>&#10022;</span> Browse in 3D Coverflow</a>
+        <div class="cm-ep-list">
+            <a class='ep-link' href='ep_433.html'>SCHOOL LIFE EP13</a><a class='ep-link' href='ep_434.html'>SCHOOL LIFE EP14</a><a class='ep-link' href='ep_435.html'>SCHOOL LIFE EP15</a><a class='ep-link' href='ep_436.html'>SCHOOL LIFE EP16</a><a class='ep-link' href='ep_437.html'>SCHOOL LIFE EP17</a><a class='ep-link' href='ep_438.html'>SCHOOL LIFE EP18</a><a class='ep-link' href='ep_439.html'>SCHOOL LIFE EP19</a><a class='ep-link' href='ep_440.html'>SCHOOL LIFE EP20</a><a class='ep-link' href='ep_441.html'>SCHOOL LIFE EP21</a><a class='ep-link' href='ep_442.html'>SCHOOL LIFE EP22</a><a class='ep-link' href='ep_443.html'>SCHOOL LIFE EP23</a><a class='ep-link' href='ep_444.html'>SCHOOL LIFE EP24</a>
+        </div>
+    </div>
+</div><h2 class='super-season-hdr'>Season III</h2><div class="cm-block">
+    <img src='https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0070448.jpg' class='cm-cover' alt='Cover' loading='lazy'>
+    <div class="cm-info">
+        <div class="cm-pre">Cinemagic Collection</div>
+        <div class="cm-title">SCHOOL LIFE S3</div>
+        <a class='cf-trigger' href='#' data-src='coverflow_23.html' onclick='openCoverflow(event, this)'><span>&#10022;</span> Browse in 3D Coverflow</a>
+        <div class="cm-ep-list">
+            <a class='ep-link' href='ep_458.html'>SCHOOL LIFE EP25</a><a class='ep-link' href='ep_459.html'>SCHOOL LIFE EP26</a>
         </div>
     </div>
 </div></div>
     </div>
+    <div class="cf-modal" id="cf-modal">
+        <button class="cf-modal-close" onclick="closeCoverflow()">&#10005;</button>
+        <iframe class="cf-iframe" id="cf-iframe" src=""></iframe>
+    </div>
+    <script>
+    function openCoverflow(e, el) {
+        e.preventDefault();
+        const iframe = document.getElementById('cf-iframe');
+        iframe.src = el.getAttribute('data-src');
+        document.getElementById('cf-modal').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeCoverflow() {
+        document.getElementById('cf-modal').classList.remove('active');
+        document.getElementById('cf-iframe').src = '';
+        document.body.style.overflow = '';
+    }
+    </script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBSTRVS0NR"></script>
 <script>
