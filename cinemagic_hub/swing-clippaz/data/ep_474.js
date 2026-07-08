@@ -30,6 +30,30 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0070507.jpg",
             "seq_data_raw": "[{\"sketch_id\":13231,\"frame_id\":55044},{\"sketch_id\":13232,\"frame_id\":55045},{\"sketch_id\":13233,\"frame_id\":55046},{\"sketch_id\":13234,\"frame_id\":55047},{\"sketch_id\":13235,\"frame_id\":55048},{\"sketch_id\":13236,\"frame_id\":55049},{\"sketch_id\":13237,\"frame_id\":55050},{\"sketch_id\":13238,\"frame_id\":55051},{\"sketch_id\":13239,\"frame_id\":55052},{\"sketch_id\":13240,\"frame_id\":55053},{\"sketch_id\":13241,\"frame_id\":55054},{\"sketch_id\":13242,\"frame_id\":55055},{\"sketch_id\":13243,\"frame_id\":55056},{\"sketch_id\":13244,\"frame_id\":55057},{\"sketch_id\":13245,\"frame_id\":55058}]",
             "url": "ep_475.html"
+        },
+        {
+            "id": 508,
+            "name": "Swing Clippaz Ep04",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0070660.jpg",
+            "seq_data_raw": "[{\"sketch_id\":13323,\"frame_id\":55224},{\"sketch_id\":13324,\"frame_id\":55226},{\"sketch_id\":13325,\"frame_id\":55228},{\"sketch_id\":13326,\"frame_id\":55230},{\"sketch_id\":13327,\"frame_id\":55232},{\"sketch_id\":13328,\"frame_id\":55233},{\"sketch_id\":13329,\"frame_id\":55236},{\"sketch_id\":13330,\"frame_id\":55238},{\"sketch_id\":13331,\"frame_id\":55240},{\"sketch_id\":13332,\"frame_id\":55242},{\"sketch_id\":13333,\"frame_id\":55244},{\"sketch_id\":13334,\"frame_id\":55246},{\"sketch_id\":13335,\"frame_id\":55248},{\"sketch_id\":13336,\"frame_id\":55249},{\"sketch_id\":13337,\"frame_id\":55251}]",
+            "url": "ep_508.html"
+        },
+        {
+            "id": 509,
+            "name": "Swing Clippaz Ep05",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0070690.jpg",
+            "seq_data_raw": "[{\"sketch_id\":13339,\"frame_id\":55227},{\"sketch_id\":13340,\"frame_id\":55229},{\"sketch_id\":13341,\"frame_id\":55231},{\"sketch_id\":13342,\"frame_id\":55234},{\"sketch_id\":13343,\"frame_id\":55235},{\"sketch_id\":13344,\"frame_id\":55237},{\"sketch_id\":13345,\"frame_id\":55239},{\"sketch_id\":13346,\"frame_id\":55241},{\"sketch_id\":13347,\"frame_id\":55243},{\"sketch_id\":13348,\"frame_id\":55245},{\"sketch_id\":13349,\"frame_id\":55247},{\"sketch_id\":13350,\"frame_id\":55250},{\"sketch_id\":13351,\"frame_id\":55252},{\"sketch_id\":13352,\"frame_id\":55253},{\"sketch_id\":13353,\"frame_id\":55254}]",
+            "url": "ep_509.html"
+        },
+        {
+            "id": 510,
+            "name": "Swing Clippaz Ep06",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0070707.jpg",
+            "seq_data_raw": "[{\"sketch_id\":13355,\"frame_id\":55256},{\"sketch_id\":13356,\"frame_id\":55258},{\"sketch_id\":13357,\"frame_id\":55261},{\"sketch_id\":13358,\"frame_id\":55263},{\"sketch_id\":13359,\"frame_id\":55264},{\"sketch_id\":13360,\"frame_id\":55266},{\"sketch_id\":13361,\"frame_id\":55268},{\"sketch_id\":13362,\"frame_id\":55270},{\"sketch_id\":13363,\"frame_id\":55257},{\"sketch_id\":13364,\"frame_id\":55259},{\"sketch_id\":13365,\"frame_id\":55260},{\"sketch_id\":13366,\"frame_id\":55262},{\"sketch_id\":13367,\"frame_id\":55265},{\"sketch_id\":13368,\"frame_id\":55267},{\"sketch_id\":13369,\"frame_id\":55269}]",
+            "url": "ep_510.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/swing-clippaz/assets/magazine_seq474_en.pdf",
