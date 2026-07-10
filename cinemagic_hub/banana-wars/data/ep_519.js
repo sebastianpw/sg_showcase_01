@@ -11,7 +11,7 @@ const episodeData = {
             "id": 519,
             "name": "BANANA WARS",
             "chapter_label": null,
-            "cover_raw": "/frames_starlightguardians_nu/frame0070843.jpg",
+            "cover_raw": "/frames_starlightguardians_nu/frame0070842.jpg",
             "seq_data_raw": "[{\"sketch_id\":13472,\"frame_id\":55410},{\"sketch_id\":13473,\"frame_id\":55411},{\"sketch_id\":13474,\"frame_id\":55412},{\"sketch_id\":13475,\"frame_id\":55413}]",
             "url": "ep_519.html"
         }
@@ -75,8 +75,8 @@ const episodeData = {
             "url": "https://petersebring.com/newsletter.php"
         }
     ],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/banana-wars/assets/frame0070843.jpg",
-    "episode_cover_raw": "/frames_starlightguardians_nu/frame0070843.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/banana-wars/assets/frame0070842.jpg",
+    "episode_cover_raw": "/frames_starlightguardians_nu/frame0070842.jpg",
     "next_teaser": {
         "type": "random_series",
         "options": [
@@ -132,7 +132,7 @@ const episodeData = {
             },
             {
                 "title": "SGTAC Jupiter Teaser",
-                "cover": "/frames_starlightguardians_nu/frame0070586.jpg",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sgtac-jupiter-teaser/assets/frame0070586.jpg",
                 "url": "../index_jupiter.html"
             },
             {
