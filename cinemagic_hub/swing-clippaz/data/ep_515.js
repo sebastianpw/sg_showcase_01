@@ -4,7 +4,7 @@ const episodeData = {
     "description": null,
     "cinemagic": {
         "id": 26,
-        "name": "Swing Clippaz"
+        "name": "The Swing Clippaz • Season 1"
     },
     "episodes_nav": [
         {
@@ -300,9 +300,24 @@ const episodeData = {
                 "url": "../index_mechmojo.html"
             },
             {
+                "title": "SGTAC Jupiter Teaser",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sgtac-jupiter-teaser/assets/frame0070586.jpg",
+                "url": "../index_jupiter.html"
+            },
+            {
+                "title": "Skitch . Grip . Boodle",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/skitch-grip-boodle/assets/frame0070644.jpg",
+                "url": "../index_skitchgripboodle.html"
+            },
+            {
                 "title": "D PRAINE",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0070715.jpg",
                 "url": "../index_dpraine.html"
+            },
+            {
+                "title": "BANANA WARS",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/banana-wars/assets/frame0070842.jpg",
+                "url": "../index_bananawars.html"
             }
         ]
     },

@@ -4,7 +4,7 @@ const episodeData = {
     "description": null,
     "cinemagic": {
         "id": 26,
-        "name": "Swing Clippaz"
+        "name": "The Swing Clippaz • Season 1"
     },
     "episodes_nav": [
         {
