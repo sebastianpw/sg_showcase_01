@@ -11,7 +11,7 @@ const episodeData = {
             "id": 522,
             "name": "Swing Clippaz S2 Ep01",
             "chapter_label": null,
-            "cover_raw": "/frames_starlightguardians_nu/frame0071013.jpg",
+            "cover_raw": "/frames_starlightguardians_nu/frame0071422.jpg",
             "seq_data_raw": "[{\"sketch_id\":14166,\"frame_id\":55646},{\"sketch_id\":14167,\"frame_id\":55647},{\"sketch_id\":14168,\"frame_id\":55648},{\"sketch_id\":14169,\"frame_id\":55649},{\"sketch_id\":14170,\"frame_id\":55650},{\"sketch_id\":13888,\"frame_id\":55612},{\"sketch_id\":13887,\"frame_id\":55611},{\"sketch_id\":13889,\"frame_id\":55613},{\"sketch_id\":13890,\"frame_id\":55614},{\"sketch_id\":13891,\"frame_id\":55615},{\"sketch_id\":14163,\"frame_id\":55637},{\"sketch_id\":14164,\"frame_id\":55638},{\"sketch_id\":14165,\"frame_id\":55639},{\"sketch_id\":14174,\"frame_id\":55662},{\"sketch_id\":14172,\"frame_id\":55658}]",
             "url": "ep_522.html"
         },
@@ -289,8 +289,8 @@ const episodeData = {
             "url": "https://petersebring.com/newsletter.php"
         }
     ],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/swing-clippaz/assets/frame0071013.jpg",
-    "episode_cover_raw": "/frames_starlightguardians_nu/frame0071013.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/swing-clippaz/assets/frame0071422.jpg",
+    "episode_cover_raw": "/frames_starlightguardians_nu/frame0071422.jpg",
     "next_teaser": {
         "type": "next_episode",
         "title": "Swing Clippaz S2 Ep02",
