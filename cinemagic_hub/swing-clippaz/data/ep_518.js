@@ -270,6 +270,11 @@ const episodeData = {
                 "title": "BANANA WARS",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/banana-wars/assets/frame0070842.jpg",
                 "url": "../index_bananawars.html"
+            },
+            {
+                "title": "YUME",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/yume/assets/frame0071423.jpg",
+                "url": "../index_yume.html"
             }
         ]
     },
