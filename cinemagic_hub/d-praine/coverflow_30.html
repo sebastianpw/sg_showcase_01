@@ -13,12 +13,12 @@
         .cf-cm-title { font-family: var(--font-title); font-size: 1.8rem; color: var(--text-color); margin-top: 4px; letter-spacing: 2px; }
         .cf-stage { position: relative; width: 100%; flex: 1; perspective: 1200px; display: flex; align-items: center; justify-content: center; overflow: hidden; touch-action: pan-y; user-select: none; -webkit-user-select: none; }
         .cf-track { position: absolute; left: 50%; top: 45%; transform-style: preserve-3d; }
-        .cf-item { position: absolute; width: 260px; aspect-ratio: 1/1; transform-origin: center center; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease, filter 0.4s ease; cursor: pointer; border-radius: 4px; background: #111; -webkit-box-reflect: below 2px linear-gradient(transparent 75%, rgba(255,255,255,0.3)); }
-        @media (max-width: 600px) { .cf-item { width: 220px; } }
+        .cf-item { position: absolute; width: 220px; aspect-ratio: 3/4; transform-origin: center center; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease, filter 0.4s ease; cursor: pointer; border-radius: 4px; background: #111; -webkit-box-reflect: below 2px linear-gradient(transparent 75%, rgba(255,255,255,0.3)); }
+        @media (max-width: 600px) { .cf-item { width: 170px; } }
         .cf-item:not(.active) { filter: brightness(0.4) saturate(0.5); }
         .cf-item.active { box-shadow: 0 10px 40px rgba(0,0,0,0.8), 0 0 0 1px rgba(205,164,52,0.4); filter: brightness(1.1); }
         .cf-img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; display: block; pointer-events: none; }
-        .cf-info { position: absolute; bottom: -80px; left: 50%; transform: translateX(-50%); text-align: center; width: 320px; opacity: 0; transition: opacity 0.3s ease; pointer-events: none; }
+        .cf-info { position: absolute; bottom: -65px; left: 50%; transform: translateX(-50%); text-align: center; width: 320px; opacity: 0; transition: opacity 0.3s ease; pointer-events: none; }
         .cf-item.active .cf-info { opacity: 1; transition-delay: 0.15s; }
         .cf-label { font-family: var(--font-title); font-size: 0.65rem; letter-spacing: 2px; color: var(--accent-color); text-transform: uppercase; margin-bottom: 6px; }
         .cf-title { font-family: var(--font-body); font-size: 1.1rem; color: var(--text-color); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
@@ -40,10 +40,40 @@
         <button class="cf-arrow next"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>
         <div class="cf-track">
                         <a class="cf-item" href="ep_511.html" target="_top" data-index="0">
-                <img class="cf-img" src="/cinemagic_hub/d-praine/assets/frame0070740.jpg" alt="Cover" loading="lazy">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0070740.jpg" alt="Cover" loading="lazy">
                 <div class="cf-info">
                     <div class="cf-label">Episode 1</div>
-                    <div class="cf-title">D Praine EP01</div>
+                    <div class="cf-title">D PRAINE EP01</div>
+                </div>
+            </a>            <a class="cf-item" href="ep_577.html" target="_top" data-index="1">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0071322.jpg" alt="Cover" loading="lazy">
+                <div class="cf-info">
+                    <div class="cf-label">Episode 2</div>
+                    <div class="cf-title">D PRAINE EP02</div>
+                </div>
+            </a>            <a class="cf-item" href="ep_578.html" target="_top" data-index="2">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0072101.jpg" alt="Cover" loading="lazy">
+                <div class="cf-info">
+                    <div class="cf-label">Episode 3</div>
+                    <div class="cf-title">D PRAINE EP03</div>
+                </div>
+            </a>            <a class="cf-item" href="ep_579.html" target="_top" data-index="3">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0072128.jpg" alt="Cover" loading="lazy">
+                <div class="cf-info">
+                    <div class="cf-label">Episode 4</div>
+                    <div class="cf-title">D PRAINE EP04</div>
+                </div>
+            </a>            <a class="cf-item" href="ep_580.html" target="_top" data-index="4">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0072288.jpg" alt="Cover" loading="lazy">
+                <div class="cf-info">
+                    <div class="cf-label">Episode 5</div>
+                    <div class="cf-title">D PRAINE EP05</div>
+                </div>
+            </a>            <a class="cf-item" href="ep_581.html" target="_top" data-index="5">
+                <img class="cf-img" src="https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0072541.jpg" alt="Cover" loading="lazy">
+                <div class="cf-info">
+                    <div class="cf-label">Episode 6</div>
+                    <div class="cf-title">D PRAINE EP06</div>
                 </div>
             </a>
         </div>
@@ -101,7 +131,7 @@
         goPrev() { this.goTo(this.currentIndex - 1); }
         update() {
             const isMobile = window.innerWidth <= 600;
-            const baseShift = isMobile ? 75 : 85; 
+            const baseShift = isMobile ? 65 : 75; 
             const stepShift = isMobile ? 18 : 22; 
             const zPush = -120; 
             const zStep = -40;  

@@ -11,7 +11,7 @@ const episodeData = {
             "id": 604,
             "name": "THE ROOM",
             "chapter_label": null,
-            "cover_raw": "/frames_starlightguardians_nu/frame0072232.jpg",
+            "cover_raw": "/frames_starlightguardians_nu/frame0072222.jpg",
             "seq_data_raw": "[{\"sketch_id\":14832,\"frame_id\":56828},{\"sketch_id\":14833,\"frame_id\":56829},{\"sketch_id\":14834,\"frame_id\":56830},{\"sketch_id\":14835,\"frame_id\":56831},{\"sketch_id\":14872,\"frame_id\":56868},{\"sketch_id\":14837,\"frame_id\":56835},{\"sketch_id\":14838,\"frame_id\":56837},{\"sketch_id\":14839,\"frame_id\":56839},{\"sketch_id\":14840,\"frame_id\":56841},{\"sketch_id\":14841,\"frame_id\":56843},{\"sketch_id\":14842,\"frame_id\":56845},{\"sketch_id\":14843,\"frame_id\":56847},{\"sketch_id\":14844,\"frame_id\":56849},{\"sketch_id\":14845,\"frame_id\":56851},{\"sketch_id\":14846,\"frame_id\":56853},{\"sketch_id\":14847,\"frame_id\":56855},{\"sketch_id\":14848,\"frame_id\":56857},{\"sketch_id\":14849,\"frame_id\":56859},{\"sketch_id\":14850,\"frame_id\":56861},{\"sketch_id\":14851,\"frame_id\":56863},{\"sketch_id\":14852,\"frame_id\":56832},{\"sketch_id\":14853,\"frame_id\":56834},{\"sketch_id\":14854,\"frame_id\":56836},{\"sketch_id\":14855,\"frame_id\":56838},{\"sketch_id\":14856,\"frame_id\":56840},{\"sketch_id\":14857,\"frame_id\":56842},{\"sketch_id\":14858,\"frame_id\":56844},{\"sketch_id\":14859,\"frame_id\":56846},{\"sketch_id\":14860,\"frame_id\":56848},{\"sketch_id\":14861,\"frame_id\":56850},{\"sketch_id\":14862,\"frame_id\":56852},{\"sketch_id\":14863,\"frame_id\":56854},{\"sketch_id\":14864,\"frame_id\":56856},{\"sketch_id\":14865,\"frame_id\":56858},{\"sketch_id\":14866,\"frame_id\":56860},{\"sketch_id\":14867,\"frame_id\":56862},{\"sketch_id\":14868,\"frame_id\":56864},{\"sketch_id\":14869,\"frame_id\":56865},{\"sketch_id\":14870,\"frame_id\":56866},{\"sketch_id\":14871,\"frame_id\":56867}]",
             "url": "ep_604.html"
         }
@@ -435,8 +435,8 @@ const episodeData = {
             "url": "https://petersebring.com/newsletter.php"
         }
     ],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/the-room/assets/frame0072232.jpg",
-    "episode_cover_raw": "/frames_starlightguardians_nu/frame0072232.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/the-room/assets/frame0072222.jpg",
+    "episode_cover_raw": "/frames_starlightguardians_nu/frame0072222.jpg",
     "next_teaser": {
         "type": "random_series",
         "options": [
