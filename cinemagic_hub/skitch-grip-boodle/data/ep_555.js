@@ -102,6 +102,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0071348.jpg",
             "seq_data_raw": "[{\"sketch_id\":14584,\"frame_id\":56177},{\"sketch_id\":14585,\"frame_id\":56178},{\"sketch_id\":14586,\"frame_id\":56179},{\"sketch_id\":14587,\"frame_id\":56180},{\"sketch_id\":14588,\"frame_id\":56181},{\"sketch_id\":14589,\"frame_id\":56182},{\"sketch_id\":14590,\"frame_id\":56183},{\"sketch_id\":14591,\"frame_id\":56184},{\"sketch_id\":14592,\"frame_id\":56185},{\"sketch_id\":14593,\"frame_id\":56186},{\"sketch_id\":14594,\"frame_id\":56187},{\"sketch_id\":14595,\"frame_id\":56188},{\"sketch_id\":14596,\"frame_id\":56189},{\"sketch_id\":14597,\"frame_id\":56190},{\"sketch_id\":14598,\"frame_id\":56191}]",
             "url": "ep_560.html"
+        },
+        {
+            "id": 590,
+            "name": "Skitch . Grip . Boodle EP13",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0072016.jpg",
+            "seq_data_raw": "[{\"sketch_id\":14617,\"frame_id\":56616},{\"sketch_id\":14618,\"frame_id\":56617},{\"sketch_id\":14619,\"frame_id\":56619},{\"sketch_id\":14620,\"frame_id\":56621},{\"sketch_id\":14621,\"frame_id\":56623},{\"sketch_id\":14622,\"frame_id\":56625},{\"sketch_id\":14623,\"frame_id\":56626},{\"sketch_id\":14624,\"frame_id\":56627},{\"sketch_id\":14625,\"frame_id\":56618},{\"sketch_id\":14626,\"frame_id\":56620},{\"sketch_id\":14627,\"frame_id\":56622},{\"sketch_id\":14628,\"frame_id\":56624},{\"sketch_id\":14629,\"frame_id\":56628},{\"sketch_id\":14630,\"frame_id\":56629},{\"sketch_id\":14631,\"frame_id\":56630}]",
+            "url": "ep_590.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/skitch-grip-boodle/assets/magazine_seq555_en.pdf",

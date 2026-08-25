@@ -102,6 +102,14 @@ const episodeData = {
             "cover_raw": "/frames_starlightguardians_nu/frame0071348.jpg",
             "seq_data_raw": "[{\"sketch_id\":14584,\"frame_id\":56177},{\"sketch_id\":14585,\"frame_id\":56178},{\"sketch_id\":14586,\"frame_id\":56179},{\"sketch_id\":14587,\"frame_id\":56180},{\"sketch_id\":14588,\"frame_id\":56181},{\"sketch_id\":14589,\"frame_id\":56182},{\"sketch_id\":14590,\"frame_id\":56183},{\"sketch_id\":14591,\"frame_id\":56184},{\"sketch_id\":14592,\"frame_id\":56185},{\"sketch_id\":14593,\"frame_id\":56186},{\"sketch_id\":14594,\"frame_id\":56187},{\"sketch_id\":14595,\"frame_id\":56188},{\"sketch_id\":14596,\"frame_id\":56189},{\"sketch_id\":14597,\"frame_id\":56190},{\"sketch_id\":14598,\"frame_id\":56191}]",
             "url": "ep_560.html"
+        },
+        {
+            "id": 590,
+            "name": "Skitch . Grip . Boodle EP13",
+            "chapter_label": null,
+            "cover_raw": "/frames_starlightguardians_nu/frame0072016.jpg",
+            "seq_data_raw": "[{\"sketch_id\":14617,\"frame_id\":56616},{\"sketch_id\":14618,\"frame_id\":56617},{\"sketch_id\":14619,\"frame_id\":56619},{\"sketch_id\":14620,\"frame_id\":56621},{\"sketch_id\":14621,\"frame_id\":56623},{\"sketch_id\":14622,\"frame_id\":56625},{\"sketch_id\":14623,\"frame_id\":56626},{\"sketch_id\":14624,\"frame_id\":56627},{\"sketch_id\":14625,\"frame_id\":56618},{\"sketch_id\":14626,\"frame_id\":56620},{\"sketch_id\":14627,\"frame_id\":56622},{\"sketch_id\":14628,\"frame_id\":56624},{\"sketch_id\":14629,\"frame_id\":56628},{\"sketch_id\":14630,\"frame_id\":56629},{\"sketch_id\":14631,\"frame_id\":56630}]",
+            "url": "ep_590.html"
         }
     ],
     "pdf_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/skitch-grip-boodle/assets/magazine_seq560_en.pdf",
@@ -276,79 +284,10 @@ const episodeData = {
     "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/skitch-grip-boodle/assets/frame0071348.jpg",
     "episode_cover_raw": "/frames_starlightguardians_nu/frame0071348.jpg",
     "next_teaser": {
-        "type": "random_series",
-        "options": [
-            {
-                "title": "EMILY",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/emily/assets/frame0060662.jpg",
-                "url": "../index_emag.html"
-            },
-            {
-                "title": "FAUST",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/faust/assets/frame0063017.jpg",
-                "url": "../index_faust.html"
-            },
-            {
-                "title": "p_r3sh0r75",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/p-r3sh0r75/assets/frame0064208.jpg",
-                "url": "../index_prshrts.html"
-            },
-            {
-                "title": "STARLIGHT GUARDIANS",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/starlight-guardians/assets/frame0059935.jpg",
-                "url": "../index_sgtac.html"
-            },
-            {
-                "title": "Anime Comic Production",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/anime-comic-production/assets/frame0067766.jpg",
-                "url": "../index_anicopro.html"
-            },
-            {
-                "title": "SCHOOL LIFE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/school-life/assets/frame0069620.jpg",
-                "url": "../index_school.html"
-            },
-            {
-                "title": "SOWP",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sowp/assets/frame0068633.jpg",
-                "url": "../index_sowp.html"
-            },
-            {
-                "title": "ASPHALT ATTITUDE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/asphalt-attitude/assets/frame0068680.jpg",
-                "url": "../index_asphalt.html"
-            },
-            {
-                "title": "MECH MOJO",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/mech-mojo/assets/frame0070059.jpg",
-                "url": "../index_mechmojo.html"
-            },
-            {
-                "title": "SWING CLIPPAZ",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/swing-clippaz/assets/frame0071013.jpg",
-                "url": "../index_swingclippaz.html"
-            },
-            {
-                "title": "SGTAC Jupiter Teaser",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/sgtac-jupiter-teaser/assets/frame0070586.jpg",
-                "url": "../index_jupiter.html"
-            },
-            {
-                "title": "D PRAINE",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/d-praine/assets/frame0070715.jpg",
-                "url": "../index_dpraine.html"
-            },
-            {
-                "title": "BANANA WARS",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/banana-wars/assets/frame0070842.jpg",
-                "url": "../index_bananawars.html"
-            },
-            {
-                "title": "YUME",
-                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/yume/assets/frame0071423.jpg",
-                "url": "../index_yume.html"
-            }
-        ]
+        "type": "next_episode",
+        "title": "Skitch . Grip . Boodle EP13",
+        "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/skitch-grip-boodle/assets/frame0072016.jpg",
+        "url": "ep_590.html"
     },
     "is_preview": false,
     "available_langs": [
