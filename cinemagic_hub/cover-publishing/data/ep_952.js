@@ -12,12 +12,32 @@ const episodeData = {
             "name": "COVER PUBLISHING",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":21761,\"frame_id\":67404},{\"sketch_id\":21601,\"frame_id\":67402},{\"sketch_id\":21642,\"frame_id\":67244},{\"sketch_id\":21601,\"frame_id\":67215},{\"sketch_id\":21602,\"frame_id\":67217},{\"sketch_id\":21600,\"frame_id\":67207},{\"sketch_id\":21355,\"frame_id\":66747},{\"sketch_id\":21014,\"frame_id\":66215},{\"sketch_id\":21187,\"frame_id\":66596},{\"sketch_id\":20891,\"frame_id\":65943},{\"sketch_id\":21382,\"frame_id\":66909},{\"sketch_id\":19858,\"frame_id\":63728},{\"sketch_id\":19819,\"frame_id\":63674},{\"sketch_id\":19909,\"frame_id\":64063},{\"sketch_id\":20228,\"frame_id\":64705},{\"sketch_id\":18743,\"frame_id\":64706},{\"sketch_id\":19749,\"frame_id\":63367},{\"sketch_id\":19671,\"frame_id\":63117},{\"sketch_id\":19746,\"frame_id\":63362},{\"sketch_id\":19672,\"frame_id\":63132}]",
+            "seq_data_raw": "[{\"sketch_id\":22507,\"frame_id\":68482},{\"sketch_id\":22277,\"frame_id\":68021},{\"sketch_id\":21761,\"frame_id\":67404},{\"sketch_id\":21601,\"frame_id\":67402},{\"sketch_id\":21642,\"frame_id\":67244},{\"sketch_id\":21601,\"frame_id\":67215},{\"sketch_id\":21602,\"frame_id\":67217},{\"sketch_id\":21600,\"frame_id\":67207},{\"sketch_id\":21355,\"frame_id\":66747},{\"sketch_id\":21014,\"frame_id\":66215},{\"sketch_id\":21187,\"frame_id\":66596},{\"sketch_id\":20891,\"frame_id\":65943},{\"sketch_id\":21382,\"frame_id\":66909},{\"sketch_id\":19858,\"frame_id\":63728},{\"sketch_id\":19819,\"frame_id\":63674},{\"sketch_id\":19909,\"frame_id\":64063},{\"sketch_id\":20228,\"frame_id\":64705},{\"sketch_id\":18743,\"frame_id\":64706},{\"sketch_id\":19749,\"frame_id\":63367},{\"sketch_id\":19671,\"frame_id\":63117},{\"sketch_id\":19746,\"frame_id\":63362},{\"sketch_id\":19672,\"frame_id\":63132}]",
             "url": "ep_952.html"
         }
     ],
     "pdf_url": null,
     "frames": [
+        {
+            "id": 22507,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083332.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083332.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22277,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0082870.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0082870.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0082870.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0082870.jpg",
+            "filename": "frames_starlightguardians_nu/frame0082870.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
         {
             "id": 21761,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0082279.jpg",
@@ -222,7 +242,7 @@ const episodeData = {
     "meta_kw": "",
     "meta_desc": "",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0082279.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
@@ -341,6 +361,11 @@ const episodeData = {
                 "title": "FAME",
                 "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/fame/assets/frame0075469.png",
                 "url": "../index_fame.html"
+            },
+            {
+                "title": "TAEKOMI",
+                "cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/taekomi/assets/frame0082100.jpg",
+                "url": "../index_taekomi.html"
             }
         ]
     },
