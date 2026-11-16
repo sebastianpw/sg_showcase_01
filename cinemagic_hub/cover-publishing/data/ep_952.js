@@ -12,12 +12,212 @@ const episodeData = {
             "name": "COVER PUBLISHING",
             "chapter_label": null,
             "cover_raw": "",
-            "seq_data_raw": "[{\"sketch_id\":22507,\"frame_id\":68482},{\"sketch_id\":22277,\"frame_id\":68021},{\"sketch_id\":21761,\"frame_id\":67404},{\"sketch_id\":21601,\"frame_id\":67402},{\"sketch_id\":21642,\"frame_id\":67244},{\"sketch_id\":21601,\"frame_id\":67215},{\"sketch_id\":21602,\"frame_id\":67217},{\"sketch_id\":21600,\"frame_id\":67207},{\"sketch_id\":21355,\"frame_id\":66747},{\"sketch_id\":21014,\"frame_id\":66215},{\"sketch_id\":21187,\"frame_id\":66596},{\"sketch_id\":20891,\"frame_id\":65943},{\"sketch_id\":21382,\"frame_id\":66909},{\"sketch_id\":19858,\"frame_id\":63728},{\"sketch_id\":19819,\"frame_id\":63674},{\"sketch_id\":19909,\"frame_id\":64063},{\"sketch_id\":20228,\"frame_id\":64705},{\"sketch_id\":18743,\"frame_id\":64706},{\"sketch_id\":19749,\"frame_id\":63367},{\"sketch_id\":19671,\"frame_id\":63117},{\"sketch_id\":19746,\"frame_id\":63362},{\"sketch_id\":19672,\"frame_id\":63132}]",
+            "seq_data_raw": "[{\"sketch_id\":23371,\"frame_id\":69097},{\"sketch_id\":23346,\"frame_id\":69077},{\"sketch_id\":23316,\"frame_id\":69046},{\"sketch_id\":20887,\"frame_id\":66882},{\"sketch_id\":23106,\"frame_id\":68974},{\"sketch_id\":23034,\"frame_id\":68944},{\"sketch_id\":22998,\"frame_id\":68908},{\"sketch_id\":22972,\"frame_id\":68877},{\"sketch_id\":22942,\"frame_id\":68828},{\"sketch_id\":22906,\"frame_id\":68800},{\"sketch_id\":22880,\"frame_id\":68771},{\"sketch_id\":22782,\"frame_id\":68765},{\"sketch_id\":22746,\"frame_id\":68724},{\"sketch_id\":22710,\"frame_id\":68693},{\"sketch_id\":22674,\"frame_id\":68656},{\"sketch_id\":22649,\"frame_id\":68632},{\"sketch_id\":22620,\"frame_id\":68603},{\"sketch_id\":22595,\"frame_id\":68575},{\"sketch_id\":22565,\"frame_id\":68547},{\"sketch_id\":22529,\"frame_id\":68497},{\"sketch_id\":22507,\"frame_id\":68482},{\"sketch_id\":22277,\"frame_id\":68021},{\"sketch_id\":21761,\"frame_id\":67404},{\"sketch_id\":21601,\"frame_id\":67402},{\"sketch_id\":21642,\"frame_id\":67244},{\"sketch_id\":21601,\"frame_id\":67215},{\"sketch_id\":21602,\"frame_id\":67217},{\"sketch_id\":21600,\"frame_id\":67207},{\"sketch_id\":21355,\"frame_id\":66747},{\"sketch_id\":21014,\"frame_id\":66215},{\"sketch_id\":21187,\"frame_id\":66596},{\"sketch_id\":20891,\"frame_id\":65943},{\"sketch_id\":21382,\"frame_id\":66909},{\"sketch_id\":19858,\"frame_id\":63728},{\"sketch_id\":19819,\"frame_id\":63674},{\"sketch_id\":19909,\"frame_id\":64063},{\"sketch_id\":20228,\"frame_id\":64705},{\"sketch_id\":18743,\"frame_id\":64706},{\"sketch_id\":19749,\"frame_id\":63367},{\"sketch_id\":19671,\"frame_id\":63117},{\"sketch_id\":19746,\"frame_id\":63362},{\"sketch_id\":19672,\"frame_id\":63132}]",
             "url": "ep_952.html"
         }
     ],
     "pdf_url": null,
     "frames": [
+        {
+            "id": 23371,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0084004.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0084004.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0084004.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0084004.jpg",
+            "filename": "frames_starlightguardians_nu/frame0084004.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 23346,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083984.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083984.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083984.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083984.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083984.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 23316,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083954.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083954.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083954.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083954.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083954.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 20887,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0081787.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0081787.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0081787.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0081787.jpg",
+            "filename": "frames_starlightguardians_nu/frame0081787.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 23106,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083881.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083881.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083881.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083881.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083881.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 23034,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083809.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083809.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083809.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083809.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083809.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22998,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083773.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083773.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083773.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083773.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083773.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22972,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083742.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083742.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083742.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083742.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083742.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22942,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083684.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083684.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083684.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083684.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083684.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22906,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083654.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083654.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083654.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083654.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083654.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22880,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083628.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083628.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083628.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083628.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083628.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22782,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083621.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083621.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083621.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083621.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083621.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22746,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083579.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083579.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083579.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083579.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083579.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22710,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083541.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083541.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083541.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083541.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083541.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22674,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083507.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083507.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083507.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083507.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083507.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22649,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083481.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083481.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083481.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083481.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083481.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22620,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083452.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083452.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083452.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083452.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083452.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22595,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083425.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083425.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083425.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083425.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083425.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22565,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083396.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083396.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083396.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083396.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083396.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
+        {
+            "id": 22529,
+            "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083346.jpg",
+            "image_url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083346.jpg",
+            "url": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083346.jpg",
+            "original_filename": "frames_starlightguardians_nu/frame0083346.jpg",
+            "filename": "frames_starlightguardians_nu/frame0083346.jpg",
+            "overlay_texts": [],
+            "fuki_texts": []
+        },
         {
             "id": 22507,
             "thumb": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
@@ -242,7 +442,7 @@ const episodeData = {
     "meta_kw": "",
     "meta_desc": "",
     "social_links": [],
-    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0083332.jpg",
+    "episode_cover": "https://raw.githubusercontent.com/sebastianpw/sg_showcase_01/main/cinemagic_hub/cover-publishing/assets/frame0084004.jpg",
     "episode_cover_raw": "",
     "next_teaser": {
         "type": "random_series",
